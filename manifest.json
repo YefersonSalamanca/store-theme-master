@@ -1,7 +1,7 @@
 {
   "vendor": "mqaenvironment",
   "name": "store-theme",
-  "version": "4.7.0",
+  "version": "4.8.0",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
