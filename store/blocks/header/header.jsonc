@@ -8,11 +8,11 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#1-desktop",
-      "flex-layout.row#2-desktop",
-      "flex-layout.row#3-desktop",
+      "flex-layout.row#2-desktop"
+      /*"flex-layout.row#3-desktop",
       "sticky-layout#4-desktop",
       "flex-layout.row#4-desktop",
-       "flex-layout.row#6-desktop"
+       "flex-layout.row#6-desktop"*/
     ]
   },
 
@@ -62,17 +62,25 @@
   "image#btnLiliPink": {  
     "props": {  
       "src": "assets/buttonLP1.jpg" ,
-      "href": "#" ,
+      "link": "/home",
       "width": "25%"     
     }
   }, 
     "image#btnYoi": {  
       "props": {  
         "src": "assets/buttonYoi1.jpg" ,
-        "href": "#" ,
+        "link": "link#homeYoi",
         "width": "25%" 
       }  
   },
+  "link#homeYoi":{
+    "props": { 
+  "url":"/homeYoi",
+  "openNewTab":true
+    }
+  },
+
+
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"

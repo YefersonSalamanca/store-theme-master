@@ -1,0 +1,319 @@
+{
+    "vtex.menu@2.x:menu#category-menuYoi": {
+      "props": {
+        "experimentalOptimizeRendering": true
+      },
+      "children": [
+        "menu-item#category-hogar",
+        "menu-item#category-cuidado",
+        "menu-item#category-tecnologia",
+        "menu-item#category-accesorios",
+        "menu-item#category-papeleria",
+        "menu-item#category-deporte",
+        "menu-item#category-mascotas",
+        "menu-item#category-estacional",
+        "menu-item#category-juguetes"
+          ]
+    },
+    "menu-item#category-hogar": {
+      "props": {
+        "id": "menu-item-category-hogar",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/",
+          "noFollow": false,
+          "tagTitle": "HOGAR",
+          "text": "HOGAR"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#category-hogar"
+      ]
+    },
+    "vtex.menu@2.x:submenu#category-hogar": {
+      "props": {
+        "width": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-hogar2"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-hogar2": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#category-hogar-clothing",
+        "menu-item#category-hogar-accessories",
+        "menu-item#category-hogar-eyeglasses"
+      ]
+    },
+    "menu-item#category-hogar-clothing": {
+      "props": {
+        "id": "menu-item-category-hogar-clothing",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/clothing/",
+          "noFollow": false,
+          "tagTitle": "Clothing",
+          "text": "Clothing"
+        }
+      }
+    },
+    "menu-item#category-hogar-accessories": {
+      "props": {
+        "id": "menu-item-category-hogar-accessories",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/accessories/",
+          "noFollow": false,
+          "tagTitle": "Accessories",
+          "text": "Accessories"
+        }
+      }
+    },
+    "menu-item#category-hogar-eyeglasses": {
+      "props": {
+        "id": "menu-item-category-hogar-eyeglasses",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/eyeglasses/",
+          "noFollow": false,
+          "tagTitle": "Eyeglasses",
+          "text": "Eyeglasses"
+        }
+      }
+    },
+    "menu-item#category-cuidado": {
+      "props": {
+        "id": "menu-item-category-cuidado",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/cuidado/",
+          "noFollow": false,
+          "tagTitle": "CUIDADO PERSONAL",
+          "text": "CUIDADO PERSONAL"
+        }
+      }
+    },
+    "menu-item#category-tecnologia": {
+      "props": {
+        "id": "menu-item-category-tecnologia",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/tecnologia/",
+          "noFollow": false,
+          "tagTitle": "TECNOLOGIA",
+          "text": "TECNOLOGIA"
+        }
+      }
+    },
+    "menu-item#category-accesorios": {
+      "props": {
+        "id": "menu-item-category-accesorios",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/accesorios/",
+          "noFollow": false,
+          "tagTitle": "ACCESORIOS",
+          "text": "ACCESORIOS"
+        }
+      }
+    },
+    "menu-item#category-papeleria": {
+      "props": {
+        "id": "menu-item-category-papeleria",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/papeleria/",
+          "noFollow": false,
+          "tagTitle": "PAPELERIA",
+          "text": "PAPELERIA"
+        }
+      }
+    },
+    "menu-item#category-deporte": {
+      "props": {
+        "id": "menu-item-category-deporte",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/deporte/",
+          "noFollow": false,
+          "tagTitle": "DEPORTE",
+          "text": "DEPORTE"
+        }
+      }
+    },
+    "menu-item#category-mascotas": {
+      "props": {
+        "id": "menu-item-category-mascotas",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/mascotas/",
+          "noFollow": false,
+          "tagTitle": "MASCOTAS",
+          "text": "MASCOTAS"
+        }
+      }
+    },
+    "menu-item#category-estacional": {
+      "props": {
+        "id": "menu-item-category-estacional",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/estacional/",
+          "noFollow": false,
+          "tagTitle": "ESTACIONAL",
+          "text": "ESTACIONAL"
+        }
+      }
+    },
+    
+  
+    "menu-item#category-juguetes": {
+      "props": {
+        "id": "menu-item-custom-sale",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "JUGUETES",
+          "text": "JUGUETES"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#juguetes"
+      ]
+    },
+    "vtex.menu@2.x:submenu#juguetes": {
+      "props": {
+        "width": "100%"
+      },
+      "children": [
+        "flex-layout.row#menu-juguetes"
+      ]
+    },
+    "flex-layout.row#menu-juguetes": {
+      "children": [
+        "flex-layout.col#menu-juguetes-1",
+        "flex-layout.col#menu-juguetes-2"
+      ]
+    },
+    "flex-layout.col#menu-juguetes-1": {
+      "children": [
+        "vtex.menu@2.x:menu#juguetes"
+      ]
+    },
+    "flex-layout.col#menu-juguetes-2": {
+      "children": [
+        "info-card#home"
+      ]
+    },
+    "vtex.menu@2.x:menu#juguetes": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#socialseller",
+        "menu-item#tiendas",
+        "menu-item#credipink"
+      ]
+    },
+    "menu-item#tiendas": {
+      "props": {
+        "id": "menu-item-tiendas",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/tiendas",
+          "noFollow": true,
+          "tagTitle": "Tiendas",
+          "text": "Tiendas"
+        }
+      }
+    },
+    "menu-item#credipink": {
+      "props": {
+        "id": "menu-item-credipink",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/credipink",
+          "noFollow": true,
+          "tagTitle": "CrediPink",
+          "text": "CrediPink"
+        }
+      }
+    },
+    "menu-item#contact-us": {
+      "props": {
+        "id": "menu-item-contact-us",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/contact-us",
+          "noFollow": true,
+          "tagTitle": "Contact Us",
+          "text": "Contact Us"
+        }
+      }
+    },
+    "menu-item#socialseller": {
+      "props": {
+        "id": "menu-item-socialseller",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/socialseller",
+          "noFollow": true,
+          "tagTitle": "socialseller",
+          "text": "CONVIÉRTETE EN SOCIAL SELLER"
+        }
+      }
+    }
+  }
+  
