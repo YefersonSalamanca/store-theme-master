@@ -1,0 +1,15 @@
+{
+    "store-map": {
+        "component": "StoreMap",
+        "composition": "children"
+      },
+    "store-locator": {},
+    "store-locator.location": {},
+    "store-locator.locations": {},
+    "store-locator.handler": {},
+    "store-locator.search": {},
+    "store-locator.title": {},
+    "store-locator.address": {},
+    "store-locator.button": {},
+    "store-locator.map": {}
+}

@@ -1,0 +1,48 @@
+{
+    "store-locator#default": {
+      "children": ["flex-layout.row#store-locator"]
+    },
+    "flex-layout.row#store-locator": {
+      "children": ["flex-layout.col#aside", "flex-layout.col#map"],
+      "props": {
+        "colGap": 5,
+        "marginTop": 5,
+        "marginBottom": 5
+      }
+    },
+    "flex-layout.col#map": {
+      "children": ["store-locator.map"],
+      "props": {
+        "width": "grow"
+      }
+    },
+    "flex-layout.col#aside": {
+      "children": ["store-locator.search", "store-locator.locations"],
+      "props": {
+        "rowGap": 5,
+        "width": "33.33333%"
+      }
+    },
+    "store-locator.locations": {
+      "children": ["store-locator.location"]
+    },
+    "store-locator.location": {
+      "children": ["flex-layout.row#location"]
+    },
+    "flex-layout.row#location": {
+      "children": ["flex-layout.col#details"]
+    },
+    "flex-layout.col#details": {
+      "children": [
+        "store-locator.handler",
+        "store-locator.address",
+        "store-locator.button"
+      ],
+      "props": {
+        "rowGap": 0
+      }
+    },
+    "store-locator.handler": {
+      "children": ["store-locator.title"]
+    }
+  }

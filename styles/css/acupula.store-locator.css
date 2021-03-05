@@ -1,0 +1,49 @@
+.wrapper--official {
+    padding: 32px 0;
+  }
+
+  .search--small {
+    width: 50%;
+  }
+
+  .locations--borderless {
+    border: none;
+    padding: 0;
+  }
+
+  .location--compact {
+    padding: 5px 0;
+  }
+
+  .handler--wavy {
+    text-decoration: underline wavy;
+  }
+
+  .title--animate:hover {
+    opacity: 0.5;
+    transition: 0.25s ease-in-out;
+  }
+
+  .address--big {
+    font-size: 20px;
+  }
+
+  .button--lowercase {
+    text-transform: lowercase;
+  }
+
+  .map--square {
+    border-radius: 0;
+  }
+
+  .hours__table {
+    border: 1px solid #ccc;
+  }
+
+  .image {
+    border: 1px solid #ccc;
+  }
+
+  .link {
+    border: 1px solid #ccc;
+  }

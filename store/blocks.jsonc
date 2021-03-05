@@ -50,5 +50,74 @@
       "text": "**PAGE NOT FOUND**",
       "font": "t-heading-1"
     }
+  },
+
+  "store-locator#official-stores": {
+    "props": {
+      "schema": "storelocator",
+      "tag": "official-stores",
+      "blockClass": "official"
+    }
+  },
+
+  "store-locator.search#small": {
+    "props": {
+      "size": "small",
+      "placeholder": "Find stores near you",
+      "blockClass": "small"
+    }
+  },
+
+  "store-locator.locations#borderless": {
+    "props": {
+      "fixedHeight": false,
+      "blockClass": "borderless"
+    }
+  },
+
+  "store-locator.location#compact": {
+    "props": {
+      "borderless": true,
+      "blockClass": "compact"
+    }
+  },
+
+  "store-locator.handler#wavy": {
+    "children": ["store-locator.title", "store-locator.address"],
+    "props": {
+      "blockClass": "wavy"
+    }
+  },
+
+  "store-locator.title#animate": {
+    "props": {
+      "tag": "div",
+      "blockClass": "animate"
+    }
+  },
+
+  "store-locator.address#big": {
+    "props": {
+      "tag": "h4",
+      "blockClass": "big"
+    }
+  },
+
+  "store-locator.button#lowercase": {
+    "props": {
+      "size": "regular",
+      "buttonProps": {
+        "variation": "secondary"
+      },
+      "blockClass": "lowercase"
+    }
+  },
+
+  "store-locator.map#square": {
+    "props": {
+      "icon": "http://example.com/some-icon.png",
+      "blockClass": "square"
+    }
   }
+
 }
