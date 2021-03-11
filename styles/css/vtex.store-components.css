@@ -47,15 +47,15 @@
   justify-content: center;
 }
 .imageElement--Img-ig{ 
-  height :54px;
-  width: 23%;
+  height :44px;
+  width: 15%;
   margin-bottom: -1%;
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 .imageElement--Img-fb{ 
-  height :54px;
-  width: 23%;
+  height :44px;
+  width: 15%;
   margin-bottom: 1%;
   display: flex;
   justify-content: center;
@@ -63,7 +63,7 @@
 .newsletter {
   background-color: #EFEFEF;
   max-width: 1528px;
-  max-height: 100;
+  max-height: 380px;
   margin: 0 auto;
 }
 
@@ -73,7 +73,22 @@
   max-height: 100;
 
 }
+.newsletter-izquuerdo{
+  background-color: #EFEFEF;
+  max-width: 1528px;
+  max-height: 380px;
+  
+}
+.newsletter-2{
+  background-color: #EFEFEF;
+  max-width: 1528px;
+  max-height: 380px;
+  
+}
+.newsletter .label {
+  display: none;
 
+}
 .label {
   color: #e4147e;;
   font-size: 26px;
@@ -83,11 +98,11 @@
   padding-bottom: 4px;
   display: flex;
   color: #fff;
+  margin: -30%;
 }
-
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
   background-color: transparent;
-  color: #fff;
+  background-color: #fff;
   border: none;
 }
 
@@ -95,6 +110,7 @@
   color: #e4147e;
   font-size: 16px;
 }
+
 
 .inputGroup :global(.vtex-button) {
   /*background-color: transparent;*/

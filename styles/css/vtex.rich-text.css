@@ -20,10 +20,18 @@
 
 .container--link {
   justify-content: center;
+  margin-bottom: -60px!important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90%;
 }
 
 .container--question {
   justify-content: center;
+}
+.heading--shelfTitle{
+  color: black;
+  font-style: bold;
 }
 
 .container--question .paragraph {
@@ -46,6 +54,28 @@
   padding-top: 36px;
   padding-bottom: 84px;
   color: #e4147e;
+}
+.container--newsletter-izquierdo{
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #888282;
+  background-color: #EFEFEF;
+}
+.container--newsletter-2{
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #888282;
+  background-color: #EFEFEF;
+}
+.paragraph--newsletter-izquierdo{
+  margin-top: 20%;
+}
+.paragraph--newsletter-2{
+  margin-top: 20%;
 }
 
 .container--link .strong {

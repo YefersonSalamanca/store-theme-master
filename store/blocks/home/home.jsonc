@@ -10,7 +10,7 @@
       "flex-layout.row#shelf",
       "flex-layout.row#setInfocart",
       "flex-layout.row#bannerInferior",
-      "newsletter",
+      "flex-layout.row#formulario",      
       "rich-text#link",
       "flex-layout.row#redessociales"
       
@@ -107,13 +107,6 @@
       "textAlignment": "center"
     }
   },
-
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
   "flex-layout.row#bannerComplemento": {
     "props": {
       "verticalAlign": "middle",
@@ -138,7 +131,7 @@
   "info-card#ic1": {
     "props": {
       "id": "info-card-ic1",
-      "isFullModeStyle": true,
+      "isFullModeStyle": false,
        "imageUrl": "assets/infoHomeA.jpg",
        "callToActionText": "COMPRA AQUÍ",
       "callToActionUrl": "/sale/d",
@@ -169,12 +162,32 @@
     }
   },
 
+
   "flex-layout.row#bannerInferior": {
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
     "children": ["image#bannerSlim2"]
+  },
+  "flex-layout.row#formulario": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["rich-text#newsletter-text1","newsletter","rich-text#newsletter-text2"]
+  },
+  "rich-text#newsletter-text1": {
+    "props": {
+      "text": "Regístrate y sé el primero en recibir noticias de ofertas y promociones especiales",
+      "blockClass": "newsletter-izquierdo"
+    }
+  },
+  "rich-text#newsletter-text2": {
+    "props": {
+      "text": "Al registrar tu correo electrónico aceptas los terminos y condiciones",
+      "blockClass": "newsletter-2"
+    }
   },
  
   
@@ -183,6 +196,7 @@
       "src": "assets/BannerInferior.jpg"  
     }  
   },
+  
   "rich-text#link": {
     "props": {
       "text": "\n*Sígue Nuestras Redes Sociales*\n",
