@@ -1,7 +1,7 @@
 {
   "vendor": "mqaenvironment",
   "name": "store-theme",
-  "version": "4.15.0",
+  "version": "4.14.0",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
@@ -66,7 +66,8 @@
     "vtex.condition-layout": "2.x"
   },
   "peerDependencies": {
-    "vtex.reviews-and-ratings": "2.x"
+    "vtex.reviews-and-ratings": "2.x",
+    "vtex.store-locator": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
