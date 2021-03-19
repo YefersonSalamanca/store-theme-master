@@ -97,7 +97,6 @@
       "product-installments",
       "product-separator",
       "product-identifier.product",
-      "sku-selector",
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
@@ -114,14 +113,13 @@
     },
     "children": ["vtex.store-components:product-name"]
   },
-
   "sku-selector": {
     "props": {
-      "variationsSpacing": 3,
-      "showValueNameForImageVariation": true
-    }
+       "variationsSpacing": 4,
+        "showValueNameForImageVariation": true,
+        "hideImpossibleCombinations": true
+     }
   },
-
   "flex-layout.row#buy-button": {
     "props": {
       "marginTop": 4,

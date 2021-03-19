@@ -13,6 +13,13 @@
       "add-to-cart-button"
     ]
   },
+  "product-summary-sku-selector" : {
+     "props": {
+        "visibleVariations": [
+           "Color"
+        ]
+     }
+  },
   "flex-layout.col#productRating": {
     "props": {
       "blockClass": "productRating"
@@ -79,6 +86,13 @@
   "product-selling-price#summary": {
     "props": {
       "blockClass": "summary"
+    }
+  },
+  "sku-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true,
+      "hideImpossibleCombinations": false
     }
   },
   "product-price-savings#summary": {
