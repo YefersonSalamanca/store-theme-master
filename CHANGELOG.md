@@ -15,13 +15,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [3.42.0] - 2021-03-19
 
-## [4.17.0] - 2021-03-19
-
-## [4.16.0] - 2021-03-19
-
-## [4.0.0] - 2021-03-19
-
-
 ## [3.41.0] - 2020-10-08
 ### Added
 - Example of [vtex.product-highlight](https://github.com/vtex-apps/product-highlights) usage.
