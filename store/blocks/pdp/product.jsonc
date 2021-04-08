@@ -3,10 +3,11 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
+      //"product-availability",
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
-      "flex-layout.row#shelf",
       "product-specification-group#table",
+      "flex-layout.row#shelf",
       "product-reviews",
       "product-questions-and-answers",
       "shelf.relatedProducts"
@@ -17,6 +18,7 @@
       "rich-text#specifications"
     ]
   },
+
   "rich-text#specifications": {
     "props": {
       //"text": "##### Product Specifications"
@@ -34,6 +36,7 @@
     },
     "children": ["product-description"]
   },
+
   "flex-layout.row#product-main": {
     "props": {
       "colGap": 7,
@@ -80,12 +83,19 @@
     "props": {
       "aspectRatio": {
          "desktop": "auto",
-         "phone": "16:9",
-         "hiddenImages": ["color"]  
+         "phone": "16:9"
       },
       "displayThumbnailsArrows": true
     }
   },
+
+  //Modificación product images
+    "product-images.high-quality-image": {
+      "props": {
+        "zoomMode": "in-place-click",
+        "zoomFactor": 3
+      }
+    },
   "flex-layout.col#right-col": {
     "props": {
       "preventVerticalStretch": true,
@@ -101,6 +111,7 @@
       "product-identifier.product",
       "sku-selector",
       "product-quantity",
+      "product-availability",
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
@@ -123,11 +134,27 @@
       "variationsSpacing": 3,
       "showValueNameForImageVariation": true,
       "initialSelection": "empty",
-      "thumbnailImage": ["color"],  
+      "thumbnailImage": ["color"],
       "visibleVariations": [
         "Color",
         "Talla"
      ]
+    }
+  },
+
+
+  "product-specifications#product": {
+    "props": {
+      "shoudCollapseOnTabChange": true,
+      "collapsible": "desktopOnly"
+    }
+  },
+
+  "product-availability": {
+    "props": {
+      "threshold": "10",
+      "lowStockMessage": "Only {quantity} left!",
+      "highStockMessage": "Item in stock!"
     }
   },
 
@@ -148,5 +175,5 @@
         "Pinterest": true
       }
     }
-  }   
+  }
 }

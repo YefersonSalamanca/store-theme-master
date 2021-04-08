@@ -34,5 +34,10 @@
   },
   "store.custom#servicio-al-cliente": {
     "path": "/servicio-al-cliente"
+  },
+  "store.custom#aceptacion-informacion":{
+    "path": "/aceptacion-informacion"
   }
+    
+  
 }

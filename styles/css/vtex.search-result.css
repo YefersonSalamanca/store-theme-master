@@ -1,3 +1,12 @@
+.filter {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.filtersWrapper {
+    padding-bottom:50%;
+}
+
 .galleryLayoutOptionButton {
   background-color: #F0F0F0;
   color: #3F3F40;
@@ -20,6 +29,21 @@
 .galleryItem--list {
   border-bottom: 1px #E7E9EE solid;
 }
+
+.filter__container--specificationFilter_97 {
+   display:none;
+}
+
+.filterMessage {
+    display:none;
+}
+
+.filterItem .filterItem--Lilipink {
+   margin-top: 10%;
+}
+/*.filterAccordionItemBox--color {
+   display:none;
+}*/
 
 /*.filterItem :global(.vtex-checkbox__inner-container) {
   background-color:transparent;

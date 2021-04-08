@@ -2,7 +2,19 @@
 {
   "store.custom#quienes-somos":{
     "blocks": [        
-      "flex-layout.row#quienesSomos"  
+      "flex-layout.row#quienesSomos",
+      "rich-text#QuienesSomos",
+      "rich-text#QuienesSomosInterno",
+      "rich-text#ideologiaInterna",
+      "flex-layout.row#Ideologia-Fotos",
+      "rich-text#nuestroPilar",
+      "rich-text#soyLili",
+      "rich-text#soyLiliInfo",
+      "rich-text#sobreLiliPink",
+      "rich-text#sobreLiliPinkInterno",
+      "flex-layout.row#SucrusalGeneral",
+      "flex-layout.row#clic-vacante"
+     
     ]
   },  
   "flex-layout.row#quienesSomos": {
@@ -56,10 +68,199 @@
   },   
   "image#quienessomos3": {  
     "props": {  
-      "src": "assets/quieneSomos1.jpg"  
+      "src": "assets/quieneSomos3.jpg"  
       
     } 
-  }
+  },
+  "rich-text#QuienesSomos":{
+    "props": {
+      "text": "QUIENES SOMOS",
+      "blockClass": "Quienes Somos"
+    }
+  },
+  "rich-text#QuienesSomosInterno":{
+    "props":{
+      "text":"Somos una marca JOVEN, CREATIVA, FRESCA y DIVERTIDA, pensada en mujeres con estas mismas características. El color, la comodidad y la tecnología son nuestras principales cualidades por las que nuestras consumidoras nos refieren.",
+      "blockClass": "Quienes Somos Interno"
+    }
+  },
+  "rich-text#ideologia":{
+    "props":{
+      "text":"IDEOLOGÍA",
+      "blockClass": "ideologoa"
+    }
+  },
+  "rich-text#ideologiaInterna":{
+    "props":{
+      "text":"Nos comprometemos con la FELICIDAD de las mujeres que piensan en comodidad y que les gusta estar en tendencia, creando y comercializando productos a precios asequibles para demostrar que no es necesario invertir tanto para tener lo mejor de la moda en tus manos.",
+      "blockClass": "ideologoa"
+    }
+  },
+  "flex-layout.row#Ideologia-Fotos": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+  "children": [
+    "flex-layout.col#Ideologia-1","flex-layout.col#Ideologia-2","flex-layout.col#Ideologia-3"
+   
+  ]
+  },
+  "flex-layout.col#Ideologia-1": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+        "image#ideologia1"
+    ]
+  },  
+  "image#ideologia1": {  
+    "props": {  
+      "src": "assets/ideologia-quienes-somos.jpg"  
+      
+    }  
+  },
+  "flex-layout.col#Ideologia-2": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+        "image#ideologia2"
+    ]
+  },
+  "image#ideologia2": {  
+    "props": {  
+      "src": "assets/ideologia-quienes-somos-2.jpg"  
+      
+    }  
+  },
+  "flex-layout.col#Ideologia-3": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+        "image#ideologia3"
+    ]
+  },
+  "image#ideologia3": {  
+    "props": {  
+      "src": "assets/ideologia-quienes-somos-3.jpg"  
+      
+    }  
+  },
+  
+  "rich-text#nuestroPilar":{
+    "props":{
+      "text":"NUESTRO PILAR",
+      "blockClass": "Nuestro-pilar"
+    }
+  },
+  "rich-text#soyLili":{
+    "props":{
+      "text":"Yo soy Lili…",
+      "blockClass": "soy-lili"
+    }
+  },
+  "rich-text#soyLiliInfo":{
+    "props":{
+      "text":"Soy una mujer joven, divertida, alegre, expresiva, buena amiga, espontanea, cercana, curiosa, segura, independiente, que navega confiada en el mundo digital. Me gusta mi cuerpo y quiero que todas amen el suyo, soy incluyente y diversa.",
+      "blockClass": "soy-lili-info"
+    }
+  },
+  "rich-text#sobreLiliPink":{
+    "props":{
+      "text":"SOBRE LILIPINK.",
+      "blockClass": "SOBRE-LILIPINK"
+    }
+  },
+  "rich-text#sobreLiliPinkInterno":{
+    "props":{
+      "text":"Estamos ubicados en 6 países con más de 50 tiendas: México, Guatemala, Costa Rica, Panamá, Ecuador y Perú.En Colombia, contamos con más de 200 tiendas propias, más de 100 franquicias y más de 50 tiendas de nuestra marca YOI..",
+      "blockClass": "SOBRE-LILIPINK-INTERNO"
+    }
+  },
+  "flex-layout.row#SucrusalGeneral": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+  "children": [
+    "flex-layout.col#sucursales" ,"flex-layout.col#franquicias","flex-layout.col#yoi","flex-layout.col#paises"
+  ]
+  },
+  "flex-layout.col#sucursales": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+        "image#sucursalInfo"
+    ]
+  },
+  "image#sucursalInfo": {  
+    "props": {  
+      "src": "assets/sobre-lilipink-1.png" 
+    }  
+  },
+  "flex-layout.col#franquicias": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+        "image#franquicias"
+    ]
+  },
+  "image#franquicias": {  
+    "props": {  
+      "src": "assets/sobre-lilipink-2.png" 
+    }  
+  },
+  "flex-layout.col#yoi": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+        "image#yoi"
+    ]
+  },
+  "image#yoi": {  
+    "props": {  
+      "src": "assets/sobre-lilipink-3.png" 
+    }  
+  },
+  "flex-layout.col#paises": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+        "image#paises"
+    ]
+  },
+  "image#paises": {  
+    "props": {  
+      "src": "assets/sobre-lilipink-4.png" 
+    }  
+  },
+ 
+  "flex-layout.row#clic-vacante":{
+    "children": ["notification.bar#clic-vacante"],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "notification.bar#clic-vacante": {
+    "props": {
+        "blockClass": "clic-vacante",
+        "content": "<div><a href='https://angie--mqaenvironment.myvtex.com/trabaja-con-nosotros'><img src='/arquivos/lilipink-trabajo-con-nosotros-4.png'/></a></div>"
+    }
+}
 }
 
 

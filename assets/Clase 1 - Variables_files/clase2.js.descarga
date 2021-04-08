@@ -1,0 +1,33 @@
+var nombre = 'Sacha', apellido = 'Lifszyc'
+
+var nombreEnMayusculas = nombre.toUpperCase()
+var apellidoEnMinusculas = apellido.toLowerCase()
+
+var primeraLetraDelNombre = nombre.charAt(0)
+var cantidadDeLetrasDelNombre = nombre.length
+
+var nombreCompleto = `${nombre} ${apellido.toUpperCase()}`
+
+var str = nombre.substr(1, 2)
+var goku = {
+    nombre: 'AngieP',
+    edad: 38,
+    raza: 'Cosota'
+  }
+const MAYOR_DE_EDAD = 17
+
+
+
+const esMayorDeEdad = ({edad})=> edad >= MAYOR_DE_EDAD
+
+
+function imprimirSiEsMayorDeEdad(persona){
+    if(esMayorDeEdad(persona)){
+        console.log(`${persona.nombre} es mayor de edad`)
+    }
+}
+function PermitirAcceso(persona){
+    if(!esMayorDeEdad(persona)){
+        console.log('Acceso denegado')
+    }
+}

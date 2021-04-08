@@ -1,0 +1,65 @@
+{
+    "store.custom#aceptacion-informacion":{
+      "blocks": [        
+        "flex-layout.row#aceptacion-informacion"  
+      ]
+    },  
+    "flex-layout.row#aceptacion-informacion": {
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "center"
+      },
+    "children": [
+      "flex-layout.col#quienes-somos-1a","flex-layout.col#quienes-somos-2a","flex-layout.col#quienes-somos-3a"
+     
+    ]
+    },
+    "flex-layout.col#quienes-somos-1a": {
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "center"
+      },
+      "children": [
+          "image#quienessomos1a"
+      ]
+    },   
+    "image#quienessomos1a": {  
+      "props": {  
+        "src": "assets/quieneSomos3.jpg"  
+        
+      }  
+    },
+    "flex-layout.col#quienes-somos-2a": {
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "center"
+      },
+      "children": [
+          "image#quienessomos2a"
+      ]
+    },   
+    "image#quienessomos2a": {  
+      "props": {  
+        "src": "assets/quieneSomos2.jpg"  
+        
+      }  
+    },
+    "flex-layout.col#quienes-somos-3a": {
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "center"
+      },
+      "children": [
+          "image#quienessomos3a"
+      ]
+    },   
+    "image#quienessomos3a": {  
+      "props": {  
+        "src": "assets/quieneSomos3.jpg"  
+        
+      } 
+    }
+  }
+  
+  
+  

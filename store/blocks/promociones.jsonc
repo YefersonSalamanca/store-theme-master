@@ -1,7 +1,486 @@
 
 {
     "store.custom#promociones":{
+
+      "blocks": [        
+        "tab-layout#promociones"
         
+      ]
+     
+        
+    },
+    "tab-layout#promociones": {
+      "children": [           
+        "tab-list#pagePromociones",
+        "tab-content#Promocion"
+      ],
+      "props": {
+        "blockClass": "PaginaWeb",
+        "defaultActiveTabId": "PaginaWeb"
+      }
+    },
+    "tab-list#pagePromociones":{
+      "children": [
+        "tab-list.item#PaginaWeb",
+        "tab-list.item#TiendaFisica",
+        "tab-list.item#NegocioDigital",
+        "tab-list.item#Redes"
+      ]   
+    },
+    "tab-list.item#PaginaWeb": {
+      "props": {
+        "tabId": "Web",
+        "label": "Pagina Web",
+        "defaultActiveTab": true
+      }
+    },
+    "tab-list.item#TiendaFisica": {
+      "props": {
+        "tabId": "Fisica",
+        "label": "Tienda Fisica"
+      }
+    },
+    "tab-list.item#NegocioDigital": {
+      "props": {
+        "tabId": "Digital",
+        "label": "Negocio Digital"
+      }
+    },
+    "tab-list.item#Redes": {
+      "props": {
+        "tabId": "Redes",
+        "label": "Redes Sociales"
+      }
+    },
+    "tab-content#Promocion": {
+      "children": [
+        "tab-content.item#promociones",
+        "tab-content.item#promocionesb"
+      ]
+    },
+    "tab-content.item#promocionesb": {
+      "children": [
+        "rich-text#webPromociones36",
+        "rich-text#webPromociones37",
+        "rich-text#webPromociones38",
+        "rich-text#webPromociones39",
+        "rich-text#webPromociones40",
+        "rich-text#webPromociones41",
+        "rich-text#webPromociones42",
+        "rich-text#webPromociones43",
+        "rich-text#webPromociones44",
+        "rich-text#webPromociones45",
+        "rich-text#webPromociones16",
+        "rich-text#webPromociones17",
+        "rich-text#webPromociones46",
+        "rich-text#webPromociones47",
+        "rich-text#webPromociones48",
+        "rich-text#webPromociones49",
+        "rich-text#webPromociones50",
+        "rich-text#webPromociones51",
+        "rich-text#webPromociones52",
+        "rich-text#webPromociones53",
+        "rich-text#webPromociones54",
+        "rich-text#webPromociones55",
+        "rich-text#webPromociones56",
+        "rich-text#webPromociones57"
+
+        
+      ],
+        "props": {
+          "tabId": "Fisica"
+        }
+      },
+    "tab-content.item#promociones": {
+      "children": [
+        
+        "rich-text#webPromociones",
+        "rich-text#webPromociones1",
+        "rich-text#webPromociones2",
+        "rich-text#webPromociones3",
+        "rich-text#webPromociones4",
+        "rich-text#webPromociones5",
+        "rich-text#webPromociones6",
+        "rich-text#webPromociones7",
+        "rich-text#webPromociones8",
+        "rich-text#webPromociones9",
+        "rich-text#webPromociones10",
+        "rich-text#webPromociones11",
+        "rich-text#webPromociones12",
+        "rich-text#webPromociones13",
+        "rich-text#webPromociones14",
+        "rich-text#webPromociones15",
+        "rich-text#webPromociones16",
+        "rich-text#webPromociones17",
+        "rich-text#webPromociones19",
+        "rich-text#webPromociones20",
+        "rich-text#webPromociones21",
+        "rich-text#webPromociones22",
+        "rich-text#webPromociones23",
+        "rich-text#webPromociones24",
+        "rich-text#webPromociones25",
+        "rich-text#webPromociones26",
+        "rich-text#webPromociones27",
+        "rich-text#webPromociones28",
+        "rich-text#webPromociones29",
+        "rich-text#webPromociones30",
+        "rich-text#webPromociones31",
+        "rich-text#webPromociones32",
+        "rich-text#webPromociones33",
+        "rich-text#webPromociones34",
+        "rich-text#webPromociones35",
+        "rich-text#webPromociones36"
+
+        
+        
+      ],
+      "props": {
+        "tabId": "Web"
+      }
+    },
+    "rich-text#webPromociones": {
+      "props": {
+        "text": "PINK DAYS / YOI DAYS HASTA 40% DTO EN TODA LA PÁGINA WE",
+        "blockClass": "web-promociones"
+      }
+    },
+
+    "rich-text#webPromociones1": {
+      "props": {
+        "text": "• Válido del 19 de marzo desde e las 12:01 am hasta el 28 de marzo a las 11:59 pm únicamente. \n• Aplica solo en www.lilipink.com\n • No aplica en tiendas físicas\n • Descuento de hasta 40% aplicable en toda la tienda y sus productos publicados con etiqueta del descuento de la actividad\n • 256.761 unidades disponibles para esta promoción o hasta agotar existencias destinadas para esta promoción\n • NO acumulable con otras promociones o descuentos\n • No aplica para compras anteriores, ni posteriores. así como tampoco aplica para compras realizadas en tiendas físicas • En caso de reclamaciones, se tendrá en cuenta el valor efectivamente pagado por el cliente\n• El costo del envío es de $6.900 en Bogotá y $9.900 a nivel nacional no cubre destinos especiales: san Andrés, leticia y/o poblaciones con restricción por transportadora derivadas a cierres generadas por la contingencia sanitaria\n• Aplica para compras realizadas dentro de una misma factura al momento de ser generada\n• Envío gratis por pagos superiores a $59.900 el cual se verá reflejado solo hasta el momento en que se dirija a la pasarela de pago\n• Los medios de pago aceptados son los indicados en la sección condiciones y restricciones en el numeral quinto de la página web oficial de la marca\n• Recuerda que por ley los productos de uso personal como la ropa interior y los artículos de belleza, no tienen cambio y tampoco les aplica el derecho de retracto si la compra se hace en línea, para garantías, te pedimos consultar nuestras políticas en la web [AQUÍ](https://www.lilipink.com/web/politica-cambios-garantias-lili)",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones2": {
+      "props": {
+        "text": "SWIM + TRAVEL",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones3": {
+      "props": {
+        "text": "• Válido del 12 de marzo desde las 7 AM. hasta el 4 de abril a las 11:59 p.m.\n• Aplica en www.lilipink.com\n• Sección exclusiva dentro de la página web para destacar los precios económicos de los productos. No es descuento y no es oferta\n• Vestidos de baño desde $19.900\n• Válido en referencias disponibles en página web\n• 16.900 unidades disponibles para esta sección o hasta agotar existencias\n• NO acumulable con otras promociones o descuentos\n• No aplica para compras anteriores, ni posteriores, ni para compras presenciales\n• En caso de reclamaciones, se tendrá en cuenta el valor efectivamente pagado por el cliente\n• El costo del envío es de $6.900 en Bogotá y $9.900 a nivel nacional no cubre destinos especiales: san Andrés, leticia y/o poblaciones con restricción por transportadora derivadas a cierres generadas por la contingencia sanitaria\n• Aplica para compras realizadas dentro de una misma factura al momento de ser generada\n• Los medios de pago aceptados son los indicados en la sección condiciones y restricciones en el numeral quinto de la página web oficial de la marca\n• Envío gratis por pagos superiores a $59.900 el cual se verá reflejado solo hasta el momento en que se dirija a la pasarela de pago\n• Para conocer la información relacionada con tiempos de entrega invitamos a consultar la sección condiciones y restricciones en el numeral sexto de la página web oficial de la marca.\n• Para ejercer el derecho a retracto y garantías, te pedimos consultar nuestras políticas en la web AQUÍ",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones4": {
+      "props": {
+        "text": "JUGUETERÍA HASTA EL 50% EN REFERENCIAS SELECCIONADAS",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones5": {
+      "props": {
+        "text": "• Válido del 11 de marzo desde las 3 p.m. hasta el 30 de abril a las 11:59 p.m.\n• Aplica en www.lilipink.com.\n• Descuento hasta el 50% en referencias seleccionadas que se encuentran contenidas en el enlace al que dirige el banner de la actividad promocional y que se encuentran identificadas con el descuento en la publicación del producto.\n• 1.130 unidades disponibles para esta promoción únicamente, o hasta agotar existencias.\n• NO acumulable con otras promociones o descuentos.\n• No aplica para compras anteriores, ni posteriores, ni para compras presenciales.\n• En caso de reclamaciones, se tendrá en cuenta el valor efectivamente pagado por el cliente.\n• El costo del envío es de $6.900 en Bogotá y $9.900 a nivel nacional no cubre destinos especiales: san Andrés, leticia y/o poblaciones con restricción por transportadora derivadas a cierres generadas por la contingencia sanitaria\n• Aplica para compras realizadas dentro de una misma factura al momento de ser generada.\n• Los medios de pago aceptados son los indicados en la sección condiciones y restricciones en el numeral quinto de la página web oficial de la marca.\n• Envío gratis por pagos superiores a $59.900 el cual se verá reflejado solo hasta el momento en que se dirija a la pasarela de pago.\n• Para conocer la información relacionada con tiempos de entrega invitamos a consultar la sección condiciones y restricciones en el numeral sexto de la página web oficial de la marca.\n• Para ejercer el derecho a retracto y garantías, te pedimos consultar nuestras políticas en la web AQUÍ",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones6": {
+      "props": {
+        "text": "DÍA DE LA MUJER 25% EN REFRENCIAS SELECCIONADAS",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones7": {
+      "props": {
+        "text": "• Valido del 5 de marzo a las 12:01 a.m. hasta el 8 de marzo a las 11:59 pm únicamente\n• Aplica solo en www.lilipink.com \n• No aplica en tiendas físicas\n• Descuento del 25% en REFERENCIAS SELECCIONADAS que se encuentran contenidas en el enlace al que dirige el banner de la actividad promocional\n• 80.603 unidades disponibles para esta promoción\n• NO acumulable con otras promociones o descuentos\n• No aplica para compras anteriores, ni posteriores; así como tampoco aplica para compras realizadas en tiendas físicas\n• En caso de reclamaciones, se tendrá en cuenta el valor efectivamente pagado por el cliente\n• El costo del envío es de $6.900 en Bogotá y $9.900 a nivel nacional no cubre destinos especiales: san Andrés, Leticia y/o poblaciones con restricción por transportadora derivadas a cierres generadas por la contingencia sanitaria\n• Aplica para compras realizadas dentro de una misma factura al momento de ser generada\n• Envío gratis por pagos superiores a $59.900 el cual se verá reflejado solo hasta el momento en que se dirija a la pasarela de pago\n  • Para conocer la información relacionada con tiempos de entrega invitamos a consultar la sección condiciones y restricciones en el numeral sexto de la página web oficial de la marca\n• Recuerda que por ley los productos de uso personal como la ropa interior y los artículos de belleza, no tienen cambio y tampoco les aplica el derecho de retracto si la compra se hace en línea, para garantías, te pedimos consultar nuestras políticas en la web AQUÍ",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones8": {
+      "props": {
+        "text": "CUPÓN 15% SAMSUNG MEMBERS",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones9": {
+      "props": {
+        "text": "• Válido del 6 de marzo desde las 12:01 am hasta el 8 de marzo a las 11:59pm\n • Recibe un 15% de descuento descargando el cupón de la app SAMSUNG MEMBERS e incluyendo el código suministrado en el proceso de compra\n• Aplica únicamente para ventas no presenciales\n• Aplica solo en www.lilipink.com\n• No aplica en tiendas físicas\n•No aplica para la sección día de la mujer ya que esta cuenta con un 25% dto\n• NO acumulable con otros descuentos o promociones vigentes\n No aplica para compras de GIFT CARDS\n• En el evento en que se presente la existencia de otras promociones en la página web de Lili Pink se hará efectivo el del mayor descuento\n• No aplica para compras anteriores, ni posteriores\n• En caso de reclamaciones, se tendrá en cuenta el valor efectivamente pagado por el cliente\n• Aplica para compras realizadas dentro de una misma factura al momento de ser generada\n• NO aplica para personas directas vinculadas al NEGOCIO DIGITAL\n• Aplica para cliente final de la página web y para cliente final de las socias digitales del negocio digita\n• La calidad, idoneidad y garantía de los productos y/o servicios ofrecidos son responsabilidad exclusiva de las tiendas Lili Pink y Yoi\n• Aplica para compras con cualquier medio de pago\n• El costo del envío es de $6.900 en Bogotá y $9.900 a nivel nacional no cubre destinos especiales: San Andrés, Leticia y/o poblaciones con restricción por transportadora derivadas a cierres generadas por la contingencia sanitaria\n• Envío gratis por pagos superiores a $59.900 el cual se verá reflejado solo hasta el momento en que se dirija a la pasarela de pago\n• Para conocer la información relacionada con tiempos de entrega invitamos a consultar la sección condiciones y restricciones en el numeral sexto de la página web oficial de la marca\n• Recuerda que por ley los productos de uso personal como la ropa interior y los artículos de belleza, no tienen cambio y tampoco les aplica el derecho de retracto si la compra se hace en línea, para garantías, te pedimos consultar nuestras políticas en la web AQUÍ",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones10": {
+      "props": {
+        "text": "CUPÓN 15% CLARO CLUB",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones11": {
+      "props": {
+        "text": "• Valido del 6 de marzo desde las 12:01 am hasta el 8 de marzo a las 11:59pm\n    • Recibe un 15% de descuento descargando el cupón de la app CLARO CLUB e incluyendo el código suministrado en el proceso de compra\n• Aplica únicamente para ventas no presenciales\n • Aplica solo en www.lilipink.com\n  • No aplica en tiendas físicas\n • No aplica para la sección día de la mujer ya que esta cuenta con un 25% dto\n • NO acumulable con otros descuentos o promociones vigentes\n • No aplica para compras de GIFT CARDS\n• En el evento en que se presente la existencia de otras promociones en la página web de Lili Pink se hará efectivo el del mayor descuento \n • No aplica para compras anteriores, ni posteriores\n• En caso de reclamaciones, se tendrá en cuenta el valor efectivamente pagado por el cliente\n• Aplica para compras realizadas dentro de una misma factura al momento de ser generada\n• NO aplica para personas directas vinculadas al NEGOCIO DIGITAL\n• Aplica para cliente final de la página web y para cliente final de las socias digitales del negocio digital\n• La calidad, idoneidad y garantía de los productos y/o servicios ofrecidos son responsabilidad exclusiva de las tiendas Lili Pink y Yoi\n• Aplica para compras con cualquier medio de pago\n• El costo del envío es de $6.900 en Bogotá y $9.900 a nivel nacional no cubre destinos especiales: san Andrés, leticia y/o poblaciones con restricción por transportadora derivadas a cierres generadas por la contingencia sanitaria\n• Envío gratis por pagos superiores a $59.900 el cual se verá reflejado solo hasta el momento en que se dirija a la pasarela de pago\n• Para conocer la información relacionada con tiempos de entrega invitamos a consultar la sección condiciones y restricciones en el numeral sexto de la página web oficial de la marca\n• Recuerda que por ley los productos de uso personal como la ropa interior y los artículos de belleza, no tienen cambio y tampoco les aplica el derecho de retracto si la compra se hace en línea, para garantías, te pedimos consultar nuestras políticas en la web AQUÍ",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones12": {
+      "props": {
+        "text": "ALIANZA DAVIVIENDA",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones13": {
+      "props": {
+        "text": "Del 26 al 28 de febrero de 2021, reciba un 30% de descuento pagando en www.lilipink.com la totalidad de la compra con tarjetas crédito y/o débito Davivienda. Aplica únicamente para ventas no presenciales; no acumulable con otros descuentos o promociones vigentes, si eres miembro o cuentas con la membresía que te identifica en el programa de Venta Digital de Lili Pink & Yoi, no te será aplicable el 20% de descuento habitual usando para tu compra este medio de pago. Válido para cliente final (No aplica para personas vinculadas directamente en el negocio venta digital, (pero sí para sus clientes finales) No aplica para compras anteriores, ni posteriores. En caso de reclamaciones, se tendrá en cuenta el valor efectivamente pagado por el cliente. Por Ley los productos de uso personal como la ropa interior y los artículos de belleza, no tienen cambio y tampoco se les aplica el derecho de retracto. Para garantías, debes consultar nuestra política en la web. Aplica para compras realizadas dentro de una misma factura al momento de ser generada. No aplica para Tarjetas de Crédito Empresariales, Marca Privada, Sin Banda, Cafeteras, Agropecuarias, Diners Lunch, Diners Gift. La calidad, idoneidad y garantía de los productos y/o servicios ofrecidos son responsabilidad exclusiva del establecimiento de comercio. Consulte tasas y tarifas en www.davivienda.com.",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones14": {
+      "props": {
+        "text": "PINK WEEKEND – YOI WEEKEND 20 y 21 DE FEBRERO",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones15": {
+      "props": {
+        "text": "• Valido en tienda web el 20 Y 21 de febrero únicamente, o hasta agotar existencias destinadas para la actividad\n• Los descuentos hasta el 30% en referencias seleccionadas\n• 88.439 unidades disponibles para esta promoción\n • Aplica solo en www.lilipink.com \n• No aplica para compras anteriores ni posteriores\n• No aplica en tiendas físicas\n• Aplica solo para las siguientes formas de pago: todas las disponibles en nuestra plataforma\n• NO acumulable con otras promociones o descuentos. Ni aplica promoción sobre promoción\n• El costo del envío es de $6.900 en Bogotá y $9.900 a nivel nacional no cubre destinos especiales: san Andrés, leticia y/o poblaciones con restricción por transportadora. Los costos de los fletes pueden variar según desplazamiento y condiciones de transportadora\n• Envío gratis por pagos superiores a $59.900 el cual se verá reflejado solo hasta el momento en que se dirija a la pasarela de pago\n• Para conocer la información relacionada con tiempos de entrega invitamos a consultar la sección condiciones y restricciones en el numeral sexto\n  • En caso de aplicar el retracto o una garantía del producto, se tendrá en cuenta el valor efectivamente pagado\n• Para garantías, cambios y consultas de términos y condiciones generales de compra te pedimos consultar nuestras políticas en la web AQUÍ",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones16": {
+      "props": {
+        "text": "RENUÉVATE",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones17": {
+      "props": {
+        "text": "• Válido del 19 de febrero al 19 de marzo de 2021\n• Lleva 3 Bra color surtido por $49.900\n• Lleva 2 Bra color surtido por $39.900\n• Lleva 1 Bra por $29.900 el color de tu elección\n• Valida en www.lilipink.com y tiendas físicas  \n• 591 unidades disponibles para esta promoción de PAQX2 surtido \n• 359 unidades disponibles para esta promoción de PAQX3 surtido\n• 599 unidades disponibles para esta promoción de PAQX1\n• NO acumulable con otras promociones o descuentos\n• El costo del envío es de $6.900 en Bogotá y $9.900 a nivel nacional no cubre destinos especiales: san Andrés, leticia y/o poblaciones con restricción por transportadora. Los costos de los fletes pueden variar según desplazamiento y condiciones de transportadora\n• NO acumulable con otras promociones o descuentos. Ni aplica promoción sobre promoción\n• Aplica solo para las siguientes formas de pago: todas las disponibles en nuestra plataforma De ventas digitales\n• Envío gratis por pagos superiores a $59.900 el cual se verá reflejado solo hasta el momento en que se dirija a la pasarela de pago.\n• En caso de retracto, o garantía del producto se tendrá en cuenta el valor efectivamente pagado\n• Recuerda que por ley los productos de uso personal como la ropa interior y los artículos de belleza, no tienen cambio y tampoco les aplica el derecho de retracto si la compra se hace de forma no presencial.\n• Para garantías, cambios y consultas de términos y condiciones generales de compra te pedimos consultar nuestras políticas en la web AQUÍ",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones19": {
+      "props": {
+        "text": "PAGA 1 LLEVA 3",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones20": {
+      "props": {
+        "text": " Válido del 18 de febrero al 19 de marzo de 2021\n• 650 unidades disponibles para esta promoción\n• Oferta valida únicamente para las siguientes referencias:\n O111-006-3 TOPCORTELASER SURTIDO: 236 unidades disponibles\nO132-018-3 TOP SEAMLESS SURTIDO T/U: 33 unidades disponibles\nO109-008-3 TOP COPA SURTIDO T/U: 381 unidades disponibles\n• NO acumulable con otras promociones o descuentos\n• El costo del envío es de $6.900 en Bogotá y $9.900 a nivel nacional no cubre destinos especiales: san Andrés, leticia y/o poblaciones con restricción por transportadora. Los costos de los fletes pueden variar según desplazamiento y condiciones de transportadora\n• NO acumulable con otras promociones o descuentos. Ni aplica promoción sobre promoción\n• Aplica solo para las siguientes formas de pago: todas las disponibles en nuestra plataforma De ventas digitales\n• Envío gratis por pagos superiores a $59.900 el cual se verá reflejado solo hasta el momento en que se dirija a la pasarela de pago\n• En caso de retracto, o garantía del producto se tendrá en cuenta el valor efectivamente pagado\n• Recuerda que por ley los productos de uso personal como la ropa interior y los artículos de belleza, no tienen cambio y tampoco les aplica el derecho de retracto si la compra se hace de forma no presencial\n• Para garantías, cambios y consultas de términos y condiciones generales de compra te pedimos consultar nuestras políticas en la web AQUÍ",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones21": {
+      "props": {
+        "text": "CAMPAÑA: ESPECIAL PARA TI",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones22": {
+      "props": {
+        "text": "• Promoción valida del 10 a l 14 de febrero del 2021\n• Por compras realizadas en el canal digital entre el 10 y el 14 de febrero en los productos de la categoría “especial para ti” publicada en la web oficial de ventas LILI PINK, los clientes obtienen un bono de descuento del 20% para redimir del 1 de marzo al 31 de marzo.\n• Esta Promoción NO APLICA para personas que estén en el programa de SOCIAL SELLING.\n• Promoción válida para CLIENTE FINAL\n• 1.009 unidades disponibles en talla S para esta promoción\n• 987 unidades disponibles en talla L para esta promoción\n• 238 unidades disponibles en talla XL para eta promoción\n• 91 unidades disponibles en talla XS para esta promoción\n• 114 unidades disponibles en talla TXS para esta promoción\n• 187 unidades disponibles en tallas 30,36, 39 y 40, 38B Y 38A para esta promoción. Aplica solo para las siguientes formas de pago: todas las disponibles en nuestra plataforma De ventas digitales, no presenciales.\n• No aplica en tiendas físicas\n• NO acumulable con otras promociones o descuentos. Ni aplica promoción sobre promoción\n• El costo del envío es de $6.900 en Bogotá y $9.900 a nivel nacional no cubre destinos especiales: san Andrés, leticia y/o poblaciones con restricción por transportadora derivadas a cierres generadas por la contingencia sanitaria\n• Envío gratis por pagos superiores a $59.900 el cual se verá reflejado solo hasta el momento en que se dirija a la pasarela de pago\n• En caso de retracto, o garantía del producto se tendrá en cuenta el valor efectivamente pagado\n• Recuerda que por ley los productos de uso personal como la ropa interior y los artículos de belleza, no tienen cambio y tampoco les aplica el derecho de retracto si la compra se hace de forma no presencial.\n• Para garantías, cambios y consultas de términos y condiciones generales de compra te pedimos consultar nuestras políticas en la web AQU",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones23": {
+      "props": {
+        "text": "RULETA DE OFERTAS FEBRERO 2021",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones24": {
+      "props": {
+        "text": "• Válido desde el 01 de febrero de 2021 hasta el 14 de febrero de 2021 en la pagina web www.lilipink.com\n  • Obtén un producto sorpresa por compras superiores a $80.000 por solo $10.000\n• El producto sorpresa será un artículo de la marca YOI perteneciente a las categorías: hogar, accesorios, cuidado personal, juguetería y NO tendrá cambio\n• Exclusivo para compras en página web de las marcas Lili Pink y Yoi\n• Aplica para todos los medios de pago habilitados en el checkout\n• 560 unidades disponibles para esta oferta\n• Oferta valida hasta agotar existencias",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones25": {
+      "props": {
+        "text": "GRAN TRASNOCHÓN 20 DE ENERO: PÁGINA WEB",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones26": {
+      "props": {
+        "text": "• Valido el 20 de enero desde e las 6 pm hasta las 11 pm únicamente, o hasta agotar existencias destinadas para la actividad.\n• Aplica solo en www.lilipink.com\n• No aplica para compras anteriores ni posteriores\n  • No aplica en tiendas físicas\n• Los descuentos van con el 30% hasta el 50%\n  • 221.036 unidades disponibles para el 30%\n  • 18.050 unidades disponibles para 50%\n  • Aplica solo para las siguientes formas de pago: todas las disponibles en nuestra plataforma\n  • NO acumulable con otras promociones o descuentos. Ni aplica promoción sobre promoción\n  • El costo del envío es de $6.900 en Bogotá y $9.900 a nivel nacional no cubre destinos especiales: san Andrés, leticia y/o poblaciones con restricción por transportadora derivadas a cierres generadas por la contingencia sanitaria\n  • Envío gratis por pagos superiores a $49.900 el cual se verá reflejado solo hasta el momento en que se dirija a la pasarela de pago\n  • El tiempo de entrega del pedido dependerá del tiempo que la transportadora tome en llevarlo al destino, teniendo en cuenta que la empresa hará entrega del producto, máximo 3 días hábiles después de haber recibido el pago\n  • En caso de retracto, o garantía del producto se tendrá en cuenta el valor efectivamente pagado\n  • Recuerda que por ley los productos de uso personal como la ropa interior y los artículos de belleza, no tienen cambio y tampoco les aplica el derecho de retracto si la compra se hace en línea, para garantías, te pedimos consultar nuestras políticas en la web AQUÍ",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones27": {
+      "props": {
+        "text": "RULETA DE OFERTAS FEBRERO 2021",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones28": {
+      "props": {
+        "text": "• Válido desde el 01 de febrero de 2021 hasta el 14 de febrero de 2021 en la pagina web www.lilipink.com\n  • Obtén un producto sorpresa por compras superiores a $80.000 por solo $10.000\n• El producto sorpresa será un artículo de la marca YOI perteneciente a las categorías: hogar, accesorios, cuidado personal, juguetería y NO tendrá cambio\n• Exclusivo para compras en página web de las marcas Lili Pink y Yoi\n• Aplica para todos los medios de pago habilitados en el checkout\n• 560 unidades disponibles para esta oferta\n• Oferta valida hasta agotar existencias",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones29": {
+      "props": {
+        "text": "GRAN TRASNOCHÓN 20 DE ENERO: PÁGINA WEB",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones30": {
+      "props": {
+        "text": "• Valido el 20 de enero desde e las 6 pm hasta las 11 pm únicamente, o hasta agotar existencias destinadas para la actividad.\n• Aplica solo en www.lilipink.com\n• No aplica para compras anteriores ni posteriores\n• No aplica en tiendas físicas \n• Los descuentos van con el 30% hasta el 50%\n• 221.036 unidades disponibles para el 30%\n• 18.050 unidades disponibles para 50%\n• Aplica solo para las siguientes formas de pago: todas las disponibles en nuestra plataforma\n• NO acumulable con otras promociones o descuentos. Ni aplica promoción sobre promoción\n• El costo del envío es de $6.900 en Bogotá y $9.900 a nivel nacional no cubre destinos especiales: san Andrés, leticia y/o poblaciones con restricción por transportadora derivadas a cierres generadas por la contingencia sanitaria\n• Envío gratis por pagos superiores a $49.900 el cual se verá reflejado solo hasta el momento en que se dirija a la pasarela de pago\n• El tiempo de entrega del pedido dependerá del tiempo que la transportadora tome en llevarlo al destino, teniendo en cuenta que la empresa hará entrega del producto, máximo 3 días hábiles después de haber recibido el pago\n• En caso de retracto, o garantía del producto se tendrá en cuenta el valor efectivamente pagado\n• Recuerda que por ley los productos de uso personal como la ropa interior y los artículos de belleza, no tienen cambio y tampoco les aplica el derecho de retracto si la compra se hace en línea, para garantías, te pedimos consultar nuestras políticas en la web AQUÍ",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones31": {
+      "props": {
+        "text": "GRAN MADRUGÓN 6 DE ENERO",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones32": {
+      "props": {
+        "text": "• Valido el 6 de enero desde e las 6 am hasta las 11 am únicamente, o hasta agotar existencias destinadas para la actividad.\n• Aplica solo en www.lilipink.com\n• No aplica para compras anteriores ni posteriores\n• No aplica en tiendas físicas\n• Los descuentos van con el 30% hasta el 50%: 88.796 unidades disponibles para el 30% - 17.029 unidades disponibles para 50%\n• Aplica solo para las siguientes formas de pago: todas las disponibles en nuestra plataforma\n• NO acumulable con otras promociones o descuentos. Ni aplica promoción sobre promoción\n• El costo del envío es de $6.900 en Bogotá y $9.900 a nivel nacional no cubre destinos especiales: san Andrés, leticia y/o poblaciones con restricción por transportadora derivadas a cierres generadas por la contingencia sanitaria\n• Envío gratis por pagos superiores a $49.900 el cual se verá reflejado solo hasta el momento en que se dirija a la pasarela de pago\n• El tiempo de entrega del pedido dependerá del tiempo que la transportadora tome en llevarlo al destino, teniendo en cuenta que la empresa hará entrega del producto, máximo 3 días hábiles después de haber recibido el pago\n• En caso de retracto, o garantía del producto se tendrá en cuenta el valor efectivamente pagado\n• Recuerda que por ley los productos de uso personal como la ropa interior y los artículos de belleza, no tienen cambio y tampoco les aplica el derecho de retracto si la compra se hace en línea, para garantías, te pedimos consultar nuestras políticas en la web AQUÍ",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones33": {
+      "props": {
+        "text": "REBAJAS ENERO 2021",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones34": {
+      "props": {
+        "text": "• Aplica desde el 1 de enero hasta el 31 de enero / Ampliamos rebajas del 1 de febrero hasta el 16 de febrero 2021\n• Aplica únicamente para REFERENCIAS SELECCIONADAS en www.lilipink.com\n• 2.407.234 unidades disponibles para esta oferta en tiendas físicas\n• 108.334 unidades disponibles para esta oferta en página web\n• Los descuentos van desde el 20% hasta el 70%\n• Los descuentos pueden variar dependiendo de la disponibilidad de inventario en tiendas físicas y .com y/ o hasta agotar existencias\n• NO acumulable con otras promociones o descuentos, ni aplica promoción sobre promoción\n• El costo del envío es de $6.900 en Bogotá y $9.900 a nivel nacional no cubre destinos especiales: san Andrés, leticia y/o poblaciones con restricción por transportadora derivadas a cierres generadas por la contingencia sanitaria\n• Envío gratis por pagos superiores a $49.900 el cual se verá reflejado solo hasta el momento en que se dirija a la pasarela de pago.\n• El tiempo de entrega del pedido dependerá del tiempo que la transportadora tome en llevarlo al destino, teniendo en cuenta que la empresa hará entrega del producto, máximo 10 días hábiles después de haber recibido el pago\n• En caso de cambio o garantía del producto se tendrá en cuenta el valor efectivamente pagado\n• Recuerda que por ley los productos de uso personal como la ropa interior y los artículos de belleza, no tienen cambio y tampoco les aplica el derecho de retracto si la compra se hace en línea, para garantías, te pedimos consultar nuestras políticas en la web AQUÍ",
+        "blockClass": "web-promociones"
+      }
+    },  
+    "rich-text#webPromociones35": {
+      "props": {
+        "text": "RULETA DE OFERTAS",
+        "blockClass": "web-promociones"
+      }
+    } ,
+    "rich-text#webPromociones36": {
+      "props": {
+        "text": "TOP & SWIM LILIPINK",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones37": {
+      "props": {
+        "text": "Lleva un TOP y un Vestido de Baño de las referencias seleccionadas, por solo $34.900. artículos identificados en tiendas con material POP con descripción de la actividad. Vigencia del 17 de marzo de 2021 al 4 de abril del mismo año. Son 494.541 unidades disponibles de las cuales 415.702 corresponden a los TOPS y 78.839 a los vestidos de baños o hasta agotar existencia de artículos para esta actividad. Antes de tomar tu decisión de compra: consulta con el asesor en punto de venta la disponibilidad de los productos participantes en la actividad. Aplica para compras presenciales en las tiendas LILI PINK y LILIENYOI ubicadas en el territorio Nacional incluyendo tiendas mixtas y franquicias. No aplica para tiendas Outlets. No es acumulable con descuentos ni con otras promociones. Aplicable con cualquier método de pago, excepto Credi$Pink que en la vigencia de la promoción no estará disponible ni habilitado. No aplica para compras no presenciales. Sujeto a disponibilidad de productos en tiendas físicas. En caso de reclamaciones, se tendrá en cuenta el valor pagado por el producto. No aplica para compras anteriores ni posteriores.",
+        "blockClass": "web-promociones"
+      }
+    } ,
+    "rich-text#webPromociones38": {
+      "props": {
+        "text": "SACHET AROMAS YOI",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones39": {
+      "props": {
+        "text": "Lleva 1 sachet por $6.900, 2 por $9.900 ó 1 por $4.900, 2 por $7.900, 3 por $9.900  de las referencias seleccionadas identificadas con gancheras y hablador. Vigencia del 26 de febrero al 26 de marzo del 2021. Son 64.400 unidades disponibles o hasta agotar existencia de artículos para esta actividad. Antes de tomar tu decisión de compra: consulta con el asesor en punto de venta la aplicabilidad de la promoción en el producto de tu interés. Aplica para las tiendas YOI y LILIENYOI ubicadas en el territorio Nacional. No aplica con otros descuentos ni con otras promociones. Aplicable con cualquier método de pago, inclusive venta a plazos con Credi$Pink. No aplica para compras no presenciales en www.lilipink.com. Sujeto a disponibilidad de producto en tiendas físicas. En caso de reclamaciones, se tendrá en cuenta el valor pagado por el producto adquirido. No aplica para compras anteriores ni posteriores.",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones40": {
+      "props": {
+        "text": "JUGUETERIA YOI",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones41": {
+      "props": {
+        "text": "Lleva un 30 %, un 50 % y un 70 % en productos de la sección de juguetería de las  referencias seleccionadas identificados en tiendas con material POP del 30 %, 50 % y 70%. Vigencia del 12 de marzo de 2021 al 30 de abril del mismo año. Son 54.396 unidades disponibles de las cuales: 26.496 estarán con el 30% de Dcto, 25.337 con el 50% de Dcto. y 2.563 con el 70% de Dcto. o hasta agotar existencia de artículos para esta actividad.  Antes de tomar tu decisión de compra: consulta con el asesor en punto de venta la disponibilidad de la promoción y la aplicabilidad del descuento en el producto interés. Aplica para compras presenciales en las tiendas YOI y LiliEnYoi ubicadas en el territorio Nacional. No es acumulable con otros descuentos ni con otras promociones. Aplicable con cualquier método de pago, excepto Credi$Pink que en la vigencia de la promoción no estará disponible ni habilitado. No aplica para compras no presenciales. Sujeto a disponibilidad de productos en tiendas físicas. En caso de reclamaciones, se tendrá en cuenta el valor pagado por el producto. No aplica para compras anteriores ni posteriores.",
+        "blockClass": "web-promociones"
+      }
+    },
+    
+    "rich-text#webPromociones42": {
+      "props": {
+        "text": "MAQUILLAJE AL 50 % TIENDAS LILI PINK, FRANQUICIAS Y MIXTAS",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones43": {
+      "props": {
+        "text": "Lleva un 50 % en productos de la sección de maquillaje de las referencias seleccionadas identificados en tiendas con material POP del 50 %. Vigencia del 15 de marzo de 2021 al 30 de abril del mismo año. Son 3.345 unidades disponibles o hasta agotar existencia de artículos para esta actividad. Antes de tomar tu decisión de compra: consulta con el asesor en punto de venta la disponibilidad de la promoción y la aplicabilidad del descuento en el producto interés. Aplica para compras presenciales en las tiendas LILI PINK, incluyendo tiendas Mixtas y Franquicias ubicadas en el territorio Nacional. No aplica para tiendas Outlets. No es acumulable con otros descuentos ni con otras promociones. Aplicable con cualquier método de pago, excepto Credi$Pink que en la vigencia de la promoción no estará disponible ni habilitado. No aplica para compras no presenciales. Sujeto a disponibilidad de productos en tiendas físicas. En caso de reclamaciones, se tendrá en cuenta el valor pagado por el producto. No aplica para compras anteriores ni posteriores.",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones44": {
+      "props": {
+        "text": "PROMOCIÓN TAPABOCAS 3 X 1",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones45": {
+      "props": {
+        "text": "Lleva 3 paquetes de tapabocas por el precio de uno de las referencias seleccionadas, identificadas con etiqueta en producto, gancheras y hablador. Vigencia del 18 de febrero al 30 de abril del 2021. Son 58.990 unidades disponibles o hasta agotar existencia de artículos para esta actividad. Antes de tomar tu decisión de compra: consulta con el asesor en punto de venta la aplicabilidad de la promoción en el producto de tu interés. Aplica para las tiendas YOI y LILIENYOI ubicadas en el territorio Nacional. No aplica con otros descuentos ni con otras promociones. Aplicable con cualquier método de pago, inclusive venta a plazos con Credi$Pink. No aplica para compras no presenciales en www.lilipink.com. Sujeto a disponibilidad de producto en tiendas físicas. En caso de reclamaciones, se tendrá en cuenta el valor pagado por el producto adquirido. No aplica para compras anteriores ni posteriores.",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones46": {
+      "props": {
+        "text": "RENUÉVATE BRA X 3 $49.900 BRA X2 $39.900 Y BRA X 1 $29.900",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones47": {
+      "props": {
+        "text": "Lleva 3 brasieres por $49.900, 2 brasieres por $39.900 o 1 brasier por $29.900 de las referencias seleccionadas, identificadas con etiqueta. Vigencia del 15 de febrero al 10 de marzo del 2021. Son 468.758 unidades disponibles o hasta agotar existencia de artículos para esta actividad. Antes de tomar tu decisión de compra: consulta con el asesor en punto de venta la aplicabilidad de la promoción en el producto de tu interés. Aplica para las tiendas LILI PINK y LILIENYOI ubicadas en el territorio Nacional, incluidas tiendas mixtas y franquicias. No aplica para tiendas Outlet. No aplica con otros descuentos ni con otras promociones. Aplicable con cualquier método de pago, inclusive venta a plazos con Credi$Pink. Aplica para compras no prensenciales en www.lilipink.com sujeto a disponibilidad de producto tanto en página web o tiendas físicas. En caso de cambios o garantías, se tendrá en cuenta el valor pagado por el producto. No aplica para compras anteriores ni posteriores.",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones48": {
+      "props": {
+        "text": "CAMPAÑA DE TOP PAGUE 1 LLEVE 3",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones49": {
+      "props": {
+        "text": "Lleva 3 tops por el precio de uno de las referencias seleccionadas, identificadas con etiqueta en producto y cenefa en mobiliario. Vigencia del 15 de febrero al 10 de marzo del 2021. Son 195.085 unidades disponibles o hasta agotar existencia de artículos para esta actividad. Antes de tomar tu decisión de compra: consulta con el asesor en punto de venta la aplicabilidad de la promoción en el producto de tu interés. Aplica para las tiendas LILI PINK y LILIENYOI ubicadas en el territorio Nacional, incluidas tiendas mixtas y franquicias. No aplica para tiendas Outlet. No aplica con otros descuentos ni con otras promociones. Aplicable con cualquier método de pago, inclusive venta a plazos con Credi$Pink. No aplica para compras no presenciales en www.lilipink.com. Sujeto a disponibilidad de producto en tiendas físicas. En caso de cambios o garantías, se tendrá en cuenta el valor pagado por el producto. No aplica para compras anteriores ni posteriores.",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones50": {
+      "props": {
+        "text": "BONO CRUZADO Lili Pink + YOI = El DUO PERFECTO",
+         "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones51": {
+      "props": {
+        "text": "Del 8 de febrero al 07 de marzo de 2021, por compras iguales o superiores a $69.900 en las tiendas Lilipink autorizadas ubicadas en el territorio Nacional (Conoce las Tiendas donde aplica la promo AQUÍ), incluyendo tiendas propias mixtas y outlet se entregará un Bono de Compra por $20.000, redimible del 8 al 31 de marzo de 2021 únicamente en cualquiera de las tiendas YOI a nivel nacional, al realizar un pago mínimo de $40.000. Aplica cualquier medio de pago, NO incluye medio de pago ventas a plazo Lili Pink. Se emitirá un solo bono por factura. No aplica para franquicias y tiendas Lili Pink en las ciudades donde no haya presencia de la marca Yoi. Igualmente, no aplica para compras no presenciales y no es acumulable con otras promociones. En caso de cambios o devoluciones, se tendrá en cuenta el valor efectivamente pagado por el cliente. Por Ley los productos de uso personal como la ropa interior y los artículos de belleza, no tienen cambio y tampoco se les aplica el derecho de retracto. Para garantías, debes consultar nuestra política en la web. Al ser una compra presencial consulta con la Asesora de Venta la aplicabilidad del beneficio antes de tomar tu decisión de compra.",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones52": {
+      "props": {
+        "text": "BONO CRUZADO YOI + LILI PINK = El DUO PERFECTO",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones53": {
+      "props": {
+        "text": "Del 8 de febrero al 07 de marzo de 2021, por compras iguales o superiores a $69.900en las tiendas Lilipink autorizadas ubicadas en el territorio Nacional (Conoce las Tiendas donde aplica la promo AQUÍ), incluyendo tiendas mixtas y outlet se entregará un Bono de Compra por $20.000, redimible del 8 al 31 de marzo de 2021 únicamente en cualquiera de las tiendas Lili Pink a nivel nacional, al realizar un pago mínimo de $40.000. Aplica cualquier medio de pago, NO incluye medio de pago ventas a plazo Lili Pink. Se emitirá un solo bono por factura. No aplica para franquicias y tiendas Yoi en las ciudades donde no haya presencia de la marca Lili Pink. Igualmente, no aplica para compras no presenciales y no es acumulable con otras promociones. En caso de cambios o devoluciones, se tendrá en cuenta el valor efectivamente pagado por el cliente. Por Ley los productos de uso personal como la ropa interior y los artículos de belleza, no tienen cambio y tampoco se les aplica el derecho de retracto. Para garantías, debes consultar nuestra política en la web. Al ser una compra presencial consulta con la Asesora de Venta la aplicabilidad del beneficio antes de tomar tu decisión de compra.",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones54": {
+      "props": {
+        "text": "REBAJAS FEBRERO 2021 LILI PINK",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones55": {
+      "props": {
+        "text": "Lleva un 30%, 50% y un 70% de descuento en los productos de las referencias seleccionadas, identificadas en toda la tienda con publicidad del material POP del 30% 50% y 70%. Vigencia del 01 al 31 de enero del 2021. Ampliamos las rebajas hasta el 16 de febrero del 2021. Son 170.000, 1.000.000 y 450.000 unidades disponibles respectivamente o hasta agotar existencia de artículos para esta actividad. Antes de tomar tu decisión de compra: consulta con el asesor en punto de venta la aplicabilidad de la promoción en el producto de tu interés. Aplica para todas las tiendas LILI PINK ubicadas en el territorio Nacional, incluidas tiendas mixtas, outlets y franquicias. No aplica con otros descuentos ni con otras promociones. Aplicable con cualquier método de pago, inclusive venta a plazos con Credi$Pink. Aplica para compras no prensenciales en www.lilipink.com sujeto a disponibilidad de producto tanto en página web o tiendas físicas. En caso de cambios o garantías, se tendrá en cuenta el valor pagado por el producto. No aplica para compras anteriores ni posteriores.",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones56": {
+      "props": {
+        "text": "REBAJAS FEBRERO 2021 YOI",
+        "blockClass": "web-promociones"
+      }
+    },
+    "rich-text#webPromociones57": {
+      "props": {
+        "text": "Lleva un 50% y un 70% de descuento en los productos de las referencias seleccionadas, identificadas en toda la tienda con material POP del 50% y 70%. Vigencia del 01 al 31 de enero del 2021. Ampliamos las rebajas hasta el 16 de febrero del 2021. Son 213.000 y 49.000 unidades disponibles respectivamente o hasta agotar existencia de artículos para esta actividad. Antes de tomar tu decisión de compra: consulta con el asesor en punto de venta la aplicabilidad de la promoción en el producto de tu interés. Aplica para todas las tiendas YOI ubicadas en el territorio Nacional. No aplica con otros descuentos ni con otras promociones. Aplicable con cualquier método de pago, inclusive venta a plazos con Credi$Pink. Aplica para compras no prensenciales en www.yoi-colombia.com sujeto a disponibilidad de producto tanto en página web o tiendas físicas. En caso de cambios o garantías, se tendrá en cuenta el valor pagado por el producto. No aplica para compras anteriores ni posteriores.",
+        "blockClass": "web-promociones"
+      }
     }
-  }
+}
   
