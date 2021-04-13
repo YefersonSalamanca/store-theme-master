@@ -101,7 +101,7 @@
     }
   },
   "flex-layout.col#filter": {
-    "children": ["filterscolor", "filter-navigator.v3"],
+    "children": ["filter-navigator.v3", "filterscolor"],
     "props": {
       "blockClass": ["filterscolor", "filterCol"]
     }

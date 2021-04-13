@@ -1,0 +1,225 @@
+{
+  "store.custom#catalogo":{
+    "blocks": [
+      "flex-layout.row#titulo",
+      "flex-layout.row#catalogo",
+      "flex-layout.row#titulocatalogo",
+      "flex-layout.row#titulocatalogo2"
+    ]
+  },
+  "flex-layout.row#titulo": {
+    "children": [
+      "rich-text#titulo"
+    ]
+  },
+  "rich-text#titulo": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "text": "Conoce nuestras últimas colecciones"
+    }
+  },
+  "flex-layout.row#catalogo": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+       "width":235
+    },
+  "children": [
+    "flex-layout.col#catalogo1","flex-layout.col#catalogo2","flex-layout.col#catalogo3", "flex-layout.col#catalogo4"
+    ]
+  },
+  "flex-layout.row#titulocatalogo": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+  "children": [
+      "flex-layout.row#titulo-1", "flex-layout.row#titulo-2", "flex-layout.row#titulo-3", "flex-layout.row#titulo-4"
+   ]
+  },
+  "flex-layout.row#titulocatalogo2": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+  "children": [
+      "flex-layout.row#titulo-5", "flex-layout.row#titulo-6", "flex-layout.row#titulo-7", "flex-layout.row#titulo-8"
+   ]
+  },
+  "flex-layout.col#catalogo1": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+        "image#catalogo1"
+    ]
+  },
+  "image#catalogo1": {
+    "props": {
+      "src": "assets/edicion8.jpg",
+      "href": "/catalogo",
+      "width":235
+    }
+  },
+  "flex-layout.row#titulo-1": {
+    "children": [
+      "rich-text#titulo-1"
+    ]
+  },
+  "rich-text#titulo-1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "16px",
+      "text": "Edición 8"
+    }
+  },
+  "flex-layout.col#catalogo2": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+
+    "children": [
+        "image#catalogo2"
+    ]
+  },
+  "image#catalogo2": {
+    "props": {
+      "src": "assets/cat-7.jpg",
+      "href": "/catalogo",
+      "width":235
+    }
+  },
+  "flex-layout.row#titulo-2": {
+    "children": [
+      "rich-text#titulo-2"
+    ]
+  },
+  "rich-text#titulo-2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "16px",
+      "text": "Edición 7"
+    }
+  },
+  "flex-layout.col#catalogo3": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+
+    },
+    "children": [
+        "image#catalogo3"
+    ]
+  },
+  "image#catalogo3": {
+    "props": {
+      "src": "assets/edicion6.jpg",
+      "href": "/catalogo",
+      "width":235
+    }
+  },
+  "flex-layout.row#titulo-3": {
+    "children": [
+      "rich-text#titulo-3"
+    ]
+  },
+  "rich-text#titulo-3": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "16px",
+      "text": "Edición 6"
+    }
+  },
+  "flex-layout.col#catalogo4": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+
+    },
+    "children": [
+        "image#catalogo4"
+    ]
+  },
+  "image#catalogo4": {
+    "props": {
+      "src": "assets/edicion5.jpg",
+      "href": "/catalogo",
+      "width":235
+    }
+  },
+  "flex-layout.row#titulo-4": {
+    "children": [
+      "rich-text#titulo-4"
+    ]
+  },
+  "rich-text#titulo-4": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "16px",
+      "text": "Edición 5"
+    }
+  },
+
+  "flex-layout.row#titulo-5": {
+    "children": [
+      "rich-text#titulo-5"
+    ]
+  },
+  "rich-text#titulo-5": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "12px",
+      "text": "Vigencia del 08 al 14 de Abril de 2021"
+    }
+  },
+"flex-layout.row#titulo-6": {
+  "children": [
+    "rich-text#titulo-6"
+  ]
+},
+"rich-text#titulo-6": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "font": "12px",
+    "text": "Vigencia del 31 de Marzo al 07 de Abril de 2021"
+    }
+  },
+
+"flex-layout.row#titulo-7": {
+  "children": [
+    "rich-text#titulo-7"
+  ]
+},
+"rich-text#titulo-7": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "font": "12px",
+    "text": "Vigencia del 25 al 31 de Marzo de 2021"
+    }
+  },
+
+"flex-layout.row#titulo-8": {
+  "children": [
+    "rich-text#titulo-8"
+  ]
+},
+"rich-text#titulo-8": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "font": "12px",
+    "text": "Vigencia del 11 al 24 de marzo de 2021"
+    }
+  }
+}

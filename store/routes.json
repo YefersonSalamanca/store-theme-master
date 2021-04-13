@@ -38,15 +38,17 @@
   "store.custom#aceptacion-informacion":{
     "path": "/aceptacion-informacion"
   },
-  "store.custom#giftcard":{
-    "path": "/gift-card"
-  },
   "store.custom#politica-cambios-garantias-lili":{
     "path": "/politica-cambios-garantias-lili"
   },
   "store.custom#guia-de-tallas":{
     "path": "/guia-de-talla"
+  },
+
+  "store.custom#catalogo":{
+    "path": "/catalogo"
+  },
+  "store.custom#giftcard":{
+    "path": "/giftcard"
   }
-    
-  
 }

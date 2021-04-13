@@ -1,7 +1,115 @@
 
 {
-    "store.custom#guia-de-tallas":{
-        
+  "store.custom#guia-de-tallas": {
+    "blocks": [
+      "flex-layout.row#titulo-guiadetallas",
+      "flex-layout.row#imagenguiadetallas",
+      "flex-layout.row#tips2",
+      "list-context.image-list#guiadetallas"
+    ]
+  },
+  //titulo
+  "flex-layout.row#titulo-guiadetallas": {
+    "children": [
+      "rich-text#titulo-guiadetallas"
+    ]
+  },
+  "rich-text#titulo-guiadetallas": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "text": "Guia de tallas y medidas"
+    }
+  },
+  "flex-layout.row#imagenguiadetallas": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.col#imagenguiadetallas"
+    ]
+  },
+  "flex-layout.col#imagenguiadetallas": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#imagenguiadetallas"
+    ]
+  },
+  "image#imagenguiadetallas": {
+    "props": {
+      "src": "assets/guiadetallas.jpg",
+      "href": "/catalogo"
+    }
+  },
+  //tips
+  "flex-layout.row#tips2": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.col#tips2"
+    ]
+  },
+  "flex-layout.col#tips2": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#tips2"
+    ]
+  },
+  "image#tips2": {
+    "props": {
+      "src": "assets/tips.jpg",
+      "href": "/catalogo"
+    }
+  },
+  //slider - Banner
+  "list-context.image-list#guiadetallas": {
+    "children": [
+      "slider-layout#demo-images-banner"
+    ],
+    "props": {
+      "height": 434,
+      "fullWidth": false,
+      "images": [
+        {
+          "src": "assets/tip1.jpg",
+          //"image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "mobileImage": "/arquivos/tip1mobile.jpg"
+        },
+        {
+          "src": "assets/tip2.jpg",
+          "mobileImage": "/arquivos/tip2mobile.jpg"
+        },
+        {
+          "src": "assets/tip3.jpg",
+          "mobileImage": "/arquivos/tip3mobile.jpg"
+        },
+        {
+          "src": "assets/tip4.jpg",
+          "mobileImage": "/arquivos/tip4mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images-banner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
     }
   }
-  
+}

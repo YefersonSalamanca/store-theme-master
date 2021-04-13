@@ -1,7 +1,372 @@
 
 {
     "store.custom#privacidad-de-la-informacion":{
-        
+      "blocks": [
+        "flex-layout.row#titulo-privacidad",
+        "flex-layout.row#parrafo1",
+        "flex-layout.row#parrafo2",
+        "flex-layout.row#parrafo3",
+        "flex-layout.row#parrafo4",
+        "flex-layout.row#parrafo5",
+        "flex-layout.row#parrafo6",
+        "flex-layout.row#parrafo7",
+        "flex-layout.row#parrafo8",
+        "flex-layout.row#parrafo9",
+        "flex-layout.row#parrafo10",
+        "flex-layout.row#parrafo11",
+        "flex-layout.row#parrafo12",
+        "flex-layout.row#parrafo13",
+        "flex-layout.row#parrafo14",
+        "flex-layout.row#parrafo15",
+        "flex-layout.row#parrafo16",
+        "flex-layout.row#parrafo17",
+        "flex-layout.row#parrafo18",
+        "flex-layout.row#parrafo19",
+        "flex-layout.row#parrafo20",
+        "flex-layout.row#parrafo21",
+        "flex-layout.row#parrafo22",
+        "flex-layout.row#parrafo23",
+        "flex-layout.row#parrafo24",
+        "flex-layout.row#parrafo25"
+      ]
+    },
+    "flex-layout.row#titulo-privacidad": {
+      "children": [
+        "rich-text#titulo-privacidad"
+      ]
+    },
+    "rich-text#titulo-privacidad": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-heading-3",
+        "text": "POLÍTICA DE PRIVACIDAD PARA LA PROTECCIÓN DE DATOS PERSONALES"
+      }
+    },
+
+    "flex-layout.row#parrafo1": {
+      "children": [
+        "rich-text#parrafo1"
+      ]
+    },
+    "rich-text#parrafo1": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "I. PRELIMINAR"
+      }
+    },
+    "flex-layout.row#parrafo2": {
+      "children": [
+        "rich-text#parrafo2"
+      ]
+    },
+    "rich-text#parrafo2": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "PINK LIFE S.A.S. en adelante y para efectos de este documento, denominada simplemente como LA EMPRESA, junto con sus compañías afiliadas, cesionarias y subsidiarias establecen en esta política lineamientos que en virtud a la ley 1581 de 2012 y sus decretos reglamentarios reglamentada, son ordenados por el legislador para la protección de la información a tratar que recolecta, almacena, usa, circula o suprime de todas las personas naturales cuyos datos personales se encuentren en la base de datos de LA EMPRESA, ya sea que esta actúe en calidad de Responsable, Encargado o Subencargado (en adelante y para los efectos de este documento conocidos como E&S) del tratamiento de los datos personales. <br/> Esta política de privacidad, que se hace vinculante a nuestras empresas afiliadas, subsidiarias, cesionarias e incluso a terceros encargados del tratamiento de la información, informa los alcances y límites de la información del Titular que La Empresa podrá obtener ya sea en línea o fuera de línea, en relación con el uso de sus productos y servicios, a través de cualquier canal (entiéndase como todas las formas que faciliten contacto y entre la Empresa y el Titular e impliquen el suministro de información entre los mismos) para la recolección, almacenamiento, uso, circulación o supresión de los datos."
+      }
+    },
+    "flex-layout.row#parrafo3": {
+      "children": [
+        "rich-text#parrafo3"
+      ]
+    },
+    "rich-text#parrafo3": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "II. RECOLECCIÓN Y ALMACENAMIENTO DE LA INFORMACIÓN"
+      }
+    },
+    "flex-layout.row#parrafo4": {
+      "children": [
+        "rich-text#parrafo4"
+      ]
+    },
+    "rich-text#parrafo4": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "Al utilizar los diversos canales que ofrecen los productos y servicios de la Empresa, la misma podrá recolectar información acerca del Titular como la siguiente.<br> Nombre completo, dirección de correo electrónico, dirección postal y número de teléfono, tarjeta de crédito o débito, números de cuentas financieras, la dirección de facturación o domicilio personal o profesional, fotografía facial, identificadores únicos tales como nombre de usuario, número de cuenta, contraseña, ID de dispositivo móvil, ubicación geográfica, edad, rango de edad, fecha de nacimiento, ocupación, número de IP, Información demográfica, nivel educativo, género, gustos en general, intereses, Información de preferencia como ajustes guardados, y preferencias de comercialización, aficiones, intereses, compras, descargas, visitas de página y sus preferencias musicales, Juegos, el progreso, la utilización, el rendimiento, periféricos y el uso de dispositivos, servicios solicitados y utilizados, el contenido descargado y visto, los datos técnicos de hardware, tales como tipo, modelo, versión, dispositivo o ID de sesión y los datos relacionados con errores, estado, capacidad de configuración, la funcionalidad, los datos de rendimiento, y el tipo de conexión.<br> La Empresa podrá recibir, recolectar, almacenar y complementar datos, o información recopilada sobre el Titular, siempre y cuando sean acatados los parámetros descritos que acompañas los dos siguientes escenarios. <br> 1. Si es el titular la fuente directa de la información, deberá éste encontrarse plenamente informado de los alcances y límites con que se hará el tratamiento de los datos entregados y a su vez autorizar dicho tratamiento mediante cualquier medio que pueda ser objeto de consulta posterior.<br> 2. Si es un tercero la fuente directa de la información, deberá éste informar a la Empresa que cuenta con las exigencias del numeral anterior. "
+      }
+    },
+    "flex-layout.row#parrafo5": {
+      "children": [
+        "rich-text#parrafo5"
+      ]
+    },
+    "rich-text#parrafo5": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "III. USO DE LA INFORMACIÓN"
+      }
+    },
+    "flex-layout.row#parrafo6": {
+      "children": [
+        "rich-text#parrafo6"
+      ]
+    },
+    "rich-text#parrafo6": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "La empresa, podrá utilizar la información de la titular, relacionada en el capítulo anterior para:<br>• Proporcionarle productos y servicios solicitados, administrar su cuenta, personalizar y mejorar su experiencia al usar nuestros servicios, investigar, realizar encuestas e interactuar con usted, por ejemplo, por correo electrónico u otras comunicaciones, cumplir con pedidos, enviarle confirmaciones de pedidos, enviarle productos solicitados e información sobre la garantía, responder a sus solicitudes técnicas y consultas de servicio al cliente, administrar su cuenta, enviarle comunicaciones de marketing y boletines periódicos y extraordinarios, solicitarle información sobre productos y servicios, promociones, contenidos, u otras actividades u ofertas que puedan ser de interés del Titular, adaptar el contenido de los canales y aumentar su capacidad para ofrecerle una mejor experiencia incluso permitiendo ofrecerle la oportunidad de comprar productos o servicios que la Empresa crea que puedan ser de su interés, supervisar y asegurar los canales, administrar concursos, sorteos y promociones a los que pueda haber ingresado el titular, y poder enviarle notificaciones relacionadas con los mismos servicios y/o productos de las unidades de negocio de la Empresa.<br> • Podrá también ser utilizada y tratada para mostrar anuncios personalizados en el servicio, así como en otros sitios web y servicios (incluido el correo electrónico); seguir el contenido al que acceda en conexión con el servicio y su comportamiento en línea, entregar, adaptar y mejorar nuestra publicidad y el servicio.<br> • En todos los casos y fines anteriores, podremos realizar análisis, segmentaciones y elaborar perfiles de todos los datos recopilados (p. ej., crear informes, análisis y similares para nuestros propios fines comerciales o de investigación, por ejemplo, para seguir tendencias o detectar problemas de uso de nuestros servicios).<br> • Con su consentimiento, trataremos sus datos personales con fines adicionales, como utilizar la ubicación del GPS para mostrarle eventos locales entre otros.<br> • La empresa como responsable de la información, o sus delegatarios facultados legalmente, en ningún momento podrán utilizar la información del Titular, relacionada en el capítulo anterior para fines distintos a los acá establecidos. La prohibición preestablecida se extenderá para los terceros que en asocio con la Empresa sean encargados de la información del titular. LA EMPRESA realiza el tratamiento (recolección, almacenamiento, uso, circulación y supresión) de los datos personales para los siguientes fines: <br> • Compartir información del titular agregada o anónima con terceros para fines de mercadeo publicidad, investigación o similar, siempre y cuando exista la autorización previa e informada, la cual deberá ser obtenida por cualquier medio que pueda ser objeto de consulta posterior, podremos compartir la información con un tercero no relacionado, que puede ponerse en contacto con el Titular acerca de productos, servicios u otras ofertas que puedan ser de su interés.<br>• Obtener dicha autorización en el lugar donde se recoge la información, ya sea por métodos de inscripción, solicitud de productos o por otros medios como por ejemplo una solicitud mediante correo electrónico o al momento de emitir una factura simple o por medio de financiación. El uso de la información del Titular por parte del tercero y el tratamiento de dicha información se regirán por las políticas de privacidad de dicho tercero. En el caso consultas por parte del Titular, acerca de la recolección uso y circulación de su información, tendrá que ponerse en contacto directamente con el tercero de conformidad a las características definidas en este literal.<br>• Divulgar la información en el contexto de un procedimiento judicial y en relación con las actividades de aplicación de la ley, así como en el caso de venta de la empresa correspondiente. Por ejemplo, podemos divulgar su información: conforme a la ley, para cumplir con una orden judicial o un proceso parecido, con las autoridades u organizaciones similares en el marco de una investigación criminal o prevención del fraude o actividad criminal, violación de derechos de propiedad industrial u otra actividad que se sospeche como contraria a las leyes, o que pueda exponer a los demás titulares o a la Empresa a una responsabilidad, utilizar la información y registros para la defensa de una demanda, investigación o acción si tal información, registros o perfiles son relevantes a la acción judicial cuando la Empresa bajo el uso de la sana crítica y de buena fe note que dicha divulgación es necesaria para proteger derechos fundamentales, la protección de su seguridad o la seguridad de otros, investigar el fraude, o para responder a una solicitud de la autoridad de cualquier orden nacional, departamental o municipal. En caso de que vendamos o transfiramos cualquiera o la totalidad de nuestra actividad económica o tengamos alguna o la totalidad de nuestro negocio adquirido, la información del titular podrá ser transferida junto con la compra o adquisición.<br>Además, en el tratamiento que se anuncia, podrá:<br>• Transmitir información comercial como campañas publicitarias, promociones, y actividades comerciales, a través de correo electrónico, mensajes de texto, llamadas telefónicas y demás canales utilizados para tal fin.<br>• Enviar información y ofertas sobre novedades, productos, servicios, concursos y eventos especiales propios del objeto social de La Empresa, para sus clientes.<br>• Hacer contacto telefónico.<br>• Entregar correspondencia, catálogos y productos.<br>• Expedir de facturas, notas crédito, y demás documentos como soporte de una transacción.<br>• Brindar atención del trámite de garantías y devolución de productos junto con la emisión de respuestas a las consultas acerca de productos y servicios ofrecidos, peticiones, quejas y reclamos.<br>• Realizar estudios con fines estadísticos, medición del nivel de satisfacción del cliente y de conocimiento del Cliente.<br>• Gestionar la prestación de servicios de atención telefónica, encargo de cobranzas, cobro pre jurídico, interposición de denuncios en calidad de víctima, reversión de transacciones en virtud de las normas de protección al consumidor, conciliaciones, contratos de transacción para precaver litigios, trámites legales como tutelas, demandas, trámites administrativos u otros de naturaleza similar. Reportar, procesar, solicitar y divulgar a las Centrales de Información del Sector Financiero que administran la Asociación Bancaria y de entidades financieras de Colombia, o a cualquier otra entidad que maneje o administre bases de datos con los mismos fines, toda información referente a su comportamiento financiero dentro del contrato que surja entre las Partes.<br>• La creación de bases de datos de acuerdo con las características y perfiles de los Titulares de información personal.<br>• Recoger, transmitir, transferir, almacenar, procesar, custodiar los datos personales de los Titulares, como Responsable, encargándose directamente del tratamiento de los mismos o encargando a un tercero, para la prestación de cualquier servicio que pueda ser suministrado, conforme a las finalidades anteriormente mencionadas, pactando el mantenimiento de la confidencialidad y seguridad.<br>• Conservar la información personal del Titular mientras sea necesario para el cumplimiento de las obligaciones contractuales del Titular, para atender peticiones, quejas o reclamos en aras de garantizar los derechos consagrados en las normas aplicables.<br>La Empresa podrá compartir información del titular entre sus compañías afiliadas, subsidiarias y cesionarias cubiertas por este documento. Esto incluye cualquier empresa con PINK LIFE S.A.S. como parte de su nombre comercial y cualquier empresa en la que la Empresa tiene una participación directa o indirecta significativa. La Empresa podrá proporcionar la información del titular a personas o empresas que contrate para desarrollar o apoyar a la operación los canales, denominados proveedores de servicio y/o proveedores de hospedaje que están autorizados a utilizar la información del titular sólo cuando sea necesario para poder proveer los servicios a la Empresa. En virtud a este inciso, los proveedores de servicio están facultados para:<br>1. Ayudarnos con nuestras actividades de negocios, tales como el cumplimiento de sus peticiones, limpieza y verificación de las transacciones, entregar, administrar y mejorar los canales de la Empresa, por ejemplo, sitios, aplicaciones, productos, contenidos o servicios, gestionar y mejorar los datos del cliente, Proporcionar servicio al cliente, La detección de fraude o actividades ilegales Proporcionar servicio al cliente, Realización de la investigación del cliente y encuestas.<br>2. Ampliación a cerca de los contenidos de esta política, incluyendo consultas, quejas o disputas relacionadas con la recolección, uso, circulación y tratamiento en general de la información del titular, el mismo podrá ponerse en contacto con el departamento correspondiente enviando una reclamación a la dirección de correo electrónico: servicioalcliente@lilipink.com.co preferiblemente con confirmación de lectura PINK LIFE S.A.S es una sociedad colombiana domiciliada en la carrera 19 A # 196-23 unidad 301 de la ciudad de Bogotá.<br>LA EMPRESA también podrá:<br>• Acceder y consultar la información del Titular del dato que repose o esté contenida en bases de datos o archivos de cualquier Entidad Privada o Pública ya sea nacional, internacional o extranjera<br>• Los datos recolectados a través de puntos de seguridad, así como, los datos tomados de los documentos suministrados por el Titular al personal de seguridad y los obtenidos de las videograbaciones que se realizan dentro o fuera de las instalaciones de LA EMPRESA y todas sus tiendas, se utilizarán para fines de seguridad y vigilancia de las personas, los bienes e instalaciones de LA EMPRESA, y podrán ser utilizados como prueba en cualquier tipo de proceso judicial o interno."
+      }
+    },
+    "flex-layout.row#parrafo7": {
+      "children": [
+        "rich-text#parrafo7"
+      ]
+    },
+    "rich-text#parrafo7": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "IV. AUTORIZACIÓN PARA TRATAMIENTO DE DATOS SENSIBLES Y DE MENORES DE EDAD"
+      }
+    },
+    "flex-layout.row#parrafo8": {
+      "children": [
+        "rich-text#parrafo8"
+      ]
+    },
+    "rich-text#parrafo8": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "Cuando se trate de la recolección de datos sensibles la autorización debe ser explícita y previa a la recolección de dato o a más tardar, concomitante con ella.<br> Se debe informar al Titular expresamente que no está obligado a autorizar el tratamiento de dicha información, salvo deber legal o contractual, de lo cual se dejará registro. Para su transmisión y/o transferencia, lo mismo que para su almacenamiento, se utilizarán mecanismos de seguridad especial tales como cifrado de bases de datos, registro de control de accesos a estas, copias de seguridad alojadas en lugar físico diferente a donde están alojadas las bases de datos, conexiones VPN, etc. según el caso.<br> Para el caso de consentimiento de tratamiento de datos de niños, niñas y adolescentes, esta debe ser otorgada por personas que estén facultadas para representar al menor quien deberá garantizarles el derecho a ser escuchados y valorar su opinión del tratamiento teniendo en cuenta la madurez, autonomía y capacidad del menor para entender el asunto, se debe informar que es facultativo responder preguntas sobre datos de menores de edad. El tratamiento debe respetar el interés superior del menor y asegurar el respeto de sus derechos fundamentales.<br>Se debe informar de forma explícita y previa al Titular cuáles de los datos que serán objeto de tratamiento son sensibles y la finalidad del mismo. En virtud de la normatividad que cobija esta política la Empresa, no recolectará ni tratará de ninguna forma información de menores de edad. Si la Empresa detecta que ha recolectado información de un menor sin el consentimiento de su representante legítimo, la Empresa hará todos los esfuerzos razonables para suprimir de forma definitiva la información de los archivos y las bases de datos con que cuente al momento de realizar el hallazgo."
+      }
+    },
+    "flex-layout.row#parrafo9": {
+      "children": [
+        "rich-text#parrafo9"
+      ]
+    },
+    "rich-text#parrafo9": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "V. OBLIGACIONES"
+      }
+    },
+    "flex-layout.row#parrafo10": {
+      "children": [
+        "rich-text#parrafo10"
+      ]
+    },
+    "rich-text#parrafo10": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "1. DE LA EMPRESA COMO RESPONSABLE:"
+      }
+    },
+    "flex-layout.row#parrafo11": {
+      "children": [
+        "rich-text#parrafo11"
+      ]
+    },
+    "rich-text#parrafo11": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "a) Implementar las políticas y procedimientos de seguridad necesarios para asegurar la confidencialidad, integridad y disponibilidad de la información y bases de datos de cada titular relacionado con la organización, también asegurar la estabilidad, disponibilidad de la infraestructura tecnológica y la operación; observar los principios de veracidad, calidad, seguridad y confidencialidad en los términos establecidos en la esta política; conservar la información bajo las condiciones de seguridad necesarias para impedir su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento. Actualizar la información cuando sea necesario y, rectificar los datos personales cuando ello sea procedente.<br> b) Cuando se realiza el tratamiento a través de un E&S, La Empresa se obliga a: poner en conocimiento de ellos la presente Política, para advertir de la obligación que les asiste de operar el tratamiento de datos que se le encomiende de conformidad con la misma; suministrar al E&S del tratamiento, únicamente datos cuyo tratamiento esté previamente autorizado conforme a la ley; garantizar que la información que se suministre al E&S del tratamiento sea veraz, completa, exacta, actualizada, comprobable y comprensible; comunicar de forma oportuna al E&S del tratamiento, todas las novedades respecto de los datos que previamente le haya suministrado y adoptar las demás medidas necesarias para que la información suministrada a este se mantenga actualizada; informar de manera oportuna al E&S del tratamiento, las rectificaciones realizadas sobre los datos personales para que éste proceda a realizar los ajustes pertinentes; exigir al E&S del tratamiento, en todo momento, el respeto a las condiciones de seguridad y privacidad de la información del Titular.<br> c) LA EMPRESA, exigirá en todo tiempo a los operadores de información, E&S los siguientes deberes: Deber de garantizar en todo tiempo al titular de la información el pleno y efectivo ejercicio del derecho de hábeas data; deber de adoptar prácticas internas idóneas para garantizar el adecuado cumplimiento de la ley, en especial, para la atención de consultas y reclamos por parte de los Titulares; deber de solicitar la certificación a la fuente de la existencia de la autorización otorgada por el titular; deber de indicar, en el respectivo registro individual, que determinada información se encuentra en discusión por parte del titular o en trámite judicial. "
+      }
+    },
+    "flex-layout.row#parrafo12": {
+      "children": [
+        "rich-text#parrafo12"
+      ]
+    },
+    "rich-text#parrafo12": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "2. OBLIGACIONES DEL TITULAR:"
+      }
+    },
+    "flex-layout.row#parrafo13": {
+      "children": [
+        "rich-text#parrafo13"
+      ]
+    },
+    "rich-text#parrafo13": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "a) Solicitar y conservar, en las condiciones previstas en esta política, copia de la respectiva autorización otorgada por el Titular.<br>b) Informar de manera clara y suficiente al Titular sobre la finalidad de la recolección y los derechos que le asisten por virtud de la autorización otorgada.<br>c) Garantizar al Titular, en todo tiempo, el pleno y efectivo ejercicio del derecho de hábeas data, es decir, conocer, actualizar o rectificar sus datos personales.<br> d) Informar a solicitud del Titular sobre el uso dado a sus datos personales.<br> e) Tramitar las consultas y reclamos formulados en los términos señalados en la presente política.<br>f) Si el Titular cambia su información, o si ya no desea nuestros servicios podrá solicitar la actualización, corrección, desactivación, o supresión definitiva de su información, haciendo el cambio en la página de configuración de cuenta o poniéndose en contacto con la Empresa en el correo electrónico servicioalcliente@lilipink.com. En caso de contar con un crédito vigente en el que el Titular funja como deudor, se obliga a: mantener su información actualizada; así como se obliga hacerse responsable de los efectos que el incumplimiento de esta obligación cause en su contra, en contra de la Empresa y de terceros. La Empresa aclara que podrá rechazar la consecución de solicitudes que sean consideradas como irrazonablemente repetitivas, requieran un esfuerzo técnico desproporcionado o sean imposibles, comprometan la privacidad de los demás, sean poco prácticas, o para los que el acceso no está obligado por la ley; igualmente el Titular se encuentra facultado para indicarnos si no desea recibir comunicaciones de la Empresa, escribiendo al email ya citado. También, con cada correo electrónico comercial que reciba de la Empresa o cualquiera de sus unidades de negocio incluyendo sus relacionadas o cesionarias, se le dará la oportunidad de indicar si no desea recibir futuros correos electrónicos comerciales."
+      }
+    },
+    "flex-layout.row#parrafo14": {
+      "children": [
+        "rich-text#parrafo14"
+      ]
+    },
+    "rich-text#parrafo14": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "VI. ACEPTACIÓN Y ÁMBITO DE APLICACIÓN"
+      }
+    },
+    "flex-layout.row#parrafo15": {
+      "children": [
+        "rich-text#parrafo15"
+      ]
+    },
+    "rich-text#parrafo15": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "Esta política aplica para los efectos del tratamiento de datos e información del Titular efectuado en el territorio colombiano, si el Titular se encuentra fuera de Colombia, es importante que tenga en cuenta que la información que la Empresa recopilará, hará circular y tratará puede ser transferida y procesada en Colombia o en otros lugares. Mediante el uso de nuestros canales o proporcionándonos toda la información, el Titular da su consentimiento a la transferencia y el procesamiento de sus datos en Colombia o en otros lugares. Su consentimiento es voluntario. Esta transferencia y tratamiento de la información puede incluir la jurisdicción en la que las leyes de privacidad pueden no estar en el mismo nivel de protección que existe o lo más completos que los del país de residencia y / o es un ciudadano. Si el Titular no da su consentimiento, a continuación, la Empresa no estará en capacidad de facilitar sus servicios."
+      }
+    },
+    "flex-layout.row#parrafo16": {
+      "children": [
+        "rich-text#parrafo16"
+      ]
+    },
+    "rich-text#parrafo16": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "VII. CANALES, SITIOS Y FUENTES EN LÍNEA"
+      }
+    },
+    "flex-layout.row#parrafo17": {
+      "children": [
+        "rich-text#parrafo17"
+      ]
+    },
+    "rich-text#parrafo17": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "La Empresa en calidad de responsable del tratamiento de la información del Titular, y diversos terceros de que trata el Capítulo tercero del presente instrumento, en calidad de encargados pueden utilizar varios métodos que recopilan información sobre el Titular, información acerca de la tecnología que está utilizando, por ejemplo, tipo de navegador y sistema operativo, en el marco de nuestros servicios.<br>Estos métodos se pueden utilizar incluyen galletas, cookies de Flash, balizas web y otros dispositivos automatizados a la información recogida, recopilar información pasiva. Podrán recopilar pasivamente cierta información cuando el Titular utilice los canales como dispositivo y identificadores de en general, software y datos técnicos de hardware, protocolo de Internet, tipo de navegador, proveedor de servicios de Internet, páginas de referencia, sistema operativo, fecha, hora y datos de navegación. Podrá utilizar esta información para analizar tendencias, administrar el sitio, rastrear los movimientos de todo el sitio y recoger información demográfica sobre la base de usuarios en conjunto, así como la publicidad y según sea necesario para llevar a cabo el objeto del negocio de la Empresa, así mismo podrá vincular esta información recogida automáticamente a información individualizada de cada Titular.<br>1. Se le informa al Titular que la Empresa o su proveedor de servicio, podrán hacer uso de cookies que son pequeños archivos de texto que el sitio o canal en línea puede transferir al disco duro del usuario para mantener un registro de sus preferencias. Las cookies permiten adaptar y mejorar las visitas a los canales en línea. La Empresa podrá utilizar cookies para rastrear anónimamente intereses y recoger información agregada sobre el mismo o diversos canales. Por ejemplo, es posible llevar un registro de los lugares que el Titular ha visitado y realizar un seguimiento de sus y actividades, también podrán ser usados Gifs Web por la Empresa o su proveedor de servicio, también podrá emplear tecnologías de software que faciliten el manejo del contenido de los canales informando sobre sus calidades y efectos sobre el Titular. con el objeto de realizar seguimiento a los movimientos en línea que haga el Titular. dicho seguimiento podrá ser vinculado también a la información individualizada del Titular.<br>La Empresa podrá asociarse con una tercera red de publicidad o bien mostrar publicidad en los canales en línea o para administrar publicidad en otros sitios. El socio de la red de publicidad puede utilizar cookies u otras tecnologías para recopilar información sobre las actividades en los canales en línea para ofrecerle publicidad personalizada basada en sus intereses."
+      }
+    },
+    "flex-layout.row#parrafo18": {
+      "children": [
+        "rich-text#parrafo18"
+      ]
+    },
+    "rich-text#parrafo18": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "VIII. SEGURIDAD, RETENCIÓN Y SUPERVISIÓN DE LA INFORMACIÓN"
+      }
+    },
+    "flex-layout.row#parrafo19": {
+      "children": [
+        "rich-text#parrafo19"
+      ]
+    },
+    "rich-text#parrafo19": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "La Empresa hará uso de todos los mecanismos posibles comercialmente razonables para implementar las medidas apropiadas para proteger la información del Titular en procura de prevenir la divulgación no autorizada o accidental, el acceso, el uso indebido, la pérdida o alteración de la misma. Aunque nos esforzamos por proteger su información, no podemos asegurar o garantizar la seguridad absoluta de dicha información. Será compromiso y responsabilidad para la Empresa restringir las facultades en el uso y circulación de la información del Titular, de los encargados del tratamiento de la misma; así mismo, podrá la Empresa controlar el uso y circulación de la información del Titular, en los servicios y adquisición de productos para diversos fines, tales como la protección de derechos de la Empresa, la protección de los derechos de los demás, o investigar cualquier amenaza potencial a la red, canales y demás formas de contacto entre la Empresa y el Titular. El control puede dar lugar a la recogida, registro y análisis actividades o comunicaciones del Titular."
+      }
+    },
+    "flex-layout.row#parrafo20": {
+      "children": [
+        "rich-text#parrafo20"
+      ]
+    },
+    "rich-text#parrafo20": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "IX. MODIFICACIONES"
+      }
+    },
+    "flex-layout.row#parrafo21": {
+      "children": [
+        "rich-text#parrafo21"
+      ]
+    },
+    "rich-text#parrafo21": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "La Empresa se reserva el derecho de realizar cambios en esta política de privacidad en cualquier momento. Si llegare a ocurrir un cambio significativo en esta política, se le notificará al Titular a través de medio que pueda ser objeto de consulta posterior y, si es necesario, se le dará opciones adicionales con respecto a los cambios. Se le recomienda al Titular, sin embargo revisar la política de privacidad con alguna regularidad para asegurarse de que está enterado de cualquier cambio.<br>Sin perjuicio de lo anterior, en ningún caso la Empresa estará facultada para dar por aceptados dichos cambios ante el uso continuado de los servicios por parte del Titular."
+      }
+    },
+    "flex-layout.row#parrafo22": {
+      "children": [
+        "rich-text#parrafo22"
+      ]
+    },
+    "rich-text#parrafo22": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "X. DERECHOS DEL TITULAR"
+      }
+    },
+    "flex-layout.row#parrafo23": {
+      "children": [
+        "rich-text#parrafo23"
+      ]
+    },
+    "rich-text#parrafo23": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "Cada titular de información que, al utilizar nuestros servicios brinde información personal tiene derecho a:<br>1. Saber qué datos personales e información son recolectados, y cómo y por qué tratamos sus datos personales. Puede solicitarnos una copia de sus datos personales y, en algunos casos, que se le comunique la información. Si desea ejercer su derecho de acceso, póngase en contacto con nosotros utilizando los datos indicados en el inciso final de esta política, e indíquenos qué información solicita recibir. Nos reservamos el derecho de solicitar pruebas razonables de verificación de identidad antes de poder proporcionarle información alguna. Tenga en cuenta que es posible que no podamos proporcionarle toda la información que solicita, por ejemplo, si dicha información incluye datos personales de otra persona. En los casos en los que no podamos proporcionarle la información que nos ha pedido, nos esforzaremos en explicarle por qué.<br>2. Conocer, actualizar, acceder, rectificar sus datos personales, así como tiene el derecho a solicitar prueba de la autorización otorgada, revocarla, solicitar la supresión de sus datos y restringir del tratamiento de su información.<br>3. Revocar su consentimiento en cualquier momento si estamos tratando sus datos personales con su consentimiento.<br>4. Presentar una reclamación ante una autoridad de protección de datos sobre la forma que tiene la empresa, de recopilar y utilizar sus datos personales.<br>5. Permitir, una vez cada mes calendario, el acceso en forma gratuita a los datos personales por parte del Titular, si así lo requiere, o cuando existan modificaciones sustanciales de esta política.<br>6. Conocer, actualizar y rectificar los datos personales. Para el efecto es necesario establecer previamente la identificación de la persona para evitar que terceros no autorizado accedan a los datos del Titular del dato.<br>7. Informar sobre el uso que LA EMPRESA, ha dado a los datos personales del Titular.<br>8. Dar trámite a las consultas y reclamos siguiendo las pautas establecidas en la ley y en la presente política.<br>9. Acceder a la solicitud de revocatoria de la autorización y/o supresión del dato personal cuando la Superintendencia de Industria y Comercio haya determinado que en el tratamiento por parte de LA EMPRESA SUS SOCIOS, DIRECTIVOS, EMPLEADOS, CENTRALES DE RIESGO Y ALIADOS ESTRATEGICOS se ha incurrido en conductas contrarias a la ley 1581 de 2012 o a la Constitución.<br>10. El Titular también podrá revocar la autorización y solicitar la supresión del dato, cuando no exista un deber legal o contractual que le imponga el deber de permanecer en la base de datos o archivo del Responsable o Encargado.<br>Los derechos de los titulares, podrán ejercerse por las siguientes personas:<br>Por el Titular, quien deberá acreditar su identidad en forma suficiente por los distintos medios que le ponga a disposición LA EMPRESA Y SUS ALIADOS ESTRATÉGICOS.<br>i) Por sus causahabientes, quienes deberán acreditar tal calidad.<br>ii) Por el representante y/o apoderado del Titular, previa acreditación de la representación o apoderamiento.<br>iii) Los derechos de los niños, niñas o adolescentes se ejercerán por las personas que estén facultadas para representarlos."
+      }
+    },
+    "flex-layout.row#parrafo24": {
+      "children": [
+        "rich-text#parrafo24"
+      ]
+    },
+    "rich-text#parrafo24": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "XII. PROCEDIMEINTO PARA EL EJERCICIO DE LOS DERECHOS DERIVADOS DE ESTA POLÍTICA"
+      }
+    },
+    "flex-layout.row#parrafo25": {
+      "children": [
+        "rich-text#parrafo2"
+      ]
+    },
+    "rich-text#parrafo25": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "12px",
+        "text": "Para que el Titular de datos personales o terceros legitimados pueda ejercer sus derechos o realizar acciones referidas a datos personales, La Empresa dispone del siguiente canal de comunicación: servicioalcliente@lilipink.com y la dirección Carrera 19 A N° 196-23 de la ciudad de Bogotá D.C. En caso de tener la necesidad de hacer la solicitud en punto de venta físico, se le indica al Titular o al facultado para ejercer el derecho que podrá solicitar un formulario de PQRS con copia de su cédula para que este a su vez sea remitido al correo dispuesto para ello y sea contestado de fondo dentro del tiempo establecido por la ley."
+      }
     }
   }
-  

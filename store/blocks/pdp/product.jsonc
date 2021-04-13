@@ -114,6 +114,7 @@
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
+      "flex-layout.col#productos",
       "availability-subscriber",
       //"shipping-simulator",
       "share#default",
@@ -164,6 +165,53 @@
     },
     "children": ["add-to-cart-button"]
   },
+
+  //Guia de tallas y medidas
+
+  "flex-layout.col#productos": {
+    "children": [
+      "disclosure-layout-group#productos"
+    ]
+  },
+
+  "disclosure-layout-group#productos": {
+    "children": [
+      "disclosure-layout#first1"
+    ]
+  },
+
+  "disclosure-layout#first1": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#first", "disclosure-content#first"]
+  },
+  "disclosure-trigger#first": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#talla"]
+  },
+  "disclosure-content#first": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["image#guiadetallas"]
+  },
+  "image#guiadetallas": {
+    "props": {
+      "src": "assets/guiadetallas.jpg"
+
+    }
+  },
+  "rich-text#talla": {
+    "props": {
+      "text": "talla"
+    }
+  },
+
+  //Aqui terminan los cambios de guia de tallas y medidas
 
   "share#default": {
     "props": {
