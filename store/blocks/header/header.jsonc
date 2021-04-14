@@ -12,8 +12,7 @@
       "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop",
       "flex-layout.row#4-desktop",
-      "flex-layout.row#6-desktop",           
-      "flex-layout.row#lilipink-yoi"
+      "flex-layout.row#6-desktop"
       
     ]
   },
@@ -260,32 +259,6 @@
       "href": "/",
       "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
       "width": "70"
-    }
-  },
-  "flex-layout.row#lilipink-yoi": {
-    "children": [
-      "link#lilipink",
-      "link#yoi"
-    ]    ,
-    "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "center",      
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
-  }
-},
-  
-  "link#lilipink": {
-    "props": {
-      "href": "#",
-      "label": "Lilipink"
-    }
-  },
-  "link#yoi":{
-    "props": {
-      "href": "#",
-      "label": "yoi"
     }
   }
 }
