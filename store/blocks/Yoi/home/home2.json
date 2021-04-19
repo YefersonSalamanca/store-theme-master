@@ -9,7 +9,6 @@
       "flex-layout.col#home2": {
           "props":{"width":"100%"},
           "children":["header#yoi",
-            "rich-text#home-2",
             "list-context.image-list#demoYoi",
             "__fold__.experimentalLazyAssets",
             "flex-layout.row#bannerComplementoYoi",
