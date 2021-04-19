@@ -8,13 +8,13 @@
   "header-layout.desktop": {
     "children": [
       //"flex-layout.row#1-desktop",
-      //"flex-layout.row#2-desktop",      
-      "flex-layout.row#3-desktop",      
+      //"flex-layout.row#2-desktop",
+      "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop",
       "flex-layout.row#4-desktop",
       "flex-layout.row#lilipink-yoi",
       "flex-layout.row#6-desktop"
-      
+
     ]
   },
   "flex-layout.row#1-desktop": {
@@ -54,25 +54,25 @@
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center"
-      
+
     },
     "children": ["image#btnLiliPink", "image#btnYoi"]
   },
- 
-  
-  "image#btnLiliPink": {  
-    "props": {  
+
+
+  "image#btnLiliPink": {
+    "props": {
       "src": "assets/buttonLP1.jpg" ,
       "href": "#" ,
-      "width": "55%"     
+      "width": "55%"
     }
-  }, 
-  "image#btnYoi": {  
-    "props": {  
+  },
+  "image#btnYoi": {
+    "props": {
       "src": "assets/buttonYoi1.jpg" ,
       "href": "#" ,
-      "width": "55%" 
-    }  
+      "width": "55%"
+    }
   },
   "flex-layout.col#spacer": {
     "props": {
@@ -115,9 +115,9 @@
     "children": [
       "flex-layout.col#spacer",
       "flex-layout.col#logo1",
-      "rich-text#linkImperdibles",    
-      "flex-layout.col#logo2",  
-      "rich-text#linkPedidoWhatsapp",      
+      "rich-text#linkImperdibles",
+      "flex-layout.col#logo2",
+      "rich-text#linkPedidoWhatsapp",
       "flex-layout.col#spacer"
     ]
   },
@@ -129,13 +129,13 @@
     },
     "children": ["image#logo1"]
   },
- 
-  
-  "image#logo1": {  
-    "props": {  
+
+
+  "image#logo1": {
+    "props": {
       "blockClass": "Imagenetiqueta",
-      "src": "assets/label.png"  
-    }  
+      "src": "assets/label.png"
+    }
   },
   "flex-layout.col#logo2": {
     "props": {
@@ -145,13 +145,13 @@
     },
     "children": ["image#logo2"]
   },
- 
-  
-  "image#logo2": {  
-    "props": {  
+
+
+  "image#logo2": {
+    "props": {
       "blockClass": "Imagenetiqueta",
-      "src": "assets/logo-wh.png"  
-    }  
+      "src": "assets/logo-wh.png"
+    }
   },
   "rich-text#linkImperdibles": {
     "props": {
@@ -173,14 +173,14 @@
     },
     "children": ["image#logodesktop"]
   },
- 
-  
-  "image#logodesktop": {  
-    "props": {  
-      "src": "assets/logoLargoLP.png"  
-    }  
+
+
+  "image#logodesktop": {
+    "props": {
+      "src": "assets/logoLargoLP.png"
+    }
   },
-  
+
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
   },
@@ -290,3 +290,4 @@
   }
 
 }
+

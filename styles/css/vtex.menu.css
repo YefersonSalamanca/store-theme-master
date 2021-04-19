@@ -21,6 +21,9 @@
  font-weight: bold;
 }
 
+.styledLinkContent--estilobrallet{
+  font-weight: bold;
+ }
 
 .styledLinkContent--Tipo{
   font-weight: bold;
@@ -32,21 +35,21 @@
 .styledLinkContent--BeneficioBrasieres{
   font-weight: bold;
   color: red;
-  
+
 }
 .styledLinkContent--GENERA-INGRESOS{
   color: #e4147e;
 }
 .styledLinkContent--Links-de-interes{
- 
+
   color: white;
 }
 .styledLinkContent--Quienesomos{
-  
+
   color: white;
 }
 .styledLinkContent--Preguntasfrecuentes{
-  
+
   color: white;
 }
 .styledLinkContent--Promo{
@@ -54,7 +57,7 @@
   color: white;
 }
 .styledLinkContent--Guia{
- 
+
   color: white;
 }
 .styledLinkContent--politica{
@@ -62,7 +65,7 @@
   color: white;
 }
 .styledLinkContent--condiciones{
-  
+
   color: white;
 }
 .styledLinkContent--Devoluciones{
@@ -70,7 +73,7 @@
   color: white;
 }
 .styledLinkContent--Privacidad{
- 
+
   color: white;
 }
 .styledLinkContent--Trabaja{
@@ -86,25 +89,24 @@
   color: white;
 }
 .styledLinkContent--Linea{
-  
+
   color: white;
 }
 .styledLinkContent--Telefono{
-  
+
   color: white;
 }
 .styledLinkContent--3105756438{
-  
+
   color: white;
 }
 
-
 .styledLinkContent:hover{
-  font-weight: bolder;  
+  font-weight: bolder;
   font-family: sans-serif;
-   
-
 }
+
 .menuItem .menuItem--GENERA-INGRESOS {
   display:none;
 }
+
