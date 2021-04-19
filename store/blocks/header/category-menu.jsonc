@@ -1866,8 +1866,48 @@
     ]
   },
   //inicio submenu kids&teen girl
+  "flex-layout.col#category-kids-girl-arriba": {
+    "children": [
+      "rich-text#titulo-arriba"
+    ]
+  },
+  "rich-text#titulo-arriba": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "PARTE SUPERIOR",
+      "textColor": "#000",
+      "blockClass": "tituloMenu"
+    }
+  },
+  "flex-layout.col#category-kids-girl-abajo": {
+    "children": [
+      "rich-text#titulo-abajo"
+    ]
+  },
+  "rich-text#titulo-abajo": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "PARTE INFERIOR",
+      "textColor": "#000",
+      "blockClass": "tituloMenu"
+    }
+  },
   "flex-layout.row#category-kids-girl": {
     "children": [
+      "flex-layout.col#partes-menu"
+    ]
+  },
+  "flex-layout.col#partes-menu":{
+    "children":[
+      "rich-text#titulo-arriba",
+      "flex-layout.row#menu-kids",
+      "rich-text#titulo-abajo"
+    ]
+  },
+  "flex-layout.row#menu-kids":{
+    "children":[
       "flex-layout.col#category-kids-girl-1",
       "flex-layout.col#category-kids-girl-2",
       "flex-layout.col#category-kids-girl-3",
