@@ -23,12 +23,12 @@
             "footer#Yoi"
         ]
 
-      },    
+      },
 
   "rich-text#home-2": {
     "props": {
-      "text": "Este es el Home Yoi"
-    
+      "text": ""
+
     }
   },
   "list-context.image-list#demoYoi": {
@@ -37,28 +37,28 @@
       "height": 720,
       "images": [
         {
-          "src": "assets/yoi/BannersMain/yb1.jpg" , 
+          "src": "assets/yoi/BannersMain/yb1.jpg" ,
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         },
         {
-          "src": "assets/yoi/BannersMain/yb2.jpg" , 
+          "src": "assets/yoi/BannersMain/yb2.jpg" ,
           "mobileImage": "https://w.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         },
         {
-          "src": "assets/yoi/BannersMain/yb3.jpg" , 
+          "src": "assets/yoi/BannersMain/yb3.jpg" ,
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         },
         {
-          "src": "assets/yoi/BannersMain/yb4.jpg" , 
+          "src": "assets/yoi/BannersMain/yb4.jpg" ,
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         }
         ,
         {
-          "src": "assets/yoi/BannersMain/yb5.jpg" , 
+          "src": "assets/yoi/BannersMain/yb5.jpg" ,
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         },
         {
-          "src": "assets/yoi/BannersMain/yb6.jpg" , 
+          "src": "assets/yoi/BannersMain/yb6.jpg" ,
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         }
       ]
@@ -82,7 +82,7 @@
       "isFullModeStyle": true,
        "imageUrl": "assets/BannerDeal.jpg",
        "blockClass": "info-card-homeHorizontal"
-      
+
     }
   },
   "rich-text#shelf-titleYoi": {
@@ -149,12 +149,12 @@
     },
     "children": ["image#bannerSlim"]
   },
- 
-  
-  "image#bannerSlimYoi": {  
-    "props": {  
-      "src": "assets/BannerDeal.jpg"  
-    }  
+
+
+  "image#bannerSlimYoi": {
+    "props": {
+      "src": "assets/BannerDeal.jpg"
+    }
   },
   "flex-layout.row#setInfocartYoi": {
     "props": {
@@ -178,7 +178,7 @@
     "props": {
       "id": "info-card-ic2",
       "isFullModeStyle": true,
-       "imageUrl": "assets/infoHome2.jpg",  
+       "imageUrl": "assets/infoHome2.jpg",
        "callToActionText": "COMPRA AQUÍ",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-ic2",
@@ -204,12 +204,12 @@
     },
     "children": ["image#bannerSlim2Yoi"]
   },
- 
-  
-  "image#bannerSlim2Yoi": {  
-    "props": {  
-      "src": "assets/BannerInferior.jpg"  
-    }  
+
+
+  "image#bannerSlim2Yoi": {
+    "props": {
+      "src": "assets/BannerInferior.jpg"
+    }
   },
 
   "social-networks": {

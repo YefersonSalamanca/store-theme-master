@@ -139,8 +139,108 @@
           "tagTitle": "ACCESORIOS",
           "text": "ACCESORIOS"
         }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#category-accesorios"
+      ]
+    },
+    "vtex.menu@2.x:submenu#category-accesorios": {
+      "props": {
+        "width": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-accesorios"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-accesorios": {
+      "props": {
+        "orientation": "vertical"
+      },
+    "children": [
+    "menu-item#category-cuidado-gafas",
+    "menu-item#category-bolsos-y-morrales",
+    "menu-item#category-moda",
+    "menu-item#category-relojeria",
+    "menu-item#category-bebe"
+      ]
+    },
+    "menu-item#category-cuidado-gafas": {
+      "props": {
+        "id": "menu-item-category-cuidado-gafas",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/gafas/",
+          "noFollow": false,
+          "tagTitle": "gafas",
+          "text": "GAFAS"
+        }
       }
     },
+    "menu-item#category-bolsos-y-morrales": {
+      "props": {
+        "id": "menu-item-category-bolsos-y-morrales",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/bolsosymorrales/",
+          "noFollow": false,
+          "tagTitle": "bolsosymorrales",
+          "text": "BOLSOS Y MORRALES  "
+        }
+      }
+    },
+    "menu-item#category-moda": {
+      "props": {
+        "id": "menu-item-category-moda",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/moda/",
+          "noFollow": false,
+          "tagTitle": "moda",
+          "text": "MODA "
+        }
+      }
+    },
+    "menu-item#category-relojeria": {
+      "props": {
+        "id": "menu-item-category-relojeria",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/relojeria/",
+          "noFollow": false,
+          "tagTitle": "relojeria",
+          "text": "RELOJERÍA "
+        }
+      }
+    },
+    "menu-item#category-bebe": {
+      "props": {
+        "id": "menu-item-category-bebe",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/bebe/",
+          "noFollow": false,
+          "tagTitle": "bebe",
+          "text": "BEBÉ "
+        }
+      }
+    },
+
+
     "menu-item#category-papeleria": {
       "props": {
         "id": "menu-item-category-papeleria",
@@ -169,8 +269,93 @@
           "tagTitle": "DEPORTE",
           "text": "DEPORTE"
         }
-      }
-    },
+      },
+
+      "blocks": [
+        "vtex.menu@2.x:submenu#category-deporte"
+      ]
+      },
+      "vtex.menu@2.x:submenu#category-deporte": {
+        "props": {
+          "width": "auto"
+        },
+        "children": [
+          "vtex.menu@2.x:menu#category-deporte"
+        ]
+      },
+      "vtex.menu@2.x:menu#category-deporte": {
+        "props": {
+          "orientation": "vertical"
+        },
+      "children": [
+        "menu-item#category-gym",
+        "menu-item#category-yoga",
+        "menu-item#category-natacion",
+        "menu-item#category-Ciclismo"
+        ]
+      },
+      "menu-item#category-gym": {
+        "props": {
+          "id": "menu-item-category-gym",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hogar/gym/",
+            "noFollow": false,
+            "tagTitle": "gym",
+            "text": "GYM"
+          }
+        }
+      },
+      "menu-item#category-yoga": {
+        "props": {
+          "id": "menu-item-category-yoga",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hogar/yoga/",
+            "noFollow": false,
+            "tagTitle": "yoga",
+            "text": "YOGA"
+          }
+        }
+      },
+      "menu-item#category-natacion": {
+        "props": {
+          "id": "menu-item-category-natacion",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hogar/natacion/",
+            "noFollow": false,
+            "tagTitle": "natacion",
+            "text": "NATACIÓN"
+          }
+        }
+      },
+      "menu-item#category-Ciclismo": {
+        "props": {
+          "id": "menu-item-category-Ciclismo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hogar/Ciclismo/",
+            "noFollow": false,
+            "tagTitle": "Ciclismo",
+            "text": "CICLISMO"
+          }
+        }
+      },
+
+
     "menu-item#category-mascotas": {
       "props": {
         "id": "menu-item-category-mascotas",
@@ -201,8 +386,8 @@
         }
       }
     },
-    
-  
+
+
     "menu-item#category-juguetes": {
       "props": {
         "id": "menu-item-custom-sale",
@@ -316,4 +501,3 @@
       }
     }
   }
-  

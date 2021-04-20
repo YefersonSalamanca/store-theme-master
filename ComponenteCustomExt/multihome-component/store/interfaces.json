@@ -1,0 +1,7 @@
+{
+    "multihome": {
+        "component": "Multihome",
+        "composition": "children",
+        "render": "client"
+    }
+}
