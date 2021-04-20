@@ -19,6 +19,7 @@
       "menu-item#yoi"
     ]
   },
+  //menu brasieres
   "menu-item#category-brasieres": {
     "props": {
       "blockClass": "",
@@ -28,7 +29,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/brasieres/",
+        "href": "/brasieres",
         "noFollow": false,
         "tagTitle": "BRASIERES",
         "text": "BRASIERES"
@@ -63,28 +64,28 @@
   "flex-layout.col#category-brasieres-1": {
     
     "children": [
-      "menu-item#category-brasieres-Buscar",
+      "rich-text#category-brasieres-Buscar",
       "menu-item#category-brasieres-Ver_todo",
       "menu-item#category-brasieres-Lo_mas_Vendido",
-      "menu-item#category-brasieres-nuevosbrasieresybralettes",
+      "menu-item#category-brasieres-nuevos",
       "menu-item#category-brasieres-Ofertas"
       
     ]
   },
   "flex-layout.col#category-brasieres-2": {
     "children": [
-      "menu-item#category-brasieres-Tipo",
-      "menu-item#category-brasieres-PushUp",
-      "menu-item#category-brasieres-Bralette",
-      "menu-item#category-brasieres-SinForro",
-      "menu-item#category-brasieres-CoberturaTotal",
-      "menu-item#category-brasieres-MediaCopa",
-      "menu-item#category-brasieres-BrasieresParaCamisa",
-      "menu-item#category-brasieres-SinAro",
-      "menu-item#category-brasieres-Bustier",
-      "menu-item#category-brasieres-Strapless" ,
-      "menu-item#category-brasieres-Bralettes-y-brasieres-de-casa",
-      "menu-item#category-brasieres-deports",
+      "rich-text#category-brasieres-Tipo",
+      "menu-item#category-brasieres-bralette",
+      "menu-item#category-brasieres-con-copa",
+      "menu-item#category-brasieres-bustier",
+      "menu-item#category-brasieres-deportivo",
+      "menu-item#category-brasieres-materno",
+      "menu-item#category-brasieres-media-copa",
+      "menu-item#category-brasieres-racerback",
+      "menu-item#category-brasieres-secret",
+      "menu-item#category-brasieres-strapless" ,
+      "menu-item#category-brasieres-surtido",
+      "menu-item#category-brasieres-triangular",
       "menu-item#category-brasieres-sin-varilla",
       "menu-item#category-brasieres-conjuntos"
 
@@ -92,19 +93,19 @@
   },
   "flex-layout.col#category-brasieres-3": {
     "children": [
-      "menu-item#category-brasieres-Beneficio",
+      "rich-text#category-brasieres-Beneficio",
       "menu-item#category-brasieres-PushUp_realce",
       "menu-item#category-brasieres-reduce",
       "menu-item#category-brasieres-facilitadores-postura",
       "menu-item#category-brasieres-Post-Quirúrgicos",
       "menu-item#category-brasieres-Maternidad-y-Lactancia",
       "menu-item#category-brasieres-Mastectomía",
-      "menu-item#category-brasieres-Tipos-Copa",
+      "rich-text#category-brasieres-Tipos-Copa",
       "menu-item#category-brasieres-Completa",
       "menu-item#category-brasieres-Tres-Cuartos",
       "menu-item#category-brasieres-Media",
       "menu-item#category-brasieres-Triangular",
-      "menu-item#category-brasieres-Tipos-Realce",
+      "rich-text#category-brasieres-Tipos-Realce",
       "menu-item#category-brasieres-Natural",
       "menu-item#category-brasieres-Bajo",
       "menu-item#category-brasieres-Medio",
@@ -114,16 +115,16 @@
   },
   "flex-layout.col#category-brasieres-4": {
     "children": [
-      "menu-item#category-brasieres-Compra_mas_y_ahorra",
+      "rich-text#category-brasieres-Compra_mas_y_ahorra",
       "menu-item#category-brasieres-Paquete-x-2",
       "menu-item#category-brasieres-Paquete-x-3",
       "menu-item#category-brasieres-Paquete-x-4",
-      "menu-item#category-brasieres-Copa ",
+      "rich-text#category-brasieres-Copa ",
       "menu-item#category-brasieres-Copa-A",
       "menu-item#category-brasieres-Copa-B",
       "menu-item#category-brasieres-Copa-C",
       "menu-item#category-brasieres-Copa-D",
-      "menu-item#category-brasieres-Beneficios",
+      "rich-text#category-brasieres-Beneficios",
       "menu-item#category-brasieres-Sin-Costuras",
       "menu-item#category-brasieres-Corte-Laser-Termofusionado"
 
@@ -145,24 +146,15 @@
       "orientation": "vertical"
     }
   },
-  "menu-item#category-brasieres-Buscar": {
+  "rich-text#category-brasieres-Buscar": {
     "props": {
-      "blockClass": "Buscar",
-      "id": "menu-item-category-brasieres-Buscar",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
-        "tagTitle": "Buscar",
-        "text": "Buscar" ,
-        "fullWidt":false          
-       
-
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Buscar",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
   "menu-item#category-brasieres-Ver_todo": {
     "props": {
@@ -173,7 +165,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/brasieres",
+        "href": "/brasieres",
          "noFollow": false,
         "tagTitle": "Ver_todo",
         "text": "Ver Todos"
@@ -191,8 +183,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-
-        "href": "/lilipink/brasieres?O=OrderByTopSaleDESC",
+        "href": "/brasieres?O=OrderByTopSaleDESC",
            "noFollow": false,
         "tagTitle": "Lo_mas_Vendido",
         "text": "Los Más Vendidos"
@@ -201,7 +192,7 @@
     }
   },
 
-  "menu-item#category-brasieres-nuevosbrasieresybralettes": {
+  "menu-item#category-brasieres-nuevos": {
     "props": {
       "blockClass": "nuevosbrasieresybralettes",
       "id": "menu-item-category-brasieres-nuevosbrasieresybralettes",
@@ -210,9 +201,9 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/brasieres?O=OrderByReleaseDateDESC",
+        "href": "/brasieres?O=OrderByReleaseDateDESC",
         "noFollow": false,
-        "tagTitle": "Nuevos Brasieres y Bralettes",
+        "tagTitle": "Nuevos",
         "text": "Nuevos"
 
       }
@@ -228,45 +219,39 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/brasieres?O=OrderByBestDiscountDESC",
+        "href": "/brasieres?O=OrderByBestDiscountDESC",
           "noFollow": false,
         "tagTitle": "Ofertas",
-        "text": "Mejor Descuento"
+        "text": "Descuentos"
 
       }
     }
   },
-  "menu-item#category-brasieres-Tipo": {
+
+  "rich-text#category-brasieres-Tipo": {
     "props": {
-      "blockClass": "Tipo",
-      "id": "menu-item-category-brasieres-Tipo",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Estilos",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
+  },
+
+  
+  "menu-item#category-brasieres-bralette": {
+    "props": {
+      "blockClass": "brasieres-bralette",
+      "id": "menu-item-category-brasieres-bralette",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/brasieres/bralette",
         "noFollow": false,
-        "tagTitle": "Tipo",
-        "text": "Estilos"
-
-      }
-    }
-  },
-  
-  
-  "menu-item#category-brasieres-PushUp": {
-    "props": {
-      "blockClass": "brasieres-PushUp",
-      "id": "menu-item-category-brasieres-PushUp",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lilipink/brasieres/push-up",
-        "noFollow": false,
-        "tagTitle": "PushUp",
+        "tagTitle": "Bralette",
         "text": "Bralette"
       }
     }
@@ -274,126 +259,126 @@
  
   
 
-  "menu-item#category-brasieres-Bralette": {
+  "menu-item#category-brasieres-con-copa": {
     "props": {
       
-      "id": "menu-item-category-brasieres-Bralette",
+      "id": "menu-item-category-brasieres-con-copa",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/brasieres/bralettes-y-brasieres-de-casa",
+        "href": "#",
         "noFollow": false,
-        "tagTitle": "Bralette",
+        "tagTitle": "Con Copa",
         "text": "Con Copa"
         
       }
     }
   },
-  "menu-item#category-brasieres-SinForro": {
+  "menu-item#category-brasieres-bustier": {
     "props": {
-      "id": "menu-item-category-brsieres-SinForro",
+      "id": "menu-item-category-brsieres-bustier",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/brasieres/sin-forro",
+        "href": "/brasieres/bustier",
         "noFollow": false,
-        "tagTitle": "SinForro",
+        "tagTitle": "Bustier",
         "text": "Bustier"
 
       }
     }
   },
-  "menu-item#category-brasieres-CoberturaTotal": {
+  "menu-item#category-brasieres-deportivo": {
     "props": {
-      "id": "menu-item-category-brasieres-CoberturaTotal",
+      "id": "menu-item-category-brasieres-deportivo",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/brasieres/cobertura-total",
+        "href": "/brasieres/deportivo",
         "noFollow": false,
-        "tagTitle": "CoberturaTotal",
+        "tagTitle": "Deportivo",
         "text": "Deportivo"
 
       }
     }
   },
-  "menu-item#category-brasieres-MediaCopa": {
+  "menu-item#category-brasieres-materno": {
     "props": {
-      "id": "menu-item-category-brasieres-MediaCopa",
+      "id": "menu-item-category-brasieres-materno",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/brasieres/media-copa",
+        "href": "/brasieres/materno",
         "noFollow": false,
-        "tagTitle": "MediaCopa",
+        "tagTitle": "Materno",
         "text": "Materno"
 
       }
     }
   },
-  "menu-item#category-brasieres-BrasieresParaCamisa": {
+  "menu-item#category-brasieres-media-copa": {
     "props": {
-      "id": "menu-item-category-brasieres-BrasieresParaCamisa",
+      "id": "menu-item-category-brasieres-media-copa",
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "itemProps": {
+      "itemProps": { 
       "type": "internal",
-      "href": "/lilipink/brasieres/brasieres-para-camiseta",
+      "href": "#",
        "noFollow": false,
-       "tagTitle": "BrasieresParaCamisa",
+       "tagTitle": "Media Copa",
        "text": "Media Copa"
       }
     }
   },
   
-  "menu-item#category-brasieres-SinAro": {
+  "menu-item#category-brasieres-racerback": {
     "props": {
-      "id": "menu-item-category-brasieres-SinAro",
+      "id": "menu-item-category-brasieres-racerback",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
        "type": "internal",
-        "href": "/lilipink/brasieres/sin-aro",
+        "href": "#",
         "noFollow": false,
-        "tagTitle": "SinAro",
+        "tagTitle": "Racerback",
         "text": "Racerback"
       }
     }
   },
-  "menu-item#category-brasieres-Bustier": {
+  "menu-item#category-brasieres-secret": {
     "props": {
-      "id": "menu-item-category-brasieres-Bustier",
+      "id": "menu-item-category-brasieres-secret",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
       "type": "internal",
-      "href": "/lilipink/brasieres/bustier",
+      "href": "/brasieres/secret",
       "noFollow": false,
-      "tagTitle": "Bustier",
+      "tagTitle": "Secret",
       "text": "Secret"
       }
     }
   },
-  "menu-item#category-brasieres-Strapless": {
+  "menu-item#category-brasieres-strapless": {
     "props": {
-      "id": "menu-item-category-brasieres-Strapless",
+      "id": "menu-item-category-brasieres-strapless",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/brasieres/strapless",
+        "href": "/brasieres/strapless",
         "noFollow": false,
          "tagTitle": "Strapless",
         "text": "Strapless"
@@ -402,17 +387,17 @@
     }
   },
   
-  "menu-item#category-brasieres-Bralettes-y-brasieres-de-casa": {
+  "menu-item#category-brasieres-surtido": {
     "props": {
-      "id": "menu-item-category-brasieres-brasieres-de-casa",
+      "id": "menu-item-category-brasieres-surtido",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/brasieres/bralettes-y-brasieres-de-casa",
+        "href": "/brasieres/brasieres-surtido",
         "noFollow": false,
-        "tagTitle": "Bralettes y brasieres de casa",
+        "tagTitle": "Surtido",
         "text": "Surtido"
 
       }
@@ -420,17 +405,17 @@
   },
  
 
-  "menu-item#category-brasieres-deports": {
+  "menu-item#category-brasieres-triangular": {
     "props": {
-      "id": "menu-item-category-brasieres-deports",
+      "id": "menu-item-category-brasieres-triangular",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/brasieres/brasieres-deportivos",
+        "href": "#",
         "noFollow": false,
-        "tagTitle": "deports",
+        "tagTitle": "Triangular",
         "text": "Triangular"
       }
     }
@@ -443,9 +428,9 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/brasieres/brasieres-deportivos",
+        "href": "/brasieres/sin-varilla",
         "noFollow": false,
-        "tagTitle": "sinvarilla",
+        "tagTitle": "Sin varilla",
         "text": "Sin Varilla"
       }
     }
@@ -458,7 +443,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/brasieres/brasieres-deportivos",
+        "href": "/brasieres/conjuntos",
         "noFollow": false,
         "tagTitle": "conjuntos",
         "text": "Conjuntos"
@@ -483,40 +468,18 @@
     }
   }, 
 
-  "menu-item#category-brasieres-Beneficio": {
+  "rich-text#category-brasieres-Beneficio": {
     "props": {
-      "blockClass": "BeneficioBrasieres",
-      "id": "menu-item-category-brasieres-Beneficio",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Beneficios",
-        "text": "Material"
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Material",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
+  },
 
-      }
-    }
-  }, 
-  "menu-item#category-brasieres-Compra_mas_y_ahorra": {
-    "props": {
-      "blockClass": "CompramasBrasieres",
-      "id": "menu-item-category-brasieres-Compra_mas_y_ahorra",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
-        "tagTitle": "Compra_mas_y_ahorra",
-        "text": "Compra más y Ahorra"
-
-      }
-    }
-  }, 
+  
   "menu-item#category-brasieres-PushUp_realce": {
     "props": {
       "id": "menu-item-category-brasieres-PushUp_realce",
@@ -525,9 +488,9 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/brasieres/push-up-realce?initialMap=c,c&initialQuery=lilipink/brasieres&map=category-1,category-2,beneficio",
+        "href": "#",
         "noFollow": false,
-        "tagTitle": "Realce",
+        "tagTitle": "Algodón",
         "text": "Algodón"
 
       }
@@ -612,21 +575,18 @@
       }
     }
   },
-  "menu-item#category-brasieres-Tipos-Copa": {
+
+  "rich-text#category-brasieres-Tipos-Copa": {
     "props": {
-      "id": "menu-item-category-Tipos-Copa",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
-        "tagTitle": "Tiposcopa",
-        "text": "Tipos Copa"
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Tipos de Copa",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+
   "menu-item#category-brasieres-Completa": {
     "props": {
       "id": "menu-item-category-Completa",
@@ -687,21 +647,18 @@
       }
     }
   },
-  "menu-item#category-brasieres-Tipos-Realce": {
+
+  "rich-text#category-brasieres-Tipos-Realce": {
     "props": {
-      "id": "menu-item-category-Tipos-Realce",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
-        "tagTitle": "TiposRealce",
-        "text": "Tipos Realce"
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Tipos de Realce",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+
   "menu-item#category-brasieres-Natural": {
     "props": {
       "id": "menu-item-category-Natural",
@@ -762,7 +719,16 @@
       }
     }
   },
- 
+  "rich-text#category-brasieres-Compra_mas_y_ahorra": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Compra Más y Ahorra",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
+  },
   "menu-item#category-brasieres-Paquete-x-2": {
     "props": {
       "id": "menu-item-category-Paquete-x-2",
@@ -809,21 +775,17 @@
     }
   },
 
-  "menu-item#category-brasieres-Copa ": {
+  "rich-text#category-brasieres-Copa ": {
     "props": {
-      "id": "menu-item-category-brasieres-Copa ",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Copa ",
-        "text": "Copa "
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Copa",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+
   "menu-item#category-brasieres-Copa-A": {
     "props": {
       "id": "menu-item-category-brasieres-Copa-A",
@@ -886,21 +848,18 @@
       }
     }
   },
-  "menu-item#category-brasieres-Beneficios": {
+
+  "rich-text#category-brasieres-Beneficios": {
     "props": {
-      "id": "menu-item-category-brasieres-Beneficios",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Beneficios",
-        "text": "Beneficios"
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Beneficios",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+
   "menu-item#category-brasieres-Sin-Costuras": {
     "props": {
       "id": "menu-item-category-brasieres-Sin-Costuras",
@@ -962,7 +921,7 @@
     "flex-layout.row#category-tops"      
   ]
 },
-"flex-layout.row#category-tops2": {
+/*"flex-layout.row#category-tops2": {
   "children": [
     
 
@@ -977,7 +936,7 @@
 
 "flex-layout.col#category-tops-11": {
   "children": [
-    "menu-item#category-tops-Buscar",
+    "rich-text#category-tops-Buscar",
     "menu-item#category-tops-Ver_todo",
     "menu-item#category-tops-Lo_mas_Vendido",
     "menu-item#category-tops-nuevosbrasieresybralettes",
@@ -987,7 +946,7 @@
 },
 "flex-layout.col#category-tops-22": {
   "children": [
-    "menu-item#category-tops-tipo",
+    "rich-text#category-tops-tipo",
     "menu-item#category-tops-fashiontops",
     "menu-item#category-tops-Cargadera-Ancha",
     "menu-item#category-tops-Cargadera-Delgada",
@@ -1011,7 +970,7 @@
 },
 "flex-layout.col#category-tops-44": {
   "children": [
-    "menu-item#category-tops-Compra_mas_y_ahorra",
+    "rich-text#category-tops-Compra_mas_y_ahorra",
     "menu-item#category-tops-Paquete-x-4",
     "menu-item#category-tops-Paquete-x-2",
     "menu-item#category-tops-Paquete-x-3"
@@ -1028,21 +987,19 @@
     "orientation": "vertical"
   }
 },
-"menu-item#category-tops-Buscar1": {
+
+
+"rich-text#category-tops-Buscar": {
   "props": {
-    "id": "menu-item-category-tops-Buscar",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Buscar",
-      "text": "Buscar"
-    }
-  }
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "Buscar",
+    "textColor": "black",
+    "font": "10px",
+    "blockClass": "subtitulos"
+   }
 },
+
 "menu-item#category-tops-Ver_todo1": {
   "props": {
     "id": "menu-item-category-tops-Ver_todo",
@@ -1105,21 +1062,18 @@
     }
   }
 },
-"menu-item#category-tops-tipo1": {
+
+"rich-text#category-tops-tipo": {
   "props": {
-    "id": "menu-item-category-tops-tipos",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Tipos",
-      "text": "Estilos"
-    }
-  }
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "Estilos",
+    "textColor": "black",
+    "font": "10px",
+    "blockClass": "subtitulos"
+   }
 },
+
 
 "menu-item#category-tops-fashiontops1": {
   "props": {
@@ -1137,37 +1091,29 @@
   }
 },
 
-"menu-item#category-tops-beneficios1": {
+"rich-text#category-tops-beneficios": {
   "props": {
-    "id": "menu-item-category-tops-beneficios",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Beneficios",
-      "text": "Beneficios"
-    }
-  }
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "Beneficios",
+    "textColor": "black",
+    "font": "10px",
+    "blockClass": "subtitulos"
+   }
 },
 
-"menu-item#category-tops-Compra_mas_y_ahorra1": {
+"rich-text#category-tops-Compra_mas_y_ahorra": {
   "props": {
-    "id": "menu-item-category-tops-Compra_mas_y_ahorra",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Compra mas y ahorra",
-      "text": "Compra mas y ahorra"
-    }
-  }
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "Compra Más y Ahorra",
+    "textColor": "black",
+    "font": "10px",
+    "blockClass": "subtitulos"
+   }
 },
+
+
 "menu-item#category-tops-Paquete-x-2": {
   "props": {
     "id": "menu-item-category-tops-Paquete-x-2",
@@ -1212,7 +1158,7 @@
       "text": "Paquete x 4"
     }
   }
-},
+},*/
 
   "menu-item#category-panties": {
     "props": {
@@ -1256,7 +1202,7 @@
 },
 "flex-layout.col#category-panties-1": {
   "children": [
-    "menu-item#category-panties-Buscar",
+    "rich-text#category-panties-Buscar",
     "menu-item#category-panties-Ver_todo",
     "menu-item#category-panties-Lo_mas_Vendido",
     "menu-item#category-panties-Nuevos-Panties",
@@ -1266,20 +1212,20 @@
 },
 "flex-layout.col#category-panties-2": {
   "children": [
-    "menu-item#category-panties-tipo",
-    "menu-item#category-panties-Colaless-y-V-strings",
-    "menu-item#category-panties-Panti-cheekies-y-cheekinis",
-    "menu-item#category-panties-Pantis-estilo-bikini-y-clásicas",
-    "menu-item#category-panties-Panti-estilo-hiphugger",
-    "menu-item#category-panties-Culotes-estilo-boyshort",
-    "menu-item#category-panties-Pantis-brasileras",
-    "menu-item#category-panties-Cintura-alta-y-cavado" 
+    "rich-text#category-panties-tipo",
+    "menu-item#category-panties-bikini",
+    "menu-item#category-panties-boxer",
+    "menu-item#category-panties-brasilera",
+    "menu-item#category-panties-clasico",
+    "menu-item#category-panties-culotte",
+    "menu-item#category-panties-hipster",
+    "menu-item#category-panties-surtido" 
 
   ]
 },
 "flex-layout.col#category-panties-3": {
   "children": [
-    "menu-item#category-panties-beneficios",
+    "rich-text#category-panties-beneficios",
     "menu-item#category-panties-Invisibles",
     "menu-item#category-panties-Reducción-y-Control",
     "menu-item#category-panties-Levanta-Colas",
@@ -1291,13 +1237,13 @@
 },
 "flex-layout.col#category-panties-4": {
   "children": [
-    "menu-item#category-panties-Compra_mas_y_ahorra",
+    "rich-text#category-panties-Compra_mas_y_ahorra",
     "menu-item#category-panties-Individual",
     "menu-item#category-panties-Paquete-x-2",
     "menu-item#category-panties-Paquete-x-3",
     "menu-item#category-panties-Paquete-x-4",
     "menu-item#category-panties-Semanario",
-    "menu-item#category-panties-Beneficios",
+    "rich-text#category-panties-Beneficios",
     "menu-item#category-panties-Sin-Costuras",
     "menu-item#category-panties-Corte-Laser-Termofusionado",
     "menu-item#category-panties-Invisible",
@@ -1314,20 +1260,16 @@
     "orientation": "vertical"
   }
 },
-"menu-item#category-panties-Buscar": {
+
+"rich-text#category-panties-Buscar": {
   "props": {
-    "id": "menu-item-category-panties-Buscar",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Buscar",
-      "text": "Buscar"
-    }
-  }
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "Buscar",
+    "textColor": "black",
+    "font": "10px",
+    "blockClass": "subtitulos"
+   }
 },
 "menu-item#category-panties-Ver_todo": {
   "props": {
@@ -1337,7 +1279,7 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/panties",
+      "href": "/panties",
       "noFollow": false,
       "tagTitle": "Ver_todo",
       "text": "Ver Todos"
@@ -1352,10 +1294,10 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/panties?O=OrderByBestDiscountDESC",
+      "href": "/panties?O=OrderByTopSaleDESC",
       "noFollow": false,
       "tagTitle": "Lo_mas_Vendido",
-      "text": "Panties Más Vendidos"
+      "text": "Los Más Vendidos"
     }
   }
 },
@@ -1367,7 +1309,7 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/panties?O=OrderByReleaseDateDESC",
+      "href": "/panties?O=OrderByReleaseDateDESC",
       "noFollow": false,
       "tagTitle": "Nuevos Brasieres y Bralettes",
       "text": "Nuevos Panties"
@@ -1383,128 +1325,124 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/panties?O=OrderByBestDiscountDESC",
+      "href": "/panties?O=OrderByBestDiscountDESC",
       "noFollow": false,
       "tagTitle": "Ofertas",
       "text": "Descuentos"
     }
   }
 },
-"menu-item#category-panties-tipo": {
+
+"rich-text#category-panties-tipo": {
   "props": {
-    "id": "menu-item-category-panties-tipos",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Tipos",
-      "text": "Estilos"
-    }
-  }
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "Estilos",
+    "textColor": "black",
+    "font": "10px",
+    "blockClass": "subtitulos"
+   }
 },
 
-"menu-item#category-panties-Colaless-y-V-strings": {
+"menu-item#category-panties-bikini": {
   "props": {
-    "id": "menu-item#category-panties-Colaless-y-V-strings",
+    "id": "menu-item#category-panties-bikini",
     "type": "custom",
     "iconId": null,
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/panties/colaless-y-v-strings?initialMap=c,c&initialQuery=lilipink/panties&map=category-1,category-2,category-3",
+      "href": "/panties/bikini",
       "noFollow": false,
       "tagTitle": "Bikini",
       "text": "Bikini"
     }
   }
 },
-"menu-item#category-panties-Panti-cheekies-y-cheekinis": {
+"menu-item#category-panties-boxer": {
   "props": {
-    "id": "menu-item#category-panties-Panti-cheekies-y-cheekinis",
+    "id": "menu-item#category-panties-boxer",
     "type": "custom",
     "iconId": null,
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/panties/panti-cheekies-y-cheekinis?initialMap=c,c&initialQuery=lilipink/panties&map=category-1,category-2,category-3",
+      "href": "/panties/boxer",
       "noFollow": false,
       "tagTitle": "Boxer",
       "text": "Boxer"
     }
   }
 },
-"menu-item#category-panties-Pantis-estilo-bikini-y-clásicas": {
+"menu-item#category-panties-brasilera": {
   "props": {
-    "id": "menu-item#category-panties-Pantis-estilo-bikini-y-clásicas",
+    "id": "menu-item#category-panties-brasilera",
     "type": "custom",
     "iconId": null,
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/panties/pantis-estilo-bikini-y-clasicas?initialMap=c,c&initialQuery=lilipink/panties&map=category-1,category-2,category-3",
+      "href": "/panties/brasilera",
       "noFollow": false,
       "tagTitle": "Brasilera",
       "text": "Brasilera"
     }
   }
 },
-"menu-item#category-panties-Panti-estilo-hiphugger": {
+"menu-item#category-panties-clasico": {
   "props": {
-    "id": "menu-item#category-panties-Panti-estilo-hiphugger",
+    "id": "menu-item#category-panties-clasico",
     "type": "custom",
     "iconId": null,
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/panties/panti-estilo-hiphugger?initialMap=c,c&initialQuery=lilipink/panties&map=category-1,category-2,category-3",
+      "href": "/panties/clasico",
       "noFollow": false,
       "tagTitle": "Clasico",
       "text": "Clásico"
     }
   }
 },
-"menu-item#category-panties-Culotes-estilo-boyshort": {
+"menu-item#category-panties-culotte": {
   "props": {
-    "id": "menu-item#category-panties-Culotes-estilo-boyshort",
+    "id": "menu-item#category-panties-culotte",
     "type": "custom",
     "iconId": null,
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/panties/culotes-estilo-boyshort?initialMap=c,c&initialQuery=lilipink/panties&map=category-1,category-2,category-3",
+      "href": "/panties/culotte",
       "noFollow": false,
       "tagTitle": "Culotte",
       "text": "Culotte"
     }
   }
 },
-"menu-item#category-panties-Pantis-brasileras": {
+"menu-item#category-panties-hipster": {
   "props": {
-    "id":"menu-item#category-panties-Pantis-brasileras",
+    "id":"menu-item#category-panties-hipster",
     "type": "custom",
     "iconId": null,
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/panties/pantis-brasileras?initialMap=c,c&initialQuery=lilipink/panties&map=category-1,category-2,category-3",
+      "href": "/panties/hipster",
       "noFollow": false,
       "tagTitle":"Hipster",
-      "text": "Hipster"
+      "text": "Hípster"
     }
   }
 },
-"menu-item#category-panties-Cintura-alta-y-cavado": {
+"menu-item#category-panties-surtido": {
   "props": {
-    "id":"menu-item#category-panties-Cintura-alta-y-cavado",
+    "id":"menu-item#category-panties-surtido",
     "type": "custom",
     "iconId": null,
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/panties/cintura-alta-y-cavado?initialMap=c,c&initialQuery=lilipink/panties&map=category-1,category-2,category-3",
+      "href": "/panties/panties-surtido",
       "noFollow": false,
       "tagTitle":"Surtido",
       "text": "Surtido"
@@ -1512,21 +1450,17 @@
   }
 },
 
-"menu-item#category-panties-beneficios": {
+"rich-text#category-panties-beneficios": {
   "props": {
-    "id": "menu-item-category-panties-beneficios",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Material",
-      "text": "Material"
-    }
-  }
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "Material",
+    "textColor": "black",
+    "font": "10px",
+    "blockClass": "subtitulos"
+   }
 },
+
 "menu-item#category-panties-Invisibles": {
   "props": {
     "id": "menu-item#category-panties-Invisibles",
@@ -1648,21 +1582,19 @@
     }
   }
 },
-"menu-item#category-panties-Compra_mas_y_ahorra": {
+
+
+"rich-text#category-panties-Compra_mas_y_ahorra": {
   "props": {
-    "id": "menu-item-category-panties-Compra_mas_y_ahorra",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Compra mas y ahorra",
-      "text": "Compra Más y Ahorra"
-    }
-  }
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "Compra Más y Ahorra",
+    "textColor": "black",
+    "font": "10px",
+    "blockClass": "subtitulos"
+   }
 },
+
 "menu-item#category-panties-Individual": {
   "props": {
     "id": "menu-item-category-panties-Individual",
@@ -1738,21 +1670,18 @@
     }
   }
 },
-"menu-item#category-panties-Beneficios": {
+
+"rich-text#category-panties-Beneficios": {
   "props": {
-    "id": "menu-item-category-panties-Beneficios",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Beneficios",
-      "text": "Beneficios"
-    }
-  }
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "Beneficios",
+    "textColor": "black",
+    "font": "10px",
+    "blockClass": "subtitulos"
+   }
 },
+
 "menu-item#category-panties-Sin-Costuras": {
   "props": {
     "id": "menu-item-category-panties-Sin-Costuras",
@@ -4031,6 +3960,7 @@
     }
   }
 },
+//menu descanso
   "menu-item#category-descanso": {
     "props": {
       "id": "menu-item-category-descanso",
@@ -4039,7 +3969,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/descanso",
+        "href": "/descanso-y-multiusos",
         "noFollow": false,
         "tagTitle": "DESCANSO",
         "text": "DESCANSO Y MULTIUSOS"
@@ -4071,7 +4001,7 @@
 },
 "flex-layout.col#category-descanso-1": {
 "children": [
-  "menu-item#category-descanso-Buscar",
+  "rich-text#category-descanso-Buscar",
   "menu-item#category-descanso-Ver_todo",
   "menu-item#category-descanso-Los-más-Vendidos",
   "menu-item#category-descanso-Nuevos-Descanso",
@@ -4080,31 +4010,28 @@
 },
 "flex-layout.col#category-descanso-2": {
 "children": [
-  "menu-item#category-descanso-Tipo",
+  "rich-text#category-descanso-Tipo",
   "menu-item#category-descanso-Conjuntos-de-pijama",  
   "menu-item#category-descanso-Prendas-de-pijama",
   "menu-item#category-descanso-Conjuntos-con-tops-de-tirantes-finos",
   "menu-item#category-descanso-Camisas-de-dormir-y-camisones",
   "menu-item#category-descanso-Pantalon",
-  "menu-item#category-descanso-Short",
+  "rich-text#category-descanso-Short",
   "menu-item#category-descanso-Buso",
   "menu-item#category-descanso-Camiseta",
-  "menu-item#category-descanso-Pantalon", 
-  "menu-item#category-descanso-Material-Multiusos",
-  "menu-item#category-descanso-Algodon-Multiusos",
-  "menu-item#category-descanso-Modal-Multiusos"
+  "menu-item#category-descanso-Pantalon"
 
 ]
 },
 "flex-layout.col#category-descanso-3": {
 "children": [
-  "menu-item#category-descanso-Beneficio",
+  "rich-text#category-descanso-Beneficio",
   "menu-item#category-descanso-Algodon",
   "menu-item#category-descanso-Modal",
   "menu-item#category-descanso-Encaje",
   "menu-item#category-descanso-Tejido-Plano",
   "menu-item#category-descanso-Satin",
-  "menu-item#category-descanso-Tipos-Pijamas",
+  "rich-text#category-descanso-Tipos-Pijamas",
   "menu-item#category-descanso-Tiras",
   "menu-item#category-descanso-Manga-Sisa",
   "menu-item#category-descanso-Manga-Corta",
@@ -4127,21 +4054,18 @@
   "orientation": "vertical"
 }
 },
-"menu-item#category-descanso-Buscar": {
+
+"rich-text#category-descanso-Buscar": {
   "props": {
-    "id": "menu-item-category-descanso-Buscar",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Buscar",
-      "text": "Buscar"
-    }
-  }
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "Buscar",
+    "textColor": "black",
+    "font": "10px",
+    "blockClass": "subtitulos"
+   }
 },
+
   "menu-item#category-descanso-Ver_todo": {
     "props": {
       "id": "menu-item-category-descanso-Ver_todo",
@@ -4150,7 +4074,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/descanso",
+        "href": "/descanso-y-multiusos",
         "noFollow": false,
         "tagTitle": "Ver_todo",
         "text": "Ver Todos"
@@ -4165,7 +4089,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/descanso?O=OrderByTopSaleDESC",
+        "href": "/descanso-y-multiusos?O=OrderByTopSaleDESC",
         "noFollow": false,
         "tagTitle": "Lo_mas_Vendido",
         "text": "Los Más Vendidos"
@@ -4180,7 +4104,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/descanso?O=OrderByReleaseDateDESC",
+        "href": "/descanso-y-multiusos?O=OrderByReleaseDateDESC",
         "noFollow": false,
         "tagTitle": "Nuevos",
         "text": "Nuevos"
@@ -4196,28 +4120,25 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/descanso?O=OrderByBestDiscountDESC",
+        "href": "/descanso-y-multiusos?O=OrderByBestDiscountDESC",
         "noFollow": false,
         "tagTitle": "Descuentos",
         "text": "Descuentos"
       }
     }
   },
-  "menu-item#category-descanso-Tipo": {
+
+  "rich-text#category-descanso-Tipo": {
     "props": {
-      "id": "menu-item-category-descanso-Tipo",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "EstilosPijamas",
-        "text": "Estilos Pijamas"
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Estilos",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+
   "menu-item#category-descanso-Conjuntos-de-pijama": {
     "props": {
       "id": "menu-item-category-descanso-Conjuntos-de-pijama",
@@ -4293,22 +4214,18 @@
         "text": "Pantalón"
       }
     }
-  }, 
-  "menu-item#category-descanso-Short": {
-    "props": {
-      "id": "menu-item-category-descanso-Short",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lilipink/descanso/short?initialMap=c,c&initialQuery=lilipink/descanso&map=category-1,category-2,category-3",
-        "noFollow": false,
-        "tagTitle": "Multiusos",
-        "text": "Multiusos"
-      }
-    }
   },
+  "rich-text#category-descanso-Short": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Multiusos",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
+  }, 
+  
   "menu-item#category-descanso-Buso": {
     "props": {
       "id": "menu-item-category-descanso-Buso",
@@ -4339,66 +4256,19 @@
       }
     }
   },
-  "menu-item#category-descanso-Material-Multiusos": {
+
+
+  "rich-text#category-descanso-Beneficio": {
     "props": {
-      "id": "menu-item-category-descanso-Material-Multiusos",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lilipink/descanso/short?initialMap=c,c&initialQuery=lilipink/descanso&map=category-1,category-2,category-3",
-        "noFollow": false,
-        "tagTitle": "Material",
-        "text": "Material"
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Material",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
-  "menu-item#category-descanso-Algodon-Multiusos": {
-    "props": {
-      "id": "menu-item-category-descanso-Algodon.Multiusos",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lilipink/descanso/short?initialMap=c,c&initialQuery=lilipink/descanso&map=category-1,category-2,category-3",
-        "noFollow": false,
-        "tagTitle": "Algodon",
-        "text": "Algodón"
-      }
-    }
-  },
-  "menu-item#category-descanso-Modal-Multiusos": {
-    "props": {
-      "id": "menu-item-category-descanso-Modal-Multiusos",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lilipink/descanso/short?initialMap=c,c&initialQuery=lilipink/descanso&map=category-1,category-2,category-3",
-        "noFollow": false,
-        "tagTitle": "Modal",
-        "text": "Modal"
-      }
-    }
-  },
-  "menu-item#category-descanso-Beneficio": {
-    "props": {
-      "id": "menu-item-category-descanso-Beneficio",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Material",
-        "text": "Material" 
-      }
-    }
-  },
+
   "menu-item#category-descanso-Algodon": {
     "props": {
       "id": "menu-item-category-descanso-Algodon",
@@ -4474,21 +4344,18 @@
       }
     }
   },
-  "menu-item#category-descanso-Tipos-Pijamas": {
+
+  "rich-text#category-descanso-Tipos-Pijamas": {
     "props": {
-      "id": "menu-item-category-descanso-Tipos-Pijamas",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "TiposPijamas",
-        "text": "Tipos Pijamas" 
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Tipos",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+
   "menu-item#category-descanso-Tiras": {
     "props": {
       "id": "menu-item-category-descanso-Tiras",
@@ -4594,7 +4461,7 @@
       }
     }
   },
-
+//menu medias
   "menu-item#category-medias": {
     "props": {
       "id": "menu-item-category-medias",
@@ -4603,7 +4470,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/medias",
+        "href": "/medias",
         "noFollow": false,
         "tagTitle": "MEDIAS",
         "text": "MEDIAS"
@@ -4636,7 +4503,7 @@
   },
   "flex-layout.col#category-medias-1": {
   "children": [
-    "menu-item#category-medias-Buscar",
+    "rich-text#category-medias-Buscar",
     "menu-item#category-medias-Ver_todo",
     "menu-item#category-medias-Los-más-Vendidos",
     "menu-item#category-medias-Nuevos-medias",
@@ -4645,20 +4512,20 @@
   },
   "flex-layout.col#category-medias-2": {
   "children": [
-    "menu-item#category-medias-Estilos",
-    "menu-item#category-medias-Pantumedias",
-    "menu-item#category-medias-Tobilleras",
-    "menu-item#category-medias-Termicas",
-    "menu-item#category-medias-Baletas",
-    "menu-item#category-medias-Clasico",
-    "menu-item#category-medias-Veladas",
-    "menu-item#category-medias-Taloneras"
+    "rich-text#category-medias-Estilos",
+    "menu-item#category-medias-pantumedias",
+    "menu-item#category-medias-tobilleras",
+    "menu-item#category-medias-termicas",
+    "menu-item#category-medias-baletas",
+    "menu-item#category-medias-clasico",
+    "menu-item#category-medias-veladas",
+    "menu-item#category-medias-taloneras"
     
   ]
   },
   "flex-layout.col#category-medias-3": {
   "children": [
-    "menu-item#category-medias-Beneficio",
+    "rich-text#category-medias-Beneficio",
     "menu-item#category-medias-Algodon",
     "menu-item#category-medias-Microfibra",
     "menu-item#category-medias-Blonda"
@@ -4666,7 +4533,7 @@
   },
   "flex-layout.col#category-medias-4": {
   "children": [    
-    "menu-item#category-medias-Compra-mas-y-ahorra",
+    "rich-text#category-medias-Compra-mas-y-ahorra",
     "menu-item#category-medias-Individual",
     "menu-item#category-medias-Paquete-x-2",
     "menu-item#category-medias-Paquete-x-3",
@@ -4684,20 +4551,15 @@
     "orientation": "vertical"
   }
   },
-  "menu-item#category-medias-Buscar": {
+  "rich-text#category-medias-Buscar": {
     "props": {
-      "id": "menu-item-category-medias-Buscar",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Buscar",
-        "text": "Buscar"
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Buscar",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
     "menu-item#category-medias-Ver_todo": {
       "props": {
@@ -4707,7 +4569,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/lilipink/medias",
+          "href": "/medias",
           "noFollow": false,
           "tagTitle": "Ver_todo",
           "text": "Ver Todos"
@@ -4722,7 +4584,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/lilipink/medias?O=OrderByReleaseDateDESC",
+          "href": "/medias?O=OrderByTopSaleDESC",
           "noFollow": false,
           "tagTitle": "Lo_mas_Vendido",
           "text": "Los Más Vendidos"
@@ -4737,7 +4599,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/lilipink/medias?O=OrderByReleaseDateDESC",
+          "href": "/medias?O=OrderByReleaseDateDESC",
           "noFollow": false,
           "tagTitle": "Nuevos medias",
           "text": "Nuevos"
@@ -4753,138 +4615,43 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/lilipink/medias?O=OrderByBestDiscountDESC",
+          "href": "/medias?O=OrderByBestDiscountDESC",
           "noFollow": false,
           "tagTitle": "Ofertas",
           "text": "Descuentos"
         }
       }
     },
-    "menu-item#category-medias-Estilos": {
+
+    "rich-text#category-medias-Estilos": {
       "props": {
-        "id": "menu-item#category-medias-Estilos",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Estilos",
-          "text": "Estilos"
-        }
-      }
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Estilos",
+        "textColor": "black",
+        "font": "10px",
+        "blockClass": "subtitulos"
+       }
     },
 
-    
-    "menu-item#category-medias-Pantumedias": {
+    "menu-item#category-medias-pantumedias": {
       "props": {
-        "id": "menu-item#category-medias-Pantumedias",
+        "id": "menu-item#category-medias-pantumedias",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/lilipink/medias/pantumedias?initialMap=c,c&initialQuery=lilipink/medias&map=category-1,category-2,category-3",
+          "href": "/medias/pantumedias",
           "noFollow": false,
           "tagTitle": "Pantumedias",
           "text": "Pantumedias"
         }
       }
     },
-    "menu-item#category-medias-Tobilleras": {
+    "menu-item#category-medias-tobilleras": {
       "props": {
-        "id": "menu-item#category-medias-Tobilleras",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/lilipink/medias/taloneras?initialMap=c,c&initialQuery=lilipink/medias&map=category-1,category-2,category-3",
-          "noFollow": false,
-          "tagTitle": "medias-Tobilleras",
-          "text": "Tobilleras"
-        }
-      }
-    },
-    "menu-item#category-medias-Termicas": {
-      "props": {
-        "id": "menu-item#category-medias-Termicas",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/lilipink/medias/taloneras?initialMap=c,c&initialQuery=lilipink/medias&map=category-1,category-2,category-3",
-          "noFollow": false,
-          "tagTitle": "medias-Termicas",
-          "text": "Térmicas"
-        }
-      }
-    },
-    "menu-item#category-medias-Baletas": {
-      "props": {
-        "id": "menu-item#category-medias-Baletas",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/lilipink/medias/taloneras?initialMap=c,c&initialQuery=lilipink/medias&map=category-1,category-2,category-3",
-          "noFollow": false,
-          "tagTitle": "medias-Baletas",
-          "text": "Baletas"
-        }
-      }
-    },
-    "menu-item#category-medias-Clasico": {
-      "props": {
-        "id": "menu-item#category-medias-Clasico",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/lilipink/medias/taloneras?initialMap=c,c&initialQuery=lilipink/medias&map=category-1,category-2,category-3",
-          "noFollow": false,
-          "tagTitle": "medias-Clasico",
-          "text": "Clasico"
-        }
-      }
-    },
-    "menu-item#category-medias-Veladas": {
-      "props": {
-        "id": "menu-item#category-medias-Veladas",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/lilipink/medias/taloneras?initialMap=c,c&initialQuery=lilipink/medias&map=category-1,category-2,category-3",
-          "noFollow": false,
-          "tagTitle": "medias-Veladas",
-          "text": "Veladas"
-        }
-      }
-    },
-    "menu-item#category-medias-Taloneras": {
-      "props": {
-        "id": "menu-item#category-medias-Taloneras",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/lilipink/medias/taloneras?initialMap=c,c&initialQuery=lilipink/medias&map=category-1,category-2,category-3",
-          "noFollow": false,
-          "tagTitle": "medias-Taloneras",
-          "text": "Taloneras"
-        }
-      }
-    },
-    "menu-item#category-medias-Beneficio": {
-      "props": {
-        "id": "menu-item#category-medias-Beneficio",
+        "id": "menu-item#category-medias-tobilleras",
         "type": "custom",
         "iconId": null,
         "highlight": false,
@@ -4892,11 +4659,98 @@
           "type": "internal",
           "href": "#",
           "noFollow": false,
-          "tagTitle": "Material",
-          "text": "Material"
+          "tagTitle": "medias-Tobilleras",
+          "text": "Tobilleras"
         }
       }
     },
+    "menu-item#category-medias-termicas": {
+      "props": {
+        "id": "menu-item#category-medias-termicas",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/medias/termicas",
+          "noFollow": false,
+          "tagTitle": "medias-Termicas",
+          "text": "Térmicas"
+        }
+      }
+    },
+    "menu-item#category-medias-baletas": {
+      "props": {
+        "id": "menu-item#category-medias-baletas",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/medias/baleta",
+          "noFollow": false,
+          "tagTitle": "medias-Baletas",
+          "text": "Baletas"
+        }
+      }
+    },
+    "menu-item#category-medias-clasico": {
+      "props": {
+        "id": "menu-item#category-medias-clasico",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/medias/clasicas",
+          "noFollow": false,
+          "tagTitle": "medias-Clasico",
+          "text": "Clásicas"
+        }
+      }
+    },
+    "menu-item#category-medias-veladas": {
+      "props": {
+        "id": "menu-item#category-medias-veladas",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/medias/veladas",
+          "noFollow": false,
+          "tagTitle": "medias-Veladas",
+          "text": "Veladas"
+        }
+      }
+    },
+    "menu-item#category-medias-taloneras": {
+      "props": {
+        "id": "menu-item#category-medias-taloneras",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/medias/taloneras",
+          "noFollow": false,
+          "tagTitle": "medias-Taloneras",
+          "text": "Taloneras"
+        }
+      }
+    },
+
+    "rich-text#category-medias-Beneficio": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Material",
+        "textColor": "black",
+        "font": "10px",
+        "blockClass": "subtitulos"
+       }
+    },
+
     "menu-item#category-medias-Algodon": {
       "props": {
         "id": "menu-item#category-medias-Algodon",
@@ -4942,21 +4796,18 @@
         }
       }
     },
-    "menu-item#category-medias-Compra-mas-y-ahorra": {
+
+    "rich-text#category-medias-Compra-mas-y-ahorra": {
       "props": {
-        "id": "menu-item#category-medias-Compra-mas-y-ahorra",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Compra mas y ahorra",
-          "text": "Compra mas y ahorra"
-        }
-      }
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Compra Más y Ahorra",
+        "textColor": "black",
+        "font": "10px",
+        "blockClass": "subtitulos"
+       }
     },
+
     "menu-item#category-medias-Individual": {
       "props": {
         "id": "menu-item#category-medias-Individual",
@@ -5032,6 +4883,7 @@
         }
       }
     },
+  //deportivo
   "menu-item#category-deportivo": {
     "props": {
       "id": "menu-item-category-deportivo",
@@ -5040,7 +4892,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/deportivo",
+        "href": "/deportivo",
         "noFollow": false,
         "tagTitle": "DEPORTIVO",
         "text": "DEPORTIVO"
@@ -5070,7 +4922,7 @@
   },
   "flex-layout.col#category-deportivo-1": {
   "children": [
-    "menu-item#category-deportivo-Buscar",
+    "rich-text#category-deportivo-Buscar",
     "menu-item#category-deportivo-Ver_todo",
     "menu-item#category-deportivo-Los-más-Vendidos",
     "menu-item#category-deportivo-Nuevos-deportivo",
@@ -5079,18 +4931,18 @@
   },
   "flex-layout.col#category-deportivo-2": {
   "children": [
-    "menu-item#category-deportivo-Tipo",
-    "menu-item#category-deportivo-Calzas",
-    "menu-item#category-deportivo-Pantalones-para-correr",
-    "menu-item#category-deportivo-Prendas-para-combinar",
-    "menu-item#category-deportivo-Sudaderas-con-y-sin-capucha", 
-    "menu-item#category-deportivo-Camisetas-y-camisetas-sin-mangas",
-    "menu-item#category-deportivo-Bralettes-y-brasieres-sin-costura"
+    "rich-text#category-deportivo-Tipo",
+    "menu-item#category-deportivo-camiseta",
+    "menu-item#category-deportivo-chaqueta",
+    "menu-item#category-deportivo-pantalon",
+    "menu-item#category-deportivo-tops", 
+    "menu-item#category-deportivo-pantaloneta",
+    "menu-item#category-deportivo-leggins" 
   ]
   },
   "flex-layout.col#category-deportivo-3": {
   "children": [
-    "menu-item#category-deportivo-Deportes",
+    "rich-text#category-deportivo-Deportes",
     "menu-item#category-deportivo-Baile",
     "menu-item#category-deportivo-Yoga-Pilates",
     "menu-item#category-deportivo-Correr-Trotar"
@@ -5107,21 +4959,19 @@
     "orientation": "vertical"
   }
   },
-  "menu-item#category-deportivo-Buscar": {
+
+
+  "rich-text#category-deportivo-Buscar": {
     "props": {
-      "id": "menu-item-category-deportivo-Buscar",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Buscar",
-        "text": "Buscar"
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Buscar",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+
     "menu-item#category-deportivo-Ver_todo": {
       "props": {
         "id": "menu-item-category-deportivo-Ver_todo",
@@ -5130,7 +4980,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/lilipink/deportivo",
+          "href": "/deportivo",
           "noFollow": false,
           "tagTitle": "Ver_todo",
           "text": "Ver Todos"
@@ -5145,7 +4995,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/lilipink/deportivo?O=OrderByTopSaleDESC",
+          "href": "/deportivo?O=OrderByTopSaleDESC",
           "noFollow": false,
           "tagTitle": "Lo_mas_Vendido",
           "text": "Los Más Vendidos"
@@ -5160,7 +5010,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/lilipink/deportivo?O=OrderByReleaseDateDESC",
+          "href": "/deportivo?O=OrderByReleaseDateDESC",
           "noFollow": false,
           "tagTitle": "Nuevos Ropa deportivo",
           "text": "Nuevos"
@@ -5176,106 +5026,88 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/lilipink/deportivo?O=OrderByBestDiscountDESC",
+          "href": "/deportivo?O=OrderByBestDiscountDESC",
           "noFollow": false,
-          "tagTitle": "Ofertas",
+          "tagTitle": "Descuentos",
           "text": "Descuentos"
         }
       }
     },
-    "menu-item#category-deportivo-Tipo": {
+
+    "rich-text#category-deportivo-Tipo": {
       "props": {
-        "id": "menu-item#category-deportivo-Tipo",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Tipo",
-          "text": "Estilos"
-        }
-      }
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Estilos",
+        "textColor": "black",
+        "font": "10px",
+        "blockClass": "subtitulos"
+       }
     },
-    "menu-item#category-deportivo-Calzas": {
+
+    "menu-item#category-deportivo-camiseta": {
       "props": {
-        "id": "menu-item#category-deportivo-Calzas",
+        "id": "menu-item#category-deportivo-camiseta",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "#",
+          "href": "/deportivo/camiseta-deportiva",
           "noFollow": false,
           "tagTitle": "Camiseta",
           "text": "Camiseta"
         }
       }
     },
-    "menu-item#category-deportivo-Pantalones-para-correr": {
+    "menu-item#category-deportivo-chaqueta": {
       "props": {
-        "id": "menu-item#category-deportivo-Pantalones-para-correr",
+        "id": "menu-item#category-deportivo-chaqueta",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/lilipink/deportivo/pantalones-para-correr?initialMap=c,c&initialQuery=lilipink/deportivo&map=category-1,category-2,category-3",
+          "href": "/deportivo/chaqueta",
           "noFollow": false,
           "tagTitle": "Chaqueta",
           "text": "Chaqueta"
         }
       }
     },
-    "menu-item#category-deportivo-Prendas-para-combinar": {
+    "menu-item#category-deportivo-pantalon": {
       "props": {
-        "id": "menu-item#category-deportivo-Prendas-para-combinar",
+        "id": "menu-item#category-deportivo-pantalon",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "#",
+          "href": "/deportivo/pantalon-deportivo",
           "noFollow": false,
           "tagTitle": "Pantalon",
           "text": "Pantalón"
         }
       }
     },
-    "menu-item#category-deportivo-Sudaderas-con-y-sin-capucha": {
+    "menu-item#category-deportivo-tops": {
       "props": {
-        "id": "menu-item#category-deportivo-Sudaderas-con-y-sin-capucha",
+        "id": "menu-item#category-deportivo-tops",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "#",
+          "href": "/deportivo/tops",
           "noFollow": false,
           "tagTitle": "Tops",
           "text": "Tops"
         }
       }
     },
-    "menu-item#category-deportivo-Camisetas-y-camisetas-sin-mangas": {
+    "menu-item#category-deportivo-pantaloneta": {
       "props": {
-        "id": "menu-item#category-deportivo-Camisetas-y-camisetas-sin-mangas",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/lilipink/deportivo/camisetas-y-camisetas-sin-mangas?initialMap=c,c&initialQuery=lilipink/deportivo&map=category-1,category-2,category-3",
-          "noFollow": false,
-          "tagTitle": "Pantaloneta",
-          "text": "Pantaloneta"
-        }
-      }
-    },
-    "menu-item#category-deportivo-Bralettes-y-brasieres-sin-costura": {
-      "props": {
-        "id": "menu-item#category-deportivo-Bralettes-y-brasieres-sin-costura",
+        "id": "menu-item#category-deportivo-pantaloneta",
         "type": "custom",
         "iconId": null,
         "highlight": false,
@@ -5283,12 +5115,27 @@
           "type": "internal",
           "href": "#",
           "noFollow": false,
+          "tagTitle": "Pantaloneta",
+          "text": "Pantaloneta"
+        }
+      }
+    },
+    "menu-item#category-deportivo-leggins": {
+      "props": {
+        "id": "menu-item#category-deportivo-leggins",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/deportivo/leggins",
+          "noFollow": false,
           "tagTitle": "Leggins",
           "text": "Leggins"
         }
       }
     },
-    "menu-item#category-deportivo-Camisetas": {
+    /*"menu-item#category-deportivo-Camisetas": {
       "props": {
         "id": "menu-item#category-deportivo-Brasieres-Camisetas",
         "type": "custom",
@@ -5317,22 +5164,16 @@
           "text": "pantallon-short"
         }
       }
-    },
-    
-    "menu-item#category-deportivo-Deportes": {
+    },*/
+    "rich-text#category-deportivo-Deportes": {
       "props": {
-        "id": "menu-item#category-deportivo-Deportes",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Material",
-          "text": "Material"
-        }
-      }
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Material",
+        "textColor": "black",
+        "font": "10px",
+        "blockClass": "subtitulos"
+       }
     },
     "menu-item#category-deportivo-Baile": {
       "props": {
@@ -5419,7 +5260,7 @@
   },
   "flex-layout.col#category-vestidos-1": {
   "children": [
-    "menu-item#category-vestidos-Buscar",
+    "rich-text#category-vestidos-Buscar",
     "menu-item#category-vestidos-Ver_todo",
     "menu-item#category-vestidos-Los-más-Vendidos",
     "menu-item#category-vestidos-Nuevos-deportivo",
@@ -5428,7 +5269,7 @@
   },
   "flex-layout.col#category-vestidos-2": {
   "children": [
-    "menu-item#category-vestidos-Tipos",
+    "rich-text#category-vestidos-Tipos",
     "menu-item#category-vestidos-Bikinis",
     "menu-item#category-vestidos-Enterizos",
     "menu-item#category-vestidos-Prendas-playeras",
@@ -5438,7 +5279,7 @@
   },
   "flex-layout.col#category-vestidos-3": {
   "children": [
-    "menu-item#category-vestidos-Material",
+    "rich-text#category-vestidos-Material",
     "menu-item#category-vestidos-Prenda-inferior",
     "menu-item#category-vestidos-Prenda-Colaless",
     "menu-item#category-vestidos-Prenda-Brasileras",
@@ -5456,21 +5297,18 @@
     "orientation": "vertical"
   }
   },
-  "menu-item#category-vestidos-Buscar": {
+
+  "rich-text#category-vestidos-Buscar": {
     "props": {
-      "id": "menu-item-category-vestidos-Buscar",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Buscar",
-        "text": "Buscar"
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Buscar",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+
   "menu-item#category-vestidos-Ver_todo": {
     "props": {
       "id": "menu-item-category-vestidos-Ver_todo",
@@ -5532,21 +5370,18 @@
       }
     }
   },
-  "menu-item#category-vestidos-Tipos": {
+
+  "rich-text#category-vestidos-Tipos": {
     "props": {
-      "id": "menu-item#category-vestidos-Tipos",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Estilos",
-        "text": "Estilos"
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Estilos",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+
   "menu-item#category-vestidos-Bikinis": {
     "props": {
       "id": "menu-item#category-vestidos-Bikinis",
@@ -5623,21 +5458,17 @@
     }
   },
   
-  "menu-item#category-vestidos-Material": {
+  "rich-text#category-vestidos-Material": {
     "props": {
-      "id": "menu-item#category-vestidos-Material",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Material",
-        "text": "Material"
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Material",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+
   "menu-item#category-vestidos-Prenda-inferior": {
     "props": {
       "id": "menu-item#category-vestidos-Prenda-inferior",
@@ -5723,7 +5554,7 @@
 
 "flex-layout.col#category-tops-1": {
   "children": [
-    "menu-item#category-tops-Buscar",
+    "rich-text#category-tops-Buscar",
     "menu-item#category-tops-Ver_todo",
     "menu-item#category-tops-Lo_mas_Vendido",
     "menu-item#category-tops-nuevosbrasieresybralettes",
@@ -5733,7 +5564,7 @@
 },
 "flex-layout.col#category-tops-2": {
   "children": [
-    "menu-item#category-tops-tipo",
+    "rich-text#category-tops-tipo",
     "menu-item#category-tops-fashiontops",
     "menu-item#category-tops-Cargadera-Ancha",
     "menu-item#category-tops-Cargadera-Delgada",
@@ -5742,7 +5573,7 @@
     "menu-item#category-tops-Halter",
     "menu-item#category-tops-Racerback",
     "menu-item#category-tops-Strapless",
-    "menu-item#category-tops-Surtido",
+    "menu-item#category-tops-Surtidotops",
     "menu-item#category-tops-Tanktop",
     "menu-item#category-tops-Top",
     "menu-item#category-tops-Sin-Copa",
@@ -5751,7 +5582,7 @@
 },
 "flex-layout.col#category-tops-3": {
   "children": [
-    "menu-item#category-tops-beneficios",
+    "rich-text#category-tops-beneficios",
     "menu-item#category-tops-Algodon",
     "menu-item#category-tops-Encaje",
     "menu-item#category-tops-Microfibra",
@@ -5763,7 +5594,7 @@
 },
 "flex-layout.col#category-tops-4": {
   "children": [
-    "menu-item#category-tops-Compra_mas_y_ahorra",
+    "rich-text#category-tops-Compra_mas_y_ahorra",
     "menu-item#category-tops-paquetex4",
     "menu-item#category-tops-pague1lleve3",
     "menu-item#category-tops-paquetex3",
@@ -5783,21 +5614,18 @@
     "orientation": "vertical"
   }
 },
-"menu-item#category-tops-Buscar": {
+
+"rich-text#category-tops-Buscar": {
   "props": {
-    "id": "menu-item-category-tops-Buscar",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Buscar",
-      "text": "Buscar"
-    }
-  }
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "Buscar",
+    "textColor": "black",
+    "font": "10px",
+    "blockClass": "subtitulos"
+   }
 },
+
 "menu-item#category-tops-Ver_todo": {
   "props": {
     "id": "menu-item-category-tops-Ver_todo",
@@ -5839,8 +5667,8 @@
       "type": "internal",
       "href": "#",
       "noFollow": false,
-      "tagTitle": "Nuevos Brasieres y Bralettes",
-      "text": "Nuevos Brasieres y Bralettes"
+      "tagTitle": "Nuevos",
+      "text": "Nuevos"
     }
   }
 },
@@ -5855,26 +5683,23 @@
       "type": "internal",
       "href": "/lilipink/tops?O=OrderByBestDiscountDESC",
       "noFollow": false,
-      "tagTitle": "Mejor descuento",
-      "text": "Mejor Descuento"
+      "tagTitle": "Descuentos",
+      "text": "Descuentos"
     }
   }
 },
-"menu-item#category-tops-tipo": {
+
+"rich-text#category-tops-tipo": {
   "props": {
-    "id": "menu-item-category-tops-tipos",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Tipos",
-      "text": "Estilos"
-    }
-  }
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "Estilos",
+    "textColor": "black",
+    "font": "10px",
+    "blockClass": "Subtitulos"
+   }
 },
+
 "menu-item#category-tops-Cargadera-Ancha": {
   "props": {
     "id": "menu-item-category-tops-Cargadera-Ancha",
@@ -5980,7 +5805,7 @@
     }
   }
 },
-"menu-item#category-tops-Surtido": {
+"menu-item#category-tops-Surtidotops": {
   "props": {
     "id": "menu-item-category-tops-Surtido",
     "type": "custom",
@@ -6071,21 +5896,17 @@
   }
 },
 
-"menu-item#category-tops-beneficios": {
+"rich-text#category-tops-beneficios": {
   "props": {
-    "id": "menu-item-category-tops-beneficios",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Beneficios",
-      "text": "Material"
-    }
-  }
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "Material",
+    "textColor": "black",
+    "font": "10px",
+    "blockClass": "Subtitulos"
+   }
 },
+
 "menu-item#category-tops-Algodon": {
   "props": {
     "id": "menu-item-category-tops-algodon",
@@ -6176,21 +5997,20 @@
     }
   }
 },
-"menu-item#category-tops-Compra_mas_y_ahorra": {
+
+
+"rich-text#category-tops-Compra_mas_y_ahorra": {
   "props": {
-    "id": "menu-item-category-tops-Compra_mas_y_ahorra",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Compra mas y ahorra",
-      "text": "Compra más y ahorra"
-    }
-  }
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "Compra Más y Ahorra",
+    "textColor": "black",
+    "font": "10px",
+    "blockClass": "Subtitulos"
+   }
 },
+
+
 "menu-item#category-tops-paquetex4": {
   "props": {
     "id": "menu-item#category-tops-paquetex4",
@@ -6286,7 +6106,7 @@
 
 
  
-  "menu-item#category-vestidos-Halter": {
+  /*"menu-item#category-vestidos-Halter": {
     "props": {
       "id": "menu-item#category-vestidos-Halter",
       "type": "custom",
@@ -6375,7 +6195,7 @@
         "text": "Todas las prendas superiores"
       }
     }
-  },
+  },*/
 
   "menu-item#category-hombre": {
     "props": {
@@ -6386,7 +6206,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/brasieres/",
+        "href": "/hombre",
         "noFollow": false,
         "tagTitle": "HOMBRE",
         "text": "HOMBRE"
@@ -6417,7 +6237,7 @@
   "flex-layout.col#category-hombre-1": {
 
     "children": [
-      "menu-item#category-hombre-buscar",
+      "rich-text#category-hombre-buscar",
       "menu-item#category-hombre-ver_todo",
       "menu-item#category-hombre-lo_mas_vendido",
       "menu-item#category-hombre-nuevos",
@@ -6427,13 +6247,13 @@
   },
   "flex-layout.col#category-hombre-2": {
     "children": [
-      "menu-item#category-hombre-estilos",
+      "rich-text#category-hombre-estilos",
       "menu-item#category-hombre-interior"
     ]
   },
   "flex-layout.col#category-hombre-3": {
     "children": [
-      "menu-item#category-hombre-material",
+      "rich-text#category-hombre-material",
       "menu-item#category-hombre-algodon",
       "menu-item#category-hombre-tejidoplano",
       "menu-item#category-hombre-seamless",
@@ -6442,7 +6262,7 @@
   },
   "flex-layout.col#category-hombre-4": {
     "children": [
-      "menu-item#category-hombre-compra_mas_y_ahorra",
+      "rich-text#category-hombre-compra_mas_y_ahorra",
       "menu-item#category-hombre-individual",
       "menu-item#category-hombre-paquete-x-2"
     ]
@@ -6453,23 +6273,18 @@
       "orientation": "vertical"
     }
   },
-  "menu-item#category-hombre-buscar": {
+
+  "rich-text#category-hombre-buscar": {
     "props": {
-      "blockClass": "Buscar",
-      "id": "menu-item-category-hombre-buscar",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
-        "tagTitle": "Buscar",
-        "text": "Buscar" ,
-        "fullWidt":false
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Buscar",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+
 
   "menu-item#category-hombre-ver_todo": {
     "props": {
@@ -6480,7 +6295,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
+        "href": "/hombre",
         "noFollow": false,
         "tagTitle": "ver todo",
         "text": "Ver todo",
@@ -6500,7 +6315,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
+        "href": "/hombre?O=OrderByTopSaleDESC",
         "noFollow": false,
         "tagTitle": "lo mas vendido",
         "text": "Lo más vendido",
@@ -6520,7 +6335,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
+        "href": "/hombre?O=OrderByReleaseDateDESC",
         "noFollow": false,
         "tagTitle": "nuevos",
         "text": "Nuevos",
@@ -6540,7 +6355,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
+        "href": "/hombre?O=OrderByBestDiscountDESC",
         "noFollow": false,
         "tagTitle": "descuentos",
         "text": "Descuentos",
@@ -6550,23 +6365,17 @@
     }
   },
 
-  "menu-item#category-hombre-estilos": {
+  "rich-text#category-hombre-estilos": {
     "props": {
-      "blockClass": "Buscar",
-      "id": "menu-item-category-hombre-estilos",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
-        "tagTitle": "estilos",
-        "text": "Estilos" ,
-        "fullWidt":false
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Estilos",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+
 
   "menu-item#category-hombre-interior": {
     "props": {
@@ -6586,23 +6395,17 @@
     }
   },
 
-  "menu-item#category-hombre-material": {
+  "rich-text#category-hombre-material": {
     "props": {
-      "blockClass": "Buscar",
-      "id": "menu-item-category-hombre-material",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
-        "tagTitle": "material",
-        "text": "Material" ,
-        "fullWidt":false
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Material",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+
 
   "menu-item#category-hombre-algodon": {
     "props": {
@@ -6676,23 +6479,17 @@
     }
   },
 
-  "menu-item#category-hombre-compra_mas_y_ahorra": {
+  "rich-text#category-hombre-compra_mas_y_ahorra": {
     "props": {
-      "blockClass": "Buscar",
-      "id": "menu-item-category-hombre-compra_mas_y_ahorra",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
-        "tagTitle": "Compra más y ahorra",
-        "text": "Compra más y ahorra",
-        "fullWidt":false
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Compra Más y Ahorra",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+
 
   "menu-item#category-hombre-individual": {
     "props": {
@@ -6735,6 +6532,8 @@
       "info-card#home"
     ]
   },
+
+  //menu niño
   "menu-item#category-nino": {
     "props": {
       "blockClass": "",
@@ -6775,7 +6574,7 @@
   "flex-layout.col#category-nino-1": {
 
     "children": [
-      "menu-item#category-nino-buscar",
+      "rich-text#category-nino-buscar",
       "menu-item#category-nino-ver_todo",
       "menu-item#category-nino-lo_mas_vendido",
       "menu-item#category-nino-nuevos",
@@ -6785,20 +6584,20 @@
   },
   "flex-layout.col#category-nino-2": {
     "children": [
-      "menu-item#category-nino-estilos",
+      "rich-text#category-nino-estilos",
       "menu-item#category-nino-interior"
     ]
   },
   "flex-layout.col#category-nino-3": {
     "children": [
-      "menu-item#category-nino-material",
+      "rich-text#category-nino-material",
       "menu-item#category-nino-algodon",
       "menu-item#category-nino-tejidoplano"
     ]
   },
   "flex-layout.col#category-nino-4": {
     "children": [
-      "menu-item#category-nino-compra_mas_y_ahorra",
+      "rich-text#category-nino-compra_mas_y_ahorra",
       "menu-item#category-nino-individual",
       "menu-item#category-nino-paquete-x-2"
     ]
@@ -6809,24 +6608,16 @@
       "orientation": "vertical"
     }
   },
-  "menu-item#category-nino-buscar": {
+  "rich-text#category-nino-buscar": {
     "props": {
-      "blockClass": "Buscar",
-      "id": "menu-item-category-nino-buscar",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
-        "tagTitle": "Buscar",
-        "text": "Buscar" ,
-        "fullWidt":false
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Buscar",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
-
   "menu-item#category-nino-ver_todo": {
     "props": {
       "blockClass": "Buscar",
@@ -6905,25 +6696,16 @@
       }
     }
   },
-
-  "menu-item#category-nino-estilos": {
+  "rich-text#category-nino-estilos": {
     "props": {
-      "blockClass": "Buscar",
-      "id": "menu-item-category-nino-estilos",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
-        "tagTitle": "estilos",
-        "text": "Estilos" ,
-        "fullWidt":false
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Estilos",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
-
   "menu-item#category-nino-interior": {
     "props": {
       "blockClass": "Buscar",
@@ -6941,24 +6723,17 @@
       }
     }
   },
-
-  "menu-item#category-nino-material": {
+  "rich-text#category-nino-material": {
     "props": {
-      "blockClass": "Buscar",
-      "id": "menu-item-category-nino-material",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
-        "tagTitle": "material",
-        "text": "Material" ,
-        "fullWidt":false
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Material",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+  
 
   "menu-item#category-nino-algodon": {
     "props": {
@@ -6995,25 +6770,17 @@
       }
     }
   },
-
-
-  "menu-item#category-nino-compra_mas_y_ahorra": {
+  "rich-text#category-nino-compra_mas_y_ahorra": {
     "props": {
-      "blockClass": "Buscar",
-      "id": "menu-item-category-nino-compra_mas_y_ahorra",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/brasieres/clothing/",
-        "noFollow": false,
-        "tagTitle": "Compra más y ahorra",
-        "text": "Compra más y ahorra",
-        "fullWidt":false
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Compra Más y Ahorra",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+
 
   "menu-item#category-nino-individual": {
     "props": {
@@ -7056,7 +6823,7 @@
       "info-card#home"
     ]
   },
-
+//menu belleza
   "menu-item#category-belleza": {
     "props": {
       "id": "menu-item-category-belleza",
@@ -7065,7 +6832,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/belleza",
+        "href": "/belleza-y-bienestar",
         "noFollow": false,
         "tagTitle": "BELLEZA",
         "text": "BELLEZA"
@@ -7095,7 +6862,7 @@
   },
   "flex-layout.col#category-belleza-1": {
   "children": [
-    "menu-item#category-belleza-Buscar",
+    "rich-text#category-belleza-Buscar",
     "menu-item#category-belleza-Ver_todo",
     "menu-item#category-belleza-Los-más-Vendidos",
     "menu-item#category-belleza-Nuevos-Brasieres-y-Bralettes",
@@ -7104,7 +6871,7 @@
   },
   "flex-layout.col#category-belleza-2": {
   "children": [
-    "menu-item#category-belleza-Tipos",
+    "rich-text#category-belleza-Tipos",
     "menu-item#category-belleza-Accesorios-Maquillaje",
     "menu-item#category-belleza-Cuidado-Bucal",
     "menu-item#category-belleza-Cuidado-Cabello",
@@ -7128,21 +6895,17 @@
     "orientation": "vertical"
   }
   },
-  "menu-item#category-belleza-Buscar": {
+  "rich-text#category-belleza-Buscar": {
     "props": {
-      "id": "menu-item-category-belleza-Buscar",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Buscar",
-        "text": "Buscar"
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Buscar",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+
   "menu-item#category-belleza-Ver_todo": {
     "props": {
       "id": "menu-item-category-belleza-Ver_todo",
@@ -7151,7 +6914,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/belleza",
+        "href": "/belleza-y-bienestar",
         "noFollow": false,
         "tagTitle": "Ver_todo",
         "text": "Ver Todos"
@@ -7166,7 +6929,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/belleza?O=OrderByReleaseDateDESC",
+        "href": "/belleza-y-bienestar?O=OrderByTopSaleDESC",
         "noFollow": false,
         "tagTitle": "Lo_mas_Vendido",
         "text": "Los Más Vendidos"
@@ -7181,7 +6944,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/brasieres?O=OrderByReleaseDateDESC",
+        "href": "/belleza-y-bienestar?O=OrderByReleaseDateDESC",
         "noFollow": false,
         "tagTitle": "Nuevos",
         "text": "Nuevos"
@@ -7197,28 +6960,24 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/belleza?O=OrderByBestDiscountDESC",
+        "href": "/belleza-y-bienestar?O=OrderByBestDiscountDESC",
         "noFollow": false,
         "tagTitle": "Descuentos",
         "text": "Descuentos"
       }
     }
   },
-  "menu-item#category-belleza-Tipos": {
+  "rich-text#category-belleza-Tipos": {
     "props": {
-      "id": "menu-item-category-belleza-Tipos",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Estilos",
-        "text": "Estilos"
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Estilos",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+  
   "menu-item#category-belleza-Accesorios-Maquillaje": {
     "props": {
       "id": "menu-item-category-belleza-Accesorios-Maquillaje",
@@ -7227,7 +6986,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/belleza/fragancias?initialMap=c,c&initialQuery=lilipink/belleza&map=category-1,category-2,category-3",
+        "href": "/belleza-y-bienestar/accesorios-maquillaje",
         "noFollow": false,
         "tagTitle": "AccesoriosMaquillaje",
         "text": "Accesorios Maquillaje"
@@ -7242,7 +7001,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/belleza-y-bienestar/cuidado-bucal",
         "noFollow": false,
         "tagTitle": "CuidadoBucal",
         "text": "Cuidado Bucal"
@@ -7257,7 +7016,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/belleza-y-bienestar/cuidado-cabello",
         "noFollow": false,
         "tagTitle": "CuidadoCabello",
         "text": "Cuidado Cabello"
@@ -7272,7 +7031,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/belleza-y-bienestar/cuidado-corporal",
         "noFollow": false,
         "tagTitle": "CuidadoCorporal",
         "text": "Cuidado Corporal"
@@ -7287,7 +7046,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/belleza-y-bienestar/cuidado-facial",
         "noFollow": false,
         "tagTitle": "CuidadoFacial",
         "text": "Cuidado Facial"
@@ -7302,7 +7061,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/belleza-y-bienestar/fragancias",
         "noFollow": false,
         "tagTitle": "Fragancias",
         "text": "Fragancias"
@@ -7317,7 +7076,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/belleza-y-bienestar/manos-y-pies",
         "noFollow": false,
         "tagTitle": "ManosPies",
         "text": "Manos y Pies"
@@ -7332,7 +7091,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/belleza-y-bienestar/maquillaje",
         "noFollow": false,
         "tagTitle": "Maquillaje",
         "text": "Maquillaje"
@@ -7347,14 +7106,14 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/belleza-y-bienestar/prevencion-y-cuidado",
         "noFollow": false,
         "tagTitle": "PrevencionCuidado",
         "text": "Prevención y Cuidado"
       }
     }
   },
-  
+  //menu bioseguridad
   
   "menu-item#category-bioseguridad": {
     "props": {
@@ -7364,7 +7123,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/bioseguridad",
+        "href": "/bioseguridad",
         "noFollow": false,
         "tagTitle": "BIOSEGURIDAD",
         "text": "BIOSEGURIDAD"
@@ -7393,16 +7152,16 @@
   },
   "flex-layout.col#category-bioseguridad-1": {
   "children": [
-    "menu-item#category-bioseguridad-Buscar",
+    "rich-text#category-bioseguridad-Buscar",
     "menu-item#category-bioseguridad-Ver_todo",
     "menu-item#category-bioseguridad-Los-más-Vendidos",
-    "menu-item#category-bioseguridad-Nuevos-Brasieres-y-Bralettes",
+    "menu-item#category-bioseguridad-Nuevos",
     "menu-item#category-bioseguridad-Ofertas"
   ]
   },
   "flex-layout.col#category-bioseguridad-2": {
   "children": [
-    "menu-item#category-bioseguridad-Tipo",
+    "rich-text#category-bioseguridad-Tipo",
     "menu-item#category-bioseguridad-Tapabocas",
     "menu-item#category-bioseguridad-Proteccion",
     "menu-item#category-bioseguridad-Gel-Antibacterial",
@@ -7419,21 +7178,17 @@
     "orientation": "vertical"
   }
   },
-  "menu-item#category-bioseguridad-Buscar": {
+  "rich-text#category-bioseguridad-Buscar": {
     "props": {
-      "id": "menu-item-category-bioseguridad-Buscar",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Buscar",
-        "text": "Buscar"
-      }
-    }
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Buscar",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
   },
+
   "menu-item#category-bioseguridad-Ver_todo": {
     "props": {
       "id": "menu-item-category-bioseguridad-Ver_todo",
@@ -7442,7 +7197,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/bioseguridad",
+        "href": "/bioseguridad",
         "noFollow": false,
         "tagTitle": "Ver_todo",
         "text": "Ver Todos"
@@ -7457,22 +7212,22 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/bioseguridad?O=OrderByTopSaleDESC",
+        "href": "/bioseguridad?O=OrderByTopSaleDESC",
         "noFollow": false,
         "tagTitle": "Lo_mas_Vendido",
         "text": "Los Más Vendidos"
       }
     }
   },
-  "menu-item#category-bioseguridad-Nuevos-Brasieres-y-Bralettes": {
+  "menu-item#category-bioseguridad-Nuevos": {
     "props": {
-      "id": "menu-item-category-bioseguridad-Nuevos-Brasieres-y-Bralettes",
+      "id": "menu-item-category-bioseguridad-Nuevos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/brasieres?O=OrderByReleaseDateDESC",
+        "href": "/bioseguridad?O=OrderByReleaseDateDESC",
         "noFollow": false,
         "tagTitle": "Nuevos",
         "text": "Nuevos"
@@ -7488,29 +7243,24 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lilipink/bioseguridad?O=OrderByBestDiscountDESC",
+        "href": "/bioseguridad?O=OrderByBestDiscountDESC",
         "noFollow": false,
         "tagTitle": "Descuentos",
         "text": "Descuentos"
       }
     }
   },
+  "rich-text#category-bioseguridad-Tipo": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Estilos",
+      "textColor": "black",
+      "font": "10px",
+      "blockClass": "subtitulos"
+     }
+  },
 
-"menu-item#category-bioseguridad-Tipo": {
-  "props": {
-    "id": "menu-item#category-bioseguridad-Tipo",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "#",
-      "noFollow": false,
-      "tagTitle": "Tipo",
-      "text": "Estilos"
-    }
-  }
-},
 "menu-item#category-bioseguridad-Tapabocas": {
   "props": {
     "id": "menu-item#category-bioseguridad-Tapabocas",
@@ -7519,7 +7269,7 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/bioseguridad/tapabocas?initialMap=c,c&initialQuery=lilipink/bioseguridad&map=category-1,category-2,category-3",
+      "href": "/bioseguridad/tapabocas",
       "noFollow": false,
       "tagTitle": "Tapabocas",
       "text": "Tapabocas"
@@ -7534,7 +7284,7 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/bioseguridad/gel-antibacterial?initialMap=c,c&initialQuery=lilipink/bioseguridad&map=category-1,category-2,category-3",
+      "href": "/bioseguridad/linea-de-proteccion",
       "noFollow": false,
       "tagTitle": "Linea de Proteccion",
       "text": "Línea de Protección"
@@ -7549,7 +7299,7 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/bioseguridad/toma-de-temperatura?initialMap=c,c&initialQuery=lilipink/bioseguridad&map=category-1,category-2,category-3",
+      "href": "/bioseguridad/gel-antibacterial",
       "noFollow": false,
       "tagTitle": "Gel Antibacterial",
       "text": "Gel Antibacterial"
@@ -7564,7 +7314,7 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "/lilipink/bioseguridad/toma-de-temperatura?initialMap=c,c&initialQuery=lilipink/bioseguridad&map=category-1,category-2,category-3",
+      "href": "#",
       "noFollow": false,
       "tagTitle": "Mediciondetemperatura",
       "text": "Medición de Temperatura"
