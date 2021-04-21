@@ -143,13 +143,13 @@
       "textPosition": "LEFT",
       "text": "Buscar",
       "textColor": "black",
-      "font": "10px",
+      "font": "1.2rem",
       "blockClass": "subtitulos"
     }
   },
   "menu-item#category-brasieres-Ver_todo": {
     "props": {
-      "blockClass": "Vertodo",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-Ver_todo",
       "type": "custom",
       "iconId": null,
@@ -165,7 +165,7 @@
   },
   "menu-item#category-brasieres-Lo_mas_Vendido": {
     "props": {
-      "blockClass": "lomas_vendido",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-Lo_mas_Vendido",
       "type": "custom",
       "iconId": null,
@@ -181,7 +181,7 @@
   },
   "menu-item#category-brasieres-nuevos": {
     "props": {
-      "blockClass": "nuevosbrasieresybralettes",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-nuevosbrasieresybralettes",
       "type": "custom",
       "iconId": null,
@@ -197,7 +197,7 @@
   },
   "menu-item#category-brasieres-Ofertas": {
     "props": {
-      "blockClass": "brasieres-Ofertas",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-Ofertas",
       "type": "custom",
       "iconId": null,
@@ -223,7 +223,7 @@
   },
   "menu-item#category-brasieres-bralette": {
     "props": {
-      "blockClass": "brasieres-bralette",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-bralette",
       "type": "custom",
       "iconId": null,
@@ -239,6 +239,7 @@
   },
   "menu-item#category-brasieres-con-copa": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-con-copa",
       "type": "custom",
       "iconId": null,
@@ -254,6 +255,7 @@
   },
   "menu-item#category-brasieres-bustier": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brsieres-bustier",
       "type": "custom",
       "iconId": null,
@@ -269,6 +271,7 @@
   },
   "menu-item#category-brasieres-deportivo": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-deportivo",
       "type": "custom",
       "iconId": null,
@@ -284,6 +287,7 @@
   },
   "menu-item#category-brasieres-materno": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-materno",
       "type": "custom",
       "iconId": null,
@@ -299,6 +303,7 @@
   },
   "menu-item#category-brasieres-media-copa": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-media-copa",
       "type": "custom",
       "iconId": null,
@@ -314,6 +319,7 @@
   },
   "menu-item#category-brasieres-racerback": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-racerback",
       "type": "custom",
       "iconId": null,
@@ -329,6 +335,7 @@
   },
   "menu-item#category-brasieres-secret": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-secret",
       "type": "custom",
       "iconId": null,
@@ -344,6 +351,7 @@
   },
   "menu-item#category-brasieres-strapless": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-strapless",
       "type": "custom",
       "iconId": null,
@@ -359,6 +367,7 @@
   },
   "menu-item#category-brasieres-surtido": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-surtido",
       "type": "custom",
       "iconId": null,
@@ -374,6 +383,7 @@
   },
   "menu-item#category-brasieres-triangular": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-triangular",
       "type": "custom",
       "iconId": null,
@@ -389,6 +399,7 @@
   },
   "menu-item#category-brasieres-sin-varilla": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-sin-varilla",
       "type": "custom",
       "iconId": null,
@@ -404,6 +415,7 @@
   },
   "menu-item#category-brasieres-conjuntos": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-conjuntos",
       "type": "custom",
       "iconId": null,
@@ -419,7 +431,7 @@
   },
   "menu-item#category-brasieres-vacio1": {
     "props": {
-      "blockClass": "BeneficioBrasieres",
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-vacio1",
       "type": "custom",
       "iconId": null,
@@ -445,6 +457,7 @@
   },
   "menu-item#category-brasieres-PushUp_realce": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-PushUp_realce",
       "type": "custom",
       "iconId": null,
@@ -460,6 +473,7 @@
   },
   "menu-item#category-brasieres-reduce": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-reduce",
       "type": "custom",
       "iconId": null,
@@ -475,6 +489,7 @@
   },
   "menu-item#category-brasieres-facilitadores-postura": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-facilitadores-postura",
       "type": "custom",
       "iconId": null,
@@ -490,6 +505,7 @@
   },
   "menu-item#category-brasieres-Post-Quirúrgicos": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-Post-Quirúrgicos",
       "type": "custom",
       "iconId": null,
@@ -505,6 +521,7 @@
   },
   "menu-item#category-brasieres-Maternidad-y-Lactancia": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-Maternidad-y-Lactancia",
       "type": "custom",
       "iconId": null,
@@ -520,6 +537,7 @@
   },
   "menu-item#category-brasieres-Mastectomía": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-Mastectomía",
       "type": "custom",
       "iconId": null,
@@ -545,6 +563,7 @@
   },
   "menu-item#category-brasieres-Completa": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-Completa",
       "type": "custom",
       "iconId": null,
@@ -560,6 +579,7 @@
   },
   "menu-item#category-brasieres-Tres-Cuartos": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-Tres-Cuartos",
       "type": "custom",
       "iconId": null,
@@ -575,6 +595,7 @@
   },
   "menu-item#category-brasieres-Media": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-Media",
       "type": "custom",
       "iconId": null,
@@ -590,6 +611,7 @@
   },
   "menu-item#category-brasieres-Triangular": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-Triangular",
       "type": "custom",
       "iconId": null,
@@ -615,6 +637,7 @@
   },
   "menu-item#category-brasieres-Natural": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-Natural",
       "type": "custom",
       "iconId": null,
@@ -630,6 +653,7 @@
   },
   "menu-item#category-brasieres-Bajo": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-Bajo",
       "type": "custom",
       "iconId": null,
@@ -645,6 +669,7 @@
   },
   "menu-item#category-brasieres-Medio": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-Medio",
       "type": "custom",
       "iconId": null,
@@ -660,6 +685,7 @@
   },
   "menu-item#category-brasieres-Alto": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-Alto",
       "type": "custom",
       "iconId": null,
@@ -685,6 +711,7 @@
   },
   "menu-item#category-brasieres-Paquete-x-2": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-Paquete-x-2",
       "type": "custom",
       "iconId": null,
@@ -700,6 +727,7 @@
   },
   "menu-item#category-brasieres-Paquete-x-3": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-Paquete-x-2",
       "type": "custom",
       "iconId": null,
@@ -715,6 +743,7 @@
   },
   "menu-item#category-brasieres-Paquete-x-4": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-Paquete-x-3",
       "type": "custom",
       "iconId": null,
@@ -740,6 +769,7 @@
   },
   "menu-item#category-brasieres-Copa-A": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-Copa-A",
       "type": "custom",
       "iconId": null,
@@ -755,6 +785,7 @@
   },
   "menu-item#category-brasieres-Copa-B": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-Copa-B",
       "type": "custom",
       "iconId": null,
@@ -770,6 +801,7 @@
   },
   "menu-item#category-brasieres-Copa-C": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-Copa-C",
       "type": "custom",
       "iconId": null,
@@ -785,6 +817,7 @@
   },
   "menu-item#category-brasieres-Copa-D": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-Copa-D",
       "type": "custom",
       "iconId": null,
@@ -800,6 +833,7 @@
   },
   "rich-text#category-brasieres-Beneficios": {
     "props": {
+      
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "text": "Beneficios",
@@ -810,6 +844,7 @@
   },
   "menu-item#category-brasieres-Sin-Costuras": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-Sin-Costuras",
       "type": "custom",
       "iconId": null,
@@ -825,6 +860,7 @@
   },
   "menu-item#category-brasieres-Corte-Laser-Termofusionado": {
     "props": {
+      "blockClass":"itemMenu",
       "id": "menu-item-category-brasieres-Corte-Laser-Termofusionado",
       "type": "custom",
       "iconId": null,
@@ -5720,7 +5756,7 @@
       "text": "Estilos",
       "textColor": "black",
       "font": "10px",
-      "blockClass": "Subtitulos"
+      "blockClass": "subtitulos"
     }
   },
   "menu-item#category-tops-Cargadera-Ancha": {
@@ -5925,7 +5961,7 @@
       "text": "Material",
       "textColor": "black",
       "font": "10px",
-      "blockClass": "Subtitulos"
+      "blockClass": "subtitulos"
     }
   },
   "menu-item#category-tops-Algodon": {
@@ -6025,7 +6061,7 @@
       "text": "Compra Más y Ahorra",
       "textColor": "black",
       "font": "10px",
-      "blockClass": "Subtitulos"
+      "blockClass": "subtitulos"
     }
   },
   "menu-item#category-tops-paquetex4": {

@@ -87,6 +87,10 @@
   max-height: 100%;
 }
 
+.flexColChild{
+  height: auto !important;
+}
+
 .flexColChild--quickviewDetails:first-child {
   overflow-y: auto;
   height: 66% !important;

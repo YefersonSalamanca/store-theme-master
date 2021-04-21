@@ -141,6 +141,13 @@
   font-size: 28px;
   font-weight: 700;
 }
+.container--subtitulos{
+  border-bottom: solid 1px #000;
+  font-size: 0.82rem;
+  font-weight: bold;
+  padding: 1px;
+  margin-bottom: 2px;
+}
 
 @media only screen and (min-width: 640px) {
   .container--question .strong {
