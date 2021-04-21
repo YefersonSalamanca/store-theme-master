@@ -1,7 +1,7 @@
 {
   "vendor": "lilipinkco",
   "name": "lilipink",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
@@ -65,7 +65,8 @@
     "vtex.category-menu": "2.x",
     "vtex.condition-layout": "2.x",
     "vtex.product-availability": "0.x",
-   
+    "lilipinkco.filters": "0.x",
+    "lilipinkco.multihome": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "2.x",

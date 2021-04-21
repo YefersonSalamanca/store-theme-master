@@ -1,0 +1,201 @@
+{
+    "footer#Yoi": {
+      "blocks": ["footer-layout.desktop#Yoi", "footer-layout.mobile#Yoi"]
+    },
+    "footer-layout.desktop#Yoi": {
+      "children": [
+        "flex-layout.row#footer-1-desktopYoi",
+        "flex-layout.row#footer-2-desktopYoi",
+        "flex-layout.row#footer-3-desktopYoi"
+      ]
+    },
+    "flex-layout.row#footer-1-desktopYoi": {
+      "children": [
+        "footer-spacer",
+        "vtex.menu@2.x:menu#ProductsYoi",
+        "footer-spacer",   
+        "vtex.menu@2.x:menu#footer-decorationYoi",
+        "footer-spacer",
+        "vtex.menu@2.x:menu#footer-Atención-al-clienteYoi",
+        "footer-spacer"
+        
+        ],
+      "props": {
+        "blockClass": "menu-row",
+        "paddingTop": 6,
+        "paddingBottom": 3
+      }
+    },
+  
+    
+  
+    "flex-layout.row#footer-2-desktopYoi": {
+      "children": [
+        
+        "flex-layout.row#imagenes-tarjetasYoi",
+        "flex-layout.row#imagenes-tarjetas-2Yoi",
+        "flex-layout.row#imagenes-tarjetas-3Yoi",
+        "flex-layout.row#imagenes-tarjetas-4Yoi",
+        "flex-layout.row#imagenes-tarjetas-5Yoi",
+        "flex-layout.row#imagenes-tarjetas-6Yoi",
+        "flex-layout.row#imagenes-tarjetas-7Yoi",
+        "flex-layout.row#imagenes-tarjetas-8Yoi"
+      ],
+      "props": {
+        "blockClass": "payment-methods"
+      }
+    },
+    "accepted-payment-methods": {
+      "props": {
+        "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+      }
+    },
+    "flex-layout.row#imagenes-tarjetasYoi": {
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "center"
+      },
+      "children": ["image#tarjetas"]
+    },
+    "image#tarjetasYoi": {  
+      "props": {  
+        "src": "assets/efecty.png"  
+      }  
+    },
+    "flex-layout.row#imagenes-tarjetas-2Yoi": {
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "center"
+      },
+      "children": ["image#tarjetas-2"]
+    },
+    "image#tarjetas-2": {  
+      "props": {  
+        "src": "assets/DAVIVIENDA.png"  
+      }  
+    },
+    "flex-layout.row#imagenes-tarjetas-3Yoi": {
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "center"
+      },
+      "children": ["image#tarjetas-3"]
+    },
+    "image#tarjetas-3": {  
+      "props": {  
+        "src": "assets/PSE.png"  
+      }  
+    },
+    "flex-layout.row#imagenes-tarjetas-4Yoi": {
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "center"
+      },
+      "children": ["image#tarjetas-4"]
+    },
+    "image#tarjetas-4": {  
+      "props": {  
+        "src": "assets/VISA.png"  
+      }  
+    },
+    "flex-layout.row#imagenes-tarjetas-5Yoi": {
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "center"
+      },
+      "children": ["image#tarjetas-5"]
+    },
+    "image#tarjetas-5": {  
+      "props": {  
+        "src": "assets/MASTERCARD.png"  
+      }  
+    },
+    "flex-layout.row#imagenes-tarjetas-6Yoi": {
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "center"
+      },
+      "children": ["image#tarjetas-6"]
+    },
+    "image#tarjetas-6": {  
+      "props": {  
+        "src": "assets/CODENSA.png"  
+      }  
+    },
+    "flex-layout.row#imagenes-tarjetas-7Yoi": {
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "center"
+      },
+      "children": ["image#tarjetas-7"]
+    },
+    "image#tarjetas-7": {  
+      "props": {  
+        "src": "assets/DINERS-CLUB.png"  
+      }  
+    },
+    "flex-layout.row#imagenes-tarjetas-8Yoi": {
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "center"
+      },
+      "children": ["image#tarjetas-8"]
+    },
+    "image#tarjetas-8": {  
+      "props": {  
+        "src": "assets/AMERICAN.png"  
+      }  
+    },
+    "flex-layout.row#footer-3-desktopYoi": {
+      "children": ["rich-text#footerYoi"],
+      "props": {
+        "blockClass": "credits"
+      }
+    },
+    "rich-text#footerYoi": {
+      "props": {      
+        "text": "",
+        "blockClass": "footercopyright"     
+      }
+    },
+  
+    "footer-layout.mobile#Yoi": {
+      "children": [
+        "flex-layout.row#1-footer-mobileYoi",
+        "flex-layout.row#2-footer-mobileYoi"
+      ]
+    },
+    "flex-layout.row#2-footer-mobileYoi": {
+      "children": ["flex-layout.col#footer-1-mobileYoi"],
+      "props": {
+        "blockClass": "payment-methods",
+        "paddingTop": 4,
+        "paddingBottom": 4
+      }
+    },
+    "flex-layout.col#footer-1-mobileYoi": {
+      "children": [
+        "accepted-payment-methods",
+         "rich-text#footer-mobileYoi"
+      ],
+      "props": {
+        "blockClass": "payment-methods",
+        "paddingTop": 4,
+        "paddingBottom": 4,
+        "rowGap": 4
+      }
+    },
+    "flex-layout.row#1-footer-mobileYoi": {
+      "props": {
+        "paddingTop": 4,
+        "paddingBottom": 4
+      },
+      "children": ["vtex.menu@2.x:menu#footer-mobileYoi"]
+    },
+    "rich-text#footer-mobileYoi": {
+      "props": {
+        "text": "All stock and product photos are from photos.icons8.com",
+        "blockClass": "footer"
+      }
+    }
+  }

@@ -1,0 +1,503 @@
+{
+  "vtex.menu@2.x:menu#category-menuYoi": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-hogar",
+      "menu-item#category-cuidado",
+      "menu-item#category-tecnologia",
+      "menu-item#category-accesorios",
+      "menu-item#category-papeleria",
+      "menu-item#category-deporte",
+      "menu-item#category-mascotas",
+      "menu-item#category-estacional",
+      "menu-item#category-juguetes"
+        ]
+  },
+  "menu-item#category-hogar": {
+    "props": {
+      "id": "menu-item-category-hogar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/",
+        "noFollow": false,
+        "tagTitle": "HOGAR",
+        "text": "HOGAR"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-hogar"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-hogar": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-hogar2"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-hogar2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-hogar-clothing",
+      "menu-item#category-hogar-accessories",
+      "menu-item#category-hogar-eyeglasses"
+    ]
+  },
+  "menu-item#category-hogar-clothing": {
+    "props": {
+      "id": "menu-item-category-hogar-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-hogar-accessories": {
+    "props": {
+      "id": "menu-item-category-hogar-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-hogar-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-hogar-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#category-cuidado": {
+    "props": {
+      "id": "menu-item-category-cuidado",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado/",
+        "noFollow": false,
+        "tagTitle": "CUIDADO PERSONAL",
+        "text": "CUIDADO PERSONAL"
+      }
+    }
+  },
+  "menu-item#category-tecnologia": {
+    "props": {
+      "id": "menu-item-category-tecnologia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tecnologia/",
+        "noFollow": false,
+        "tagTitle": "TECNOLOGIA",
+        "text": "TECNOLOGIA"
+      }
+    }
+  },
+  "menu-item#category-accesorios": {
+    "props": {
+      "id": "menu-item-category-accesorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/",
+        "noFollow": false,
+        "tagTitle": "ACCESORIOS",
+        "text": "ACCESORIOS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-accesorios"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-accesorios": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-accesorios"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-accesorios": {
+    "props": {
+      "orientation": "vertical"
+    },
+  "children": [
+  "menu-item#category-cuidado-gafas",
+  "menu-item#category-bolsos-y-morrales",
+  "menu-item#category-moda",
+  "menu-item#category-relojeria",
+  "menu-item#category-bebe"
+    ]
+  },
+  "menu-item#category-cuidado-gafas": {
+    "props": {
+      "id": "menu-item-category-cuidado-gafas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/gafas/",
+        "noFollow": false,
+        "tagTitle": "gafas",
+        "text": "GAFAS"
+      }
+    }
+  },
+  "menu-item#category-bolsos-y-morrales": {
+    "props": {
+      "id": "menu-item-category-bolsos-y-morrales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/bolsosymorrales/",
+        "noFollow": false,
+        "tagTitle": "bolsosymorrales",
+        "text": "BOLSOS Y MORRALES  "
+      }
+    }
+  },
+  "menu-item#category-moda": {
+    "props": {
+      "id": "menu-item-category-moda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/moda/",
+        "noFollow": false,
+        "tagTitle": "moda",
+        "text": "MODA "
+      }
+    }
+  },
+  "menu-item#category-relojeria": {
+    "props": {
+      "id": "menu-item-category-relojeria",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/relojeria/",
+        "noFollow": false,
+        "tagTitle": "relojeria",
+        "text": "RELOJERÍA "
+      }
+    }
+  },
+  "menu-item#category-bebe": {
+    "props": {
+      "id": "menu-item-category-bebe",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/bebe/",
+        "noFollow": false,
+        "tagTitle": "bebe",
+        "text": "BEBÉ "
+      }
+    }
+  },
+
+
+  "menu-item#category-papeleria": {
+    "props": {
+      "id": "menu-item-category-papeleria",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/papeleria/",
+        "noFollow": false,
+        "tagTitle": "PAPELERIA",
+        "text": "PAPELERIA"
+      }
+    }
+  },
+  "menu-item#category-deporte": {
+    "props": {
+      "id": "menu-item-category-deporte",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deporte/",
+        "noFollow": false,
+        "tagTitle": "DEPORTE",
+        "text": "DEPORTE"
+      }
+    },
+
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-deporte"
+    ]
+    },
+    "vtex.menu@2.x:submenu#category-deporte": {
+      "props": {
+        "width": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-deporte"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-deporte": {
+      "props": {
+        "orientation": "vertical"
+      },
+    "children": [
+      "menu-item#category-gym",
+      "menu-item#category-yoga",
+      "menu-item#category-natacion",
+      "menu-item#category-Ciclismo"
+      ]
+    },
+    "menu-item#category-gym": {
+      "props": {
+        "id": "menu-item-category-gym",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/gym/",
+          "noFollow": false,
+          "tagTitle": "gym",
+          "text": "GYM"
+        }
+      }
+    },
+    "menu-item#category-yoga": {
+      "props": {
+        "id": "menu-item-category-yoga",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/yoga/",
+          "noFollow": false,
+          "tagTitle": "yoga",
+          "text": "YOGA"
+        }
+      }
+    },
+    "menu-item#category-natacion": {
+      "props": {
+        "id": "menu-item-category-natacion",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/natacion/",
+          "noFollow": false,
+          "tagTitle": "natacion",
+          "text": "NATACIÓN"
+        }
+      }
+    },
+    "menu-item#category-Ciclismo": {
+      "props": {
+        "id": "menu-item-category-Ciclismo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/Ciclismo/",
+          "noFollow": false,
+          "tagTitle": "Ciclismo",
+          "text": "CICLISMO"
+        }
+      }
+    },
+
+
+  "menu-item#category-mascotas": {
+    "props": {
+      "id": "menu-item-category-mascotas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/",
+        "noFollow": false,
+        "tagTitle": "MASCOTAS",
+        "text": "MASCOTAS"
+      }
+    }
+  },
+  "menu-item#category-estacional": {
+    "props": {
+      "id": "menu-item-category-estacional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estacional/",
+        "noFollow": false,
+        "tagTitle": "ESTACIONAL",
+        "text": "ESTACIONAL"
+      }
+    }
+  },
+
+
+  "menu-item#category-juguetes": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "JUGUETES",
+        "text": "JUGUETES"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#juguetes"
+    ]
+  },
+  "vtex.menu@2.x:submenu#juguetes": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-juguetes"
+    ]
+  },
+  "flex-layout.row#menu-juguetes": {
+    "children": [
+      "flex-layout.col#menu-juguetes-1",
+      "flex-layout.col#menu-juguetes-2"
+    ]
+  },
+  "flex-layout.col#menu-juguetes-1": {
+    "children": [
+      "vtex.menu@2.x:menu#juguetes"
+    ]
+  },
+  "flex-layout.col#menu-juguetes-2": {
+    "children": [
+      "info-card#home"
+    ]
+  },
+  "vtex.menu@2.x:menu#juguetes": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#socialseller",
+      "menu-item#tiendas",
+      "menu-item#credipink"
+    ]
+  },
+  "menu-item#tiendas": {
+    "props": {
+      "id": "menu-item-tiendas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tiendas",
+        "noFollow": true,
+        "tagTitle": "Tiendas",
+        "text": "Tiendas"
+      }
+    }
+  },
+  "menu-item#credipink": {
+    "props": {
+      "id": "menu-item-credipink",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/credipink",
+        "noFollow": true,
+        "tagTitle": "CrediPink",
+        "text": "CrediPink"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  },
+  "menu-item#socialseller": {
+    "props": {
+      "id": "menu-item-socialseller",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/socialseller",
+        "noFollow": true,
+        "tagTitle": "socialseller",
+        "text": "CONVIÉRTETE EN SOCIAL SELLER"
+      }
+    }
+  }
+}

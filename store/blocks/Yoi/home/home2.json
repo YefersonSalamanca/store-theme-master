@@ -1,0 +1,239 @@
+{
+    "flex-layout.row#home2": {
+        "props":{
+            "fullWidth":true
+        },
+        "children": ["flex-layout.col#home2"]
+      },
+
+      "flex-layout.col#home2": {
+          "props":{"width":"100%"},
+          "children":["header#yoi",
+            "list-context.image-list#demoYoi",
+            "__fold__.experimentalLazyAssets",
+            "flex-layout.row#bannerComplementoYoi",
+            "rich-text#shelf-titleYoi",
+            "flex-layout.row#shelfYoi",
+            "flex-layout.row#setInfocartYoi",
+            "flex-layout.row#bannerInferiorYoi",
+            "newsletter",
+            "rich-text#linkYoi",
+            "social-networks",
+            "footer#Yoi"
+        ]
+
+      },    
+
+  "rich-text#home-2": {
+    "props": {
+      "text": "Este es el Home Yoi"
+    
+    }
+  },
+  "list-context.image-list#demoYoi": {
+    "children": ["slider-layout#demo-imagesYoi"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "src": "assets/yoi/BannersMain/yb1.jpg" , 
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "src": "assets/yoi/BannersMain/yb2.jpg" , 
+          "mobileImage": "https://w.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "src": "assets/yoi/BannersMain/yb3.jpg" , 
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "src": "assets/yoi/BannersMain/yb4.jpg" , 
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+        ,
+        {
+          "src": "assets/yoi/BannersMain/yb5.jpg" , 
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "src": "assets/yoi/BannersMain/yb6.jpg" , 
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-imagesYoi": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  "info-card#homeHorizontalYoi": {
+    "props": {
+      "id": "info-card-homeHorizontal",
+      "isFullModeStyle": true,
+       "imageUrl": "assets/BannerDeal.jpg",
+       "blockClass": "info-card-homeHorizontal"
+      
+    }
+  },
+  "rich-text#shelf-titleYoi": {
+    "props": {
+      "text": "## Para ti",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelfYoi": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1Yoi": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-productsYoi": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+  "info-card#homeYoi": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "rich-text#questionYoi": {
+    "props": {
+      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "blockClass": "question"
+    }
+  },
+
+  "rich-text#linkYoi": {
+    "props": {
+      "text": "\n*Sígue Nuestras Redes Sociales*\n",
+      "blockClass": "link"
+    }
+  },
+  "flex-layout.row#bannerComplementoYoi": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#bannerSlim"]
+  },
+ 
+  
+  "image#bannerSlimYoi": {  
+    "props": {  
+      "src": "assets/BannerDeal.jpg"  
+    }  
+  },
+  "flex-layout.row#setInfocartYoi": {
+    "props": {
+       "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["info-card#ic1Yoi", "info-card#ic2Yoi", "info-card#ic3Yoi"]
+  },
+  "info-card#ic1Yoi": {
+    "props": {
+      "id": "info-card-ic1",
+      "isFullModeStyle": true,
+       "imageUrl": "assets/infoHomeA.jpg",
+       "callToActionText": "COMPRA AQUÍ",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-ic1",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#ic2Yoi": {
+    "props": {
+      "id": "info-card-ic2",
+      "isFullModeStyle": true,
+       "imageUrl": "assets/infoHome2.jpg",  
+       "callToActionText": "COMPRA AQUÍ",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-ic2",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#ic3Yoi": {
+    "props": {
+      "id": "info-card-ic3",
+      "isFullModeStyle": true,
+       "imageUrl": "assets/infoHomeC.jpg",
+       "callToActionText": "COMPRA AQUÍ",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-ic3",
+      "textAlignment": "center"
+    }
+  },
+
+  "flex-layout.row#bannerInferiorYoi": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#bannerSlim2Yoi"]
+  },
+ 
+  
+  "image#bannerSlim2Yoi": {  
+    "props": {  
+      "src": "assets/BannerInferior.jpg"  
+    }  
+  },
+
+  "social-networks": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/vtexonline"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        }
+      ]
+    }
+  }
+
+}

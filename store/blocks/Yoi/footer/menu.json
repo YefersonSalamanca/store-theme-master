@@ -1,0 +1,419 @@
+{
+    "vtex.menu@2.x:menu#ProductsYoi": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#Links-de-interesYoi",
+        "menu-item#Quienes-somosYoi",
+        "menu-item#PromocionesYoi",
+        "menu-item#Preguntas-frecuentesYoi",
+        "menu-item#Guía-de-Tallas-y-TipsYoi",
+        "flex-layout.row#imagenes-superintendenciaYoi"
+      ]
+    },
+    "menu-item#Links-de-interesYoi": {
+      "props": {
+        "blockClass": "Links-de-interes",
+        "id": "menu-item-Links-de-interes",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Links-de-interes",        
+          "text": "Links de interes"
+        }
+      }
+    },
+    "menu-item#Quienes-somosYoi": {
+      "props": {
+        "blockClass": "Quienesomos",
+        "id": "menu-item-Quienes-somos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/quienes-somos",
+          "noFollow": false,
+          "tagTitle": "Quienes-somos",
+          "text": "Quienes somos"
+        }
+      }
+    },
+    "menu-item#Preguntas-frecuentesYoi": {
+      "props": {
+        "blockClass": "Preguntasfrecuentes",
+        "id": "menu-item-Preguntas-frecuentes",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "preguntas-frecuentes",
+          "noFollow": false,
+          "tagTitle": "Preguntas-frecuentes",
+          "text": "Preguntas frecuentes"
+        }
+      }
+    },
+    "menu-item#PromocionesYoi": {
+      "props": {
+        "blockClass": "Promo",
+        "id": "menu-item-Promociones",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/promociones",
+          "noFollow": false,
+          "tagTitle": "Promociones",
+          "text": "Promociones"
+        }
+      }  
+  
+    },
+    "menu-item#Guía-de-Tallas-y-TipsYoi": {
+      "props": {
+        "blockClass": "Guia",
+        "id": "Guía-de-Tallas-y-Tips",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "guia-de-tallas",
+          "noFollow": false,
+          "tagTitle": "Guía-de-Tallas-y-Tips",
+          "text": "Guía de Tallas y Tips"
+        }
+      }  
+    },
+    "flex-layout.row#imagenes-superintendenciaYoi": {
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "center"
+      },
+      "children": ["image#superintendencia"]
+    },
+    "image#superintendencia": {  
+      "props": {  
+        "src": "assets/logo-sic1.png"  
+      }  
+    },
+    "vtex.menu@2.x:menu#espacioYoi": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#espacio"
+  
+      ]
+    },
+    "menu-item#espacio": {
+      "props": {
+        "id": "menu-item-espacio",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "espacio",
+          "text": ""
+        }
+      }
+    },
+  
+    "vtex.menu@2.x:menu#footer-decorationYoi": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#PoliticasYoi",
+        "menu-item#Condiciones-y-restriccionesYoi",
+        "menu-item#políticas-de-Cambios-y-DevolucionesYoi",
+        "menu-item#Privacidad-de-la-InformaciónYoi",
+        "menu-item#Trabaja-con-nosotrosYoi"
+  
+      ]
+    },
+    "menu-item#PoliticasYoi": {
+      "props": {
+        "blockClass": "politica",
+        "id": "menu-item-Politicas",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/decoration/Politicass",
+          "noFollow": true,
+          "tagTitle": "Politicas",
+          "text": "Politicas"
+        }
+      }
+    },
+  
+    "menu-item#Condiciones-y-restriccionesYoi": {
+      "props": {
+        "blockClass": "condiciones",
+        "id": "menu-item-Condiciones-y-restricciones",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/Condiciones-y-restricciones",
+          "noFollow": true,
+          "tagTitle": "Condiciones y restricciones",
+          "text": "Condiciones y restricciones"
+        }
+      }
+    },
+  
+    "menu-item#políticas-de-Cambios-y-DevolucionesYoi": {
+      "props": {
+        "blockClass": "Devoluciones",
+        "id": "menu-item-políticas-de-Cambios-y-Devoluciones",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/decoration/políticas-de-Cambios-y-Devoluciones",
+          "noFollow": true,
+          "tagTitle": "políticas-de-Cambios-y-Devoluciones",
+          "text": "Cambios y Devoluciones"
+        }
+      }
+    },
+  
+    "menu-item#Privacidad-de-la-InformaciónYoi": {
+      "props": {
+        "blockClass": "Privacidad",
+        "id": "menu-item-Privacidad-de-la-Información",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/privacidad-de-la-informacion",
+          "noFollow": true,
+          "tagTitle": "Privacidad-de-la-Información",
+          "text": "Privacidad de la Información"
+        }
+      }
+    },
+    "menu-item#Trabaja-con-nosotrosYoi": {
+      "props": {
+        "blockClass": "Trabaja",
+        "id": "menu-item-Trabaja-con-nosotros",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/trabaja-con-nosotros",
+          "noFollow": true,
+          "tagTitle": "Trabaja-con-nosotros",
+          "text": "Trabaja con nosotros"
+        }
+      }
+    },
+  
+    "vtex.menu@2.x:menu#footer-Atención-al-clienteYoi": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#Atención-al-clienteYoi",
+        "menu-item#escribenosYoi",
+        "menu-item#Linea-TelefonicaYoi",
+        "menu-item#TelefonoYoi",
+        "menu-item#3105756438Yoi"
+      ]
+    },
+  
+    "menu-item#Atención-al-clienteYoi": {
+      "props": {
+        "blockClass": "Cliente",
+        "id": "menu-item-Atención-al-cliente",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/bags/d",
+          "noFollow": true,
+          "tagTitle": "Atención-al-cliente",
+          "text": "Atención al cliente"
+        }
+      }
+    },
+    "menu-item#escribenosYoi": {
+      "props": {
+        "blockClass": "escribenos",
+        "id": "menu-item-escribenos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/quienes-somos",
+          "noFollow": true,
+          "tagTitle": "escribenos",
+          "text": "servicioalcliente@lilipink.com"
+        }
+      }
+    },
+    "menu-item#Linea-TelefonicaYoi": {
+      "props": {
+        "blockClass": "Linea",
+        "id": "menu-item-Linea-Telefonica",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/bags/Telefono",
+          "noFollow": true,
+          "tagTitle": "Linea-Telefonica",
+          "text": "Línea Telefónica:"
+        }
+      }
+    },
+    "menu-item#TelefonoYoi": {
+      "props": {
+        "blockClass": "Telefono",
+        "id": "menu-item-Telefono",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/bags/Telefono",
+          "noFollow": true,
+          "tagTitle": "Telefono",
+          "text": "6702400 Ext 107"
+        }
+      }
+    },
+    "menu-item#3105756438Yoi":{
+      "props": {
+        "blockClass": "3105756438",
+        "id": "menu-item-Linea-Telefonica",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/bags/Telefono",
+          "noFollow": true,
+          "tagTitle": "Linea-Telefonica",
+          "text": "3105756438"
+        }
+      }
+    },
+   
+    "vtex.menu@2.x:menu#footer-mobileYoi": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#Links-de-Interes-mobileYoi",
+        "menu-item#Politicas-mobileYoi",
+        "menu-item#sale-mobileYoi"
+      ]
+    },
+  
+    "menu-item#Links-de-Interes-mobileYoi": {
+      "props": {
+        "id": "menu-item-category-clothing",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/clothing/d",
+          "noFollow": true,
+          "tagTitle": "Clothing",
+          "text": "Links de Interes"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#clothingYoi"]
+    },
+    "vtex.menu@2.x:submenu.accordion#clothingYoi": {
+      "children": ["vtex.menu@2.x:menu#clothing-accordionYoi"]
+    },
+  
+    "vtex.menu@2.x:menu#clothing-accordionYoi": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#Quienes-somosYoi",
+        "menu-item#PromocionesYoi",
+        "menu-item#Preguntas-frecuentesYoi",
+        "menu-item#Guía-de-Tallas-y-TipsYoi"
+        
+      ]
+    },
+  
+    "menu-item#Politicas-mobileYoi": {
+      "props": {
+        "itemProps": {
+          "tagTitle": "Politicas",
+          "text": "Politicas"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#PoliticasYoi"]
+    },
+    "vtex.menu@2.x:submenu.accordion#PoliticasYoi": {
+      "children": ["vtex.menu@2.x:menu#footer-Politicas-mobileYoi"]
+    },
+  
+    "vtex.menu@2.x:menu#footer-Politicas-mobileYoi": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#Condiciones-y-restriccionesYoi",
+        "menu-item#políticas-de-Cambios-y-DevolucionesYoi",
+        "menu-item#Privacidad-de-la-InformaciónYoi",
+        "menu-item#Trabaja-con-nosotrosYoi"
+      ]
+    },
+  
+    "menu-item#sale-mobileYoi": {
+      "props": {
+        "itemProps": {
+          "tagTitle": "Sale",
+          "text": "Atención al cliente"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#saleYoi"]
+    },
+    "vtex.menu@2.x:submenu.accordion#saleYoi": {
+      "children": ["vtex.menu@2.x:menu#footer-sale-mobileYoi"]
+    },
+  
+    "vtex.menu@2.x:menu#footer-sale-mobileYoi": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#Atención-al-clienteYoi",
+        "menu-item#escribenosYoi",
+        "menu-item#Linea-TelefonicaYoi",
+        "menu-item#TelefonoYoi",
+        "menu-item#3105756438Yoi"
+        
+      ]
+    }  
+  }
