@@ -3,12 +3,22 @@
   text-align: center;
   justify-content: center;
 }
-
 .container--shelfTitle {
   color: #727273;
   justify-content: center;
   text-align: center;
 }
+.container--paratiYoi {
+  color: #53AC97;
+  justify-content: center;
+  text-align: center;
+  background-color: #C2FAF3;
+  font-family: 'Times New Roman', Montserrat , Montserrat;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
 
 .headingLevel2--shelfTitle {
   font-weight: 200;
@@ -120,7 +130,7 @@
 
 }
 .paragraph--Info-cc-2{
-  
+
   text-align: center;
 }
 .container--link .strong {
@@ -161,7 +171,7 @@
 
   .container--title .paragraph {
     line-height: 1.3em;
-    
+
   }
-  
+
 }

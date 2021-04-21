@@ -45,7 +45,7 @@
     },
     "children": [
       //"vtex.menu@2.x:menu#institutional",
-      "flex-layout.row#botonesHeader",
+
       "flex-layout.col#spacer",
       "vtex.menu@2.x:menu#websites"
     ]
@@ -279,13 +279,13 @@
   "link#Link": {
     "props": {
       "href": "/",
-      "label": "Lilipink"
+      "label": ""
     }
   },
   "link#yoi": {
     "props": {
       "href": "/",
-      "label": "Yoi"
+      "label": ""
     }
   }
 
