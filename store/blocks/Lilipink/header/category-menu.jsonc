@@ -14,7 +14,7 @@
       "menu-item#category-vestidos",
       "menu-item#category-hombre",
       "menu-item#category-nino",
-      "menu-item#category-belleza",
+      "menu-item#category-belleza-lilipink",
       "menu-item#category-bioseguridad",
       "menu-item#yoi"
     ]
@@ -29,7 +29,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres",
+        "href": "/lilipink/brasieres",
         "noFollow": false,
         "tagTitle": "BRASIERES",
         "text": "BRASIERES"
@@ -50,17 +50,21 @@
   "flex-layout.row#category-brasieres": {
     "children": [
       "flex-layout.col#category-brasieres-1",
-      "flex-layout.col#category-brasieres-5",
+      //"flex-layout.col#category-brasieres-5",
       "flex-layout.col#category-brasieres-2",
-      "flex-layout.col#category-brasieres-5",
+      //"flex-layout.col#category-brasieres-5",
       "flex-layout.col#category-brasieres-3",
-      "flex-layout.col#category-brasieres-5",
+      //"flex-layout.col#category-brasieres-5",
       "flex-layout.col#category-brasieres-4",
-      "flex-layout.col#category-brasieres-5",
+      //"flex-layout.col#category-brasieres-5",
       "flex-layout.col#category-brasieres-imagen"
     ]
   },
+
   "flex-layout.col#category-brasieres-1": {
+    "props": {
+      "width":"15%"
+   },
     "children": [
       "rich-text#category-brasieres-Buscar",
       "menu-item#category-brasieres-Ver_todo",
@@ -70,6 +74,9 @@
     ]
   },
   "flex-layout.col#category-brasieres-2": {
+    "props": {
+      "width":"15%"
+   },
     "children": [
       "rich-text#category-brasieres-Tipo",
       "menu-item#category-brasieres-bralette",
@@ -88,6 +95,9 @@
     ]
   },
   "flex-layout.col#category-brasieres-3": {
+    "props": {
+      "width":"15%"
+   },
     "children": [
       "rich-text#category-brasieres-Beneficio",
       "menu-item#category-brasieres-PushUp_realce",
@@ -109,6 +119,9 @@
     ]
   },
   "flex-layout.col#category-brasieres-4": {
+    "props": {
+      "width":"15%"
+   },
     "children": [
       "rich-text#category-brasieres-Compra_mas_y_ahorra",
       "menu-item#category-brasieres-Paquete-x-2",
@@ -126,10 +139,10 @@
   },
   "flex-layout.col#category-brasieres-5": {
     "children": [
+      /*"menu-item#category-brasieres-vacio1",
       "menu-item#category-brasieres-vacio1",
       "menu-item#category-brasieres-vacio1",
-      "menu-item#category-brasieres-vacio1",
-      "menu-item#category-brasieres-vacio1"
+      "menu-item#category-brasieres-vacio1"*/
     ]
   },
   "vtex.menu@2.x:menu#category-brasieres": {
@@ -188,7 +201,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres?O=OrderByReleaseDateDESC",
+        "href": "/lilipink/brasieres?O=OrderByReleaseDateDESC",
         "noFollow": false,
         "tagTitle": "Nuevos",
         "text": "Nuevos"
@@ -204,7 +217,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres?O=OrderByBestDiscountDESC",
+        "href": "/lilipink/brasieres?O=OrderByBestDiscountDESC",
         "noFollow": false,
         "tagTitle": "Ofertas",
         "text": "Descuentos"
@@ -230,7 +243,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/bralette",
+        "href": "/lilipink/brasieres/bralette",
         "noFollow": false,
         "tagTitle": "Bralette",
         "text": "Bralette"
@@ -260,7 +273,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/bustier",
+        "href": "/lilipink/brasieres/bustier",
         "noFollow": false,
         "tagTitle": "Bustier",
         "text": "Bustier"
@@ -275,7 +288,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/deportivo",
+        "href": "/lilipink/brasieres/deportivo",
         "noFollow": false,
         "tagTitle": "Deportivo",
         "text": "Deportivo"
@@ -290,7 +303,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/materno",
+        "href": "/lilipink/brasieres/materno",
         "noFollow": false,
         "tagTitle": "Materno",
         "text": "Materno"
@@ -335,7 +348,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/secret",
+        "href": "/lilipink/brasieres/secret",
         "noFollow": false,
         "tagTitle": "Secret",
         "text": "Secret"
@@ -350,7 +363,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/strapless",
+        "href": "/lilipink/brasieres/strapless",
         "noFollow": false,
         "tagTitle": "Strapless",
         "text": "Strapless"
@@ -365,7 +378,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/brasieres-surtido",
+        "href": "/lilipink/brasieres/brasieres-surtido",
         "noFollow": false,
         "tagTitle": "Surtido",
         "text": "Surtido"
@@ -395,7 +408,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/sin-varilla",
+        "href": "/lilipink/brasieres/sin-varilla",
         "noFollow": false,
         "tagTitle": "Sin varilla",
         "text": "Sin Varilla"
@@ -410,7 +423,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/conjuntos",
+        "href": "/lilipink/brasieres/conjuntos",
         "noFollow": false,
         "tagTitle": "conjuntos",
         "text": "Conjuntos"
@@ -466,7 +479,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
+        "href": "/lilipink/brasieres/clothing/",
         "noFollow": false,
         "tagTitle": "reduce",
         "text": "Encaje"
@@ -526,7 +539,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
+        "href": "/lilipink/brasieres/clothing/",
         "noFollow": false,
         "tagTitle": "Mesh",
         "text": "Surtido"
@@ -551,7 +564,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
+        "href": "/lilipink/brasieres/clothing/",
         "noFollow": false,
         "tagTitle": "Completa",
         "text": "Completa"
@@ -566,7 +579,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
+        "href": "/lilipink/brasieres/clothing/",
         "noFollow": false,
         "tagTitle": "TresCuartos",
         "text": "Tres Cuartos"
@@ -581,7 +594,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
+        "href": "/lilipink/brasieres/clothing/",
         "noFollow": false,
         "tagTitle": "Media",
         "text": "Media"
@@ -596,7 +609,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
+        "href": "/lilipink/brasieres/clothing/",
         "noFollow": false,
         "tagTitle": "Triangular",
         "text": "Triangular"
@@ -621,7 +634,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
+        "href": "/lilipink/brasieres/clothing/",
         "noFollow": false,
         "tagTitle": "Natural",
         "text": "Natural"
@@ -636,7 +649,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
+        "href": "/lilipink/brasieres/clothing/",
         "noFollow": false,
         "tagTitle": "Bajo",
         "text": "Bajo"
@@ -651,7 +664,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
+        "href": "/lilipink/brasieres/clothing/",
         "noFollow": false,
         "tagTitle": "Medio",
         "text": "Medio"
@@ -666,7 +679,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres/clothing/",
+        "href": "/lilipink/brasieres/clothing/",
         "noFollow": false,
         "tagTitle": "Alto",
         "text": "Alto"
@@ -840,8 +853,15 @@
   },
   "flex-layout.col#category-brasieres-imagen": {
     "children": [
-      "info-card#home"
+      //"info-card#home"
+       "image#imagencatbrasieres"
     ]
+  },
+  "image#imagencatbrasieres": {
+    "props": {
+      "blockClass":"imagencatbrasieres",
+       "src": "assets/imagenbrasieresmenu.jpg"
+    }
   },
   "menu-item#category-tops": {
     "props": {
@@ -1033,7 +1053,7 @@
       "blockClass": "subtitulos"
      }
   },
-  
+
   "rich-text#category-tops-Compra_mas_y_ahorra": {
     "props": {
       "textAlignment": "LEFT",
@@ -6781,10 +6801,10 @@
       "info-card#home"
     ]
   },
-  //menu belleza
-  "menu-item#category-belleza": {
+
+  "menu-item#category-belleza-lilipink": {
     "props": {
-      "id": "menu-item-category-belleza",
+      "id": "menu-item-category-belleza-lilipink",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -6796,59 +6816,61 @@
         "text": "BELLEZA"
       }
     },
+
     "blocks": [
-      "vtex.menu@2.x:submenu#category-belleza"
+      "vtex.menu@2.x:submenu#category-belleza-lilipink"
     ]
   },
-  "vtex.menu@2.x:submenu#category-belleza": {
+  "vtex.menu@2.x:submenu#category-belleza-lilipink": {
     "props": {
       "width": "100%"
     },
     "children": [
-      "flex-layout.row#category-belleza"
+      "flex-layout.row#category-belleza-lilipink"
     ]
   },
-  "flex-layout.row#category-belleza": {
+
+  "flex-layout.row#category-belleza-lilipink": {
     "children": [
-      "flex-layout.col#category-belleza-1",
-      "flex-layout.col#category-belleza-2",
-      "flex-layout.col#category-belleza-5"
+      "flex-layout.col#category-belleza-lilipink-1",
+      "flex-layout.col#category-belleza-lilipink-2",
+      "flex-layout.col#category-belleza-lilipink-5"
     ]
   },
-  "flex-layout.col#category-belleza-1": {
+  "flex-layout.col#category-belleza-lilipink-1": {
     "children": [
-      "rich-text#category-belleza-Buscar",
-      "menu-item#category-belleza-Ver_todo",
-      "menu-item#category-belleza-Los-más-Vendidos",
-      "menu-item#category-belleza-Nuevos-Brasieres-y-Bralettes",
-      "menu-item#category-bellezas-Ofertas"
+      "rich-text#category-belleza-lilipink-Buscar",
+      "menu-item#category-belleza-lilipink-Ver_todo",
+      "menu-item#category-belleza-lilipink-Los-más-Vendidos",
+      "menu-item#category-belleza-lilipink-Nuevos-Brasieres-y-Bralettes",
+      "menu-item#category-belleza-lilipink-Ofertas"
     ]
   },
-  "flex-layout.col#category-belleza-2": {
+  "flex-layout.col#category-belleza-lilipink-2": {
     "children": [
-      "rich-text#category-belleza-Tipos",
-      "menu-item#category-belleza-Accesorios-Maquillaje",
-      "menu-item#category-belleza-Cuidado-Bucal",
-      "menu-item#category-belleza-Cuidado-Cabello",
-      "menu-item#category-belleza-Cuidado-Corporal",
-      "menu-item#category-belleza-Cuidado-Facial",
-      "menu-item#category-belleza-Fragancias",
-      "menu-item#category-belleza-Manos-Pies",
-      "menu-item#category-belleza-Maquillaje",
-      "menu-item#category-belleza-Prevencion-Cuidado"
+      "rich-text#category-belleza-lilipink-Tipos",
+      "menu-item#category-belleza-lilipink-Accesorios-Maquillaje",
+      "menu-item#category-belleza-lilipink-Cuidado-Bucal",
+      "menu-item#category-belleza-lilipink-Cuidado-Cabello",
+      "menu-item#category-belleza-lilipink-Cuidado-Corporal",
+      "menu-item#category-belleza-lilipink-Cuidado-Facial",
+      "menu-item#category-belleza-lilipink-Fragancias",
+      "menu-item#category-belleza-lilipink-Manos-Pies",
+      "menu-item#category-belleza-lilipink-Maquillaje",
+      "menu-item#category-belleza-lilipink-Prevencion-Cuidado"
     ]
   },
-  "flex-layout.col#category-belleza-5": {
+  "flex-layout.col#category-belleza-lilipink-5": {
     "children": [
       "info-card#home"
     ]
   },
-  "vtex.menu@2.x:menu#category-belleza": {
+  "vtex.menu@2.x:menu#category-belleza-lilipink": {
     "props": {
       "orientation": "vertical"
     }
   },
-  "rich-text#category-belleza-Buscar": {
+  "rich-text#category-belleza-lilipink-Buscar": {
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -6858,7 +6880,7 @@
       "blockClass": "subtitulos"
     }
   },
-  "menu-item#category-belleza-Ver_todo": {
+  "menu-item#category-belleza-lilipink-Ver_todo": {
     "props": {
       "id": "menu-item-category-belleza-Ver_todo",
       "type": "custom",
@@ -6873,7 +6895,7 @@
       }
     }
   },
-  "menu-item#category-belleza-Los-más-Vendidos": {
+  "menu-item#category-belleza-lilipink-Los-más-Vendidos": {
     "props": {
       "id": "menu-item-category-belleza-Lo_mas_Vendido",
       "type": "custom",
@@ -6888,7 +6910,7 @@
       }
     }
   },
-  "menu-item#category-belleza-Nuevos-Brasieres-y-Bralettes": {
+  "menu-item#category-belleza-lilipink-Nuevos-Brasieres-y-Bralettes": {
     "props": {
       "id": "menu-item-category-belleza-Nuevos-Brasieres-y-Bralettes",
       "type": "custom",
@@ -6903,7 +6925,7 @@
       }
     }
   },
-  "menu-item#category-bellezas-Ofertas": {
+  "menu-item#category-belleza-lilipink-Ofertas": {
     "props": {
       "id": "menu-item-category-belleza-Ofertas",
       "type": "custom",
@@ -6918,7 +6940,7 @@
       }
     }
   },
-  "rich-text#category-belleza-Tipos": {
+  "rich-text#category-belleza-lilipink-Tipos": {
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -6928,7 +6950,7 @@
       "blockClass": "subtitulos"
     }
   },
-  "menu-item#category-belleza-Accesorios-Maquillaje": {
+  "menu-item#category-belleza-lilipink-Accesorios-Maquillaje": {
     "props": {
       "id": "menu-item-category-belleza-Accesorios-Maquillaje",
       "type": "custom",
@@ -6943,9 +6965,9 @@
       }
     }
   },
-  "menu-item#category-belleza-Cuidado-Bucal": {
+  "menu-item#category-belleza-lilipink-Cuidado-Bucal": {
     "props": {
-      "id": "menu-item-category-belleza-Cuidado-Bucal",
+      "id": "menu-item-category-belleza-lilipink-Cuidado-Bucal",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -6958,7 +6980,7 @@
       }
     }
   },
-  "menu-item#category-belleza-Cuidado-Cabello": {
+  "menu-item#category-belleza-lilipink-Cuidado-Cabello": {
     "props": {
       "id": "menu-item-category-belleza-Cuidado-Cabello",
       "type": "custom",
@@ -6973,7 +6995,7 @@
       }
     }
   },
-  "menu-item#category-belleza-Cuidado-Corporal": {
+  "menu-item#category-belleza-lilipink-Cuidado-Corporal": {
     "props": {
       "id": "menu-item-category-belleza-Cuidado-Corporal",
       "type": "custom",
@@ -6988,9 +7010,9 @@
       }
     }
   },
-  "menu-item#category-belleza-Cuidado-Facial": {
+  "menu-item#category-belleza-lilipink-Cuidado-Facial": {
     "props": {
-      "id": "menu-item-category-belleza-Cuidado-Facial",
+      "id": "menu-item-category-belleza-lilipink-Cuidado-Facial",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -7003,7 +7025,7 @@
       }
     }
   },
-  "menu-item#category-belleza-Fragancias": {
+  "menu-item#category-belleza-lilipink-Fragancias": {
     "props": {
       "id": "menu-item-category-belleza-Fragancias",
       "type": "custom",
@@ -7018,7 +7040,7 @@
       }
     }
   },
-  "menu-item#category-belleza-Manos-Pies": {
+  "menu-item#category-belleza-lilipink-Manos-Pies": {
     "props": {
       "id": "menu-item-category-belleza-Manos-Pies",
       "type": "custom",
@@ -7033,7 +7055,7 @@
       }
     }
   },
-  "menu-item#category-belleza-Maquillaje": {
+  "menu-item#category-belleza-lilipink-Maquillaje": {
     "props": {
       "id": "menu-item-category-belleza-Maquillaje",
       "type": "custom",
@@ -7048,7 +7070,7 @@
       }
     }
   },
-  "menu-item#category-belleza-Prevencion-Cuidado": {
+  "menu-item#category-belleza-lilipink-Prevencion-Cuidado": {
     "props": {
       "id": "menu-item-category-belleza-Prevencion-Cuidado",
       "type": "custom",
