@@ -1,15 +1,66 @@
 {
   "store.search": {
+    "blocks": [
+      "multihome"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "__unstableProductOriginVtex": "true"
+      },
+    "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    }
+  }
+  },
+
+  
+
+"header#empty": {
+  "blocks": [
+    "header-layout.desktop#empty",
+    "header-layout.mobile#empty"
+  ]
+},
+"header-layout.desktop#empty": {
+  "children": []
+},
+"header-layout.mobile#empty": {
+  "children": []
+},
+"footer#empty": {
+  "blocks": [
+    "footer-layout.desktop#empty",
+    "footer-layout.mobile#empty"
+  ]
+},
+"footer-layout.desktop#empty": {
+  "children": []
+},
+"footer-layout.mobile#empty": {
+  "children": []
+},
+
+
+"multihome":{
+  "children":[
+"search-result-layout",
+"search-result-layout"
+  ]
+},
+
+ /* "store.search": {
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
         "skusFilter": "ALL",
-        //"simulationBehavior": "skip",
         "simulationBehavior": "default",
         "__unstableProductOriginVtex": "true"
       }
     }
-  },
+  }, */
 
   "store.search#brand": {
     "blocks": ["search-result-layout"],
@@ -319,4 +370,6 @@
       "blockClass": "layout-option"
     }
   }
-}
+
+  }
+
