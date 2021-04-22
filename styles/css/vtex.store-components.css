@@ -42,14 +42,14 @@
 .infoCardContainer--info-card{
   height:400px ;
 }
-.imageElement--Imagenetiqueta{ 
+.imageElement--Imagenetiqueta{
   height :20px;
   width: 20px;
   margin: 0 2px 0 30px;
   display: flex;
   justify-content: center;
 }
-.imageElement--Img-ig{ 
+.imageElement--Img-ig{
   height :44px;
   width: 15%;
   margin-bottom: -1%;
@@ -62,7 +62,7 @@
   margin-bottom: -1%;
   justify-content: left;
 }
-.imageElement--Img-fb{ 
+.imageElement--Img-fb{
   height :44px;
   width: 15%;
   margin-bottom: 1%;
@@ -86,13 +86,13 @@
   background-color: #EFEFEF;
   max-width: 1528px;
   max-height: 380px;
-  
+
 }
 .newsletter-2{
   background-color: #EFEFEF;
   max-width: 1528px;
   max-height: 380px;
-  
+
 }
 .newsletter .label {
   display: none;
@@ -100,8 +100,8 @@
 }
 .notificationBarContainer--tienda-whatapps{
   background-color: transparent;
- 
-  
+
+
 
 }
 
@@ -138,15 +138,15 @@
 :global(.vtex-button) {
   /*background-color: transparent;*/
   background-color: #e4147e;
-  
+
   border: none;
   margin-right: -24px;
 }
 
 .buttonContainer {
   padding-top: 0px;
-  
-  
+
+
 }
 
 .imageElement--storePrint {
