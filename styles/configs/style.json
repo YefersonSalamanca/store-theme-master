@@ -295,7 +295,7 @@
             "letterSpacing": "0"
           },
           "body": {
-            "fontFamily": "San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+            "fontFamily": "Monserrat, San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
             "fontWeight": "normal",
             "fontSize": "1rem",
             "textTransform": "initial",
