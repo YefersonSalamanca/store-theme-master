@@ -1,6 +1,7 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
+      "blockClass":"menuPrincipal",
       "experimentalOptimizeRendering": true
     },
     "children": [
@@ -41,7 +42,8 @@
   },
   "vtex.menu@2.x:submenu#category-brasieres": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass":"submenu"
     },
     "children": [
       "flex-layout.row#category-brasieres"
@@ -921,7 +923,8 @@
   },
   "vtex.menu@2.x:submenu#category-tops2": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass":"submenu"
     },
     "children": [
       "flex-layout.row#category-tops"
@@ -1167,7 +1170,8 @@
   },
   "vtex.menu@2.x:submenu#category-panties": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass":"submenu"
     },
     "children": [
       "flex-layout.row#category-panties"
@@ -1769,7 +1773,8 @@
   },
   "vtex.menu@2.x:submenu#category-kids": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass":"submenu"
     },
     "children": [
       "vtex.menu@2.x:menu#category-menu-kids"
@@ -1806,7 +1811,8 @@
   },
   "vtex.menu@2.x:submenu#category-kids-girl": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass":"submenu"
     },
     "children": [
       "flex-layout.col#partes-menu-girl"
@@ -1856,7 +1862,8 @@
   },
   "vtex.menu@2.x:submenu#category-kids-junior": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass":"submenu"
     },
     "children": [
       "flex-layout.col#partes-menu-junior"
@@ -1896,7 +1903,8 @@
   },
   "vtex.menu@2.x:submenu#category-kids-teen": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass":"submenu"
     },
     "children": [
       "flex-layout.col#partes-menu-teen"
@@ -4249,7 +4257,8 @@
   },
   "vtex.menu@2.x:submenu#category-descanso": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass":"submenu"
     },
     "children": [
       "flex-layout.row#category-descanso"
@@ -4810,7 +4819,8 @@
   },
   "vtex.menu@2.x:submenu#category-medias": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass":"submenu"
     },
     "children": [
       "flex-layout.row#category-medias"
@@ -5251,7 +5261,8 @@
   },
   "vtex.menu@2.x:submenu#category-deportivo": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass":"submenu"
     },
     "children": [
       "flex-layout.row#category-deportivo"
@@ -5600,7 +5611,8 @@
   },
   "vtex.menu@2.x:submenu#category-vestidos": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass":"submenu"
     },
     "children": [
       "flex-layout.row#category-vestidos"
@@ -5901,7 +5913,8 @@
   },
   "vtex.menu@2.x:submenu#category-tops": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass":"submenu"
     },
     "children": [
       "flex-layout.row#category-tops"
@@ -6602,7 +6615,8 @@
   },
   "vtex.menu@2.x:submenu#category-hombre": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass":"submenu"
     },
     "children": [
       "flex-layout.row#category-hombre"
@@ -6919,7 +6933,8 @@
   },
   "vtex.menu@2.x:submenu#category-nino": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass":"submenu"
     },
     "children": [
       "flex-layout.row#category-nino"
@@ -7199,7 +7214,8 @@
   },
   "vtex.menu@2.x:submenu#category-belleza": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass":"submenu"
     },
     "children": [
       "flex-layout.row#category-belleza"
@@ -7500,7 +7516,8 @@
   },
   "vtex.menu@2.x:submenu#category-bioseguridad": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass":"submenu"
     },
     "children": [
       "flex-layout.row#category-bioseguridad"
@@ -7714,7 +7731,9 @@
     ]
   },
   "vtex.menu@2.x:submenu#yoi": {
-    "props": {},
+    "props": {
+      "blockClass":"submenu"
+    },
     "children": [
       "flex-layout.row#menu-yoi"
     ]

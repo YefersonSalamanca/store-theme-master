@@ -23,6 +23,8 @@
 
 .flexRowContent--main-header {
   background-color: #fff;
+  justify-content: left !important;
+  padding-left: 2rem !important;
 }
 
 .flexRowContent--main-header-mobile {
