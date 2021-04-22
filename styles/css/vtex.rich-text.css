@@ -20,7 +20,7 @@
 
 .container--link {
   justify-content: center;
-  margin-bottom: -60px!important;
+  margin-bottom: -60px !important;
   font-style: normal;
   font-weight: bold;
   font-size: 90%;
@@ -29,7 +29,8 @@
 .container--question {
   justify-content: center;
 }
-.heading--shelfTitle{
+
+.heading--shelfTitle {
   color: black;
   font-style: bold;
 }
@@ -41,10 +42,12 @@
   padding-top: 120px;
   color: #e4147e;
 }
-.container--Info-trabaja{
+
+.container--Info-trabaja {
   padding: 50px;
 }
-.container--condiciones-restriciones{
+
+.container--condiciones-restriciones {
   text-align: center;
   justify-content: center;
   padding-top: 120px;
@@ -52,17 +55,19 @@
   font-size: 25px;
   font-weight: bolder;
   font-style: inherit;
-  color:gray;
+  color: gray;
 
 }
-.container--condiciones-restriciones2{
+
+.container--condiciones-restriciones2 {
   padding-right: 60px;
   padding-left: 60px;
   text-justify: distribute;
-  color:gray;
+  color: gray;
 
 }
-.container--Vacantes{
+
+.container--Vacantes {
   text-align: center;
   justify-content: center;
   padding-top: 120px;
@@ -86,7 +91,8 @@
   padding-bottom: 84px;
   color: #e4147e;
 }
-.container--newsletter-izquierdo{
+
+.container--newsletter-izquierdo {
   text-align: center;
   max-width: 540px;
   padding-top: 36px;
@@ -94,7 +100,8 @@
   color: #888282;
   background-color: #EFEFEF;
 }
-.container--newsletter-2{
+
+.container--newsletter-2 {
   text-align: center;
   max-width: 540px;
   padding-top: 36px;
@@ -102,27 +109,33 @@
   color: #888282;
   background-color: #EFEFEF;
 }
-.paragraph--newsletter-izquierdo{
+
+.paragraph--newsletter-izquierdo {
   margin-top: 20%;
 }
-.paragraph--newsletter-2{
+
+.paragraph--newsletter-2 {
   margin-top: 20%;
 }
-.paragraph--text-whatapps{
-  color:rgb(101, 173, 28) !important;
+
+.paragraph--text-whatapps {
+  color: rgb(101, 173, 28) !important;
   font-size: 16px;
 }
-.paragraph--Info-cc{
+
+.paragraph--Info-cc {
   font-size: 21px;
   text-align: center;
   color: #e4147e;
   margin-left: 80px;
 
 }
-.paragraph--Info-cc-2{
-  
+
+.paragraph--Info-cc-2 {
+
   text-align: center;
 }
+
 .container--link .strong {
   font-size: 16px;
   font-weight: 700;
@@ -141,12 +154,19 @@
   font-size: 28px;
   font-weight: 700;
 }
-.container--subtitulos{
+
+.container--subtitulos {
   border-bottom: solid 1px #000;
+  color: #e4147e;
   font-size: 0.82rem;
   font-weight: bold;
   padding: 1px;
-  margin-bottom: 2px;
+}
+
+.paragraph--subtitulos {
+
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
 }
 
 @media only screen and (min-width: 640px) {
@@ -168,7 +188,7 @@
 
   .container--title .paragraph {
     line-height: 1.3em;
-    
+
   }
-  
+
 }
