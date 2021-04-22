@@ -1,7 +1,8 @@
 {
   "flex-layout.row#home2": {
       "props":{
-          "fullWidth":true
+          "fullWidth":true,
+          "blockClass": "home2"
       },
       "children": ["flex-layout.col#home2"]
     },

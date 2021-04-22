@@ -3,7 +3,6 @@
   padding: 0 0.5rem;
 }
 
-
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
@@ -49,7 +48,6 @@
   color: rgb(255, 0, 128);
   font-size: 11px;
 }
-
 .flexRow--deals {
   background-color: #a7afbd;
   padding: 14px 0px;
@@ -108,4 +106,12 @@
   max-height: 700;
   padding: 0 0.25rem;
 }
+.flexRowContent--menu-row{
+  background-color: coral;
+}
 
+
+/*FOOTER**/
+.flexRow--home2 .flexRowContent--menu-row {
+  background: #53AC97;
+}
