@@ -170,7 +170,8 @@
   color: #e4147e;
   font-size: 0.82rem;
   font-weight: bold;
-  padding: 1px;
+  padding: 1px;  
+  font-family: 'Monserrat-semibold';
 }
 
 .paragraph--subtitulos {
@@ -195,7 +196,15 @@
     font-weight: 700;
     max-width: 60%;
   }
+  .container--tituloMenu{
+    background-color: #f0f0f0;
+    font-family: 'Monserrat-semibold';
+    font-size: 15px;
+    margin-bottom: 0.3rem;
+    
+  }
 
+  
   .container--title .paragraph {
     line-height: 1.3em;
 

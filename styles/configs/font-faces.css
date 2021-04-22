@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Monserrat-semibold';
+  src: url(assets/fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'Monserrat-regular';
+  src: url(assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Monserrat-bold';
+  src: url(assets/fonts/Montserrat-Bold.ttf);
+}

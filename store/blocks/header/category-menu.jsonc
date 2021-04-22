@@ -23,7 +23,7 @@
   //menu brasieres
   "menu-item#category-brasieres": {
     "props": {
-      "blockClass": "",
+      "blockClass": "titulosMenu",
       "id": "menu-item-category-brasieres",
       "type": "custom",
       "iconId": null,
@@ -55,13 +55,14 @@
       "flex-layout.col#category-brasieres-2",
       "flex-layout.col#category-brasieres-3",
       "flex-layout.col#category-brasieres-4",
+      "flex-layout.col#category-brasieres-5",
       "flex-layout.col#category-brasieres-imagen"
     ]
   },
   "flex-layout.col#category-brasieres-1": {
     "props":{
-      "blockClass":"columnaMenu"//,
-      //"width":"15%"
+      "blockClass":"columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-brasieres-Buscar",
@@ -73,8 +74,8 @@
   },
   "flex-layout.col#category-brasieres-2": {
     "props":{
-      "blockClass":"columnaMenu"//,
-      //"width":"15%"
+      "blockClass":"columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-brasieres-Tipo",
@@ -95,8 +96,8 @@
   },
   "flex-layout.col#category-brasieres-3": {
     "props":{
-      "blockClass":"columnaMenu"//,
-      //"width":"15%"
+      "blockClass":"columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-brasieres-Beneficio",
@@ -119,8 +120,8 @@
   },
   "flex-layout.col#category-brasieres-4": {
     "props":{
-      "blockClass":"columnaMenu"//,
-      //"width":"15%"
+      "blockClass":"columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-brasieres-Compra_mas_y_ahorra",
@@ -905,6 +906,7 @@
   },
   "menu-item#category-tops": {
     "props": {
+      "blockClass":"titulosMenu",
       "id": "menu-item-category-tops",
       "type": "custom",
       "iconId": null,
@@ -1152,6 +1154,7 @@
   },*/
   "menu-item#category-panties": {
     "props": {
+      "blockClass":"titulosMenu",
       "id": "menu-item-category-panties",
       "type": "custom",
       "iconId": null,
@@ -1183,12 +1186,14 @@
       "flex-layout.col#category-panties-2",
       "flex-layout.col#category-panties-3",
       "flex-layout.col#category-panties-4",
+      "flex-layout.col#category-brasieres-5",
       "flex-layout.col#category-panties-5"
     ]
   },
   "flex-layout.col#category-panties-1": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-panties-Buscar",
@@ -1200,7 +1205,8 @@
   },
   "flex-layout.col#category-panties-2": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-panties-tipo",
@@ -1215,7 +1221,8 @@
   },
   "flex-layout.col#category-panties-3": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-panties-beneficios",
@@ -1229,7 +1236,8 @@
   },
   "flex-layout.col#category-panties-4": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"16%"
     },
     "children": [
       "rich-text#category-panties-Compra_mas_y_ahorra",
@@ -1755,6 +1763,7 @@
   },
   "menu-item#category-kids": {
     "props": {
+      "blockClass":"titulosMenu",
       "id": "menu-item-category-kids",
       "type": "custom",
       "iconId": null,
@@ -1794,6 +1803,7 @@
   },
   "menu-item#category-kids-girl": {
     "props": {
+      "blockClass":"titulosMenu",
       "id": "menu-item-category-kids-girl",
       "iconId": null,
       "highlight": false,
@@ -1815,8 +1825,8 @@
       "blockClass":"submenu"
     },
     "children": [
-      "flex-layout.col#partes-menu-girl"
-      //"flex-layout.col#partes-menu-girl-2"
+      "flex-layout.col#partes-menu-girl",
+      "flex-layout.col#partes-menu-girl-2"
     ]
   },
   "flex-layout.col#partes-menu-girl": {
@@ -1844,6 +1854,7 @@
   },
   "menu-item#category-kids-junior": {
     "props": {
+      "blockClass":"titulosMenu",
       "id": "menu-item-category-kids-junior",
       "type": "custom",
       "iconId": null,
@@ -1866,16 +1877,27 @@
       "blockClass":"submenu"
     },
     "children": [
-      "flex-layout.col#partes-menu-junior"
+      "flex-layout.col#partes-menu-junior-1",
+      "flex-layout.col#partes-menu-junior-2"
     ]
   },
-  "flex-layout.col#partes-menu-junior": {
+  "flex-layout.col#partes-menu-junior-1": {
     
     "children": [
       "rich-text#titulo-arriba",
       "flex-layout.row#category-kids-junior-arriba",
       "rich-text#titulo-abajo",
       "flex-layout.row#category-kids-junior-abajo"
+    ]
+  },
+  "flex-layout.col#partes-menu-junior-2": {
+    "props":{
+      "blockClass":"vacio"
+    },
+    "children": [
+      
+      "flex-layout.row#category-kids-girl-arriba-2"
+      
     ]
   },
   "flex-layout.col#category-teen": {
@@ -1885,6 +1907,7 @@
   },
   "menu-item#category-kids-girl-teen": {
     "props": {
+      "blockClass":"titulosMenu",
       "id": "menu-item-category-kids-teen",
       "type": "custom",
       "iconId": null,
@@ -1907,15 +1930,26 @@
       "blockClass":"submenu"
     },
     "children": [
-      "flex-layout.col#partes-menu-teen"
+      "flex-layout.col#partes-menu-teen-1",
+      "flex-layout.col#partes-menu-teen-2"
     ]
   },
-  "flex-layout.col#partes-menu-teen": {
+  "flex-layout.col#partes-menu-teen-1": {
     "children": [
       "rich-text#titulo-arriba",
       "flex-layout.row#category-kids-teen-arriba",
       "rich-text#titulo-abajo",
       "flex-layout.row#category-kids-teen-abajo"
+    ]
+  },
+  "flex-layout.col#partes-menu-teen-2": {
+    "props":{
+      "blockClass":"vacio"
+    },
+    "children": [
+      
+      "flex-layout.row#category-kids-girl-arriba-2"
+      
     ]
   },
   "rich-text#titulo-arriba": {
@@ -1942,8 +1976,7 @@
       "flex-layout.col#category-kids-girl-arriba-1",
       "flex-layout.col#category-kids-girl-arriba-2",
       "flex-layout.col#category-kids-girl-arriba-3",
-      "flex-layout.col#category-kids-girl-arriba-4",
-      "flex-layout.col#category-kids-girl-arriba-5"
+      "flex-layout.col#category-kids-girl-arriba-4"
     ]
   },
   "flex-layout.row#category-kids-girl-arriba-2": {
@@ -2316,8 +2349,8 @@
       "flex-layout.col#category-kids-girl-abajo-1",
       "flex-layout.col#category-kids-girl-abajo-2",
       "flex-layout.col#category-kids-girl-abajo-3",
-      "flex-layout.col#category-kids-girl-abajo-4",
-      "flex-layout.col#category-kids-girl-abajo-5"
+      "flex-layout.col#category-kids-girl-abajo-4"//,
+      //"flex-layout.col#category-kids-girl-abajo-5"
     ]
   },
   "flex-layout.col#category-kids-girl-abajo-1": {
@@ -2337,7 +2370,7 @@
       "blockClass": "columnaMenu"
     },
     "children": [
-      "rich-text#category-kids-girl-arriba-material-inferior",
+      "rich-text#category-kids-girl-arriba-estilos-superior",
       "menu-item#category-kids-girl-abajo-boxer",
       "menu-item#category-kids-girl-abajo-clasico",
       "menu-item#category-kids-girl-abajo-hipster",
@@ -2703,8 +2736,8 @@
       "flex-layout.col#category-kids-junior-arriba-1",
       "flex-layout.col#category-kids-junior-arriba-2",
       "flex-layout.col#category-kids-junior-arriba-3",
-      "flex-layout.col#category-kids-junior-arriba-4",
-      "flex-layout.col#category-kids-junior-arriba-5"
+      "flex-layout.col#category-kids-junior-arriba-4"//,
+      //"flex-layout.col#category-kids-junior-arriba-5"
     ]
   },
   "flex-layout.col#category-kids-junior-arriba-1": {
@@ -3090,8 +3123,8 @@
       "flex-layout.col#category-kids-junior-abajo-1",
       "flex-layout.col#category-kids-junior-abajo-2",
       "flex-layout.col#category-kids-junior-abajo-3",
-      "flex-layout.col#category-kids-junior-abajo-4",
-      "flex-layout.col#category-kids-junior-abajo-5"
+      "flex-layout.col#category-kids-junior-abajo-4"//,
+      //"flex-layout.col#category-kids-junior-abajo-5"
     ]
   },
   "flex-layout.col#category-kids-junior-abajo-1": {
@@ -3454,8 +3487,8 @@
       "flex-layout.col#category-kids-teen-arriba-1",
       "flex-layout.col#category-kids-teen-arriba-2",
       "flex-layout.col#category-kids-teen-arriba-3",
-      "flex-layout.col#category-kids-teen-arriba-4",
-      "flex-layout.col#category-kids-teen-arriba-5"
+      "flex-layout.col#category-kids-teen-arriba-4"//,
+      //"flex-layout.col#category-kids-teen-arriba-5"
     ]
   },
   "flex-layout.col#category-kids-teen-arriba-1": {
@@ -3846,8 +3879,8 @@
       "flex-layout.col#category-kids-teen-abajo-1",
       "flex-layout.col#category-kids-teen-abajo-2",
       "flex-layout.col#category-kids-teen-abajo-3",
-      "flex-layout.col#category-kids-teen-abajo-4",
-      "flex-layout.col#category-kids-teen-abajo-5"
+      "flex-layout.col#category-kids-teen-abajo-4"//,
+      //"flex-layout.col#category-kids-teen-abajo-5"
     ]
   },
   "flex-layout.col#category-kids-teen-abajo-1": {
@@ -4239,6 +4272,7 @@
   //menu descanso
   "menu-item#category-descanso": {
     "props": {
+      "blockClass":"titulosMenu",
       "id": "menu-item-category-descanso",
       "type": "custom",
       "iconId": null,
@@ -4269,12 +4303,15 @@
       "flex-layout.col#category-descanso-1",
       "flex-layout.col#category-descanso-2",
       "flex-layout.col#category-descanso-3",
+      "flex-layout.col#category-brasieres-5",
+      "flex-layout.col#category-brasieres-5",
       "flex-layout.col#category-descanso-5"
     ]
   },
   "flex-layout.col#category-descanso-1": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-descanso-Buscar",
@@ -4286,7 +4323,8 @@
   },
   "flex-layout.col#category-descanso-2": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-descanso-Tipo",
@@ -4303,7 +4341,8 @@
   },
   "flex-layout.col#category-descanso-3": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-descanso-Beneficio",
@@ -4801,6 +4840,7 @@
   //menu medias
   "menu-item#category-medias": {
     "props": {
+      "blockClass":"titulosMenu",
       "id": "menu-item-category-medias",
       "type": "custom",
       "iconId": null,
@@ -4832,12 +4872,14 @@
       "flex-layout.col#category-medias-2",
       "flex-layout.col#category-medias-3",
       "flex-layout.col#category-medias-4",
+      "flex-layout.col#category-brasieres-5",
       "flex-layout.col#category-medias-5"
     ]
   },
   "flex-layout.col#category-medias-1": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-medias-Buscar",
@@ -4849,7 +4891,8 @@
   },
   "flex-layout.col#category-medias-2": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-medias-Estilos",
@@ -4864,7 +4907,8 @@
   },
   "flex-layout.col#category-medias-3": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-medias-Beneficio",
@@ -4875,7 +4919,8 @@
   },
   "flex-layout.col#category-medias-4": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-medias-Compra-mas-y-ahorra",
@@ -5243,6 +5288,7 @@
   //deportivo
   "menu-item#category-deportivo": {
     "props": {
+      "blockClass":"titulosMenu",
       "id": "menu-item-category-deportivo",
       "type": "custom",
       "iconId": null,
@@ -5273,12 +5319,15 @@
       "flex-layout.col#category-deportivo-1",
       "flex-layout.col#category-deportivo-2",
       "flex-layout.col#category-deportivo-3",
+      "flex-layout.col#category-brasieres-5",
+      "flex-layout.col#category-brasieres-5",
       "flex-layout.col#category-deportivo-5"
     ]
   },
   "flex-layout.col#category-deportivo-1": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-deportivo-Buscar",
@@ -5290,7 +5339,8 @@
   },
   "flex-layout.col#category-deportivo-2": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-deportivo-Tipo",
@@ -5304,7 +5354,8 @@
   },
   "flex-layout.col#category-deportivo-3": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-deportivo-Deportes",
@@ -5593,6 +5644,7 @@
   },
   "menu-item#category-vestidos": {
     "props": {
+      "blockClass":"titulosMenu",
       "id": "menu-item-category-vestidos",
       "type": "custom",
       "iconId": null,
@@ -5623,12 +5675,15 @@
       "flex-layout.col#category-vestidos-1",
       "flex-layout.col#category-vestidos-2",
       "flex-layout.col#category-vestidos-3",
+      "flex-layout.col#category-brasieres-5",
+      "flex-layout.col#category-brasieres-5",
       "flex-layout.col#category-vestidos-5"
     ]
   },
   "flex-layout.col#category-vestidos-1": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-vestidos-Buscar",
@@ -5640,7 +5695,8 @@
   },
   "flex-layout.col#category-vestidos-2": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-vestidos-Tipos",
@@ -5653,7 +5709,8 @@
   },
   "flex-layout.col#category-vestidos-3": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-vestidos-Material",
@@ -5926,12 +5983,14 @@
       "flex-layout.col#category-tops-2",
       "flex-layout.col#category-tops-3",
       "flex-layout.col#category-tops-4",
+      "flex-layout.col#category-brasieres-5",
       "flex-layout.col#category-tops-5"
     ]
   },
   "flex-layout.col#category-tops-1": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-tops-Buscar",
@@ -5943,7 +6002,8 @@
   },
   "flex-layout.col#category-tops-2": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-tops-tipo",
@@ -5964,7 +6024,8 @@
   },
   "flex-layout.col#category-tops-3": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-tops-beneficios",
@@ -5978,7 +6039,8 @@
   },
   "flex-layout.col#category-tops-4": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-tops-Compra_mas_y_ahorra",
@@ -6596,7 +6658,7 @@
   },*/
   "menu-item#category-hombre": {
     "props": {
-      "blockClass": "",
+      "blockClass":"titulosMenu",
       "id": "menu-item-category-hombre",
       "type": "custom",
       "iconId": null,
@@ -6633,7 +6695,8 @@
   },
   "flex-layout.col#category-hombre-1": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-hombre-buscar",
@@ -6645,7 +6708,8 @@
   },
   "flex-layout.col#category-hombre-2": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-hombre-estilos",
@@ -6654,7 +6718,8 @@
   },
   "flex-layout.col#category-hombre-3": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-hombre-material",
@@ -6666,7 +6731,8 @@
   },
   "flex-layout.col#category-hombre-4": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-hombre-compra_mas_y_ahorra",
@@ -6914,7 +6980,7 @@
   //menu niño
   "menu-item#category-nino": {
     "props": {
-      "blockClass": "",
+      "blockClass":"titulosMenu",
       "id": "menu-item-category-nino",
       "type": "custom",
       "iconId": null,
@@ -6951,7 +7017,8 @@
   },
   "flex-layout.col#category-nino-1": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-nino-buscar",
@@ -6963,7 +7030,8 @@
   },
   "flex-layout.col#category-nino-2": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-nino-estilos",
@@ -6972,7 +7040,8 @@
   },
   "flex-layout.col#category-nino-3": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-nino-material",
@@ -6982,7 +7051,8 @@
   },
   "flex-layout.col#category-nino-4": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-nino-compra_mas_y_ahorra",
@@ -7196,6 +7266,7 @@
   //menu belleza
   "menu-item#category-belleza": {
     "props": {
+      "blockClass":"titulosMenu",
       "id": "menu-item-category-belleza",
       "type": "custom",
       "iconId": null,
@@ -7225,12 +7296,15 @@
     "children": [
       "flex-layout.col#category-belleza-1",
       "flex-layout.col#category-belleza-2",
+      "flex-layout.col#category-brasieres-5",
+      "flex-layout.col#category-brasieres-5",
       "flex-layout.col#category-belleza-5"
     ]
   },
   "flex-layout.col#category-belleza-1": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-belleza-Buscar",
@@ -7242,7 +7316,8 @@
   },
   "flex-layout.col#category-belleza-2": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-belleza-Tipos",
@@ -7498,6 +7573,7 @@
   //menu bioseguridad
   "menu-item#category-bioseguridad": {
     "props": {
+      "blockClass":"titulosMenu",
       "id": "menu-item-category-bioseguridad",
       "type": "custom",
       "iconId": null,
@@ -7527,12 +7603,16 @@
     "children": [
       "flex-layout.col#category-bioseguridad-1",
       "flex-layout.col#category-bioseguridad-2",
+      "flex-layout.col#category-brasieres-5",
+      "flex-layout.col#category-brasieres-5",
+      "flex-layout.col#category-brasieres-5",
       "flex-layout.col#category-bioseguridad-5"
     ]
   },
   "flex-layout.col#category-bioseguridad-1": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-bioseguridad-Buscar",
@@ -7544,7 +7624,8 @@
   },
   "flex-layout.col#category-bioseguridad-2": {
     "props": {
-      "blockClass": "columnaMenu"
+      "blockClass": "columnaMenu",
+      "width":"15%"
     },
     "children": [
       "rich-text#category-bioseguridad-Tipo",
@@ -7714,6 +7795,7 @@
   },
   "menu-item#yoi": {
     "props": {
+      "blockClass":"titulosMenu",
       "id": "menu-item-custom-sale",
       "type": "custom",
       "iconId": null,

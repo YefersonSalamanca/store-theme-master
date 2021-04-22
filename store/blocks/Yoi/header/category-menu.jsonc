@@ -12,8 +12,8 @@
       "menu-item#category-mascotas",
       "menu-item#category-estacional",
       "menu-item#category-tecnologia",
-      "menu-item#category-papeleria",
-      "menu-item#category-belleza"
+      "menu-item#category-papeleria"
+      //"menu-item#category-belleza"
 
 
         ]
