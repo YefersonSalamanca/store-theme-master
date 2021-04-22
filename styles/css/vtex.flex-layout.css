@@ -87,6 +87,18 @@
   max-height: 100%;
 }
 
+.flexColChild{
+  height: auto !important;
+}
+.flexCol--columnaMenu{
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+
+}
+.flexCol--vacio{
+  width: 25% !important;
+}
+
 .flexColChild--quickviewDetails:first-child {
   overflow-y: auto;
   height: 66% !important;
