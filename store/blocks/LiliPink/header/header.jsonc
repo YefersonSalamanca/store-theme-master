@@ -1,0 +1,293 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      //"flex-layout.row#1-desktop",
+      //"flex-layout.row#2-desktop",
+      "flex-layout.row#3-desktop",
+      "sticky-layout#4-desktop",
+      "flex-layout.row#4-desktop",
+      "flex-layout.row#lilipink-yoi",
+      "flex-layout.row#6-desktop"
+
+    ]
+  },
+  "flex-layout.row#1-desktop": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#2-desktop": {
+    "children": ["notification.bar#home"],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!!!"
+    }
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      //"vtex.menu@2.x:menu#institutional",
+      "flex-layout.row#botonesHeader",
+      "flex-layout.col#spacer",
+      "vtex.menu@2.x:menu#websites"
+    ]
+  },
+  "flex-layout.row#botonesHeader": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+
+    },
+    "children": ["image#btnLiliPink", "image#btnYoi"]
+  },
+
+
+  "image#btnLiliPink": {
+    "props": {
+      "src": "assets/buttonLP1.jpg" ,
+      "href": "#" ,
+      "width": "55%"
+    }
+  },
+  "image#btnYoi": {
+    "props": {
+      "src": "assets/buttonYoi1.jpg" ,
+      "href": "#" ,
+      "width": "55%"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#5-desktop"]
+  },
+  "flex-layout.row#5-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "search-bar",
+      "flex-layout.col#spacer",
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "locale-switcher",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.row#6-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+       "horizontalAlign": "center",
+       "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#spacer",
+      "flex-layout.col#logo1",
+      "rich-text#linkImperdibles",
+      "flex-layout.col#logo2",
+      "rich-text#linkPedidoWhatsapp",
+      "flex-layout.col#spacer"
+    ]
+  },
+  "flex-layout.col#logo1": {
+    "props": {
+      "blockClass": "logo1",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#logo1"]
+  },
+
+
+  "image#logo1": {
+    "props": {
+      "blockClass": "Imagenetiqueta",
+      "src": "assets/label.png"
+    }
+  },
+  "flex-layout.col#logo2": {
+    "props": {
+      "blockClass": "logo2",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#logo2"]
+  },
+
+
+  "image#logo2": {
+    "props": {
+      "blockClass": "Imagenetiqueta",
+      "src": "assets/logo-wh.png"
+    }
+  },
+  "rich-text#linkImperdibles": {
+    "props": {
+      "text": "Encuentra Nuestros Imperdibles AQUÍ        ||  ",
+      "href":"#",
+      "blockClass": "Encuentra"
+    }
+  },
+  "rich-text#linkPedidoWhatsapp": {
+    "props": {
+      "text": "Haz tu pedido vía Whatsapp AQUÍ",
+      "blockClass": "home-whatapps"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#logodesktop"]
+  },
+
+
+  "image#logodesktop": {
+    "props": {
+      "src": "assets/logoLargoLP.png"
+    }
+  },
+
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile"]
+  },
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+  "flex-layout.row#4-desktop":{
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#category-menu"
+    ]
+  },
+
+   "category-menu": {
+    "props": {
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "departments": []
+    }
+  },
+
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-brasieres",
+      "menu-item#category-tops",
+      "menu-item#category-panties",
+      "menu-item#category-kids",
+      "menu-item#category-descanso",
+      "menu-item#category-medias",
+      "menu-item#category-deportivo",
+      "menu-item#category-vestidos",
+      "menu-item#category-belleza",
+      "menu-item#category-bioseguridad",
+      "menu-item#yoi"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "width": "70"
+    }
+  },
+  "flex-layout.row#lilipink-yoi": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "link#Link",
+      "link#yoi"
+    ]
+  },
+
+  "link#Link": {
+    "props": {
+      "href": "/",
+      "label": "Lilipink"
+    }
+  },
+  "link#yoi": {
+    "props": {
+      "href": "/",
+      "label": "Yoi"
+    }
+  }
+
+}
+

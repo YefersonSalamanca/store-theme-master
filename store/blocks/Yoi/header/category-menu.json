@@ -6,154 +6,379 @@
     "children": [
       "menu-item#category-hogar",
       "menu-item#category-cuidado",
-      "menu-item#category-tecnologia",
       "menu-item#category-accesorios",
-      "menu-item#category-papeleria",
       "menu-item#category-deporte",
+      "menu-item#category-juguetes",
       "menu-item#category-mascotas",
       "menu-item#category-estacional",
-      "menu-item#category-juguetes"
+      "menu-item#category-tecnologia",
+      "menu-item#category-papeleria",
+      "menu-item#category-belleza"
+
+
         ]
-  },
-  "menu-item#category-hogar": {
-    "props": {
-      "id": "menu-item-category-hogar",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/hogar/",
-        "noFollow": false,
-        "tagTitle": "HOGAR",
-        "text": "HOGAR"
+    },
+    "menu-item#category-hogar": {
+      "props": {
+        "id": "menu-item-category-hogar",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/",
+          "noFollow": false,
+          "tagTitle": "HOGAR",
+          "text": "HOGAR"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#category-hogar"
+      ]
+    },
+    "vtex.menu@2.x:submenu#category-hogar": {
+      "props": {
+        "width": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-hogar2"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-hogar2": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#category-hogar-cocina",
+        "menu-item#category-hogar-almacenamiento",
+        "menu-item#category-hogar-articulo-de-mesa",
+        "menu-item#category-hogar-celebracion",
+        "menu-item#category-hogar-electro",
+        "menu-item#category-hogar-electro",
+        "menu-item#category-hogar-baño",
+        "menu-item#category-hogar-decoracion",
+        "menu-item#category-hogar-almohadas-y-cojines",
+        "menu-item#category-hogar-herramientas",
+        "menu-item#category-hogar-aromas"
+      ]
+    },
+    "menu-item#category-hogar-cocina": {
+      "props": {
+        "id": "menu-item-category-hogar-cocina",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/cocina/",
+          "noFollow": false,
+          "tagTitle": "Cocina",
+          "text": "COCINA"
+        }
       }
     },
-    "blocks": [
-      "vtex.menu@2.x:submenu#category-hogar"
-    ]
-  },
-  "vtex.menu@2.x:submenu#category-hogar": {
+    "menu-item#category-hogar-almacenamiento": {
+      "props": {
+        "id": "menu-item-category-hogar-almacenamiento",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/almacenamiento/",
+          "noFollow": false,
+          "tagTitle": "almacenamiento",
+          "text": "ALMACENAMIENTO"
+        }
+      }
+    },
+    "menu-item#category-hogar-articulo-de-mesa": {
+      "props": {
+        "id": "menu-item-category-hogar-articulo-de-mesa",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/articulodemesa/",
+          "noFollow": false,
+          "tagTitle": "Articulodemesa",
+          "text": "ARTÍCULOS DE MESA"
+        }
+      }
+    },
+    "menu-item#category-hogar-celebracion": {
+      "props": {
+        "id": "menu-item-category-hogar-celebracion",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/celebracion/",
+          "noFollow": false,
+          "tagTitle": "celebracion",
+          "text": "CELEBRACIÓN"
+        }
+      }
+    },
+    "menu-item#category-hogar-electro": {
+      "props": {
+        "id": "menu-item-category-hogar-electro",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/electro/",
+          "noFollow": false,
+          "tagTitle": "electro",
+          "text": "ELECTRO"
+        }
+      }
+    },
+
+    "menu-item#category-hogar-limpieza": {
+      "props": {
+        "id": "menu-item-category-hogar-limpieza",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/limpieza/",
+          "noFollow": false,
+          "tagTitle": "limpieza",
+          "text": "LIMPIEZA"
+        }
+      }
+    },
+    "menu-item#category-hogar-baño": {
+      "props": {
+        "id": "menu-item-category-hogar-baño",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/baño/",
+          "noFollow": false,
+          "tagTitle": "baño",
+          "text": "BAÑO"
+        }
+      }
+    },
+    "menu-item#category-hogar-decoracion":{
+      "props": {
+        "id": "menu-item-category-hogar-decoracion",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/decoracion/",
+          "noFollow": false,
+          "tagTitle": "decoracion",
+          "text": "DECORACIÓN"
+        }
+      }
+    },
+    "menu-item#category-hogar-almohadas-y-cojines":{
+      "props": {
+        "id": "menu-item-category-hogar-almohadas-y-cojines",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/almohadas-y-cojines/",
+          "noFollow": false,
+          "tagTitle": "almohadas-y-cojines",
+          "text": "ALMOHADS Y COJINES"
+        }
+      }
+
+    },
+    "menu-item#category-hogar-herramientas":{
+      "props": {
+        "id": "menu-item-category-hogar-herramientas",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/herramientas/",
+          "noFollow": false,
+          "tagTitle": "herramientas",
+          "text": "HERRAMIENTAS"
+        }
+      }
+
+    },
+    "menu-item#category-hogar-aromas":{
+      "props": {
+        "id": "menu-item-category-hogar-aromas",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/aromas/",
+          "noFollow": false,
+          "tagTitle": "aromas",
+          "text": "AROMAS"
+        }
+      }
+    },
+    "menu-item#category-cuidado": {
+      "props": {
+        "id": "menu-item-category-cuidado",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/cuidado/",
+          "noFollow": false,
+          "tagTitle": "CUIDADO PERSONAL",
+          "text": "CUIDADO PERSONAL"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#category-cuidado"
+      ]  },
+  "vtex.menu@2.x:submenu#category-cuidado": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-hogar2"
+      "vtex.menu@2.x:menu#category-cuidado"
     ]
-  },
-  "vtex.menu@2.x:menu#category-hogar2": {
-    "props": {
-      "orientation": "vertical"
     },
-    "children": [
-      "menu-item#category-hogar-clothing",
-      "menu-item#category-hogar-accessories",
-      "menu-item#category-hogar-eyeglasses"
-    ]
-  },
-  "menu-item#category-hogar-clothing": {
-    "props": {
-      "id": "menu-item-category-hogar-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/hogar/clothing/",
-        "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    }
-  },
-  "menu-item#category-hogar-accessories": {
-    "props": {
-      "id": "menu-item-category-hogar-accessories",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/hogar/accessories/",
-        "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
-      }
-    }
-  },
-  "menu-item#category-hogar-eyeglasses": {
-    "props": {
-      "id": "menu-item-category-hogar-eyeglasses",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/hogar/eyeglasses/",
-        "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
-      }
-    }
-  },
-  "menu-item#category-cuidado": {
-    "props": {
-      "id": "menu-item-category-cuidado",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/cuidado/",
-        "noFollow": false,
-        "tagTitle": "CUIDADO PERSONAL",
-        "text": "CUIDADO PERSONAL"
-      }
-    }
-  },
-  "menu-item#category-tecnologia": {
-    "props": {
-      "id": "menu-item-category-tecnologia",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tecnologia/",
-        "noFollow": false,
-        "tagTitle": "TECNOLOGIA",
-        "text": "TECNOLOGIA"
-      }
-    }
-  },
-  "menu-item#category-accesorios": {
-    "props": {
-      "id": "menu-item-category-accesorios",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/accesorios/",
-        "noFollow": false,
-        "tagTitle": "ACCESORIOS",
-        "text": "ACCESORIOS"
+    "vtex.menu@2.x:menu#category-cuidado": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#category-hogar-cuidadofacial",
+        "menu-item#category-hogar-accesorios-maquillaje",
+        "menu-item#category-hogar-cuidadocabello",
+        "menu-item#category-hogar-cuidadobucal",
+        "menu-item#category-hogar-descanso"
+      ]
+    },
+    "menu-item#category-hogar-cuidadofacial": {
+      "props": {
+        "id": "menu-item-category-hogar-cuidadofacial",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/cuidadofacial/",
+          "noFollow": false,
+          "tagTitle": "cuidadofacial",
+          "text": "CUIDADO FACIAL"
+        }
       }
     },
-    "blocks": [
-      "vtex.menu@2.x:submenu#category-accesorios"
-    ]
-  },
-  "vtex.menu@2.x:submenu#category-accesorios": {
-    "props": {
-      "width": "auto"
+    "menu-item#category-hogar-accesorios-maquillaje": {
+      "props": {
+        "id": "menu-item-category-hogar-accesorios-maquillaje",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/accesorios-maquillaje/",
+          "noFollow": false,
+          "tagTitle": "accesorios-maquillaje",
+          "text": "ACCESORIOS Y MAQUILLAJE"
+        }
+      }
     },
-    "children": [
-      "vtex.menu@2.x:menu#category-accesorios"
-    ]
-  },
-  "vtex.menu@2.x:menu#category-accesorios": {
-    "props": {
+
+    "menu-item#category-hogar-cuidadobucal": {
+      "props": {
+        "id": "menu-item-category-hogar-cuidadobucal",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/cuidadobucal/",
+          "noFollow": false,
+          "tagTitle": "cuidadobucal",
+          "text": "CUIDADO BUCAL"
+        }
+      }
+    },
+    "menu-item#category-hogar-cuidadocabello": {
+      "props": {
+        "id": "menu-item-category-hogar-cuidadocabello",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/cuidadocabello/",
+          "noFollow": false,
+          "tagTitle": "cuidadocabello",
+          "text": "CUIDADO CABELLO"
+        }
+      }
+    },
+    "menu-item#category-hogar-descanso": {
+      "props": {
+        "id": "menu-item-category-hogar-descanso",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hogar/descanso/",
+          "noFollow": false,
+          "tagTitle": "descanso",
+          "text": "DESCANSO"
+        }
+      }
+    },
+
+    "menu-item#category-tecnologia": {
+      "props": {
+        "id": "menu-item-category-tecnologia",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/tecnologia/",
+          "noFollow": false,
+          "tagTitle": "TECNOLOGIA",
+          "text": "TECNOLOGIA"
+        }
+      }
+    },
+    "menu-item#category-accesorios": {
+      "props": {
+        "id": "menu-item-category-accesorios",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/accesorios/",
+          "noFollow": false,
+          "tagTitle": "ACCESORIOS",
+          "text": "ACCESORIOS"
+          }
+        },
+      "blocks": [
+        "vtex.menu@2.x:submenu#category-accesorios"
+      ]
+    },
+    "vtex.menu@2.x:submenu#category-accesorios": {
+     "props": {
       "orientation": "vertical"
     },
   "children": [
@@ -256,6 +481,7 @@
       }
     }
   },
+      
   "menu-item#category-deporte": {
     "props": {
       "id": "menu-item-category-deporte",
@@ -276,10 +502,12 @@
     ]
     },
     "vtex.menu@2.x:submenu#category-deporte": {
+
       "props": {
         "width": "auto"
       },
       "children": [
+
         "vtex.menu@2.x:menu#category-deporte"
       ]
     },
@@ -356,36 +584,70 @@
     },
 
 
-  "menu-item#category-mascotas": {
-    "props": {
-      "id": "menu-item-category-mascotas",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/mascotas/",
-        "noFollow": false,
-        "tagTitle": "MASCOTAS",
-        "text": "MASCOTAS"
+    "menu-item#category-belleza": {
+      "props": {
+        "id": "menu-item-category-belleza",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/belleza/",
+          "noFollow": false,
+          "tagTitle": "belleza",
+          "text": "BELLEZA"
+        }
       }
-    }
-  },
-  "menu-item#category-estacional": {
-    "props": {
-      "id": "menu-item-category-estacional",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/estacional/",
-        "noFollow": false,
-        "tagTitle": "ESTACIONAL",
-        "text": "ESTACIONAL"
+    },
+
+    "menu-item#category-mascotas": {
+      "props": {
+        "id": "menu-item-category-mascotas",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/mascotas/",
+          "noFollow": false,
+          "tagTitle": "MASCOTAS",
+          "text": "MASCOTAS"
+        }
       }
-    }
-  },
+    },
+
+
+        "menu-item#category-mascotas-accesorios": {
+          "props": {
+            "id": "menu-item-category-mascotas-accesorios",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/MASCOTAS-ACCESORIOS/",
+              "noFollow": false,
+              "tagTitle": "ACCESORIOS",
+              "text": "ACCESORIOS"
+            }
+          }
+        },
+    "menu-item#category-estacional": {
+      "props": {
+        "id": "menu-item-category-estacional",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/estacional/",
+          "noFollow": false,
+          "tagTitle": "ESTACIONAL",
+          "text": "ESTACIONAL"
+        }
+      }
+    },
+
 
 
   "menu-item#category-juguetes": {
@@ -401,103 +663,189 @@
         "tagTitle": "JUGUETES",
         "text": "JUGUETES"
       }
-    },
+      },
     "blocks": [
-      "vtex.menu@2.x:submenu#juguetes"
-    ]
-  },
-  "vtex.menu@2.x:submenu#juguetes": {
-    "props": {
-      "width": "100%"
+
+      "vtex.menu@2.x:submenu#category-jugetes"
+      ]
+      },
+    "vtex.menu@2.x:submenu#category-jugetes": {
+      "props": {
+        "width": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-jugetes"
+      ]
+      },
+      "vtex.menu@2.x:menu#category-jugetes": {
+        "props": {
+          "orientation": "vertical"
+        },
+      "children": [
+        "menu-item#category-jugetes-peluches",
+        "menu-item#category-jugetes-moldeables",
+        "menu-item#category-jugetes-didactivos",
+        "menu-item#category-jugetes-vehiculos",
+        "menu-item#category-jugetes-juegos-de-mesa",
+        "menu-item#category-jugetes-figura",
+        "menu-item#category-jugetes-muñecas",
+        "menu-item#category-jugetes-electricos",
+        "menu-item#category-jugetes-destrezas",
+        "menu-item#category-jugetes-juego-de-sol"
+
+      ]
     },
-    "children": [
-      "flex-layout.row#menu-juguetes"
-    ]
-  },
-  "flex-layout.row#menu-juguetes": {
-    "children": [
-      "flex-layout.col#menu-juguetes-1",
-      "flex-layout.col#menu-juguetes-2"
-    ]
-  },
-  "flex-layout.col#menu-juguetes-1": {
-    "children": [
-      "vtex.menu@2.x:menu#juguetes"
-    ]
-  },
-  "flex-layout.col#menu-juguetes-2": {
-    "children": [
-      "info-card#home"
-    ]
-  },
-  "vtex.menu@2.x:menu#juguetes": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#socialseller",
-      "menu-item#tiendas",
-      "menu-item#credipink"
-    ]
-  },
-  "menu-item#tiendas": {
-    "props": {
-      "id": "menu-item-tiendas",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tiendas",
-        "noFollow": true,
-        "tagTitle": "Tiendas",
-        "text": "Tiendas"
+
+      "menu-item#category-jugetes-peluches": {
+        "props": {
+          "id": "menu-item-category-jugetes-peluches",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/peluches/",
+            "noFollow": false,
+            "tagTitle": "peluches",
+            "text": "PELUCHES"
+          }
+        }
+      },
+      "menu-item#category-jugetes-moldeables": {
+        "props": {
+          "id": "menu-item-category-jugetes-moldeables",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/moldeables/",
+            "noFollow": false,
+            "tagTitle": "moldeables",
+            "text": "MOLDEABLES"
+          }
+        }
+      },
+      "menu-item#category-jugetes-didactivos": {
+        "props": {
+          "id": "menu-item-category-jugetes-didactivos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/didactivos/",
+            "noFollow": false,
+            "tagTitle": "didactivos",
+            "text": "DIDACTÍVOS"
+          }
+        }
+      },
+      "menu-item#category-jugetes-vehiculos": {
+        "props": {
+          "id": "menu-item-category-jugetes-vehiculos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/vehiculos/",
+            "noFollow": false,
+            "tagTitle": "vehiculos",
+            "text": "VEHICULOS"
+          }
+        }
+      },
+      "menu-item#category-jugetes-juegos-de-mesa": {
+        "props": {
+          "id": "menu-item-category-jugetes-juegos-de-mesa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/juegos de mesa/",
+            "noFollow": false,
+            "tagTitle": "Juegos de Mesa",
+            "text": "JUEGOS DE MESA"
+          }
+        }
+      },
+      "menu-item#category-jugetes-figura": {
+        "props": {
+          "id": "menu-item-category-jugetes-figura",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/figura/",
+            "noFollow": false,
+            "tagTitle": "figura",
+            "text": "FIGURAS"
+          }
+        }
+      },
+      "menu-item#category-jugetes-muñecas": {
+        "props": {
+          "id": "menu-item-category-jugetes-muñecas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/muñecas/",
+            "noFollow": false,
+            "tagTitle": "muñecas",
+            "text": "MUÑECAS"
+          }
+        }
+      },
+      "menu-item#category-jugetes-electricos":{
+        "props": {
+          "id": "menu-item-category-jugetes-electricos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/electricos/",
+            "noFollow": false,
+            "tagTitle": "electricos",
+            "text": "ELECTRÍCOS"
+          }
+        }
+      },
+      "menu-item#category-jugetes-destrezas":{
+        "props": {
+          "id": "menu-item-category-jugetes-destrezas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/destrezas/",
+            "noFollow": false,
+            "tagTitle": "destrezas",
+            "text": "DESTREZAS"
+          }
+        }
+      },
+      "menu-item#category-jugetes-juego-de-sol":{
+        "props": {
+          "id": "menu-item-category-juego-de-sol",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/JUEGODESOL/",
+            "noFollow": false,
+            "tagTitle": "JUEGO DE SOL",
+            "text": "JUEGO DE SOL"
+          }
+        }
       }
-    }
-  },
-  "menu-item#credipink": {
-    "props": {
-      "id": "menu-item-credipink",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/credipink",
-        "noFollow": true,
-        "tagTitle": "CrediPink",
-        "text": "CrediPink"
-      }
-    }
-  },
-  "menu-item#contact-us": {
-    "props": {
-      "id": "menu-item-contact-us",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/contact-us",
-        "noFollow": true,
-        "tagTitle": "Contact Us",
-        "text": "Contact Us"
-      }
-    }
-  },
-  "menu-item#socialseller": {
-    "props": {
-      "id": "menu-item-socialseller",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/socialseller",
-        "noFollow": true,
-        "tagTitle": "socialseller",
-        "text": "CONVIÉRTETE EN SOCIAL SELLER"
-      }
-    }
-  }
+
 }
+
