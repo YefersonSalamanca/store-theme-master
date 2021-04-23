@@ -156,8 +156,9 @@
 
 }
 
-.filter__container.filter__container--specificationFilter_91{
-  display: none;
+.filter__container.filter__container--specificationFilter_91 {
+    display:none;
+
 }
 
 /*.filterAccordionItemBox--color {
