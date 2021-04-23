@@ -1,4 +1,10 @@
 {
+  "element-wrapper.lilipink": {
+    "children": ["header"],
+    "props": {
+      "blockClass": "header-lilipink"
+    }
+  },
   "header": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
@@ -45,7 +51,7 @@
     },
     "children": [
       //"vtex.menu@2.x:menu#institutional",
-      "flex-layout.row#botonesHeader",
+
       "flex-layout.col#spacer",
       "vtex.menu@2.x:menu#websites"
     ]
@@ -279,13 +285,13 @@
   "link#Link": {
     "props": {
       "href": "/",
-      "label": "Lilipink"
+      "label": ""
     }
   },
   "link#yoi": {
     "props": {
       "href": "/",
-      "label": "Yoi"
+      "label": ""
     }
   }
 
