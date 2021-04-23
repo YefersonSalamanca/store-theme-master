@@ -21,11 +21,6 @@
   color: #fff;
 }
 
-.flexRowContent--main-header {
-  background-color: #fff;
-  justify-content: left !important;
-  padding-left: 2rem !important;
-}
 
 .flexRowContent--main-header-mobile {
   align-items: center;
@@ -37,9 +32,6 @@
   color: #727272;
   font-size: 14px;
 }
-
-
-
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
   color: black;
@@ -92,13 +84,9 @@
 .flexColChild{
   height: auto !important;
 }
-.flexCol--columnaMenu{
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
 
-}
 .flexCol--vacio{
-  width: 65% !important;
+  width: max-content ;
 }
 
 .flexColChild--quickviewDetails:first-child {
@@ -125,7 +113,26 @@
 }
 
 
+
 /*FOOTER**/
 .flexRow--home2 .flexRowContent--menu-row {
   background: #53AC97;
+}
+
+/* ajuste del menu segun pantalla */
+@media  (min-width: 1700px) {
+  .flexRowContent--main-header {
+    background-color: #fff;
+    justify-content: left;
+    padding-left: 15%;
+  }
+  
+}
+@media  (min-width: 600) {
+  .flexRowContent--main-header {
+    background-color: #fff;
+    justify-content: left;
+    padding-left: 5%;
+  }
+  
 }
