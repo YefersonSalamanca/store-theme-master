@@ -66,7 +66,8 @@
     "vtex.condition-layout": "2.x",
     "vtex.product-availability": "0.x",
     "lilipinkco.filters": "0.x",
-    "lilipinkco.multihome": "0.x"
+    "lilipinkco.multihome": "0.x",
+    "lilipinkco.multihomecustom": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "2.x",

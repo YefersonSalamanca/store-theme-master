@@ -8,7 +8,7 @@
 
       "flex-layout.col#home1": {
           "props":{"width":"100%"},
-          "children":["header",
+          "children":[
             "list-context.image-list#demo",
             "__fold__.experimentalLazyAssets",
             "flex-layout.row#bannerComplemento",
@@ -18,8 +18,7 @@
             "flex-layout.row#bannerInferior",
             "flex-layout.row#formulario",
             "rich-text#link",
-            "flex-layout.row#redessociales",
-            "footer"
+            "flex-layout.row#redessociales"
         ]
 
       },

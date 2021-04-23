@@ -1,5 +1,11 @@
 {
-    "header#yoi": {
+  "element-wrapper.yoi": {
+    "children": ["header.yoi"],
+    "props": {
+      "blockClass": "header-yoi"
+    }
+  },
+    "header.yoi": {
       "blocks": ["header-layout.desktop#yoi", "header-layout.mobile#yoi"]
     },
     "header.full#yoi": {
@@ -12,7 +18,10 @@
         "flex-layout.row#4-desktopYoi",
          "flex-layout.row#6-desktopYoi"
         
-      ]
+      ],
+      "props": {
+        "blockClass": "yoi-header"
+      }
     },
     "flex-layout.row#1-desktop": {
       "children": ["telemarketing"],

@@ -1,4 +1,10 @@
 {
+  "element-wrapper.lilipink": {
+    "children": ["header"],
+    "props": {
+      "blockClass": "header-lilipink"
+    }
+  },
   "header": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },

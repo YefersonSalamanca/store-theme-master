@@ -1,6 +1,10 @@
 {
-  "store.search": {
+  "store.search.custom": {
     "blocks": ["search-result-layout"],
+    "parent": {
+      "header": "header.empty",
+      "footer": "footer#empty"
+    },
     "props": {
       "context": {
         "skusFilter": "ALL",
@@ -11,8 +15,12 @@
     }
   },
 
-  "store.search#brand": {
+  "store.search.custom#brand": {
     "blocks": ["search-result-layout"],
+    "parent": {
+      "header": "header.empty",
+      "footer": "footer#empty"
+    },
     "props": {
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
@@ -24,8 +32,12 @@
     }
   },
 
-  "store.search#department": {
+  "store.search.custom#department": {
     "blocks": ["search-result-layout"],
+    "parent": {
+      "header": "header.empty",
+      "footer": "footer#empty"
+    },
     "props": {
       "context": {
         "skusFilter": "ALL",
@@ -36,8 +48,12 @@
     }
   },
 
-  "store.search#category": {
+  "store.search.custom#category": {
     "blocks": ["search-result-layout"],
+    "parent": {
+      "header": "header.empty",
+      "footer": "footer#empty"
+    },
     "props": {
       "context": {
         "skusFilter": "ALL",
@@ -48,8 +64,12 @@
     }
   },
 
-  "store.search#subcategory": {
+  "store.search.custom#subcategory": {
     "blocks": ["search-result-layout"],
+    "parent": {
+      "header": "header.empty",
+      "footer": "footer#empty"
+    },
     "props": {
       "context": {
         "skusFilter": "ALL",

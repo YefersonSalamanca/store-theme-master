@@ -1,0 +1,23 @@
+{
+    "store.custom.yoi": {
+        "around": ["multi-home-wrapper.custom"],
+        "before": ["element-wrapper.yoi", "element-wrapper.lilipink"]
+    },
+    "store.home.custom": {
+        "around": ["multi-home-wrapper.custom"],
+        "before": ["element-wrapper.yoi", "element-wrapper.lilipink"]
+    },
+    "store.search.custom": {
+        "around": ["multi-home-wrapper.custom"],
+        "before": ["element-wrapper.yoi", "element-wrapper.lilipink"]
+    },
+    "store.product.custom": {
+        "around": ["multi-home-wrapper.custom"],
+        "before": ["element-wrapper.yoi", "element-wrapper.lilipink"]
+    },
+    "header.yoi": {},
+    "element-wrapper.lilipink": {},
+    "element-wrapper.yoi": {},
+    "multi-home-wrapper.custom": {},
+    "header.empty": {}
+}

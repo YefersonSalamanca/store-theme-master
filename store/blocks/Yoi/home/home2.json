@@ -1,4 +1,11 @@
 {
+  "store.custom.yoi": {
+    "parent": {
+      "header": "header.empty",
+      "footer": "footer#empty"
+    },
+    "blocks": ["flex-layout.row#home2"]
+  },
   "flex-layout.row#home2": {
       "props":{
           "fullWidth":true
@@ -8,7 +15,7 @@
 
     "flex-layout.col#home2": {
         "props":{"width":"100%"},
-        "children":["header#yoi",
+        "children":[
           "list-context.image-list#demoYoi",
           "__fold__.experimentalLazyAssets",
           "flex-layout.row#bannerComplementoYoi",
@@ -18,8 +25,7 @@
           "flex-layout.row#bannerInferiorYoi",
           "newsletter",
           "rich-text#linkYoi",
-          "social-networks",
-          "footer#Yoi"
+          "social-networks"
       ]
 
     },
