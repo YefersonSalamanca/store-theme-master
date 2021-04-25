@@ -155,6 +155,12 @@
    border-color:#FFFFFF;
 
 }
+
+.filter__container.filter__container--specificationFilter_91 {
+    display:none;
+
+}
+
 /*.filterAccordionItemBox--color {
    display:none;
 }*/
@@ -163,7 +169,6 @@
   background-color:transparent;
   border:none;
 }
-
 .filterItem.filterItem--Negro {
   display: inline-block;
   background-image:url('/arquivos/ids/155585/negro.jpg');
@@ -177,7 +182,6 @@
   text-indent: -99999px;
   border-radius: 100%;
 }
-
 .filterItem.filterItem--Azul {
   display: inline-block;
   background-image:url('/arquivos/ids/155582/azul.jpg');
