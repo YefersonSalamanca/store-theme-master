@@ -1,18 +1,70 @@
 {
-  "store.search": {
+  "multisearch":{
+    "children":[
+      "header",
+      "header#yoi"
+        ]
+  },
+
+ /* "flex-layout.row#search1": {
+    "props":{
+        "fullWidth":true,
+        "blockClass": "search1"
+    },
+    "children": ["flex-layout.col#search1"]
+  },
+
+  "flex-layout.col#search1": {
+      "props":{"width":"100%"},
+      "children":["header",
+        "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#result",
+       "footer"
+    ]
+
+  },
+
+  "flex-layout.row#search2": {
+    "props":{
+        "fullWidth":true,
+        "blockClass": "search2"
+    },
+    "children": ["flex-layout.col#search2"]
+  },
+
+  "flex-layout.col#search2": {
+      "props":{"width":"100%"},
+      "children":["header#yoi",
+        "flex-layout.row#searchbread",
+        "flex-layout.row#searchtitle",
+        "flex-layout.row#result",
+        "footer#Yoi"
+    ]
+
+  },*/
+
+    "store.search": {
     "blocks": ["search-result-layout"],
+      "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    },
     "props": {
       "context": {
         "skusFilter": "ALL",
-        //"simulationBehavior": "skip",
-        "simulationBehavior": "default",
+          "simulationBehavior": "default",
         "__unstableProductOriginVtex": "true"
       }
     }
   },
 
-  "store.search#brand": {
+    "store.search#brand": {
     "blocks": ["search-result-layout"],
+      "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    },
     "props": {
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
@@ -25,11 +77,14 @@
   },
 
   "store.search#department": {
-    "blocks": ["search-result-layout"],
+     "blocks": ["search-result-layout"],
+      "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    },
     "props": {
       "context": {
         "skusFilter": "ALL",
-        //"simulationBehavior": "skip"
         "simulationBehavior": "default",
         "__unstableProductOriginVtex": "true"
       }
@@ -37,11 +92,14 @@
   },
 
   "store.search#category": {
-    "blocks": ["search-result-layout"],
+     "blocks": ["search-result-layout"],
+      "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    },
     "props": {
       "context": {
         "skusFilter": "ALL",
-        //"simulationBehavior": "skip"
         "simulationBehavior": "default",
         "__unstableProductOriginVtex": "true"
       }
@@ -49,11 +107,14 @@
   },
 
   "store.search#subcategory": {
-    "blocks": ["search-result-layout"],
+   "blocks": ["search-result-layout"],
+    "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    },
     "props": {
       "context": {
         "skusFilter": "ALL",
-        //"simulationBehavior": "skip"
         "simulationBehavior": "default",
         "__unstableProductOriginVtex": "true"
       }
@@ -71,9 +132,11 @@
 
   "search-result-layout.desktop": {
     "children": [
+      "multisearch",
       "flex-layout.row#searchbread",
-      "flex-layout.row#searchtitle",
-      "flex-layout.row#result"
+        "flex-layout.row#searchtitle",
+        "flex-layout.row#result",
+        "footer"
     ],
     "props": {
       "pagination": "show-more",
@@ -158,12 +221,14 @@
 
   "search-result-layout.mobile": {
     "children": [
+      "header",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "footer"
     ],
     "props": {
       "pagination": "show-more",
@@ -228,7 +293,7 @@
     }
   },
   "search-not-found-layout": {
-    "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
+    "children": ["header", "flex-layout.row#searchbread", "flex-layout.row#notfound", "footer"]
   },
 
   "flex-layout.row#notfound": {
