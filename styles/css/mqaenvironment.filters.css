@@ -1,0 +1,21 @@
+.filtersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.filterImage {
+  display: flex;
+  border-radius: 100%;
+  width: 35%;
+  order: 1;
+  flex-basis: 100%;
+  flex-wrap: nowrap;
+  border:1px solid #000000;
+}
+
+.filterLink {
+   color:#ffffff;
+}

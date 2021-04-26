@@ -14,7 +14,9 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }*/
 
-
+.styledLinkContent--cambiodeletra{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 .styledLinkContent--estilobrallet{
  font-weight: bold;
 }
@@ -107,12 +109,4 @@
 .menuItem .menuItem--GENERA-INGRESOS {
   display:none;
 }
-
-.styledLinkContent--itemMenu{
-  margin-top: 0.1rem;
-  margin-bottom: 0.1rem;
-}
-
-
-
 

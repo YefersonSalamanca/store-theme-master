@@ -1,0 +1,29 @@
+{
+    "store.custom.yoi": {
+        "around": ["multi-home-wrapper.custom"],
+        "before": ["element-wrapper.yoi", "element-wrapper.lilipink"],
+        "after": ["element-wrapper.footer-yoi", "element-wrapper.footer-lilipink"]
+    },
+    "store.home.custom": {
+        "around": ["multi-home-wrapper.custom"],
+        "before": ["element-wrapper.yoi", "element-wrapper.lilipink"],
+        "after": ["element-wrapper.footer-yoi", "element-wrapper.footer-lilipink"]
+    },
+    "store.search.custom": {
+        "around": ["multi-home-wrapper.custom"],
+        "before": ["element-wrapper.yoi", "element-wrapper.lilipink"],
+        "after": ["element-wrapper.footer-yoi", "element-wrapper.footer-lilipink"]
+    },
+    "store.product.custom": {
+        "around": ["multi-home-wrapper.custom"],
+        "before": ["element-wrapper.yoi", "element-wrapper.lilipink"],
+        "after": ["element-wrapper.footer-yoi", "element-wrapper.footer-lilipink"]
+    },
+    "header.yoi": {},
+    "element-wrapper.lilipink": {},
+    "element-wrapper.yoi": {},
+    "element-wrapper.footer-yoi": {},
+    "element-wrapper.footer-lilipink": {},
+    "multi-home-wrapper.custom": {},
+    "header.empty": {}
+}
