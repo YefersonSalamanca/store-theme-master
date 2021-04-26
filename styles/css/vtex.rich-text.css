@@ -165,7 +165,7 @@
   font-weight: 700;
 }
 
-.container--subtitulos {
+.container--subtitulos-lilipink {
   border-bottom: solid 1px #000;
   color: #e4147e;
   font-size: 0.82rem;
@@ -174,7 +174,7 @@
   font-family: 'Monserrat-semibold';
 }
 
-.paragraph--subtitulos {
+.paragraph--subtitulos-lilipink {
 
   margin-bottom: 0.2rem;
   margin-top: 0.2rem;
