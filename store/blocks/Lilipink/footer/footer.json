@@ -1,4 +1,10 @@
 {
+  "element-wrapper.footer-lilipink": {
+    "children": [ "footer"],
+    "props": {
+      "blockClass": "header-lilipink"
+    }
+  },
   "footer": {
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
@@ -13,12 +19,12 @@
     "children": [
       "footer-spacer",
       "vtex.menu@2.x:menu#Products",
-      "footer-spacer",   
+      "footer-spacer",
       "vtex.menu@2.x:menu#footer-decoration",
       "footer-spacer",
       "vtex.menu@2.x:menu#footer-Atención-al-cliente",
       "footer-spacer"
-      
+
       ],
     "props": {
       "blockClass": "menu-row",
@@ -27,11 +33,11 @@
     }
   },
 
-  
+
 
   "flex-layout.row#footer-2-desktop": {
     "children": [
-      
+
       "flex-layout.row#imagenes-tarjetas",
       "flex-layout.row#imagenes-tarjetas-2",
       "flex-layout.row#imagenes-tarjetas-3",
@@ -57,10 +63,10 @@
     },
     "children": ["image#tarjetas"]
   },
-  "image#tarjetas": {  
-    "props": {  
-      "src": "assets/efecty.png"  
-    }  
+  "image#tarjetas": {
+    "props": {
+      "src": "assets/efecty.png"
+    }
   },
   "flex-layout.row#imagenes-tarjetas-2": {
     "props": {
@@ -69,10 +75,10 @@
     },
     "children": ["image#tarjetas-2"]
   },
-  "image#tarjetas-2": {  
-    "props": {  
-      "src": "assets/DAVIVIENDA.png"  
-    }  
+  "image#tarjetas-2": {
+    "props": {
+      "src": "assets/DAVIVIENDA.png"
+    }
   },
   "flex-layout.row#imagenes-tarjetas-3": {
     "props": {
@@ -81,10 +87,10 @@
     },
     "children": ["image#tarjetas-3"]
   },
-  "image#tarjetas-3": {  
-    "props": {  
-      "src": "assets/PSE.png"  
-    }  
+  "image#tarjetas-3": {
+    "props": {
+      "src": "assets/PSE.png"
+    }
   },
   "flex-layout.row#imagenes-tarjetas-4": {
     "props": {
@@ -93,10 +99,10 @@
     },
     "children": ["image#tarjetas-4"]
   },
-  "image#tarjetas-4": {  
-    "props": {  
-      "src": "assets/VISA.png"  
-    }  
+  "image#tarjetas-4": {
+    "props": {
+      "src": "assets/VISA.png"
+    }
   },
   "flex-layout.row#imagenes-tarjetas-5": {
     "props": {
@@ -105,10 +111,10 @@
     },
     "children": ["image#tarjetas-5"]
   },
-  "image#tarjetas-5": {  
-    "props": {  
-      "src": "assets/MASTERCARD.png"  
-    }  
+  "image#tarjetas-5": {
+    "props": {
+      "src": "assets/MASTERCARD.png"
+    }
   },
   "flex-layout.row#imagenes-tarjetas-6": {
     "props": {
@@ -117,10 +123,10 @@
     },
     "children": ["image#tarjetas-6"]
   },
-  "image#tarjetas-6": {  
-    "props": {  
-      "src": "assets/CODENSA.png"  
-    }  
+  "image#tarjetas-6": {
+    "props": {
+      "src": "assets/CODENSA.png"
+    }
   },
   "flex-layout.row#imagenes-tarjetas-7": {
     "props": {
@@ -129,10 +135,10 @@
     },
     "children": ["image#tarjetas-7"]
   },
-  "image#tarjetas-7": {  
-    "props": {  
-      "src": "assets/DINERS-CLUB.png"  
-    }  
+  "image#tarjetas-7": {
+    "props": {
+      "src": "assets/DINERS-CLUB.png"
+    }
   },
   "flex-layout.row#imagenes-tarjetas-8": {
     "props": {
@@ -141,10 +147,10 @@
     },
     "children": ["image#tarjetas-8"]
   },
-  "image#tarjetas-8": {  
-    "props": {  
-      "src": "assets/AMERICAN.png"  
-    }  
+  "image#tarjetas-8": {
+    "props": {
+      "src": "assets/AMERICAN.png"
+    }
   },
   "flex-layout.row#footer-3-desktop": {
     "children": ["rich-text#footer"],
@@ -153,9 +159,9 @@
     }
   },
   "rich-text#footer": {
-    "props": {      
+    "props": {
       "text": "",
-      "blockClass": "footercopyright"     
+      "blockClass": "footercopyright"
     }
   },
 

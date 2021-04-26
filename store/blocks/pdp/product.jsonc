@@ -1,5 +1,5 @@
 {
-  "store.product": {
+  "store.product.custom": {
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
@@ -10,7 +10,11 @@
       "product-reviews",
       "product-questions-and-answers",
       "shelf.relatedProducts"
-    ]
+    ],
+    "parent": {
+      "header": "header.empty",
+      "footer": "footer#empty"
+    }
   },
   "flex-layout.row#specifications-title": {
     "children": [

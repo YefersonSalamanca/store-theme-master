@@ -1,4 +1,10 @@
 {
+  "element-wrapper.footer-yoi": {
+    "children": [ "footer#Yoi"],
+    "props": {
+      "blockClass": "header-yoi"
+    }
+  },
     "footer#Yoi": {
       "blocks": ["footer-layout.desktop#Yoi", "footer-layout.mobile#Yoi"]
     },

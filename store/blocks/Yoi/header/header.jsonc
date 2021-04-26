@@ -1,5 +1,11 @@
 {
-    "header#yoi": {
+  "element-wrapper.yoi": {
+    "children": ["header.yoi"],
+    "props": {
+      "blockClass": "header-yoi"
+    }
+  },
+    "header.yoi": {
       "blocks": ["header-layout.desktop#yoi", "header-layout.mobile#yoi"]
     },
     "header.full#yoi": {
@@ -10,9 +16,12 @@
         "flex-layout.row#3-desktopYoi",
         "sticky-layout#4-desktopYoi",
         "flex-layout.row#4-desktopYoi",
-        "flex-layout.row#6-desktopYoi"
-
-      ]
+         "flex-layout.row#6-desktopYoi"
+        
+      ],
+      "props": {
+        "blockClass": "yoi-header"
+      }
     },
     "flex-layout.row#1-desktop": {
       "children": ["telemarketing"],
@@ -20,7 +29,7 @@
         "fullWidth": true
       }
     },
-
+  
     "flex-layout.row#2-desktop": {
       "children": ["notification.bar#home"],
       "props": {
@@ -34,7 +43,7 @@
     },
     "flex-layout.row#3-desktopYoi": {
       "props": {
-        "blockClass": "menu-linkYoi",
+        "blockClass": "menu-link",
         "horizontalAlign": "center",
         "preventHorizontalStretch": true,
         "preventVerticalStretch": true,
@@ -51,25 +60,25 @@
       "props": {
         "verticalAlign": "middle",
         "horizontalAlign": "center"
-
+        
       },
       "children": ["image#btnLiliPink", "image#btnYoi"]
     },
-
-
-    "image#btnLiliPink": {
-      "props": {
+   
+    
+    "image#btnLiliPink": {  
+      "props": {  
         "src": "assets/buttonLP1.jpg" ,
         "href": "#" ,
-        "width": "55%"
+        "width": "55%"     
       }
-    },
-    "image#btnYoi": {
-      "props": {
+    }, 
+    "image#btnYoi": {  
+      "props": {  
         "src": "assets/buttonYoi1.jpg" ,
         "href": "#" ,
-        "width": "55%"
-      }
+        "width": "55%" 
+      }  
     },
     "flex-layout.col#spacer": {
       "props": {
@@ -84,7 +93,7 @@
     },
     "flex-layout.row#5-desktopYoi": {
       "props": {
-        "blockClass": "main-headerYoi",
+        "blockClass": "main-header",
         "horizontalAlign": "center",
         "verticalAlign": "center",
         "preventHorizontalStretch": true,
@@ -112,9 +121,9 @@
       "children": [
         "flex-layout.col#spacer",
         "flex-layout.col#logo1",
-        "rich-text#linkImperdibles",
-        "flex-layout.col#logo2",
-        "rich-text#linkPedidoWhatsapp",
+        "rich-text#linkImperdibles",    
+        "flex-layout.col#logo2",  
+        "rich-text#linkPedidoWhatsapp",      
         "flex-layout.col#spacer"
       ]
     },
@@ -126,13 +135,13 @@
       },
       "children": ["image#logo1"]
     },
-
-
-    "image#logo1": {
-      "props": {
+   
+    
+    "image#logo1": {  
+      "props": {  
         "blockClass": "Imagenetiqueta",
-        "src": "assets/label.png"
-      }
+        "src": "assets/label.png"  
+      }  
     },
     "flex-layout.col#logo2": {
       "props": {
@@ -142,13 +151,13 @@
       },
       "children": ["image#logo2"]
     },
-
-
-    "image#logo2": {
-      "props": {
+   
+    
+    "image#logo2": {  
+      "props": {  
         "blockClass": "Imagenetiqueta",
-        "src": "assets/logo-wh.png"
-      }
+        "src": "assets/logo-wh.png"  
+      }  
     },
     "rich-text#linkImperdibles": {
       "props": {
@@ -170,14 +179,14 @@
       },
       "children": ["image#logodesktopYoi"]
     },
-
-
-    "image#logodesktopYoi": {
-      "props": {
-        "src": "assets/yoi/LogoLargoYoi5.jpg"
-      }
+   
+    
+    "image#logodesktopYoi": {  
+      "props": {  
+        "src": "assets/yoi/LogoLargoYoi5.jpg"  
+      }  
     },
-
+    
     "header-layout.mobile#yoi": {
       "children": ["sticky-layout#1-mobile"]
     },
@@ -197,7 +206,7 @@
         "flex-layout.col#category-menuYoi"
       ]
     },
-
+  
      "category-menu": {
       "props": {
         "showAllDepartments": true,
@@ -206,7 +215,7 @@
         "departments": []
       }
     },
-
+  
     "flex-layout.col#category-menuYoi": {
       "props": {
         "verticalAlign": "middle"
@@ -231,7 +240,7 @@
     "drawer": {
       "children": ["menu#drawer"]
     },
-
+  
     "menu#drawer": {
       "children": [
         "menu-item#category-brasieres",
@@ -250,7 +259,7 @@
         "orientation": "vertical"
       }
     },
-
+  
     "logo#mobile": {
       "props": {
         "title": "Logo",
