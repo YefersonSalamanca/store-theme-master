@@ -30,7 +30,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/brasieres",
+        "href": "lili-pink/brasieres",
         "noFollow": false,
         "tagTitle": "BRASIERES",
         "text": "BRASIERES"
@@ -60,8 +60,6 @@
       "flex-layout.col#category-brasieres-2",
       "flex-layout.col#category-brasieres-3",
       "flex-layout.col#category-brasieres-4",
-      "flex-layout.col#category-brasieres-5",
-      "flex-layout.col#category-brasieres-5",
       "flex-layout.col#category-brasieres-imagen"
     ]
   },

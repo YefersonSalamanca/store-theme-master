@@ -120,19 +120,20 @@
 }
 
 /* ajuste del menu segun pantalla */
-@media  (min-width: 1700px) {
-  .flexRowContent--main-header {
-    background-color: #fff;
-    justify-content: left;
-    padding-left: 15%;
-  }
-  
+.flexRowContent--menuPrincipalLilipink {
+  background-color: #fff;
+  justify-content: left;
+  padding-left: 5%;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
 }
-@media  (min-width: 600) {
-  .flexRowContent--main-header {
+@media  (min-width: 1700px) {
+  .flexRowContent--menuPrincipalLilipink {
     background-color: #fff;
     justify-content: left;
-    padding-left: 5%;
+    padding-left: 17%;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
 }
