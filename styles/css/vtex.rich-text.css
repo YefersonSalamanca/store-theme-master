@@ -151,7 +151,20 @@
   font-size: 28px;
   font-weight: 700;
 }
+.container--subtitulos-lilipink {
+  border-bottom: solid 1px #000;
+  color: #e4147e;
+  font-size: 0.82rem;
+  font-weight: bold;
+  padding: 1px;  
+  font-family: 'Monserrat-semibold';
+}
 
+.paragraph--subtitulos-lilipink {
+
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
+}
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -168,7 +181,15 @@
     font-weight: 700;
     max-width: 60%;
   }
+  .container--tituloMenu{
+    background-color: #f0f0f0;
+    font-family: 'Monserrat-semibold';
+    font-size: 15px;
+    margin-bottom: 0.3rem;
+    
+  }
 
+  
   .container--title .paragraph {
     line-height: 1.3em;
 
