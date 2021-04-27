@@ -119,6 +119,7 @@
   justify-content: left;
   padding-top: 10px !important;
   padding-bottom: 10px !important;
+  border-bottom: solid 2px #f0f0f0;
 }
 @media  (min-width: 1700px) {
   .flexRowContent--menuPrincipalLilipink {

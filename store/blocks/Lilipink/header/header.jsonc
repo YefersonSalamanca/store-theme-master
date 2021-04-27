@@ -23,7 +23,7 @@
       //"flex-layout.row#2-desktop",
       "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop",
-      "flex-layout.row#4-desktop",
+      //"flex-layout.row#4-desktop",
       "flex-layout.row#6-desktop"
     ]
   },
@@ -98,7 +98,8 @@
       "blockClass": "sticky-header"
     },
     "children": [
-      "flex-layout.row#5-desktop"
+      "flex-layout.row#5-desktop",
+      "flex-layout.row#4-desktop"
     ]
   },
   "flex-layout.row#5-desktop": {
