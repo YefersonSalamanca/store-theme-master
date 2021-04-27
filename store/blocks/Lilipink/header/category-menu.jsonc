@@ -7939,6 +7939,7 @@
   },
   "menu-item#tiendas": {
     "props": {
+      "blockClass":"tituloMenu",
       "id": "menu-item-tiendas",
       "type": "custom",
       "iconId": null,
@@ -7954,6 +7955,7 @@
   },
   "menu-item#credipink": {
     "props": {
+      "blockClass":"tituloMenu",
       "id": "menu-item-credipink",
       "type": "custom",
       "iconId": null,

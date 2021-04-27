@@ -23,7 +23,7 @@
       "initialSelection": "empty",
       "thumbnailImage": ["color"],
        "visibleVariations": [
-          "Color"
+          "Colores"
        ]
     }
  },
@@ -37,8 +37,8 @@
     "hideImpossibleCombinations": false,
     "maxItems": 5,
     "visibleVariations": [
-      "Color",
-      "Talla"
+      "Colores",
+      "Tallas"
    ]
   }
 },
