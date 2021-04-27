@@ -1,23 +1,22 @@
 {
-  "store.home": {
+  "store.home.custom": {
     "blocks": [
-      "multihome"
+      "flex-layout.row#home1"
     ],
     "parent": {
-      "header": "header#empty",
+      "header": "header.empty",
       "footer": "footer#empty"
     }
   },
-
 "multihome":{
   "children":[
-"flex-layout.row#home1",
-"flex-layout.row#home2"
+    "flex-layout.row#home1",
+    "flex-layout.row#home2"
   ]
 },
 
 
-"header#empty": {
+"header.empty": {
   "blocks": [
     "header-layout.desktop#empty",
     "header-layout.mobile#empty"
@@ -42,5 +41,5 @@
   "children": []
 }
 
-  
+
 }

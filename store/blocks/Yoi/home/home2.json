@@ -1,8 +1,14 @@
 {
+  "store.custom.yoi": {
+    "parent": {
+      "header": "header.empty",
+      "footer": "footer#empty"
+    },
+    "blocks": ["flex-layout.row#home2"]
+  },
   "flex-layout.row#home2": {
       "props":{
-          "fullWidth":true,
-          "blockClass": "home2"
+          "fullWidth":true
       },
       "children": ["flex-layout.col#home2"]
     },
@@ -19,8 +25,7 @@
           "flex-layout.row#bannerInferiorYoi",
           "newsletter",
           "rich-text#linkYoi",
-          "social-networks",
-          "footer#Yoi"
+          "social-networks"
       ]
 
     },
