@@ -2,7 +2,7 @@
   "element-wrapper.footer-yoi": {
     "children": [ "footer#Yoi"],
     "props": {
-      "blockClass": "header-yoi"
+      "blockClass": "footer-yoi"
     }
   },
     "footer#Yoi": {

@@ -24,7 +24,6 @@
       "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop",
       "flex-layout.row#4-desktop",
-      "flex-layout.row#lilipink-yoi",
       "flex-layout.row#6-desktop"
     ]
   },
@@ -59,7 +58,7 @@
     },
     "children": [
       //"vtex.menu@2.x:menu#institutional",
-      "flex-layout.row#botonesHeader",
+      //"flex-layout.row#botonesHeader",
       "flex-layout.col#spacer",
       "vtex.menu@2.x:menu#websites"
     ]
