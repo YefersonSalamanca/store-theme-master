@@ -1,7 +1,7 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
-      "blockClass":"menuPrincipal",
+      "blockClass": "menuPrincipal",
       "experimentalOptimizeRendering": true
     },
     "children": [
@@ -16,6 +16,7 @@
       //"menu-item#category-hombre",
       //"menu-item#category-nino",
       "menu-item#category-belleza",
+      "menu-item#category-outlet",
       "menu-item#category-bioseguridad",
       "menu-item#yoi"
     ]
@@ -43,20 +44,20 @@
   "vtex.menu@2.x:submenu#category-brasieres": {
     "props": {
       "width": "100%",
-      "blockClass":"submenu"
+      "blockClass": "submenu"
     },
     "children": [
       "flex-layout.row#category-brasieres"
     ]
   },
   "flex-layout.row#category-brasieres": {
-    "props":{
+    "props": {
       "colGap": 3,
-      "preventHorizontalStretch":true,
-      "colSize":"equal"
+      "preventHorizontalStretch": true,
+      "colSize": "equal"
     },
     "children": [
-      "flex-layout.col#category-brasieres-1",      
+      "flex-layout.col#category-brasieres-1",
       "flex-layout.col#category-brasieres-2",
       "flex-layout.col#category-brasieres-3",
       "flex-layout.col#category-brasieres-4",
@@ -64,8 +65,8 @@
     ]
   },
   "flex-layout.col#category-brasieres-1": {
-    "props":{
-      "blockClass":"columnaMenu"
+    "props": {
+      "blockClass": "columnaMenu"
     },
     "children": [
       "rich-text#category-brasieres-Buscar",
@@ -76,8 +77,8 @@
     ]
   },
   "flex-layout.col#category-brasieres-2": {
-    "props":{
-      "blockClass":"columnaMenu"
+    "props": {
+      "blockClass": "columnaMenu"
     },
     "children": [
       "rich-text#category-brasieres-Tipo",
@@ -97,8 +98,8 @@
     ]
   },
   "flex-layout.col#category-brasieres-3": {
-    "props":{
-      "blockClass":"columnaMenu"
+    "props": {
+      "blockClass": "columnaMenu"
     },
     "children": [
       "rich-text#category-brasieres-Beneficio",
@@ -120,8 +121,8 @@
     ]
   },
   "flex-layout.col#category-brasieres-4": {
-    "props":{
-      "blockClass":"columnaMenu"
+    "props": {
+      "blockClass": "columnaMenu"
     },
     "children": [
       "rich-text#category-brasieres-Compra_mas_y_ahorra",
@@ -139,8 +140,8 @@
     ]
   },
   "flex-layout.col#category-brasieres-5": {
-    "props":{
-      "blockClass":"vacio"
+    "props": {
+      "blockClass": "vacio"
     },
     "children": [
       "menu-item#category-brasieres-vacio1",
@@ -256,7 +257,7 @@
   },
   "menu-item#category-brasieres-con-copa": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-con-copa",
       "type": "custom",
       "iconId": null,
@@ -272,7 +273,7 @@
   },
   "menu-item#category-brasieres-bustier": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brsieres-bustier",
       "type": "custom",
       "iconId": null,
@@ -288,7 +289,7 @@
   },
   "menu-item#category-brasieres-deportivo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-deportivo",
       "type": "custom",
       "iconId": null,
@@ -304,7 +305,7 @@
   },
   "menu-item#category-brasieres-materno": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-materno",
       "type": "custom",
       "iconId": null,
@@ -320,7 +321,7 @@
   },
   "menu-item#category-brasieres-media-copa": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-media-copa",
       "type": "custom",
       "iconId": null,
@@ -336,7 +337,7 @@
   },
   "menu-item#category-brasieres-racerback": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-racerback",
       "type": "custom",
       "iconId": null,
@@ -352,7 +353,7 @@
   },
   "menu-item#category-brasieres-secret": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-secret",
       "type": "custom",
       "iconId": null,
@@ -368,7 +369,7 @@
   },
   "menu-item#category-brasieres-strapless": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-strapless",
       "type": "custom",
       "iconId": null,
@@ -384,7 +385,7 @@
   },
   "menu-item#category-brasieres-surtido": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-surtido",
       "type": "custom",
       "iconId": null,
@@ -400,7 +401,7 @@
   },
   "menu-item#category-brasieres-triangular": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-triangular",
       "type": "custom",
       "iconId": null,
@@ -416,7 +417,7 @@
   },
   "menu-item#category-brasieres-sin-varilla": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-sin-varilla",
       "type": "custom",
       "iconId": null,
@@ -432,7 +433,7 @@
   },
   "menu-item#category-brasieres-conjuntos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-conjuntos",
       "type": "custom",
       "iconId": null,
@@ -448,7 +449,7 @@
   },
   "menu-item#category-brasieres-vacio1": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-vacio1",
       "type": "custom",
       "iconId": null,
@@ -474,7 +475,7 @@
   },
   "menu-item#category-brasieres-PushUp_realce": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-PushUp_realce",
       "type": "custom",
       "iconId": null,
@@ -490,7 +491,7 @@
   },
   "menu-item#category-brasieres-reduce": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-reduce",
       "type": "custom",
       "iconId": null,
@@ -506,7 +507,7 @@
   },
   "menu-item#category-brasieres-facilitadores-postura": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-facilitadores-postura",
       "type": "custom",
       "iconId": null,
@@ -522,7 +523,7 @@
   },
   "menu-item#category-brasieres-Post-Quirúrgicos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-Post-Quirúrgicos",
       "type": "custom",
       "iconId": null,
@@ -538,7 +539,7 @@
   },
   "menu-item#category-brasieres-Maternidad-y-Lactancia": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-Maternidad-y-Lactancia",
       "type": "custom",
       "iconId": null,
@@ -554,7 +555,7 @@
   },
   "menu-item#category-brasieres-Mastectomía": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-Mastectomía",
       "type": "custom",
       "iconId": null,
@@ -580,7 +581,7 @@
   },
   "menu-item#category-brasieres-Completa": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-Completa",
       "type": "custom",
       "iconId": null,
@@ -596,7 +597,7 @@
   },
   "menu-item#category-brasieres-Tres-Cuartos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-Tres-Cuartos",
       "type": "custom",
       "iconId": null,
@@ -612,7 +613,7 @@
   },
   "menu-item#category-brasieres-Media": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-Media",
       "type": "custom",
       "iconId": null,
@@ -628,7 +629,7 @@
   },
   "menu-item#category-brasieres-Triangular": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-Triangular",
       "type": "custom",
       "iconId": null,
@@ -654,7 +655,7 @@
   },
   "menu-item#category-brasieres-Natural": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-Natural",
       "type": "custom",
       "iconId": null,
@@ -670,7 +671,7 @@
   },
   "menu-item#category-brasieres-Bajo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-Bajo",
       "type": "custom",
       "iconId": null,
@@ -686,7 +687,7 @@
   },
   "menu-item#category-brasieres-Medio": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-Medio",
       "type": "custom",
       "iconId": null,
@@ -702,7 +703,7 @@
   },
   "menu-item#category-brasieres-Alto": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-Alto",
       "type": "custom",
       "iconId": null,
@@ -728,7 +729,7 @@
   },
   "menu-item#category-brasieres-Paquete-x-2": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-Paquete-x-2",
       "type": "custom",
       "iconId": null,
@@ -744,7 +745,7 @@
   },
   "menu-item#category-brasieres-Paquete-x-3": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-Paquete-x-2",
       "type": "custom",
       "iconId": null,
@@ -760,7 +761,7 @@
   },
   "menu-item#category-brasieres-Paquete-x-4": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-Paquete-x-3",
       "type": "custom",
       "iconId": null,
@@ -786,7 +787,7 @@
   },
   "menu-item#category-brasieres-Copa-A": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-Copa-A",
       "type": "custom",
       "iconId": null,
@@ -802,7 +803,7 @@
   },
   "menu-item#category-brasieres-Copa-B": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-Copa-B",
       "type": "custom",
       "iconId": null,
@@ -818,7 +819,7 @@
   },
   "menu-item#category-brasieres-Copa-C": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-Copa-C",
       "type": "custom",
       "iconId": null,
@@ -834,7 +835,7 @@
   },
   "menu-item#category-brasieres-Copa-D": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-Copa-D",
       "type": "custom",
       "iconId": null,
@@ -850,7 +851,6 @@
   },
   "rich-text#category-brasieres-Beneficios": {
     "props": {
-      
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "text": "Beneficios",
@@ -861,7 +861,7 @@
   },
   "menu-item#category-brasieres-Sin-Costuras": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-Sin-Costuras",
       "type": "custom",
       "iconId": null,
@@ -877,7 +877,7 @@
   },
   "menu-item#category-brasieres-Corte-Laser-Termofusionado": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-brasieres-Corte-Laser-Termofusionado",
       "type": "custom",
       "iconId": null,
@@ -892,23 +892,23 @@
     }
   },
   "flex-layout.col#category-brasieres-imagen": {
-    "props":{
-      "width":"80%"
+    "props": {
+      "width": "80%"
     },
     "children": [
       //"info-card#home"
-       "image#imagencatbrasieres"
+      "image#imagencatbrasieres"
     ]
   },
   "image#imagencatbrasieres": {
     "props": {
-      "blockClass":"imagencatbrasieres",
-       "src": "assets/imagenbrasieresmenu.jpg"
+      "blockClass": "imagencatbrasieres",
+      "src": "assets/imagenbrasieresmenu.jpg"
     }
   },
   "menu-item#category-tops": {
     "props": {
-      "blockClass":"titulosMenu",
+      "blockClass": "titulosMenu",
       "id": "menu-item-category-tops",
       "type": "custom",
       "iconId": null,
@@ -928,7 +928,7 @@
   "vtex.menu@2.x:submenu#category-tops2": {
     "props": {
       "width": "100%",
-      "blockClass":"submenu"
+      "blockClass": "submenu"
     },
     "children": [
       "flex-layout.row#category-tops"
@@ -1156,7 +1156,7 @@
   },*/
   "menu-item#category-panties": {
     "props": {
-      "blockClass":"titulosMenu",
+      "blockClass": "titulosMenu",
       "id": "menu-item-category-panties",
       "type": "custom",
       "iconId": null,
@@ -1176,17 +1176,17 @@
   "vtex.menu@2.x:submenu#category-panties": {
     "props": {
       "width": "100%",
-      "blockClass":"submenu"
+      "blockClass": "submenu"
     },
     "children": [
       "flex-layout.row#category-panties"
     ]
   },
   "flex-layout.row#category-panties": {
-    "props":{
+    "props": {
       "colGap": 3,
-      "preventHorizontalStretch":true,
-      "colSize":"equal"
+      "preventHorizontalStretch": true,
+      "colSize": "equal"
     },
     "children": [
       "flex-layout.col#category-panties-1",
@@ -1277,7 +1277,7 @@
   },
   "menu-item#category-panties-Ver_todo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-panties-Ver_todo",
       "type": "custom",
       "iconId": null,
@@ -1293,7 +1293,7 @@
   },
   "menu-item#category-panties-Lo_mas_Vendido": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-panties-Lo_mas_Vendido",
       "type": "custom",
       "iconId": null,
@@ -1309,7 +1309,7 @@
   },
   "menu-item#category-panties-Nuevos-Panties": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-panties-Nuevos-Panties",
       "type": "custom",
       "iconId": null,
@@ -1325,7 +1325,7 @@
   },
   "menu-item#category-panties-Ofertas": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-panties-Ofertas",
       "type": "custom",
       "iconId": null,
@@ -1351,7 +1351,7 @@
   },
   "menu-item#category-panties-bikini": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-panties-bikini",
       "type": "custom",
       "iconId": null,
@@ -1367,7 +1367,7 @@
   },
   "menu-item#category-panties-boxer": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-panties-boxer",
       "type": "custom",
       "iconId": null,
@@ -1383,7 +1383,7 @@
   },
   "menu-item#category-panties-brasilera": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-panties-brasilera",
       "type": "custom",
       "iconId": null,
@@ -1399,7 +1399,7 @@
   },
   "menu-item#category-panties-clasico": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-panties-clasico",
       "type": "custom",
       "iconId": null,
@@ -1415,7 +1415,7 @@
   },
   "menu-item#category-panties-culotte": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-panties-culotte",
       "type": "custom",
       "iconId": null,
@@ -1431,7 +1431,7 @@
   },
   "menu-item#category-panties-hipster": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-panties-hipster",
       "type": "custom",
       "iconId": null,
@@ -1447,7 +1447,7 @@
   },
   "menu-item#category-panties-surtido": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-panties-surtido",
       "type": "custom",
       "iconId": null,
@@ -1473,7 +1473,7 @@
   },
   "menu-item#category-panties-Invisibles": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-panties-Invisibles",
       "type": "custom",
       "iconId": null,
@@ -1489,7 +1489,7 @@
   },
   "menu-item#category-panties-Reducción-y-Control": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-panties-Reducción-y-Control",
       "type": "custom",
       "iconId": null,
@@ -1505,7 +1505,7 @@
   },
   "menu-item#category-panties-Levanta-Colas": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-panties-Levanta-Colas",
       "type": "custom",
       "iconId": null,
@@ -1521,7 +1521,7 @@
   },
   "menu-item#category-panties-Postparto": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-panties-Postparto",
       "type": "custom",
       "iconId": null,
@@ -1537,7 +1537,7 @@
   },
   "menu-item#category-panties-Panties-Postoperatorios": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-panties-Panties-Postoperatorios",
       "type": "custom",
       "iconId": null,
@@ -1553,7 +1553,7 @@
   },
   "menu-item#category-panties-Panties-Deportivos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-panties-Panties-Deportivos",
       "type": "custom",
       "iconId": null,
@@ -1569,7 +1569,7 @@
   },
   "menu-item#category-panties-Panties-Panties-Cortelaser": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-panties-Panties-Cortelaser",
       "type": "custom",
       "iconId": null,
@@ -1585,7 +1585,7 @@
   },
   "menu-item#category-panties-Panties-Panties-Moldeador": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-panties-Panties-Moldeador",
       "type": "custom",
       "iconId": null,
@@ -1611,7 +1611,7 @@
   },
   "menu-item#category-panties-Individual": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-panties-Individual",
       "type": "custom",
       "iconId": null,
@@ -1627,7 +1627,7 @@
   },
   "menu-item#category-panties-Paquete-x-2": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-panties-Paquete-x-2",
       "type": "custom",
       "iconId": null,
@@ -1643,7 +1643,7 @@
   },
   "menu-item#category-panties-Paquete-x-3": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-panties-Paquete-x-3",
       "type": "custom",
       "iconId": null,
@@ -1659,7 +1659,7 @@
   },
   "menu-item#category-panties-Paquete-x-4": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-panties-Paquete-x-4",
       "type": "custom",
       "iconId": null,
@@ -1675,7 +1675,7 @@
   },
   "menu-item#category-panties-Semanario": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-panties-Semanario",
       "type": "custom",
       "iconId": null,
@@ -1701,7 +1701,7 @@
   },
   "menu-item#category-panties-Sin-Costuras": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-panties-Sin-Costuras",
       "type": "custom",
       "iconId": null,
@@ -1717,7 +1717,7 @@
   },
   "menu-item#category-panties-Corte-Laser-Termofusionado": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-panties-Corte-Laser-Termofusionado",
       "type": "custom",
       "iconId": null,
@@ -1733,7 +1733,7 @@
   },
   "menu-item#category-panties-Invisible": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-panties-Invisible",
       "type": "custom",
       "iconId": null,
@@ -1749,7 +1749,7 @@
   },
   "menu-item#category-panties-Control": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-panties-Control",
       "type": "custom",
       "iconId": null,
@@ -1765,7 +1765,7 @@
   },
   "menu-item#category-kids": {
     "props": {
-      "blockClass":"titulosMenu",
+      "blockClass": "titulosMenu",
       "id": "menu-item-category-kids",
       "type": "custom",
       "iconId": null,
@@ -1785,7 +1785,7 @@
   "vtex.menu@2.x:submenu#category-kids": {
     "props": {
       "width": "100%",
-      "blockClass":"submenu"
+      "blockClass": "submenu"
     },
     "children": [
       "vtex.menu@2.x:menu#category-menu-kids"
@@ -1805,7 +1805,7 @@
   },
   "menu-item#category-kids-girl": {
     "props": {
-      "blockClass":"titulosMenu",
+      "blockClass": "titulosMenu",
       "id": "menu-item-category-kids-girl",
       "iconId": null,
       "highlight": false,
@@ -1824,24 +1824,22 @@
   "vtex.menu@2.x:submenu#category-kids-girl": {
     "props": {
       "width": "100%",
-      "blockClass":"submenu"
+      "blockClass": "submenu"
     },
     "children": [
       "flex-layout.row#menuGirl"
-      
     ]
   },
-  "flex-layout.row#menuGirl":{
+  "flex-layout.row#menuGirl": {
     "children": [
       "flex-layout.col#partes-menu-girl",
       "flex-layout.col#partes-menu-girl-2"
     ]
-    
   },
   "flex-layout.col#partes-menu-girl": {
-    "props":{
+    "props": {
       "colGap": 3,
-      "preventHorizontalStretch":true
+      "preventHorizontalStretch": true
     },
     "children": [
       "rich-text#titulo-arriba",
@@ -1851,13 +1849,11 @@
     ]
   },
   "flex-layout.col#partes-menu-girl-2": {
-    "props":{
-      "blockClass":"vacio"
+    "props": {
+      "blockClass": "vacio"
     },
     "children": [
-      
       "flex-layout.row#category-kids-girl-arriba-2"
-      
     ]
   },
   "flex-layout.col#category-junior": {
@@ -1867,7 +1863,7 @@
   },
   "menu-item#category-kids-junior": {
     "props": {
-      "blockClass":"titulosMenu",
+      "blockClass": "titulosMenu",
       "id": "menu-item-category-kids-junior",
       "type": "custom",
       "iconId": null,
@@ -1887,26 +1883,23 @@
   "vtex.menu@2.x:submenu#category-kids-junior": {
     "props": {
       "width": "100%",
-      "blockClass":"submenu"
+      "blockClass": "submenu"
     },
     "children": [
       "flex-layout.row#menuJunior"
-      
     ]
   },
-  "flex-layout.row#menuJunior":{
+  "flex-layout.row#menuJunior": {
     "children": [
       "flex-layout.col#partes-menu-junior-1",
       "flex-layout.col#partes-menu-junior-2"
     ]
-    
   },
   "flex-layout.col#partes-menu-junior-1": {
-    "props":{
+    "props": {
       "colGap": 3,
-      "preventHorizontalStretch":true
+      "preventHorizontalStretch": true
     },
-    
     "children": [
       "rich-text#titulo-arriba",
       "flex-layout.row#category-kids-junior-arriba",
@@ -1915,13 +1908,11 @@
     ]
   },
   "flex-layout.col#partes-menu-junior-2": {
-    "props":{
-      "blockClass":"vacio"
+    "props": {
+      "blockClass": "vacio"
     },
     "children": [
-      
       "flex-layout.row#category-kids-girl-arriba-2"
-      
     ]
   },
   "flex-layout.col#category-teen": {
@@ -1931,7 +1922,7 @@
   },
   "menu-item#category-kids-girl-teen": {
     "props": {
-      "blockClass":"titulosMenu",
+      "blockClass": "titulosMenu",
       "id": "menu-item-category-kids-teen",
       "type": "custom",
       "iconId": null,
@@ -1951,24 +1942,22 @@
   "vtex.menu@2.x:submenu#category-kids-teen": {
     "props": {
       "width": "100%",
-      "blockClass":"submenu"
+      "blockClass": "submenu"
     },
     "children": [
       "flex-layout.row#menuTeen"
-      
     ]
   },
-  "flex-layout.row#menuTeen":{
+  "flex-layout.row#menuTeen": {
     "children": [
       "flex-layout.col#partes-menu-teen-1",
       "flex-layout.col#partes-menu-teen-2"
     ]
-    
   },
   "flex-layout.col#partes-menu-teen-1": {
-    "props":{
+    "props": {
       "colGap": 3,
-      "preventHorizontalStretch":true
+      "preventHorizontalStretch": true
     },
     "children": [
       "rich-text#titulo-arriba",
@@ -1978,13 +1967,11 @@
     ]
   },
   "flex-layout.col#partes-menu-teen-2": {
-    "props":{
-      "blockClass":"vacio"
+    "props": {
+      "blockClass": "vacio"
     },
     "children": [
-      
       "flex-layout.row#category-kids-girl-arriba-2"
-      
     ]
   },
   "rich-text#titulo-arriba": {
@@ -2007,10 +1994,10 @@
   },
   //inicio submenu kids&teen girl
   "flex-layout.row#category-kids-girl-arriba-1": {
-    "props":{
+    "props": {
       "colGap": 3,
-      "preventHorizontalStretch":true,
-      "colSize":"equal"
+      "preventHorizontalStretch": true,
+      "colSize": "equal"
     },
     "children": [
       "flex-layout.col#category-kids-girl-arriba-1",
@@ -2084,7 +2071,7 @@
   },
   "menu-item#category-kids-girl-arriba-Buscar": {
     "props": {
-      "blockClass":"itemMenu",      
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-Buscar",
       "type": "custom",
       "iconId": null,
@@ -2100,7 +2087,7 @@
   },
   "menu-item#category-kids-girl-arriba-Ver_todo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-Ver_todo",
       "type": "custom",
       "iconId": null,
@@ -2116,7 +2103,7 @@
   },
   "menu-item#category-kids-girl-arriba-Lo_mas_Vendido": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-Lo_mas_Vendido",
       "type": "custom",
       "iconId": null,
@@ -2132,7 +2119,7 @@
   },
   "menu-item#category-kids-girl-arriba-NuevosKids&Teen": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-Nuevos-Kids&Teen",
       "type": "custom",
       "iconId": null,
@@ -2148,7 +2135,7 @@
   },
   "menu-item#category-kids-girl-arriba-descuentos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-descuentos",
       "type": "custom",
       "iconId": null,
@@ -2170,11 +2157,11 @@
       "textColor": "black",
       "font": "10px",
       "blockClass": "subtitulos-lilipink"
-     }
+    }
   },
   "menu-item#category-kids-girl-arriba-crop-top": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-crop-top",
       "type": "custom",
       "iconId": null,
@@ -2190,7 +2177,7 @@
   },
   "menu-item#category-kids-girl-arriba-deportivo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-deportivo",
       "type": "custom",
       "iconId": null,
@@ -2206,7 +2193,7 @@
   },
   "menu-item#category-kids-girl-arriba-halter": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-halter",
       "type": "custom",
       "iconId": null,
@@ -2222,7 +2209,7 @@
   },
   "menu-item#category-kids-girl-arriba-racerback": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-racerback",
       "type": "custom",
       "iconId": null,
@@ -2238,7 +2225,7 @@
   },
   "menu-item#category-kids-girl-arriba-surtido": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-surtido",
       "type": "custom",
       "iconId": null,
@@ -2254,7 +2241,7 @@
   },
   "menu-item#category-kids-girl-arriba-tanktop": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-tanktop",
       "type": "custom",
       "iconId": null,
@@ -2270,7 +2257,7 @@
   },
   "menu-item#category-kids-girl-arriba-top": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-top",
       "type": "custom",
       "iconId": null,
@@ -2292,11 +2279,11 @@
       "textColor": "black",
       "font": "10px",
       "blockClass": "subtitulos-lilipink"
-     }
+    }
   },
   "menu-item#category-kids-girl-arriba-algodon-superior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-algodo-superior",
       "type": "custom",
       "iconId": null,
@@ -2312,7 +2299,7 @@
   },
   "menu-item#category-kids-girl-arriba-seamless-superior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-seamless-superior",
       "type": "custom",
       "iconId": null,
@@ -2328,7 +2315,7 @@
   },
   "menu-item#category-kids-girl-arriba-surtido-superior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-surtido-superior",
       "type": "custom",
       "iconId": null,
@@ -2350,11 +2337,11 @@
       "textColor": "black",
       "font": "10px",
       "blockClass": "subtitulos-lilipink"
-     }
+    }
   },
   "menu-item#category-kids-girl-arriba-individual-superior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-individual-superior",
       "type": "custom",
       "iconId": null,
@@ -2370,7 +2357,7 @@
   },
   "menu-item#category-kids-girl-arriba-paquete-x2-superior-col4": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-paquete-x2-superior-col4",
       "type": "custom",
       "iconId": null,
@@ -2385,16 +2372,16 @@
     }
   },
   "flex-layout.row#category-kids-girl-abajo-1": {
-    "props":{
+    "props": {
       "colGap": 3,
-      "preventHorizontalStretch":true,
-      "colSize":"equal"
+      "preventHorizontalStretch": true,
+      "colSize": "equal"
     },
     "children": [
       "flex-layout.col#category-kids-girl-abajo-1",
       "flex-layout.col#category-kids-girl-abajo-2",
       "flex-layout.col#category-kids-girl-abajo-3",
-      "flex-layout.col#category-kids-girl-abajo-4"//,
+      "flex-layout.col#category-kids-girl-abajo-4" //,
       //"flex-layout.col#category-kids-girl-abajo-5"
     ]
   },
@@ -2459,11 +2446,11 @@
       "textColor": "black",
       "font": "10px",
       "blockClass": "subtitulos-lilipink"
-     }
+    }
   },
   "menu-item#category-kids-girl-abajo-Buscar-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-Buscar-inferior",
       "type": "custom",
       "iconId": null,
@@ -2479,7 +2466,7 @@
   },
   "menu-item#category-kids-girl-abajo-Ver-Todo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-Ver-Todo",
       "type": "custom",
       "iconId": null,
@@ -2495,7 +2482,7 @@
   },
   "menu-item#category-kids-girl-abajo-Lo-Mas_Vendido": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-Lo-Mas_Vendido",
       "type": "custom",
       "iconId": null,
@@ -2511,7 +2498,7 @@
   },
   "menu-item#category-kids-girl-abajo-Nuevos-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-Nuevos-inferior",
       "type": "custom",
       "iconId": null,
@@ -2527,7 +2514,7 @@
   },
   "menu-item#category-kids-girl-abajo-Descuentos-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-Descuentos-inferior",
       "type": "custom",
       "iconId": null,
@@ -2543,7 +2530,7 @@
   },
   "menu-item#category-kids-girl-abajo-estilos-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-top",
       "type": "custom",
       "iconId": null,
@@ -2559,7 +2546,7 @@
   },
   "menu-item#category-kids-girl-abajo-boxer": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-boxer",
       "type": "custom",
       "iconId": null,
@@ -2575,7 +2562,7 @@
   },
   "menu-item#category-kids-girl-abajo-clasico": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-clasico",
       "type": "custom",
       "iconId": null,
@@ -2591,7 +2578,7 @@
   },
   "menu-item#category-kids-girl-abajo-hipster": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-hipster",
       "type": "custom",
       "iconId": null,
@@ -2607,7 +2594,7 @@
   },
   "menu-item#category-kids-girl-abajo-surtido-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-surtido-inferior",
       "type": "custom",
       "iconId": null,
@@ -2623,7 +2610,7 @@
   },
   "menu-item#category-kids-girl-abajo-material-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-material-inferior",
       "type": "custom",
       "iconId": null,
@@ -2639,7 +2626,7 @@
   },
   "menu-item#category-kids-girl-abajo-material-algodon-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-material-algodo-inferior",
       "type": "custom",
       "iconId": null,
@@ -2655,7 +2642,7 @@
   },
   "menu-item#category-kids-girl-abajo-material-seamless-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-material-seamless-inferior",
       "type": "custom",
       "iconId": null,
@@ -2671,7 +2658,7 @@
   },
   "menu-item#category-kids-girl-abajo-material-surtido-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-surtido-inferior",
       "type": "custom",
       "iconId": null,
@@ -2693,11 +2680,11 @@
       "textColor": "black",
       "font": "10px",
       "blockClass": "subtitulos-lilipink"
-     }
+    }
   },
   "menu-item#category-kids-girl-abajo-individual-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-individual-inferior",
       "type": "custom",
       "iconId": null,
@@ -2713,7 +2700,7 @@
   },
   "menu-item#category-kids-girl-abajo-paquete-x2-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-paquete-x2-inferior",
       "type": "custom",
       "iconId": null,
@@ -2729,7 +2716,7 @@
   },
   "menu-item#category-kids-girl-abajo-paquete-x3-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-paquete-x3-inferior",
       "type": "custom",
       "iconId": null,
@@ -2745,7 +2732,7 @@
   },
   "menu-item#category-kids-girl-abajo-paquete-x4-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-paquete-x4-inferior",
       "type": "custom",
       "iconId": null,
@@ -2761,7 +2748,7 @@
   },
   "menu-item#category-kids-girl-abajo-semanario-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-girl-semanario-inferior",
       "type": "custom",
       "iconId": null,
@@ -2777,16 +2764,16 @@
   },
   //inicio submenu kids&teen junior
   "flex-layout.row#category-kids-junior-arriba": {
-    "props":{
+    "props": {
       "colGap": 3,
-      "preventHorizontalStretch":true,
-      "colSize":"equal"
+      "preventHorizontalStretch": true,
+      "colSize": "equal"
     },
     "children": [
       "flex-layout.col#category-kids-junior-arriba-1",
       "flex-layout.col#category-kids-junior-arriba-2",
       "flex-layout.col#category-kids-junior-arriba-3",
-      "flex-layout.col#category-kids-junior-arriba-4"//,
+      "flex-layout.col#category-kids-junior-arriba-4" //,
       //"flex-layout.col#category-kids-junior-arriba-5"
     ]
   },
@@ -2850,7 +2837,7 @@
   },
   "menu-item#category-kids-junior-arriba-Buscar": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-Buscar",
       "type": "custom",
       "iconId": null,
@@ -2866,7 +2853,7 @@
   },
   "menu-item#category-kids-junior-arriba-Ver_todo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-Ver_todo",
       "type": "custom",
       "iconId": null,
@@ -2882,7 +2869,7 @@
   },
   "menu-item#category-kids-junior-arriba-Lo_mas_Vendido": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-Lo_mas_Vendido",
       "type": "custom",
       "iconId": null,
@@ -2898,7 +2885,7 @@
   },
   "menu-item#category-kids-junior-arriba-NuevosKids&Teen": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-Nuevos-Kids&Teen",
       "type": "custom",
       "iconId": null,
@@ -2914,7 +2901,7 @@
   },
   "menu-item#category-kids-junior-arriba-descuentos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-descuentos",
       "type": "custom",
       "iconId": null,
@@ -2930,7 +2917,7 @@
   },
   "menu-item#category-kids-junior-arriba-estilos-superior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-estilos-superior",
       "type": "custom",
       "iconId": null,
@@ -2946,7 +2933,7 @@
   },
   "menu-item#category-kids-junior-arriba-crop-top": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-crop-top",
       "type": "custom",
       "iconId": null,
@@ -2962,7 +2949,7 @@
   },
   "menu-item#category-kids-junior-arriba-deportivo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-deportivo",
       "type": "custom",
       "iconId": null,
@@ -2978,7 +2965,7 @@
   },
   "menu-item#category-kids-junior-arriba-halter": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-halter",
       "type": "custom",
       "iconId": null,
@@ -2994,7 +2981,7 @@
   },
   "menu-item#category-kids-junior-arriba-racerback": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-racerback",
       "type": "custom",
       "iconId": null,
@@ -3010,7 +2997,7 @@
   },
   "menu-item#category-kids-junior-arriba-surtido": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-surtido",
       "type": "custom",
       "iconId": null,
@@ -3026,7 +3013,7 @@
   },
   "menu-item#category-kids-junior-arriba-tanktop": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-tanktop",
       "type": "custom",
       "iconId": null,
@@ -3042,7 +3029,7 @@
   },
   "menu-item#category-kids-junior-arriba-top": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-top",
       "type": "custom",
       "iconId": null,
@@ -3058,7 +3045,7 @@
   },
   "menu-item#category-kids-junior-arriba-material-superior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-material-superior",
       "type": "custom",
       "iconId": null,
@@ -3074,7 +3061,7 @@
   },
   "menu-item#category-kids-junior-arriba-algodon-superior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-algodo-superior",
       "type": "custom",
       "iconId": null,
@@ -3090,7 +3077,7 @@
   },
   "menu-item#category-kids-junior-arriba-seamless-superior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-seamless-superior",
       "type": "custom",
       "iconId": null,
@@ -3106,7 +3093,7 @@
   },
   "menu-item#category-kids-junior-arriba-surtido-superior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-surtido-superior",
       "type": "custom",
       "iconId": null,
@@ -3122,7 +3109,7 @@
   },
   "menu-item#category-kids-junior-arriba-Compra_mas_y_ahorra-superior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-Compra_mas_y_ahorra-superior",
       "type": "custom",
       "iconId": null,
@@ -3138,7 +3125,7 @@
   },
   "menu-item#category-kids-junior-arriba-individual-superior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-individual-superior",
       "type": "custom",
       "iconId": null,
@@ -3154,7 +3141,7 @@
   },
   "menu-item#category-kids-junior-arriba-paquete-x2-superior-col4": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-arriba-paquete-x2-superior-col4",
       "type": "custom",
       "iconId": null,
@@ -3169,16 +3156,16 @@
     }
   },
   "flex-layout.row#category-kids-junior-abajo": {
-    "props":{
+    "props": {
       "colGap": 3,
-      "preventHorizontalStretch":true,
-      "colSize":"equal"
+      "preventHorizontalStretch": true,
+      "colSize": "equal"
     },
     "children": [
       "flex-layout.col#category-kids-junior-abajo-1",
       "flex-layout.col#category-kids-junior-abajo-2",
       "flex-layout.col#category-kids-junior-abajo-3",
-      "flex-layout.col#category-kids-junior-abajo-4"//,
+      "flex-layout.col#category-kids-junior-abajo-4" //,
       //"flex-layout.col#category-kids-junior-abajo-5"
     ]
   },
@@ -3248,11 +3235,11 @@
       "textColor": "black",
       "font": "10px",
       "blockClass": "subtitulos-lilipink"
-     }
+    }
   },
   "menu-item#category-kids-junior-abajo-Ver-Todo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-abajo-Ver-Todo",
       "type": "custom",
       "iconId": null,
@@ -3268,7 +3255,7 @@
   },
   "menu-item#category-kids-junior-abajo-Lo-Mas_Vendido": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-abajo-Lo-Mas_Vendido",
       "type": "custom",
       "iconId": null,
@@ -3284,7 +3271,7 @@
   },
   "menu-item#category-kids-junior-abajo-Nuevos-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-abajo-Nuevos-inferior",
       "type": "custom",
       "iconId": null,
@@ -3300,7 +3287,7 @@
   },
   "menu-item#category-kids-junior-abajo-Descuentos-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-abajo-Descuentos-inferior",
       "type": "custom",
       "iconId": null,
@@ -3322,11 +3309,11 @@
       "textColor": "black",
       "font": "10px",
       "blockClass": "subtitulos-lilipink"
-     }
+    }
   },
   "menu-item#category-kids-junior-abajo-boxer": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-abajo-boxer",
       "type": "custom",
       "iconId": null,
@@ -3342,7 +3329,7 @@
   },
   "menu-item#category-kids-junior-abajo-clasico": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-abajo-clasico",
       "type": "custom",
       "iconId": null,
@@ -3358,7 +3345,7 @@
   },
   "menu-item#category-kids-junior-abajo-hipster": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-abajo-hipster",
       "type": "custom",
       "iconId": null,
@@ -3374,7 +3361,7 @@
   },
   "menu-item#category-kids-junior-abajo-surtido-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-abajo-surtido-inferior",
       "type": "custom",
       "iconId": null,
@@ -3396,11 +3383,11 @@
       "textColor": "black",
       "font": "10px",
       "blockClass": "subtitulos-lilipink"
-     }
+    }
   },
   "menu-item#category-kids-junior-abajo-material-algodon-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-abajo-material-algodo-inferior",
       "type": "custom",
       "iconId": null,
@@ -3416,7 +3403,7 @@
   },
   "menu-item#category-kids-junior-abajo-material-seamless-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-abajo-material-seamless-inferior",
       "type": "custom",
       "iconId": null,
@@ -3432,7 +3419,7 @@
   },
   "menu-item#category-kids-junior-abajo-material-surtido-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-abajo-surtido-inferior",
       "type": "custom",
       "iconId": null,
@@ -3454,11 +3441,11 @@
       "textColor": "black",
       "font": "10px",
       "blockClass": "subtitulos-lilipink"
-     }
+    }
   },
   "menu-item#category-kids-junior-abajo-individual-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-abajo-individual-inferior",
       "type": "custom",
       "iconId": null,
@@ -3474,7 +3461,7 @@
   },
   "menu-item#category-kids-junior-abajo-paquete-x2-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-abajo-paquete-x2-inferior",
       "type": "custom",
       "iconId": null,
@@ -3490,7 +3477,7 @@
   },
   "menu-item#category-kids-junior-abajo-paquete-x3-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-abajo-paquete-x3-inferior",
       "type": "custom",
       "iconId": null,
@@ -3506,7 +3493,7 @@
   },
   "menu-item#category-kids-junior-abajo-paquete-x4-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-abajo-paquete-x4-inferior",
       "type": "custom",
       "iconId": null,
@@ -3522,7 +3509,7 @@
   },
   "menu-item#category-kids-junior-abajo-semanario-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-junior-abajo-semanario-inferior",
       "type": "custom",
       "iconId": null,
@@ -3538,16 +3525,16 @@
   },
   //inicio submenu kids&teen teen
   "flex-layout.row#category-kids-teen-arriba": {
-    "props":{
+    "props": {
       "colGap": 3,
-      "preventHorizontalStretch":true,
-      "colSize":"equal"
+      "preventHorizontalStretch": true,
+      "colSize": "equal"
     },
     "children": [
       "flex-layout.col#category-kids-teen-arriba-1",
       "flex-layout.col#category-kids-teen-arriba-2",
       "flex-layout.col#category-kids-teen-arriba-3",
-      "flex-layout.col#category-kids-teen-arriba-4"//,
+      "flex-layout.col#category-kids-teen-arriba-4" //,
       //"flex-layout.col#category-kids-teen-arriba-5"
     ]
   },
@@ -3623,7 +3610,7 @@
   },
   "menu-item#category-kids-teen-arriba-Ver_todo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-arriba-Ver_todo",
       "type": "custom",
       "iconId": null,
@@ -3639,7 +3626,7 @@
   },
   "menu-item#category-kids-teen-arriba-Lo_mas_Vendido": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-arriba-Lo_mas_Vendido",
       "type": "custom",
       "iconId": null,
@@ -3655,7 +3642,7 @@
   },
   "menu-item#category-kids-teen-arriba-NuevosKids&Teen": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-arriba-Nuevos-Kids&Teen",
       "type": "custom",
       "iconId": null,
@@ -3671,7 +3658,7 @@
   },
   "menu-item#category-kids-teen-arriba-descuentos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-arriba-descuentos",
       "type": "custom",
       "iconId": null,
@@ -3697,7 +3684,7 @@
   },
   "menu-item#category-kids-teen-arriba-sin-copa": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-arriba-sin-copa",
       "type": "custom",
       "iconId": null,
@@ -3713,7 +3700,7 @@
   },
   "menu-item#category-kids-teen-arriba-copa-removible": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-arriba-copa-removible",
       "type": "custom",
       "iconId": null,
@@ -3739,7 +3726,7 @@
   },
   "menu-item#category-kids-teen-arriba-con-copa": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-arriba-con-copa",
       "type": "custom",
       "iconId": null,
@@ -3755,7 +3742,7 @@
   },
   "menu-item#category-kids-teen-arriba-bustier": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-arriba-bustier",
       "type": "custom",
       "iconId": null,
@@ -3771,7 +3758,7 @@
   },
   "menu-item#category-kids-teen-arriba-strapless": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-arriba-strapless",
       "type": "custom",
       "iconId": null,
@@ -3787,7 +3774,7 @@
   },
   "menu-item#category-kids-teen-arriba-surtido": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-arriba-surtido",
       "type": "custom",
       "iconId": null,
@@ -3803,7 +3790,7 @@
   },
   "menu-item#category-kids-teen-arriba-sin-varilla": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-arriba-sin-varilla",
       "type": "custom",
       "iconId": null,
@@ -3829,7 +3816,7 @@
   },
   "menu-item#category-kids-teen-arriba-algodon": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-arriba-algodon",
       "type": "custom",
       "iconId": null,
@@ -3845,7 +3832,7 @@
   },
   "menu-item#category-kids-teen-arriba-microfibra": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-arriba-microfibra",
       "type": "custom",
       "iconId": null,
@@ -3861,7 +3848,7 @@
   },
   "menu-item#category-kids-teen-arriba-seamless": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-arriba-seamless",
       "type": "custom",
       "iconId": null,
@@ -3877,7 +3864,7 @@
   },
   "menu-item#category-kids-teen-arriba-surtido-teen-arriba": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-arriba-surtido-teen-arriba",
       "type": "custom",
       "iconId": null,
@@ -3901,10 +3888,9 @@
       "blockClass": "subtitulos-lilipink"
     }
   },
- 
   "menu-item#category-kids-teen-arriba-Individual": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-arriba-Individual",
       "type": "custom",
       "iconId": null,
@@ -3920,7 +3906,7 @@
   },
   "menu-item#category-kids-teen-arriba-paquete-x2": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-arriba-paquete-x2",
       "type": "custom",
       "iconId": null,
@@ -3935,17 +3921,17 @@
     }
   },
   "flex-layout.row#category-kids-teen-abajo": {
-    "props":{
+    "props": {
       "colGap": 3,
-      "preventHorizontalStretch":true,
-      "colSize":"equal",
-      "preventVerticalStretch":true
+      "preventHorizontalStretch": true,
+      "colSize": "equal",
+      "preventVerticalStretch": true
     },
     "children": [
       "flex-layout.col#category-kids-teen-abajo-1",
       "flex-layout.col#category-kids-teen-abajo-2",
       "flex-layout.col#category-kids-teen-abajo-3",
-      "flex-layout.col#category-kids-teen-abajo-4"//,
+      "flex-layout.col#category-kids-teen-abajo-4" //,
       //"flex-layout.col#category-kids-teen-abajo-5"
     ]
   },
@@ -4016,11 +4002,11 @@
       "textColor": "black",
       "font": "10px",
       "blockClass": "subtitulos-lilipink"
-     }
+    }
   },
   "menu-item#category-kids-teen-abajo-vertodoinferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-abajo-vertodoinferior",
       "type": "custom",
       "iconId": null,
@@ -4036,7 +4022,7 @@
   },
   "menu-item#category-kids-teen-abajo-nuevosinferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-abajo-nuevosinferior",
       "type": "custom",
       "iconId": null,
@@ -4052,7 +4038,7 @@
   },
   "menu-item#category-kids-teen-abajo-descuentosinferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-abajo-descuentosinferior",
       "type": "custom",
       "iconId": null,
@@ -4074,11 +4060,11 @@
       "textColor": "black",
       "font": "10px",
       "blockClass": "subtitulos-lilipink"
-     }
+    }
   },
   "menu-item#category-kids-teen-abajo-bikini": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-abajo-bikini",
       "type": "custom",
       "iconId": null,
@@ -4094,7 +4080,7 @@
   },
   "menu-item#category-kids-teen-abajo-boxer": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-abajo-boxer",
       "type": "custom",
       "iconId": null,
@@ -4110,7 +4096,7 @@
   },
   "menu-item#category-kids-teen-abajo-clasico": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-abajo-clasico",
       "type": "custom",
       "iconId": null,
@@ -4126,7 +4112,7 @@
   },
   "menu-item#category-kids-teen-abajo-hipster": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-abajo-hipster",
       "type": "custom",
       "iconId": null,
@@ -4142,7 +4128,7 @@
   },
   "menu-item#category-kids-teen-abajo-surtido-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-abajo-surtido-inferior",
       "type": "custom",
       "iconId": null,
@@ -4164,11 +4150,11 @@
       "textColor": "black",
       "font": "10px",
       "blockClass": "subtitulos-lilipink"
-     }
+    }
   },
   "menu-item#category-kids-teen-abajo-algodon-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-abajo-algodon-inferior",
       "type": "custom",
       "iconId": null,
@@ -4184,7 +4170,7 @@
   },
   "menu-item#category-kids-teen-abajo-microfibra-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-abajo-microfibra-inferior",
       "type": "custom",
       "iconId": null,
@@ -4200,7 +4186,7 @@
   },
   "menu-item#category-kids-teen-abajo-seamless-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-abajo-seamless-inferior",
       "type": "custom",
       "iconId": null,
@@ -4237,11 +4223,11 @@
       "textColor": "black",
       "font": "10px",
       "blockClass": "subtitulos-lilipink"
-     }
+    }
   },
   "menu-item#category-kids-teen-abajo-Compra_mas_y_ahorra-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-abajo-Compra_mas_y_ahorra-inferior",
       "type": "custom",
       "iconId": null,
@@ -4257,7 +4243,7 @@
   },
   "menu-item#category-kids-teen-abajo-Individual-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-abajo-Individual-inferior",
       "type": "custom",
       "iconId": null,
@@ -4273,7 +4259,7 @@
   },
   "menu-item#category-kids-teen-abajo-paquete-x2-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-abajo-paquete-x2-inferior",
       "type": "custom",
       "iconId": null,
@@ -4289,7 +4275,7 @@
   },
   "menu-item#category-kids-teen-abajo-paquete-x3-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-abajo-paquete-x3-inferior",
       "type": "custom",
       "iconId": null,
@@ -4305,7 +4291,7 @@
   },
   "menu-item#category-kids-teen-abajo-paquete-x4-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-abajo-paquete-x4-inferior",
       "type": "custom",
       "iconId": null,
@@ -4321,7 +4307,7 @@
   },
   "menu-item#category-kids-teen-abajo-semanario-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-kids-teen-abajo-semanario-inferior",
       "type": "custom",
       "iconId": null,
@@ -4338,7 +4324,7 @@
   //menu descanso
   "menu-item#category-descanso": {
     "props": {
-      "blockClass":"titulosMenu",
+      "blockClass": "titulosMenu",
       "id": "menu-item-category-descanso",
       "type": "custom",
       "iconId": null,
@@ -4358,17 +4344,17 @@
   "vtex.menu@2.x:submenu#category-descanso": {
     "props": {
       "width": "100%",
-      "blockClass":"submenu"
+      "blockClass": "submenu"
     },
     "children": [
       "flex-layout.row#category-descanso"
     ]
   },
   "flex-layout.row#category-descanso": {
-    "props":{
+    "props": {
       "colGap": 3,
-      "preventHorizontalStretch":true,
-      "colSize":"equal"
+      "preventHorizontalStretch": true,
+      "colSize": "equal"
     },
     "children": [
       "flex-layout.col#category-descanso-1",
@@ -4451,7 +4437,7 @@
   },
   "menu-item#category-descanso-Ver_todo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Ver_todo",
       "type": "custom",
       "iconId": null,
@@ -4467,7 +4453,7 @@
   },
   "menu-item#category-descanso-Los-más-Vendidos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-panties-Lo_mas_Vendido",
       "type": "custom",
       "iconId": null,
@@ -4483,7 +4469,7 @@
   },
   "menu-item#category-descanso-Nuevos-Descanso": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Nuevos-Descanso",
       "type": "custom",
       "iconId": null,
@@ -4499,7 +4485,7 @@
   },
   "menu-item#category-descanso-Ofertas": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Ofertas",
       "type": "custom",
       "iconId": null,
@@ -4525,7 +4511,7 @@
   },
   "menu-item#category-descanso-Conjuntos-de-pijama": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Conjuntos-de-pijama",
       "type": "custom",
       "iconId": null,
@@ -4541,7 +4527,7 @@
   },
   "menu-item#category-descanso-Prendas-de-pijama": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Prendas-de-pijama",
       "type": "custom",
       "iconId": null,
@@ -4557,7 +4543,7 @@
   },
   "menu-item#category-descanso-Conjuntos-con-tops-de-tirantes-finos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Conjuntos-con-tops-de-tirantes-finos",
       "type": "custom",
       "iconId": null,
@@ -4573,7 +4559,7 @@
   },
   "menu-item#category-descanso-Camisas-de-dormir-y-camisones": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Camisas-de-dormir-y-camisones",
       "type": "custom",
       "iconId": null,
@@ -4589,7 +4575,7 @@
   },
   "menu-item#category-descanso-Pantalon": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Pantalon",
       "type": "custom",
       "iconId": null,
@@ -4605,7 +4591,7 @@
   },
   "menu-item#category-descanso-multiuso-Pantalon": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Pantalon",
       "type": "custom",
       "iconId": null,
@@ -4631,7 +4617,7 @@
   },
   "menu-item#category-descanso-Buso": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Buso",
       "type": "custom",
       "iconId": null,
@@ -4647,7 +4633,7 @@
   },
   "menu-item#category-descanso-Camiseta": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Camiseta",
       "type": "custom",
       "iconId": null,
@@ -4673,7 +4659,7 @@
   },
   "menu-item#category-descanso-Algodon-Multiusos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Algodon.Multiusos",
       "type": "custom",
       "iconId": null,
@@ -4689,7 +4675,7 @@
   },
   "menu-item#category-descanso-Modal-Multiusos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Modal-Multiusos",
       "type": "custom",
       "iconId": null,
@@ -4705,7 +4691,7 @@
   },
   "menu-item#category-descanso-Beneficio": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Beneficio",
       "type": "custom",
       "iconId": null,
@@ -4721,7 +4707,7 @@
   },
   "menu-item#category-descanso-Algodon": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Algodon",
       "type": "custom",
       "iconId": null,
@@ -4737,7 +4723,7 @@
   },
   "menu-item#category-descanso-Modal": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Modal",
       "type": "custom",
       "iconId": null,
@@ -4753,7 +4739,7 @@
   },
   "menu-item#category-descanso-Encaje": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Encaje",
       "type": "custom",
       "iconId": null,
@@ -4769,7 +4755,7 @@
   },
   "menu-item#category-descanso-Tejido-Plano": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Tejido-Plano",
       "type": "custom",
       "iconId": null,
@@ -4785,7 +4771,7 @@
   },
   "menu-item#category-descanso-Satin": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Satin",
       "type": "custom",
       "iconId": null,
@@ -4811,7 +4797,7 @@
   },
   "menu-item#category-descanso-Tiras": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Tiras",
       "type": "custom",
       "iconId": null,
@@ -4827,7 +4813,7 @@
   },
   "menu-item#category-descanso-Manga-Sisa": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Manga-Sisa",
       "type": "custom",
       "iconId": null,
@@ -4843,7 +4829,7 @@
   },
   "menu-item#category-descanso-Manga-Corta": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Manga-Corta",
       "type": "custom",
       "iconId": null,
@@ -4859,7 +4845,7 @@
   },
   "menu-item#category-descanso-Manga-Larga": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Manga-Larga",
       "type": "custom",
       "iconId": null,
@@ -4875,7 +4861,7 @@
   },
   "menu-item#category-descanso-Pantalon-Corto": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Pantalon-Corto",
       "type": "custom",
       "iconId": null,
@@ -4891,7 +4877,7 @@
   },
   "menu-item#category-descanso-Pantalon-Capri": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Pantalon-Capri",
       "type": "custom",
       "iconId": null,
@@ -4907,7 +4893,7 @@
   },
   "menu-item#category-descanso-Pantalon-Largo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-descanso-Pantalon-Largo",
       "type": "custom",
       "iconId": null,
@@ -4924,7 +4910,7 @@
   //menu medias
   "menu-item#category-medias": {
     "props": {
-      "blockClass":"titulosMenu",
+      "blockClass": "titulosMenu",
       "id": "menu-item-category-medias",
       "type": "custom",
       "iconId": null,
@@ -4944,17 +4930,17 @@
   "vtex.menu@2.x:submenu#category-medias": {
     "props": {
       "width": "100%",
-      "blockClass":"submenu"
+      "blockClass": "submenu"
     },
     "children": [
       "flex-layout.row#category-medias"
     ]
   },
   "flex-layout.row#category-medias": {
-    "props":{
+    "props": {
       "colGap": 3,
-      "preventHorizontalStretch":true,
-      "colSize":"equal"
+      "preventHorizontalStretch": true,
+      "colSize": "equal"
     },
     "children": [
       "flex-layout.col#category-medias-1",
@@ -5038,7 +5024,7 @@
   },
   "menu-item#category-medias-Ver_todo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-medias-Ver_todo",
       "type": "custom",
       "iconId": null,
@@ -5054,7 +5040,7 @@
   },
   "menu-item#category-medias-Los-más-Vendidos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-medias-Lo_mas_Vendido",
       "type": "custom",
       "iconId": null,
@@ -5070,7 +5056,7 @@
   },
   "menu-item#category-medias-Nuevos-medias": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-medias-Nuevos-medias",
       "type": "custom",
       "iconId": null,
@@ -5086,7 +5072,7 @@
   },
   "menu-item#category-medias-Ofertas": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-medias-Ofertas",
       "type": "custom",
       "iconId": null,
@@ -5112,7 +5098,7 @@
   },
   "menu-item#category-medias-pantumedias": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-medias-pantumedias",
       "type": "custom",
       "iconId": null,
@@ -5128,7 +5114,7 @@
   },
   "menu-item#category-medias-tobilleras": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-medias-tobilleras",
       "type": "custom",
       "iconId": null,
@@ -5144,7 +5130,7 @@
   },
   "menu-item#category-medias-termicas": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-medias-termicas",
       "type": "custom",
       "iconId": null,
@@ -5160,7 +5146,7 @@
   },
   "menu-item#category-medias-baletas": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-medias-baletas",
       "type": "custom",
       "iconId": null,
@@ -5176,7 +5162,7 @@
   },
   "menu-item#category-medias-clasico": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-medias-clasico",
       "type": "custom",
       "iconId": null,
@@ -5192,7 +5178,7 @@
   },
   "menu-item#category-medias-veladas": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-medias-veladas",
       "type": "custom",
       "iconId": null,
@@ -5208,7 +5194,7 @@
   },
   "menu-item#category-medias-taloneras": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-medias-taloneras",
       "type": "custom",
       "iconId": null,
@@ -5234,7 +5220,7 @@
   },
   "menu-item#category-medias-Algodon": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-medias-Algodon",
       "type": "custom",
       "iconId": null,
@@ -5250,7 +5236,7 @@
   },
   "menu-item#category-medias-Microfibra": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-medias-Microfibra",
       "type": "custom",
       "iconId": null,
@@ -5266,7 +5252,7 @@
   },
   "menu-item#category-medias-Blonda": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-medias-Blonda",
       "type": "custom",
       "iconId": null,
@@ -5292,7 +5278,7 @@
   },
   "menu-item#category-medias-Individual": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-medias-Individual",
       "type": "custom",
       "iconId": null,
@@ -5308,7 +5294,7 @@
   },
   "menu-item#category-medias-Paquete-x-2": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-medias-Paquete-x-2",
       "type": "custom",
       "iconId": null,
@@ -5324,7 +5310,7 @@
   },
   "menu-item#category-medias-Paquete-x-3": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-medias-Paquete-x-3",
       "type": "custom",
       "iconId": null,
@@ -5340,7 +5326,7 @@
   },
   "menu-item#category-medias-Paquete-x-4": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-medias-Paquete-x-4",
       "type": "custom",
       "iconId": null,
@@ -5356,7 +5342,7 @@
   },
   "menu-item#category-medias-Semanario": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-medias-Semanario",
       "type": "custom",
       "iconId": null,
@@ -5373,7 +5359,7 @@
   //deportivo
   "menu-item#category-deportivo": {
     "props": {
-      "blockClass":"titulosMenu",
+      "blockClass": "titulosMenu",
       "id": "menu-item-category-deportivo",
       "type": "custom",
       "iconId": null,
@@ -5393,17 +5379,17 @@
   "vtex.menu@2.x:submenu#category-deportivo": {
     "props": {
       "width": "100%",
-      "blockClass":"submenu"
+      "blockClass": "submenu"
     },
     "children": [
       "flex-layout.row#category-deportivo"
     ]
   },
   "flex-layout.row#category-deportivo": {
-    "props":{
+    "props": {
       "colGap": 3,
-      "preventHorizontalStretch":true,
-      "colSize":"equal"
+      "preventHorizontalStretch": true,
+      "colSize": "equal"
     },
     "children": [
       "flex-layout.col#category-deportivo-1",
@@ -5417,7 +5403,7 @@
   "flex-layout.col#category-deportivo-1": {
     "props": {
       "blockClass": "columnaMenu",
-      "width":"15%"
+      "width": "15%"
     },
     "children": [
       "rich-text#category-deportivo-Buscar",
@@ -5430,7 +5416,7 @@
   "flex-layout.col#category-deportivo-2": {
     "props": {
       "blockClass": "columnaMenu",
-      "width":"15%"
+      "width": "15%"
     },
     "children": [
       "rich-text#category-deportivo-Tipo",
@@ -5445,7 +5431,7 @@
   "flex-layout.col#category-deportivo-3": {
     "props": {
       "blockClass": "columnaMenu",
-      "width":"15%"
+      "width": "15%"
     },
     "children": [
       "rich-text#category-deportivo-Deportes",
@@ -5476,7 +5462,7 @@
   },
   "menu-item#category-deportivo-Ver_todo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-deportivo-Ver_todo",
       "type": "custom",
       "iconId": null,
@@ -5492,7 +5478,7 @@
   },
   "menu-item#category-deportivo-Los-más-Vendidos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-deportivo-Lo_mas_Vendido",
       "type": "custom",
       "iconId": null,
@@ -5508,7 +5494,7 @@
   },
   "menu-item#category-deportivo-Nuevos-deportivo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-deportivo-Nuevos-deportivo",
       "type": "custom",
       "iconId": null,
@@ -5524,7 +5510,7 @@
   },
   "menu-item#category-deportivo-Ofertas": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-deportivo-Ofertas",
       "type": "custom",
       "iconId": null,
@@ -5550,7 +5536,7 @@
   },
   "menu-item#category-deportivo-camiseta": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-deportivo-camiseta",
       "type": "custom",
       "iconId": null,
@@ -5566,7 +5552,7 @@
   },
   "menu-item#category-deportivo-chaqueta": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-deportivo-chaqueta",
       "type": "custom",
       "iconId": null,
@@ -5582,7 +5568,7 @@
   },
   "menu-item#category-deportivo-pantalon": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-deportivo-pantalon",
       "type": "custom",
       "iconId": null,
@@ -5598,7 +5584,7 @@
   },
   "menu-item#category-deportivo-tops": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-deportivo-tops",
       "type": "custom",
       "iconId": null,
@@ -5614,7 +5600,7 @@
   },
   "menu-item#category-deportivo-pantaloneta": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-deportivo-pantaloneta",
       "type": "custom",
       "iconId": null,
@@ -5630,7 +5616,7 @@
   },
   "menu-item#category-deportivo-leggins": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-deportivo-leggins",
       "type": "custom",
       "iconId": null,
@@ -5686,7 +5672,7 @@
   },
   "menu-item#category-deportivo-Baile": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-deportivo-Baile",
       "type": "custom",
       "iconId": null,
@@ -5702,7 +5688,7 @@
   },
   "menu-item#category-deportivo-Yoga-Pilates": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-deportivo-Yoga-Pilates",
       "type": "custom",
       "iconId": null,
@@ -5718,7 +5704,7 @@
   },
   "menu-item#category-deportivo-Correr-Trotar": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-deportivo-Correr-Trotar",
       "type": "custom",
       "iconId": null,
@@ -5734,7 +5720,7 @@
   },
   "menu-item#category-vestidos": {
     "props": {
-      "blockClass":"titulosMenu",
+      "blockClass": "titulosMenu",
       "id": "menu-item-category-vestidos",
       "type": "custom",
       "iconId": null,
@@ -5754,17 +5740,17 @@
   "vtex.menu@2.x:submenu#category-vestidos": {
     "props": {
       "width": "100%",
-      "blockClass":"submenu"
+      "blockClass": "submenu"
     },
     "children": [
       "flex-layout.row#category-vestidos"
     ]
   },
   "flex-layout.row#category-vestidos": {
-    "props":{
+    "props": {
       "colGap": 3,
-      "preventHorizontalStretch":true,
-      "colSize":"equal"
+      "preventHorizontalStretch": true,
+      "colSize": "equal"
     },
     "children": [
       "flex-layout.col#category-vestidos-1",
@@ -5834,7 +5820,7 @@
   },
   "menu-item#category-vestidos-Ver_todo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-vestidos-Ver_todo",
       "type": "custom",
       "iconId": null,
@@ -5850,7 +5836,7 @@
   },
   "menu-item#category-vestidos-Los-más-Vendidos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-vestidos-Lo_mas_Vendido",
       "type": "custom",
       "iconId": null,
@@ -5866,7 +5852,7 @@
   },
   "menu-item#category-vestidos-Nuevos-deportivo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-deportivo-Nuevos-deportivo",
       "type": "custom",
       "iconId": null,
@@ -5882,7 +5868,7 @@
   },
   "menu-item#category-vestidos-Ofertas": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-deportivo-Ofertas",
       "type": "custom",
       "iconId": null,
@@ -5908,7 +5894,7 @@
   },
   "menu-item#category-vestidos-Bikinis": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-vestidos-Bikinis",
       "type": "custom",
       "iconId": null,
@@ -5924,7 +5910,7 @@
   },
   "menu-item#category-vestidos-Enterizos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-vestidos-Enterizos",
       "type": "custom",
       "iconId": null,
@@ -5940,7 +5926,7 @@
   },
   "menu-item#category-vestidos-Prendas-playeras": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-vestidos-Prendas-playeras",
       "type": "custom",
       "iconId": null,
@@ -5956,7 +5942,7 @@
   },
   "menu-item#category-vestidos-Control-de-Abdomen": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-vestidos-Control-de-Abdomen",
       "type": "custom",
       "iconId": null,
@@ -5972,7 +5958,7 @@
   },
   "menu-item#category-vestidos-Alto": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-vestidos-Alto",
       "type": "custom",
       "iconId": null,
@@ -5998,7 +5984,7 @@
   },
   "menu-item#category-vestidos-Prenda-inferior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-vestidos-Prenda-inferior",
       "type": "custom",
       "iconId": null,
@@ -6014,7 +6000,7 @@
   },
   "menu-item#category-vestidos-Prenda-Colaless": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-vestidos-Prenda-Colaless",
       "type": "custom",
       "iconId": null,
@@ -6030,7 +6016,7 @@
   },
   "menu-item#category-vestidos-Prenda-Brasileras": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-vestidos-Prenda-Brasileras",
       "type": "custom",
       "iconId": null,
@@ -6046,7 +6032,7 @@
   },
   "menu-item#category-vestidos-Prenda-De-tiras": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-vestidos-Prenda-De-tiras",
       "type": "custom",
       "iconId": null,
@@ -6063,17 +6049,17 @@
   "vtex.menu@2.x:submenu#category-tops": {
     "props": {
       "width": "100%",
-      "blockClass":"submenu"
+      "blockClass": "submenu"
     },
     "children": [
       "flex-layout.row#category-tops"
     ]
   },
   "flex-layout.row#category-tops": {
-    "props":{
+    "props": {
       "colGap": 3,
-      "preventHorizontalStretch":true,
-      "colSize":"equal"
+      "preventHorizontalStretch": true,
+      "colSize": "equal"
     },
     "children": [
       "flex-layout.col#category-tops-1",
@@ -6166,7 +6152,7 @@
   },
   "menu-item#category-tops-Ver_todo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Ver_todo",
       "type": "custom",
       "iconId": null,
@@ -6182,7 +6168,7 @@
   },
   "menu-item#category-tops-Lo_mas_Vendido": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Lo_mas_Vendido",
       "type": "custom",
       "iconId": null,
@@ -6198,7 +6184,7 @@
   },
   "menu-item#category-tops-nuevosbrasieresybralettes": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-nuevosbrasieresybralettes",
       "type": "custom",
       "iconId": null,
@@ -6214,7 +6200,7 @@
   },
   "menu-item#category-tops-Ofertas": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Ofertas",
       "type": "custom",
       "iconId": null,
@@ -6240,7 +6226,7 @@
   },
   "menu-item#category-tops-Cargadera-Ancha": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Cargadera-Ancha",
       "type": "custom",
       "iconId": null,
@@ -6256,7 +6242,7 @@
   },
   "menu-item#category-tops-Cargadera-Delgada": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Cargadera-Delgada",
       "type": "custom",
       "iconId": null,
@@ -6272,7 +6258,7 @@
   },
   "menu-item#category-tops-Crop-Top": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Crop-Top",
       "type": "custom",
       "iconId": null,
@@ -6288,7 +6274,7 @@
   },
   "menu-item#category-tops-Deportivo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Deportivo",
       "type": "custom",
       "iconId": null,
@@ -6304,7 +6290,7 @@
   },
   "menu-item#category-tops-Halter": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Halter",
       "type": "custom",
       "iconId": null,
@@ -6320,7 +6306,7 @@
   },
   "menu-item#category-tops-Racerback": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Racerback",
       "type": "custom",
       "iconId": null,
@@ -6336,7 +6322,7 @@
   },
   "menu-item#category-tops-Strapless": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Strapless",
       "type": "custom",
       "iconId": null,
@@ -6352,7 +6338,7 @@
   },
   "menu-item#category-tops-Surtidotops": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Surtido",
       "type": "custom",
       "iconId": null,
@@ -6368,7 +6354,7 @@
   },
   "menu-item#category-tops-Tanktop": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Tanktop",
       "type": "custom",
       "iconId": null,
@@ -6384,7 +6370,7 @@
   },
   "menu-item#category-tops-Top": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Top",
       "type": "custom",
       "iconId": null,
@@ -6400,7 +6386,7 @@
   },
   "menu-item#category-tops-Sin-Copa": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Sin-Copa",
       "type": "custom",
       "iconId": null,
@@ -6416,7 +6402,7 @@
   },
   "menu-item#category-tops-Copa-Removible": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Copa-Removible",
       "type": "custom",
       "iconId": null,
@@ -6432,7 +6418,7 @@
   },
   "menu-item#category-tops-fashiontops": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-fashiontops",
       "type": "custom",
       "iconId": null,
@@ -6458,7 +6444,7 @@
   },
   "menu-item#category-tops-Algodon": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-algodon",
       "type": "custom",
       "iconId": null,
@@ -6474,7 +6460,7 @@
   },
   "menu-item#category-tops-Encaje": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-encaje",
       "type": "custom",
       "iconId": null,
@@ -6490,7 +6476,7 @@
   },
   "menu-item#category-tops-Microfibra": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Microfibra",
       "type": "custom",
       "iconId": null,
@@ -6506,7 +6492,7 @@
   },
   "menu-item#category-tops-Seamless": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Seamless",
       "type": "custom",
       "iconId": null,
@@ -6522,7 +6508,7 @@
   },
   "menu-item#category-tops-Surtido": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Surtido",
       "type": "custom",
       "iconId": null,
@@ -6538,7 +6524,7 @@
   },
   "menu-item#category-tops-Mesh": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-Mesh",
       "type": "custom",
       "iconId": null,
@@ -6564,7 +6550,7 @@
   },
   "menu-item#category-tops-paquetex4": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-tops-paquetex4",
       "type": "custom",
       "iconId": null,
@@ -6580,7 +6566,7 @@
   },
   "menu-item#category-tops-pague1lleve3": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-tops-pague1lleve3",
       "type": "custom",
       "iconId": null,
@@ -6596,7 +6582,7 @@
   },
   "menu-item#category-tops-paquetex3": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-tops-paquetex3",
       "type": "custom",
       "iconId": null,
@@ -6612,7 +6598,7 @@
   },
   "menu-item#category-tops-Beneficios": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-tops-Beneficios",
       "type": "custom",
       "iconId": null,
@@ -6628,7 +6614,7 @@
   },
   "menu-item#category-tops-Sin-Costuras": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-tops-Sin-Costuras",
       "type": "custom",
       "iconId": null,
@@ -6644,7 +6630,7 @@
   },
   "menu-item#category-tops-Corte-Laser-Termofusionado": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-tops-Corte-Laser-Termofusionado",
       "type": "custom",
       "iconId": null,
@@ -6750,7 +6736,7 @@
   },*/
   "menu-item#category-hombre": {
     "props": {
-      "blockClass":"titulosMenu",
+      "blockClass": "titulosMenu",
       "id": "menu-item-category-hombre",
       "type": "custom",
       "iconId": null,
@@ -6770,7 +6756,7 @@
   "vtex.menu@2.x:submenu#category-hombre": {
     "props": {
       "width": "100%",
-      "blockClass":"submenu"
+      "blockClass": "submenu"
     },
     "children": [
       "flex-layout.row#category-hombre"
@@ -6788,7 +6774,7 @@
   "flex-layout.col#category-hombre-1": {
     "props": {
       "blockClass": "columnaMenu",
-      "width":"15%"
+      "width": "15%"
     },
     "children": [
       "rich-text#category-hombre-buscar",
@@ -6801,7 +6787,7 @@
   "flex-layout.col#category-hombre-2": {
     "props": {
       "blockClass": "columnaMenu",
-      "width":"15%"
+      "width": "15%"
     },
     "children": [
       "rich-text#category-hombre-estilos",
@@ -6811,7 +6797,7 @@
   "flex-layout.col#category-hombre-3": {
     "props": {
       "blockClass": "columnaMenu",
-      "width":"15%"
+      "width": "15%"
     },
     "children": [
       "rich-text#category-hombre-material",
@@ -6824,7 +6810,7 @@
   "flex-layout.col#category-hombre-4": {
     "props": {
       "blockClass": "columnaMenu",
-      "width":"15%"
+      "width": "15%"
     },
     "children": [
       "rich-text#category-hombre-compra_mas_y_ahorra",
@@ -6849,7 +6835,7 @@
   },
   "menu-item#category-hombre-ver_todo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-hombre-buscar",
       "type": "custom",
       "iconId": null,
@@ -6866,7 +6852,7 @@
   },
   "menu-item#category-hombre-lo_mas_vendido": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-hombre-lo_mas_vendido",
       "type": "custom",
       "iconId": null,
@@ -6883,7 +6869,7 @@
   },
   "menu-item#category-hombre-nuevos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-hombre-nuevos",
       "type": "custom",
       "iconId": null,
@@ -6900,7 +6886,7 @@
   },
   "menu-item#category-hombre-ofertas": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-hombre-nuevos",
       "type": "custom",
       "iconId": null,
@@ -6927,7 +6913,7 @@
   },
   "menu-item#category-hombre-interior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-hombre-interior",
       "type": "custom",
       "iconId": null,
@@ -6954,7 +6940,7 @@
   },
   "menu-item#category-hombre-algodon": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-hombre-algodon",
       "type": "custom",
       "iconId": null,
@@ -6971,7 +6957,7 @@
   },
   "menu-item#category-hombre-tejidoplano": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-hombre-tejidoplano",
       "type": "custom",
       "iconId": null,
@@ -6988,7 +6974,7 @@
   },
   "menu-item#category-hombre-seamless": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-hombre-seamless",
       "type": "custom",
       "iconId": null,
@@ -7005,7 +6991,7 @@
   },
   "menu-item#category-hombre-microfibra": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-hombre-microfibra",
       "type": "custom",
       "iconId": null,
@@ -7032,7 +7018,7 @@
   },
   "menu-item#category-hombre-individual": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-hombre-individual",
       "type": "custom",
       "iconId": null,
@@ -7049,7 +7035,7 @@
   },
   "menu-item#category-hombre-paquete-x-2": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-hombre-paquete-x-2",
       "type": "custom",
       "iconId": null,
@@ -7072,7 +7058,7 @@
   //menu niño
   "menu-item#category-nino": {
     "props": {
-      "blockClass":"titulosMenu",
+      "blockClass": "titulosMenu",
       "id": "menu-item-category-nino",
       "type": "custom",
       "iconId": null,
@@ -7092,7 +7078,7 @@
   "vtex.menu@2.x:submenu#category-nino": {
     "props": {
       "width": "100%",
-      "blockClass":"submenu"
+      "blockClass": "submenu"
     },
     "children": [
       "flex-layout.row#category-nino"
@@ -7110,7 +7096,7 @@
   "flex-layout.col#category-nino-1": {
     "props": {
       "blockClass": "columnaMenu",
-      "width":"15%"
+      "width": "15%"
     },
     "children": [
       "rich-text#category-nino-buscar",
@@ -7123,7 +7109,7 @@
   "flex-layout.col#category-nino-2": {
     "props": {
       "blockClass": "columnaMenu",
-      "width":"15%"
+      "width": "15%"
     },
     "children": [
       "rich-text#category-nino-estilos",
@@ -7133,7 +7119,7 @@
   "flex-layout.col#category-nino-3": {
     "props": {
       "blockClass": "columnaMenu",
-      "width":"15%"
+      "width": "15%"
     },
     "children": [
       "rich-text#category-nino-material",
@@ -7144,7 +7130,7 @@
   "flex-layout.col#category-nino-4": {
     "props": {
       "blockClass": "columnaMenu",
-      "width":"15%"
+      "width": "15%"
     },
     "children": [
       "rich-text#category-nino-compra_mas_y_ahorra",
@@ -7169,7 +7155,7 @@
   },
   "menu-item#category-nino-ver_todo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-nino-buscar",
       "type": "custom",
       "iconId": null,
@@ -7186,7 +7172,7 @@
   },
   "menu-item#category-nino-lo_mas_vendido": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-nino-lo_mas_vendido",
       "type": "custom",
       "iconId": null,
@@ -7203,7 +7189,7 @@
   },
   "menu-item#category-nino-nuevos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-nino-nuevos",
       "type": "custom",
       "iconId": null,
@@ -7220,7 +7206,7 @@
   },
   "menu-item#category-nino-ofertas": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-nino-nuevos",
       "type": "custom",
       "iconId": null,
@@ -7247,7 +7233,7 @@
   },
   "menu-item#category-nino-interior": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-nino-interior",
       "type": "custom",
       "iconId": null,
@@ -7274,7 +7260,7 @@
   },
   "menu-item#category-nino-algodon": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-nino-algodon",
       "type": "custom",
       "iconId": null,
@@ -7291,7 +7277,7 @@
   },
   "menu-item#category-nino-tejidoplano": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-nino-tejidoplano",
       "type": "custom",
       "iconId": null,
@@ -7318,7 +7304,7 @@
   },
   "menu-item#category-nino-individual": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-nino-individual",
       "type": "custom",
       "iconId": null,
@@ -7335,7 +7321,7 @@
   },
   "menu-item#category-nino-paquete-x-2": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-nino-paquete-x-2",
       "type": "custom",
       "iconId": null,
@@ -7358,7 +7344,7 @@
   //menu belleza
   "menu-item#category-belleza": {
     "props": {
-      "blockClass":"titulosMenu",
+      "blockClass": "titulosMenu",
       "id": "menu-item-category-belleza",
       "type": "custom",
       "iconId": null,
@@ -7378,17 +7364,17 @@
   "vtex.menu@2.x:submenu#category-belleza": {
     "props": {
       "width": "100%",
-      "blockClass":"submenu"
+      "blockClass": "submenu"
     },
     "children": [
       "flex-layout.row#category-belleza"
     ]
   },
   "flex-layout.row#category-belleza": {
-    "props":{
+    "props": {
       "colGap": 3,
-      "preventHorizontalStretch":true,
-      "colSize":"equal"
+      "preventHorizontalStretch": true,
+      "colSize": "equal"
     },
     "children": [
       "flex-layout.col#category-belleza-1",
@@ -7450,7 +7436,7 @@
   },
   "menu-item#category-belleza-Ver_todo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-belleza-Ver_todo",
       "type": "custom",
       "iconId": null,
@@ -7466,7 +7452,7 @@
   },
   "menu-item#category-belleza-Los-más-Vendidos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-belleza-Lo_mas_Vendido",
       "type": "custom",
       "iconId": null,
@@ -7482,7 +7468,7 @@
   },
   "menu-item#category-belleza-Nuevos-Brasieres-y-Bralettes": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-belleza-Nuevos-Brasieres-y-Bralettes",
       "type": "custom",
       "iconId": null,
@@ -7498,7 +7484,7 @@
   },
   "menu-item#category-bellezas-Ofertas": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-belleza-Ofertas",
       "type": "custom",
       "iconId": null,
@@ -7524,7 +7510,7 @@
   },
   "menu-item#category-belleza-Accesorios-Maquillaje": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-belleza-Accesorios-Maquillaje",
       "type": "custom",
       "iconId": null,
@@ -7540,7 +7526,7 @@
   },
   "menu-item#category-belleza-Cuidado-Bucal": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-belleza-Cuidado-Bucal",
       "type": "custom",
       "iconId": null,
@@ -7556,7 +7542,7 @@
   },
   "menu-item#category-belleza-Cuidado-Cabello": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-belleza-Cuidado-Cabello",
       "type": "custom",
       "iconId": null,
@@ -7572,7 +7558,7 @@
   },
   "menu-item#category-belleza-Cuidado-Corporal": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-belleza-Cuidado-Corporal",
       "type": "custom",
       "iconId": null,
@@ -7588,7 +7574,7 @@
   },
   "menu-item#category-belleza-Cuidado-Facial": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-belleza-Cuidado-Facial",
       "type": "custom",
       "iconId": null,
@@ -7604,7 +7590,7 @@
   },
   "menu-item#category-belleza-Fragancias": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-belleza-Fragancias",
       "type": "custom",
       "iconId": null,
@@ -7620,7 +7606,7 @@
   },
   "menu-item#category-belleza-Manos-Pies": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-belleza-Manos-Pies",
       "type": "custom",
       "iconId": null,
@@ -7636,7 +7622,7 @@
   },
   "menu-item#category-belleza-Maquillaje": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-belleza-Maquillaje",
       "type": "custom",
       "iconId": null,
@@ -7652,7 +7638,7 @@
   },
   "menu-item#category-belleza-Prevencion-Cuidado": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-belleza-Prevencion-Cuidado",
       "type": "custom",
       "iconId": null,
@@ -7666,10 +7652,181 @@
       }
     }
   },
+  //menu outlet
+  "menu-item#category-outlet": {
+    "props": {
+      "blockClass": "titulosMenu",
+      "id": "menu-item-category-outlet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "outlet",
+        "text": "OUTLET"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-outlet"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-outlet": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-outlet"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-outlet": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-outlet-brasieres",
+      "menu-item#category-outlet-panties",
+      "menu-item#category-outlet-juguetes",
+      "menu-item#category-outlet-hogar",
+      "menu-item#category-outlet-pijamas",
+      "menu-item#category-outlet-belleza",
+      "menu-item#category-outlet-deportivo",
+      "menu-item#category-outlet-vestidoDeBano"
+    ]
+  },
+  "menu-item#category-outlet-brasieres": {
+    "props": {
+      "blockClass": "titulosMenu",
+      "id": "menu-item-category-outlet-brasieres",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lili-pink/brasieres",
+        "noFollow": false,
+        "tagTitle": "brasierer",
+        "text": "BRASIERES"
+      }
+    }
+  },
+  "menu-item#category-outlet-panties": {
+    "props": {
+      "blockClass": "titulosMenu",
+      "id": "menu-item-category-outlet-panties",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "panties",
+        "text": "PANTIES"
+      }
+    }
+  },
+  "menu-item#category-outlet-juguetes": {
+    "props": {
+      "blockClass": "titulosMenu",
+      "id": "menu-item-category-outlet-juguetes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "juguetes",
+        "text": "JUGUETES"
+      }
+    }
+  },
+  "menu-item#category-outlet-hogar": {
+    "props": {
+      "blockClass": "titulosMenu",
+      "id": "menu-item-category-outlet-hogar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "hogar",
+        "text": "HOGAR"
+      }
+    }
+  },
+  "menu-item#category-outlet-pijamas": {
+    "props": {
+      "blockClass": "titulosMenu",
+      "id": "menu-item-category-outlet-pijamas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "pijamas",
+        "text": "PIJAMAS"
+      }
+    }
+  },
+  "menu-item#category-outlet-belleza": {
+    "props": {
+      "blockClass": "titulosMenu",
+      "id": "menu-item-category-outlet-belleza",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "belleza",
+        "text": "BELLEZA"
+      }
+    }
+  },
+  "menu-item#category-outlet-deportivo": {
+    "props": {
+      "blockClass": "titulosMenu",
+      "id": "menu-item-category-outlet-deportivo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "deportivo",
+        "text": "DEPORTIVO"
+      }
+    }
+  },
+  "menu-item#category-outlet-vestidoDeBano": {
+    "props": {
+      "blockClass": "titulosMenu",
+      "id": "menu-item-category-outlet-vestidoDeBano",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "vestidos de baño",
+        "text": "VESTIDOS DE BAÑO"
+      }
+    }
+  },
   //menu bioseguridad
   "menu-item#category-bioseguridad": {
     "props": {
-      "blockClass":"titulosMenu",
+      "blockClass": "titulosMenu",
       "id": "menu-item-category-bioseguridad",
       "type": "custom",
       "iconId": null,
@@ -7689,17 +7846,17 @@
   "vtex.menu@2.x:submenu#category-bioseguridad": {
     "props": {
       "width": "100%",
-      "blockClass":"submenu"
+      "blockClass": "submenu"
     },
     "children": [
       "flex-layout.row#category-bioseguridad"
     ]
   },
   "flex-layout.row#category-bioseguridad": {
-    "props":{
+    "props": {
       "colGap": 3,
-      "preventHorizontalStretch":true,
-      "colSize":"equal"
+      "preventHorizontalStretch": true,
+      "colSize": "equal"
     },
     "children": [
       "flex-layout.col#category-bioseguridad-1",
@@ -7756,7 +7913,7 @@
   },
   "menu-item#category-bioseguridad-Ver_todo": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-bioseguridad-Ver_todo",
       "type": "custom",
       "iconId": null,
@@ -7772,7 +7929,7 @@
   },
   "menu-item#category-bioseguridad-Los-más-Vendidos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-bioseguridad-Lo_mas_Vendido",
       "type": "custom",
       "iconId": null,
@@ -7788,7 +7945,7 @@
   },
   "menu-item#category-bioseguridad-Nuevos": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-bioseguridad-Nuevos",
       "type": "custom",
       "iconId": null,
@@ -7804,7 +7961,7 @@
   },
   "menu-item#category-bioseguridad-Ofertas": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item-category-bioseguridad-Ofertas",
       "type": "custom",
       "iconId": null,
@@ -7830,7 +7987,7 @@
   },
   "menu-item#category-bioseguridad-Tapabocas": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-bioseguridad-Tapabocas",
       "type": "custom",
       "iconId": null,
@@ -7846,7 +8003,7 @@
   },
   "menu-item#category-bioseguridad-Proteccion": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-bioseguridad-Proteccion",
       "type": "custom",
       "iconId": null,
@@ -7862,7 +8019,7 @@
   },
   "menu-item#category-bioseguridad-Gel-Antibacterial": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-bioseguridad-Gel-Antibacterial",
       "type": "custom",
       "iconId": null,
@@ -7878,7 +8035,7 @@
   },
   "menu-item#category-bioseguridad-Medicion-de-Temperatura": {
     "props": {
-      "blockClass":"itemMenu",
+      "blockClass": "itemMenu",
       "id": "menu-item#category-bioseguridad-Medicion-de-Temperatura",
       "type": "custom",
       "iconId": null,
@@ -7894,7 +8051,7 @@
   },
   "menu-item#yoi": {
     "props": {
-      "blockClass":"titulosMenu",
+      "blockClass": "titulosMenu",
       "id": "menu-item-custom-sale",
       "type": "custom",
       "iconId": null,
@@ -7913,7 +8070,7 @@
   },
   "vtex.menu@2.x:submenu#yoi": {
     "props": {
-      "blockClass":"submenu"
+      "blockClass": "submenu"
     },
     "children": [
       "flex-layout.row#menu-yoi"
@@ -7939,7 +8096,7 @@
   },
   "menu-item#tiendas": {
     "props": {
-      "blockClass":"tituloMenu",
+      "blockClass": "tituloMenu",
       "id": "menu-item-tiendas",
       "type": "custom",
       "iconId": null,
@@ -7955,7 +8112,7 @@
   },
   "menu-item#credipink": {
     "props": {
-      "blockClass":"tituloMenu",
+      "blockClass": "tituloMenu",
       "id": "menu-item-credipink",
       "type": "custom",
       "iconId": null,
