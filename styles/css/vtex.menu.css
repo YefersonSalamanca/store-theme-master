@@ -132,6 +132,14 @@
   color: #757575;
   font-size: 13px;
 }
+.styledLinkContent--titulosMenu:hover {
+  color: #e4147e;
+  font-size: 13px;
+}
+.styledLinkContent--destacado {
+  color: #e4147e;
+  font-size: 13px;
+}
 
 .menuItem .menuItem--GENERA-INGRESOS {
   display: none;
@@ -148,6 +156,9 @@
   font-family: 'Monserrat-semibold' !important;
   font-size: 0.8rem !important;
   color: #757575 !important;
+}
+.styledLinkContent--itemMenu:hover {
+  color: #e4147e !important;
 }
 
 
