@@ -93,6 +93,7 @@
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
+      "flex-layout.row#titulofiltrocolor",
       "flex-layout.row#result"
     ],
     "props": {
@@ -102,6 +103,21 @@
       "lilipinkco-filters": "lilipinkco-filters"
       }
   },
+  "flex-layout.row#titulofiltrocolor": {
+    "children": [
+       "rich-text#titulofiltrocolor"
+    ]
+ },
+"rich-text#titulofiltrocolor": {
+   "props": {
+     "textAlignment": "left",
+     "textPosition": "left",
+     "text": "Colores",
+     "textColor": "black",
+     "font": "t-heading-5",
+     "blockClass": "help-message"
+   }
+ },
 
   "flex-layout.row#searchbread": {
     "children": ["breadcrumb.search"],

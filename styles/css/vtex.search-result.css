@@ -4,7 +4,7 @@
 }
 
 .filtersWrapper {
-    padding-bottom:50%;
+  padding-bottom: 50%;
 }
 
 .galleryLayoutOptionButton {
@@ -31,118 +31,118 @@
 }
 
 .filter__container--specificationFilter_97 {
-   display:none;
+  display: none;
 }
 
 .filterMessage {
-    display:none;
+  display: none;
 }
 
 .filterItem .filterItem--Lilipink {
-   margin-top: 10%;
+  margin-top: 10%;
 }
 
 .checkbox__input {
-    background-color: transparent;
-    border:none;
+  background-color: transparent;
+  border: none;
 }
 
 .filterItem :global(.vtex-checkbox__inner-container) {
-  background-color:transparent;
-  border:none;
+  background-color: transparent;
+  border: none;
 }
 
 .filter__container.filter__container--specificationFilter_96 {
-   text-align: center;
-   flex-direction: row;
-   flex-wrap: wrap;
-   width: 100%;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .filterItem.filterItem--32B {
-   display: inline-block;
-   border:#000 solid 2px;
-   width: 65px;
-   height: 40px;
-   margin:5px 3px 1px 1px;
+  display: inline-block;
+  border: #000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin: 5px 3px 1px 1px;
 }
 
 .filterItem.filterItem--34B {
   display: inline-block;
-   border:#000 solid 2px;
-   width: 65px;
-   height: 40px;
-   margin:5px 3px 1px 1px;
+  border: #000 solid 2px;
+  width: 65px;
+  height: 40px;
+  margin: 5px 3px 1px 1px;
 }
 
 .filterItem.filterItem--36B {
   display: inline-block;
-  border:#000 solid 2px;
+  border: #000 solid 2px;
   width: 65px;
   height: 40px;
-  margin:5px 3px 1px 1px;
+  margin: 5px 3px 1px 1px;
 }
 
 .filterItem.filterItem--38B {
   display: inline-block;
-  border:#000 solid 2px;
+  border: #000 solid 2px;
   width: 65px;
   height: 40px;
-  margin:5px 3px 1px 1px;
+  margin: 5px 3px 1px 1px;
 }
 
 .filterItem.filterItem--32C {
   display: inline-block;
-  border:#000 solid 2px;
+  border: #000 solid 2px;
   width: 65px;
   height: 40px;
-  margin:5px 3px 1px 1px;
+  margin: 5px 3px 1px 1px;
 }
 
 .filterItem.filterItem--32C {
   display: inline-block;
-  border:#000 solid 2px;
+  border: #000 solid 2px;
   width: 65px;
   height: 40px;
-  margin:5px 3px 1px 1px;
+  margin: 5px 3px 1px 1px;
 }
 
 .filterItem.filterItem--38C {
   display: inline-block;
-  border:#000 solid 2px;
+  border: #000 solid 2px;
   width: 65px;
   height: 40px;
-  margin:5px 3px 1px 1px;
+  margin: 5px 3px 1px 1px;
 }
 
 .filterItem.filterItem--36DD {
   display: inline-block;
-  border:#000 solid 2px;
+  border: #000 solid 2px;
   width: 65px;
   height: 40px;
-  margin:5px 3px 1px 1px;
+  margin: 5px 3px 1px 1px;
 }
 
 .filterItem.filterItem--36DD {
   display: inline-block;
-  border:#000 solid 2px;
+  border: #000 solid 2px;
   width: 65px;
   height: 40px;
-  margin:5px 3px 1px 1px;
+  margin: 5px 3px 1px 1px;
 }
 
 .filterItem.filterItem--38D {
   display: inline-block;
-  border:#000 solid 2px;
+  border: #000 solid 2px;
   width: 65px;
   height: 40px;
-  margin:5px 3px 1px 1px;
+  margin: 5px 3px 1px 1px;
 }
 
 .filtersWrapper {
   border-bottom-style: none;
   border-bottom-width: 0;
-  border-color:#FFFFFF;
+  border-color: #FFFFFF;
 }
 
 .bb {
@@ -152,20 +152,39 @@
 }
 
 .b--muted-4 {
-   border-color:#FFFFFF;
+  border-color: #FFFFFF;
 
 }
-.filter__container--specificationFilter_90 .fiterItem{
+
+.filter__container--specificationFilter_90 .fiterItem {
 
   display: inline-block;
   width: auto;
   height: auto;
   border: 2px solid #757575;
-  font-size:15px;
+  font-size: 15px;
   align-items: center;
   padding: 5px 7px 5px 0;
-  margin:5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
 }
+
+/* ocultar filtro color nativo de vtex */
+.filter__container--specificationFilter_91 {
+  display: none;
+}
+
+/* estilos filtro de tallas */
+.filter__container--specificationFilter_90 .filterItem {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  border: 1px solid #757575;
+  font-size: 15px;
+  align-items: center;
+  padding: 5px 7px 5px 0;
+  margin: 5px 5px 5px 5px;
+}
+
 /*.filterAccordionItemBox--color {
    display:none;
 }*/

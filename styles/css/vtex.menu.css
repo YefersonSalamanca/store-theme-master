@@ -42,6 +42,8 @@
   color: #e4147e;
 }
 
+
+
 .styledLinkContent--Links-de-interes {
 
   color: white;
@@ -130,6 +132,14 @@
   color: #757575;
   font-size: 13px;
 }
+.styledLinkContent--titulosMenu:hover {
+  color: #e4147e;
+  font-size: 13px;
+}
+.styledLinkContent--destacado {
+  color: #e4147e;
+  font-size: 13px;
+}
 
 .menuItem .menuItem--GENERA-INGRESOS {
   display: none;
@@ -147,6 +157,9 @@
   font-size: 0.8rem !important;
   color: #757575 !important;
 }
+.styledLinkContent--itemMenu:hover {
+  color: #e4147e !important;
+}
 
 
 /* ajuste submenu segun pantalla */
@@ -159,8 +172,13 @@
     padding-left: 18% !important;
   }
 }
+@media (min-width:900px) {
+  .submenu--submenu {
+    padding-left: 6% ;
+  }
+}
 
 .submenu--submenu {
-  padding-left: 6% ;
+  padding-left: 1% ;
 }
 

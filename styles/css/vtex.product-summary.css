@@ -41,6 +41,10 @@
   border-radius: 0.25rem;
 }
 .element :global(.vtex-button){
-  background-color:#e4147e;
+  background-color:white;
+  color: #000;
+  border-radius: 0px;
+  
+  border:solid 1px #000;
  
 }
