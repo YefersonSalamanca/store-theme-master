@@ -1,6 +1,7 @@
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
   padding: 0 0.5rem;
+  background-color: #fff;
 }
 
 @media screen and (min-width: 40em) {
@@ -116,9 +117,9 @@
 .flexRowContent--menuPrincipalLilipink {
   background-color: #fff;
   justify-content: left;
-  padding-left: 5%;
   padding-top: 10px !important;
   padding-bottom: 10px !important;
+  border-bottom: solid 2px #f0f0f0;
 }
 @media  (min-width: 1700px) {
   .flexRowContent--menuPrincipalLilipink {
@@ -130,4 +131,13 @@
   }
   
 }
-
+@media  (min-width: 900) {
+  .flexRowContent--menuPrincipalLilipink {
+    background-color: #fff;
+    justify-content: left;
+    padding-left: 5%;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  
+}

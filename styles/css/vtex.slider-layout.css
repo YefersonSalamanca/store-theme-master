@@ -26,4 +26,6 @@
   padding-left: .5rem;
   padding-right: .5rem;
 }
-
+.slide--shelf :global(.vtex-add-to-cart-button)  {
+  color: aqua !important;
+}

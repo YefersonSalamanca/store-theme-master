@@ -23,7 +23,7 @@
       //"flex-layout.row#2-desktop",
       "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop",
-      "flex-layout.row#4-desktop",
+      //"flex-layout.row#4-desktop",
       "flex-layout.row#6-desktop"
     ]
   },
@@ -50,11 +50,12 @@
   },
   "flex-layout.row#3-desktop": {
     "props": {
-      "blockClass": "menu-link",
       "horizontalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "marginTop": 6,
+      "marginBottom":6
     },
     "children": [
       //"vtex.menu@2.x:menu#institutional",
@@ -97,7 +98,8 @@
       "blockClass": "sticky-header"
     },
     "children": [
-      "flex-layout.row#5-desktop"
+      "flex-layout.row#5-desktop",
+      "flex-layout.row#4-desktop"
     ]
   },
   "flex-layout.row#5-desktop": {
@@ -110,15 +112,30 @@
       "fullWidth": true
     },
     "children": [
-      "search-bar",
+      "header-row#1-desktop",
       "flex-layout.col#spacer",
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "locale-switcher",
+      "header-row#3-desktop"
+      
+    ]
+  },
+
+  "header-row#1-desktop":{
+    "children":[
+      "search-bar"
+    ]
+  },
+  "header-row#3-desktop":{
+    "children":[
+      
       "login",
       "minicart.v2"
     ]
   },
+
+
   "flex-layout.row#6-desktop": {
     "props": {
       "blockClass": "menu-link",

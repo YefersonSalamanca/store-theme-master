@@ -88,7 +88,8 @@
          "desktop": "auto",
          "phone": "16:9"
       },
-      "displayThumbnailsArrows": true
+      "displayThumbnailsArrows": true,
+      "hiddenImages": ["color"]
     }
   },
 
@@ -131,19 +132,6 @@
       "marginBottom": 3
     },
     "children": ["vtex.store-components:product-name"]
-  },
-
-  "sku-selector": {
-    "props": {
-      "variationsSpacing": 3,
-      "showValueNameForImageVariation": true,
-      "initialSelection": "empty",
-      "thumbnailImage": ["color"],
-      "visibleVariations": [
-        "Color",
-        "Talla"
-     ]
-    }
   },
 
 
@@ -202,6 +190,7 @@
   },
   "children": ["image#bra-2"]
 },
+
 "image#bra-2": {
   "props": {
     "src": "assets/guiadetallas.jpg"
