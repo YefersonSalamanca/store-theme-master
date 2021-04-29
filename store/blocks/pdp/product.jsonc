@@ -117,7 +117,7 @@
       "product-quantity",
       "product-availability",
       "product-assembly-options",
-      "product-gifts",      
+      "product-gifts",
       "flex-layout.row#buy-button",
       "flex-layout.col#productos",
       "availability-subscriber",
@@ -190,11 +190,12 @@
   },
   "children": ["image#bra-2"]
 },
-"image#bra-2": {  
-  "props": {  
-    "src": "assets/guiadetallas.jpg"  
-    
-  }  
+
+"image#bra-2": {
+  "props": {
+    "src": "assets/guiadetallas.jpg"
+
+  }
 },
 "rich-text#talla": {
   "props": {
