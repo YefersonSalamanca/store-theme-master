@@ -1,0 +1,4 @@
+.minicartCheckoutButton :global(.vtex-button){
+    border-radius: 0px !important;
+    border: solid 1px #000 !important;
+}
