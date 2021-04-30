@@ -601,7 +601,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/accesorios/",
+        "href": "/yoi/accesorios",
         "noFollow": false,
         "tagTitle": "ACCESORIOS",
         "text": "ACCESORIOS"
@@ -633,7 +633,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "yoi/accesorios/accesorios-cabello",
         "noFollow": false,
         "tagTitle": "Accesorios cabello",
         "text": "ACCESORIOS DE CABELLO"
@@ -648,7 +648,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "yoi/accesorios/bisuteria",
         "noFollow": false,
         "tagTitle": "Bisuteria",
         "text": "BISUTERÍA"
@@ -663,7 +663,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/hogar/gafas/",
+        "href": "yoi/accesorios/gafas",
         "noFollow": false,
         "tagTitle": "gafas",
         "text": "GAFAS"
@@ -678,10 +678,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "yoi/accesorios/carteras-bolsos-y-morrales",
         "noFollow": false,
         "tagTitle": "bolsosymorrales",
-        "text": "CARTERAS. BOLSOS Y MORRALES "
+        "text": "CARTERAS BOLSOS Y MORRALES "
       }
     }
   },
@@ -693,7 +693,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "yoi/accesorios/moda",
         "noFollow": false,
         "tagTitle": "moda",
         "text": "MODA"
@@ -708,7 +708,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "yoi/accesorios/relojeria",
         "noFollow": false,
         "tagTitle": "relojeria",
         "text": "RELOJERÍA"
@@ -723,10 +723,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/hogar/bebe/",
+        "href": "yoi/accesorios/bebe",
         "noFollow": false,
         "tagTitle": "bebe",
-        "text": "BEBÉ "
+        "text": "BEBÉ"
       }
     }
   },

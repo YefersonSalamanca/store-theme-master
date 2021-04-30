@@ -168,10 +168,10 @@
   margin: 5px 5px 5px 5px;
 }
 
-/* ocultar filtro color nativo de vtex */
 .filter__container--specificationFilter_91 {
-  display: none;
+   display:none;
 }
+
 
 
 /* estilos filtro de tallas */
@@ -184,6 +184,11 @@
   align-items: center;
   padding: 5px 7px 5px 0;
   margin: 5px 5px 5px 5px;
+
+.filter__container--specificationFilter_93 {
+   display:none;
+
+
 }
 
 /*.filterAccordionItemBox--color {
