@@ -148,6 +148,11 @@
 
 
 }
+.buttonContainer :global(.vtex-button) {
+  color: #000;
+
+
+}
 
 .imageElement--storePrint {
   max-height: 700px;
