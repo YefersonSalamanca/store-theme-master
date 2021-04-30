@@ -10,7 +10,7 @@
           "props":{"width":"100%"},
           "children":[
             "list-context.image-list#demo",
-            "__fold__.experimentalLazyAssets",
+            "__fold__",
             "flex-layout.row#bannerComplemento",
             "rich-text#shelf-title",
             "flex-layout.row#shelf",
