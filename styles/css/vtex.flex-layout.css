@@ -1,8 +1,8 @@
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
   padding: 0 0.5rem;
+  background-color: #fff;
 }
-
 
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
@@ -22,9 +22,6 @@
   color: #fff;
 }
 
-.flexRowContent--main-header {
-  background-color: #fff;
-}
 
 .flexRowContent--main-header-mobile {
   align-items: center;
@@ -37,9 +34,6 @@
   font-size: 14px;
 }
 
-
-
-
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
   color: black;
   font-size: 11px;
@@ -49,7 +43,6 @@
   color: rgb(255, 0, 128);
   font-size: 11px;
 }
-
 .flexRow--deals {
   background-color: #a7afbd;
   padding: 14px 0px;
@@ -89,6 +82,13 @@
   max-height: 100%;
 }
 
+.flexColChild{
+  height: auto !important;
+}
+
+.flexCol--vacio{
+  width: max-content ;
+}
 .flexColChild--quickviewDetails:first-child {
   overflow-y: auto;
   height: 66% !important;
@@ -108,4 +108,41 @@
   max-height: 700;
   padding: 0 0.25rem;
 }
+/*FOOTER**/
+.flexRow--home2 .flexRowContent--menu-row {
+  background: #53AC97;
+}
 
+/* ajuste del menu segun pantalla */
+.flexRowContent--menuPrincipalLilipink {
+  background-color: #fff;
+  justify-content: left;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  border-bottom: solid 2px #f0f0f0;
+}
+
+.flexRow--banner-guia-de-talla {
+  margin: 30px 0;
+}
+
+@media  (min-width: 1700px) {
+  .flexRowContent--menuPrincipalLilipink {
+    background-color: #fff;
+    justify-content: left;
+    padding-left: 17%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+}
+@media  (min-width: 900) {
+  .flexRowContent--menuPrincipalLilipink {
+    background-color: #fff;
+    justify-content: left;
+    padding-left: 5%;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  
+}

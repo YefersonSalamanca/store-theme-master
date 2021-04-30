@@ -6,10 +6,16 @@
     }
   },
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header-layout.desktop": {
     "children": [
@@ -17,21 +23,22 @@
       //"flex-layout.row#2-desktop",
       "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop",
-      "flex-layout.row#4-desktop",
-      "flex-layout.row#lilipink-yoi",
+      //"flex-layout.row#4-desktop",
       "flex-layout.row#6-desktop"
-
     ]
   },
   "flex-layout.row#1-desktop": {
-    "children": ["telemarketing"],
+    "children": [
+      "telemarketing"
+    ],
     "props": {
       "fullWidth": true
     }
   },
-
   "flex-layout.row#2-desktop": {
-    "children": ["notification.bar#home"],
+    "children": [
+      "notification.bar#home"
+    ],
     "props": {
       "fullWidth": "true"
     }
@@ -43,15 +50,16 @@
   },
   "flex-layout.row#3-desktop": {
     "props": {
-      "blockClass": "menu-link",
       "horizontalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "marginTop": 6,
+      "marginBottom": 6
     },
     "children": [
       //"vtex.menu@2.x:menu#institutional",
-
+      //"flex-layout.row#botonesHeader",
       "flex-layout.col#spacer",
       "vtex.menu@2.x:menu#websites"
     ]
@@ -60,23 +68,23 @@
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center"
-
     },
-    "children": ["image#btnLiliPink", "image#btnYoi"]
+    "children": [
+      "image#btnLiliPink",
+      "image#btnYoi"
+    ]
   },
-
-
   "image#btnLiliPink": {
     "props": {
-      "src": "assets/buttonLP1.jpg" ,
-      "href": "#" ,
+      "src": "assets/buttonLP1.jpg",
+      "href": "#",
       "width": "55%"
     }
   },
   "image#btnYoi": {
     "props": {
-      "src": "assets/buttonYoi1.jpg" ,
-      "href": "#" ,
+      "src": "assets/buttonYoi1.jpg",
+      "href": "#",
       "width": "55%"
     }
   },
@@ -89,7 +97,10 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#5-desktop"]
+    "children": [
+      "flex-layout.row#5-desktop",
+      "flex-layout.row#4-desktop"
+    ]
   },
   "flex-layout.row#5-desktop": {
     "props": {
@@ -101,20 +112,35 @@
       "fullWidth": true
     },
     "children": [
-      "search-bar",
+      "header-row#1-desktop",
       "flex-layout.col#spacer",
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "locale-switcher",
+      "header-row#3-desktop"
+    ]
+  },
+  "header-row#1-desktop": {
+    "children": [
+      "search-bar"
+    ]
+  },
+  "header-row#3-desktop": {
+    "children": [
       "login",
       "minicart.v2"
     ]
   },
+  "search-bar": {
+    "props": {
+      "containerMode": "container"
+    }
+  },
   "flex-layout.row#6-desktop": {
     "props": {
       "blockClass": "menu-link",
-       "horizontalAlign": "center",
-       "preventHorizontalStretch": true,
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true
     },
@@ -133,10 +159,10 @@
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
-    "children": ["image#logo1"]
+    "children": [
+      "image#logo1"
+    ]
   },
-
-
   "image#logo1": {
     "props": {
       "blockClass": "Imagenetiqueta",
@@ -149,10 +175,10 @@
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
-    "children": ["image#logo2"]
+    "children": [
+      "image#logo2"
+    ]
   },
-
-
   "image#logo2": {
     "props": {
       "blockClass": "Imagenetiqueta",
@@ -162,7 +188,7 @@
   "rich-text#linkImperdibles": {
     "props": {
       "text": "Encuentra Nuestros Imperdibles AQUÍ        ||  ",
-      "href":"#",
+      "href": "#",
       "blockClass": "Encuentra"
     }
   },
@@ -177,25 +203,28 @@
       "verticalAlign": "middle",
       "horizontalAlign": "center"
     },
-    "children": ["image#logodesktop"]
+    "children": [
+      "image#logodesktop"
+    ]
   },
-
-
   "image#logodesktop": {
     "props": {
       "src": "assets/logoLargoLP.png"
     }
   },
-
   "header-layout.mobile": {
-    "children": ["sticky-layout#1-mobile"]
+    "children": [
+      "sticky-layout#1-mobile"
+    ]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
+    "children": [
+      "flex-layout.row#1-mobile"
+    ]
   },
-  "flex-layout.row#4-desktop":{
+  "flex-layout.row#4-desktop": {
     "props": {
-      "blockClass": "main-header",
+      "blockClass": "menuPrincipalLilipink",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
@@ -206,8 +235,7 @@
       "flex-layout.col#category-menu"
     ]
   },
-
-   "category-menu": {
+  "category-menu": {
     "props": {
       "showAllDepartments": true,
       "showSubcategories": true,
@@ -215,12 +243,13 @@
       "departments": []
     }
   },
-
   "flex-layout.col#category-menu": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
   },
   "flex-layout.row#1-mobile": {
     "children": [
@@ -238,9 +267,10 @@
     }
   },
   "drawer": {
-    "children": ["menu#drawer"]
+    "children": [
+      "menu#drawer"
+    ]
   },
-
   "menu#drawer": {
     "children": [
       "menu-item#category-brasieres",
@@ -259,7 +289,6 @@
       "orientation": "vertical"
     }
   },
-
   "logo#mobile": {
     "props": {
       "title": "Logo",
@@ -281,19 +310,16 @@
       "link#yoi"
     ]
   },
-
   "link#Link": {
     "props": {
       "href": "/",
-      "label": ""
+      "label": "Lilipink"
     }
   },
   "link#yoi": {
     "props": {
       "href": "/",
-      "label": ""
+      "label": "Yoi"
     }
   }
-
 }
-

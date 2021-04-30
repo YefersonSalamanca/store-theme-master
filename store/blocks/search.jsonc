@@ -90,30 +90,41 @@
   "flex-layout.row#banner-guia-de-talla":{
     "children": [
       "image#banner-guia-de-talla"
-
-    ]
-
-  },
-  "image#banner-guia-de-talla": {
+    ],
     "props": {
-      "src": "assets/BannerDeal.jpg"
+      "blockClass": "banner-guia-de-talla"
     }
   },
-
-
+  "image#banner-guia-de-talla": {},
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
+      "flex-layout.row#titulofiltrocolor",
       "flex-layout.row#result"
     ],
     "props": {
       "pagination": "show-more",
       "preventRouteChange": false,
       "defaultGalleryLayout": "grid",
-      "mqaenvironment-filters": "mqaenvironment-filters"
+      "lilipinkco-filters": "lilipinkco-filters"
       }
   },
+  "flex-layout.row#titulofiltrocolor": {
+    "children": [
+       "rich-text#titulofiltrocolor"
+    ]
+ },
+"rich-text#titulofiltrocolor": {
+   "props": {
+     "textAlignment": "left",
+     "textPosition": "left",
+     "text": "Colores",
+     "textColor": "black",
+     "font": "t-heading-5",
+     "blockClass": "help-message"
+   }
+ },
 
   "flex-layout.row#searchbread": {
     "children": ["breadcrumb.search"],

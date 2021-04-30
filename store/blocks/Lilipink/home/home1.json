@@ -10,22 +10,22 @@
           "props":{"width":"100%"},
           "children":[
             "list-context.image-list#demo",
-            "__fold__.experimentalLazyAssets",
+            "__fold__",
             "flex-layout.row#bannerComplemento",
             "rich-text#shelf-title",
             "flex-layout.row#shelf",
             "flex-layout.row#setInfocart",
             "flex-layout.row#bannerInferior",
-            "flex-layout.row#formulario",
+            "flex-layout.row#formulario",      
             "rich-text#link",
             "flex-layout.row#redessociales"
         ]
 
-      },
+      },    
       "rich-text#home-1": {
         "props": {
           "text": "Este es el Home LiliPink"
-
+        
         }
       },
 
@@ -35,22 +35,22 @@
           "height": 720,
           "images": [
             {
-
-              "src": "assets/BannersMainSlider/sh1.jpg" ,
+              "src": "assets/BannersMainSlider/sh1.jpg" , 
+              "link": {
+                "url":"/lili-pink/brasieres?O=OrderByTopSaleDESC"
+              },
               "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
             },
             {
-              "src": "assets/BannersMainSlider/sh2.jpg" ,
-              "link": "/brasieres/clothing/",
-
+              "src": "assets/BannersMainSlider/sh2.jpg" , 
               "mobileImage": "https://w.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
             },
             {
-              "src": "assets/BannersMainSlider/sh3.jpg" ,
+              "src": "assets/BannersMainSlider/sh3.jpg" , 
               "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
             },
             {
-              "src": "assets/BannersMainSlider/sh4.jpg" ,
+              "src": "assets/BannersMainSlider/sh4.jpg" , 
               "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
             }
           ]
@@ -73,8 +73,8 @@
           "id": "info-card-homeHorizontal",
           "isFullModeStyle": true,
            "imageUrl": "assets/BannerDeal.jpg",
-           "blockClass": "info-card-home"
-
+           "blockClass": "info-card-homeHorizontal"
+          
         }
       },
       "rich-text#shelf-title": {
@@ -105,8 +105,8 @@
           "blockClass": "shelf"
         }
       },
-
-
+    
+    
       "info-card#home": {
         "props": {
           "id": "info-card-home",
@@ -127,12 +127,12 @@
         },
         "children": ["image#bannerSlim"]
       },
-
-
-      "image#bannerSlim": {
-        "props": {
-          "src": "assets/BannerDeal.jpg"
-        }
+     
+      
+      "image#bannerSlim": {  
+        "props": {  
+          "src": "assets/BannerDeal.jpg"  
+        }  
       },
       "flex-layout.row#setInfocart": {
         "props": {
@@ -156,7 +156,7 @@
         "props": {
           "id": "info-card-ic2",
           "isFullModeStyle": true,
-           "imageUrl": "assets/infoHome2.jpg",
+           "imageUrl": "assets/infoHome2.jpg",  
            "callToActionText": "COMPRA AQUÍ",
           "callToActionUrl": "/sale/d",
           "blockClass": "info-card",
@@ -174,8 +174,8 @@
           "textAlignment": "center"
         }
       },
-
-
+    
+    
       "flex-layout.row#bannerInferior": {
         "props": {
           "verticalAlign": "middle",
@@ -183,12 +183,12 @@
         },
         "children": ["image#bannerSlim2"]
       },
-      "image#bannerSlim2": {
-        "props": {
-          "src": "assets/BannerInferior.jpg"
-        }
+      "image#bannerSlim2": {  
+        "props": {  
+          "src": "assets/BannerInferior.jpg"  
+        }  
       },
-
+      
       "flex-layout.row#formulario": {
         "props": {
           "verticalAlign": "middle",
@@ -208,16 +208,16 @@
           "blockClass": "newsletter-2"
         }
       },
-
-
-
+     
+      
+     
       "rich-text#link": {
         "props": {
           "text": "\n*Sígue Nuestras Redes Sociales*\n",
           "blockClass": "link"
         }
       },
-
+      
       "flex-layout.row#redessociales": {
         "props": {
           "verticalAlign": "middle",
@@ -229,13 +229,13 @@
           "image#redesig",
           "rich-text#ig"
         ]
-      },
-
-      "image#redesfb": {
-        "props": {
+      }, 
+      
+      "image#redesfb": {  
+        "props": {  
           "blockClass": "Img-fb",
-          "src": "assets/face-pink.png"
-        }
+          "src": "assets/face-pink.png"  
+        }  
       },
       "rich-text#fb": {
         "props": {
@@ -243,17 +243,17 @@
           "text": " @LiliPinkColombia "
         }
       },
-      "image#redesig": {
-        "props": {
-          "blockClass": "Img-ig",
-          "src": "assets/insta-pink.png"
-        }
+      "image#redesig": {  
+        "props": { 
+          "blockClass": "Img-ig", 
+          "src": "assets/insta-pink.png"  
+        }  
       },
       "rich-text#ig": {
         "props": {
           "blockClass": "Instagram",
-          "text": "@Lilipinkcol"
+          "text": "@Lilipinkcol"     
         }
       }
-
+    
 }

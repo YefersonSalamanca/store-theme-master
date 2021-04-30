@@ -30,7 +30,7 @@
 
         ],
       "props": {
-        "blockClass": "menu row",
+        "blockClass": "menu-row",
         "paddingTop": 6,
         "paddingBottom": 3
       }

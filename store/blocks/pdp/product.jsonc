@@ -88,7 +88,8 @@
          "desktop": "auto",
          "phone": "16:9"
       },
-      "displayThumbnailsArrows": true
+      "displayThumbnailsArrows": true,
+      "hiddenImages": ["color"]
     }
   },
 
@@ -116,7 +117,7 @@
       "product-quantity",
       "product-availability",
       "product-assembly-options",
-      "product-gifts",      
+      "product-gifts",
       "flex-layout.row#buy-button",
       "flex-layout.col#productos",
       "availability-subscriber",
@@ -131,19 +132,6 @@
       "marginBottom": 3
     },
     "children": ["vtex.store-components:product-name"]
-  },
-
-  "sku-selector": {
-    "props": {
-      "variationsSpacing": 3,
-      "showValueNameForImageVariation": true,
-      "initialSelection": "empty",
-      "thumbnailImage": ["color"],
-      "visibleVariations": [
-        "Color",
-        "Talla"
-     ]
-    }
   },
 
 
@@ -202,15 +190,16 @@
   },
   "children": ["image#bra-2"]
 },
-"image#bra-2": {  
-  "props": {  
-    "src": "assets/bra-1.png"  
-    
-  }  
+
+"image#bra-2": {
+  "props": {
+    "src": "assets/guiadetallas.jpg"
+
+  }
 },
 "rich-text#talla": {
   "props": {
-    "text": "talla"
+    "text": "Guía de tallas"
   }
 },
 

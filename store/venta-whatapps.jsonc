@@ -1,0 +1,129 @@
+{
+  "store.custom#venta-whatsapp": {
+    "blocks": [
+      "flex-layout.row#venta-whatsapp",
+      "flex-layout.row#venta-whatsapp-2"
+
+    ]
+  },
+  "flex-layout.row#venta-whatsapp": {
+    "children": [      
+      
+      "flex-layout.row#bannerwhatapps"
+    ]
+  },
+  "flex-layout.row#bannerwhatapps": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#bannerwhatapps"
+      
+    ]
+  }, 
+  
+  "image#bannerwhatapps": {  
+    "props": {  
+      "src": "assets/banner-whatsapp-final1.jpg"  
+    }  
+  },
+  "flex-layout.row#venta-whatsapp-2": {
+    "children": [      
+      
+      "tab-layout#page"
+    ]
+  },
+  "tab-layout#page":{
+    "children": [
+      "tab-list#Pagina-nueva",
+      "tab-content#Pagina-nueva"
+    ],
+    "props": {
+      "blockClass": "PaginaNueva",
+      "defaultActiveTabId": "PaginaNueva1"
+    }
+  },
+  "tab-list#Pagina-nueva": {
+    "children": [
+      "tab-list.item#Pagina1",
+      "tab-list.item#Pagina2",
+      "tab-list.item#Pagina3",
+      "tab-list.item#Pagina4",
+      "tab-list.item#Pagina5",
+      "tab-list.item#Pagina6",
+      "tab-list.item#Pagina7",
+      "tab-list.item#Pagina8",
+      "tab-list.item#Pagina9"
+    ]
+  },
+  "tab-list.item#Pagina1": {
+    "props": {
+      "tabId": "pagina1",
+      "label": "Bogotá",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#Pagina2": {
+    "props": {
+      "tabId": "pagina2",
+      "label": "Bucaramanga"
+    }
+  },
+  "tab-list.item#Pagina3": {
+    "props": {
+      "tabId": "pagina3",
+      "label": "Barranquilla"
+    }
+  },
+  "tab-list.item#Pagina4": {
+    "props": {
+      "tabId": "pagina4",
+      "label": "Santa Marta"
+    }
+  },
+  "tab-list.item#Pagina5": {
+    "props": {
+      "tabId": "pagina5",
+      "label": "Valledupar"
+    }
+  },
+  "tab-list.item#Pagina6": {
+    "props": {
+      "tabId": "pagina6",
+      "label": "Medellín"
+    }
+  },
+  "tab-list.item#Pagina7": {
+    "props": {
+      "tabId": "pagina7",
+      "label": "Cartagena"
+    }
+  },
+  "tab-list.item#Pagina8": {
+    "props": {
+      "tabId": "pagina8",
+      "label": "Cali"
+    }
+  },
+  "tab-list.item#Pagina9": {
+    "props": {
+      "tabId": "pagina9",
+      "label": "Otras"
+    }
+  },
+  "tab-content#Pagina-nueva": {
+    "children": [
+      "tab-content.item#pagina1"
+    ]
+  },
+  "tab-content.item#pagina1": {
+    "children": [
+    ],
+    "props": {
+      "tabId": "home1"
+    }
+  }
+
+  
+   
+}

@@ -1,10 +1,10 @@
-
-.styledLinkContent--Buscar{
+.styledLinkContent--Buscar {
   /*font-weight: bold;*/
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-bottom: -10px!important;
-  color:black;
+  margin-bottom: -10px !important;
+  color: black;
 }
+
 /*.styledLinkContent--Vertodo,
 .styledLinkContent--lomas_vendido,
 .styledLinkContent--nuevosbrasieresybralettes,
@@ -14,99 +14,171 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }*/
 
-.styledLinkContent--cambiodeletra{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-.styledLinkContent--estilobrallet{
- font-weight: bold;
-}
 
-.styledLinkContent--estilobrallet{
+.styledLinkContent--estilobrallet {
   font-weight: bold;
- }
+}
 
-.styledLinkContent--Tipo{
+.styledLinkContent--estilobrallet {
+  font-weight: bold;
+}
+
+.styledLinkContent--Tipo {
   font-weight: bold;
   /*font-family: Georgia, 'Times New Roman', Times, serif;*/
 }
-.styledLinkContent--BeneficioBrasieres{
+
+.styledLinkContent--BeneficioBrasieres {
   font-weight: bold;
 }
-.styledLinkContent--BeneficioBrasieres{
+
+.styledLinkContent--BeneficioBrasieres {
   font-weight: bold;
   color: red;
 
 }
-.styledLinkContent--GENERA-INGRESOS{
+
+.styledLinkContent--GENERA-INGRESOS {
   color: #e4147e;
 }
-.styledLinkContent--Links-de-interes{
 
-  color: white;
-}
-.styledLinkContent--Quienesomos{
 
-  color: white;
-}
-.styledLinkContent--Preguntasfrecuentes{
 
-  color: white;
-}
-.styledLinkContent--Promo{
-
-  color: white;
-}
-.styledLinkContent--Guia{
-
-  color: white;
-}
-.styledLinkContent--politica{
-
-  color: white;
-}
-.styledLinkContent--condiciones{
-
-  color: white;
-}
-.styledLinkContent--Devoluciones{
-
-  color: white;
-}
-.styledLinkContent--Privacidad{
-
-  color: white;
-}
-.styledLinkContent--Trabaja{
-
-  color: white;
-}
-.styledLinkContent--Cliente{
-
-  color: white;
-}
-.styledLinkContent--escribenos{
-
-  color: white;
-}
-.styledLinkContent--Linea{
-
-  color: white;
-}
-.styledLinkContent--Telefono{
-
-  color: white;
-}
-.styledLinkContent--3105756438{
+.styledLinkContent--Links-de-interes {
 
   color: white;
 }
 
-.styledLinkContent:hover{
+.styledLinkContent--Quienesomos {
+
+  color: white;
+}
+
+.styledLinkContent--Preguntasfrecuentes {
+
+  color: white;
+}
+
+.styledLinkContent--Promo {
+
+  color: white;
+}
+
+.styledLinkContent--Guia {
+
+  color: white;
+}
+
+.styledLinkContent--politica {
+
+  color: white;
+}
+
+.styledLinkContent--condiciones {
+
+  color: white;
+}
+
+.styledLinkContent--Devoluciones {
+
+  color: white;
+}
+
+.styledLinkContent--Privacidad {
+
+  color: white;
+}
+
+.styledLinkContent--Trabaja {
+
+  color: white;
+}
+
+.styledLinkContent--Cliente {
+
+  color: white;
+}
+
+.styledLinkContent--escribenos {
+
+  color: white;
+}
+
+.styledLinkContent--Linea {
+
+  color: white;
+}
+
+.styledLinkContent--Telefono {
+
+  color: white;
+}
+
+.styledLinkContent--3105756438 {
+
+  color: white;
+}
+
+.styledLinkContent {
+  font-family: 'Monserrat-bold';
+}
+
+.styledLinkContent:hover {
   font-weight: bolder;
-  font-family: sans-serif;
+  font-family: 'Monserrat-bold';
+}
+
+.styledLinkContent--titulosMenu {
+  color: #757575;
+  font-size: 13px;
+}
+.styledLinkContent--titulosMenu:hover {
+  color: #e4147e;
+  font-size: 13px;
+}
+.styledLinkContent--destacado {
+  color: #e4147e;
+  font-size: 13px;
 }
 
 .menuItem .menuItem--GENERA-INGRESOS {
-  display:none;
+  display: none;
+}
+
+.menuItem--titulosMenu {
+  font-family: 'Monserrat-bold';
+  color: #757575 !important;
+}
+
+.styledLinkContent--itemMenu {
+  margin-top: 0.1rem !important;
+  margin-bottom: 0.1rem !important;
+  font-family: 'Monserrat-semibold' !important;
+  font-size: 0.8rem !important;
+  color: #757575 !important;
+}
+.styledLinkContent--itemMenu:hover {
+  color: #e4147e !important;
+}
+
+
+/* ajuste submenu segun pantalla */
+.submenu--submenu {
+  justify-content: left;
+}
+
+@media (min-width:1700px) {
+  .submenu--submenu {
+    padding-left: 18% !important;
+  }
+}
+@media (min-width:900px) {
+  .submenu--submenu {
+    padding-left: 6% ;
+  }
+}
+
+.submenu--submenu {
+  padding-left: 1% ;
 }
 

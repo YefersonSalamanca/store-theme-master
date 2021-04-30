@@ -137,10 +137,10 @@
 }
 :global(.vtex-button) {
   /*background-color: transparent;*/
-  background-color: #e4147e;
-
-  border: none;
-  margin-right: -24px;
+  background-color: white;
+  color: #000;
+   
+  
 }
 
 .buttonContainer {
@@ -222,6 +222,12 @@
 
 }
 
-.infoCardCallActionContainer :global(.vtex-button):hover {
-  background: yellow;
+.infoCardCallActionContainer :global(.vtex-button) {
+  border: 1px solid #000;
+  border-radius: 0px;
 }
+
+.imageElement.imageElement--imagencatbrasieres {
+  width: 100%;
+}
+

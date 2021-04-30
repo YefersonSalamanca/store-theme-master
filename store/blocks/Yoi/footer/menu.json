@@ -23,7 +23,7 @@
           "type": "internal",
           "href": "#",
           "noFollow": false,
-          "tagTitle": "Links-de-interes",
+          "tagTitle": "Links-de-interes",        
           "text": "Links de interes"
         }
       }
@@ -74,8 +74,8 @@
           "tagTitle": "Promociones",
           "text": "Promociones"
         }
-      }
-
+      }  
+  
     },
     "menu-item#Guía-de-Tallas-y-TipsYoi": {
       "props": {
@@ -91,7 +91,7 @@
           "tagTitle": "Guía-de-Tallas-y-Tips",
           "text": "Guía de Tallas y Tips"
         }
-      }
+      }  
     },
     "flex-layout.row#imagenes-superintendenciaYoi": {
       "props": {
@@ -100,10 +100,10 @@
       },
       "children": ["image#superintendencia"]
     },
-    "image#superintendencia": {
-      "props": {
-        "src": "assets/logo-sic1.png"
-      }
+    "image#superintendencia": {  
+      "props": {  
+        "src": "assets/logo-sic1.png"  
+      }  
     },
     "vtex.menu@2.x:menu#espacioYoi": {
       "props": {
@@ -111,7 +111,7 @@
       },
       "children": [
         "menu-item#espacio"
-
+  
       ]
     },
     "menu-item#espacio": {
@@ -129,7 +129,7 @@
         }
       }
     },
-
+  
     "vtex.menu@2.x:menu#footer-decorationYoi": {
       "props": {
         "orientation": "vertical"
@@ -140,7 +140,7 @@
         "menu-item#políticas-de-Cambios-y-DevolucionesYoi",
         "menu-item#Privacidad-de-la-InformaciónYoi",
         "menu-item#Trabaja-con-nosotrosYoi"
-
+  
       ]
     },
     "menu-item#PoliticasYoi": {
@@ -159,7 +159,7 @@
         }
       }
     },
-
+  
     "menu-item#Condiciones-y-restriccionesYoi": {
       "props": {
         "blockClass": "condiciones",
@@ -176,7 +176,7 @@
         }
       }
     },
-
+  
     "menu-item#políticas-de-Cambios-y-DevolucionesYoi": {
       "props": {
         "blockClass": "Devoluciones",
@@ -193,7 +193,7 @@
         }
       }
     },
-
+  
     "menu-item#Privacidad-de-la-InformaciónYoi": {
       "props": {
         "blockClass": "Privacidad",
@@ -226,7 +226,7 @@
         }
       }
     },
-
+  
     "vtex.menu@2.x:menu#footer-Atención-al-clienteYoi": {
       "props": {
         "orientation": "vertical"
@@ -239,7 +239,7 @@
         "menu-item#3105756438Yoi"
       ]
     },
-
+  
     "menu-item#Atención-al-clienteYoi": {
       "props": {
         "blockClass": "Cliente",
@@ -320,7 +320,7 @@
         }
       }
     },
-
+   
     "vtex.menu@2.x:menu#footer-mobileYoi": {
       "props": {
         "orientation": "vertical"
@@ -331,7 +331,7 @@
         "menu-item#sale-mobileYoi"
       ]
     },
-
+  
     "menu-item#Links-de-Interes-mobileYoi": {
       "props": {
         "id": "menu-item-category-clothing",
@@ -351,7 +351,7 @@
     "vtex.menu@2.x:submenu.accordion#clothingYoi": {
       "children": ["vtex.menu@2.x:menu#clothing-accordionYoi"]
     },
-
+  
     "vtex.menu@2.x:menu#clothing-accordionYoi": {
       "props": {
         "orientation": "vertical"
@@ -361,10 +361,10 @@
         "menu-item#PromocionesYoi",
         "menu-item#Preguntas-frecuentesYoi",
         "menu-item#Guía-de-Tallas-y-TipsYoi"
-
+        
       ]
     },
-
+  
     "menu-item#Politicas-mobileYoi": {
       "props": {
         "itemProps": {
@@ -377,7 +377,7 @@
     "vtex.menu@2.x:submenu.accordion#PoliticasYoi": {
       "children": ["vtex.menu@2.x:menu#footer-Politicas-mobileYoi"]
     },
-
+  
     "vtex.menu@2.x:menu#footer-Politicas-mobileYoi": {
       "props": {
         "orientation": "vertical"
@@ -389,7 +389,7 @@
         "menu-item#Trabaja-con-nosotrosYoi"
       ]
     },
-
+  
     "menu-item#sale-mobileYoi": {
       "props": {
         "itemProps": {
@@ -402,7 +402,7 @@
     "vtex.menu@2.x:submenu.accordion#saleYoi": {
       "children": ["vtex.menu@2.x:menu#footer-sale-mobileYoi"]
     },
-
+  
     "vtex.menu@2.x:menu#footer-sale-mobileYoi": {
       "props": {
         "orientation": "vertical"
@@ -413,7 +413,7 @@
         "menu-item#Linea-TelefonicaYoi",
         "menu-item#TelefonoYoi",
         "menu-item#3105756438Yoi"
-
+        
       ]
-    }
+    }  
   }
