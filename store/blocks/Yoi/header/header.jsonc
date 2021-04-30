@@ -183,7 +183,8 @@
     
     "image#logodesktopYoi": {  
       "props": {  
-        "src": "assets/yoi/LogoLargoYoi5.jpg"  
+        "src": "assets/yoi/LogoLargoYoi5.jpg"  ,
+        "maxHeight":"90px"
       }  
     },
     
