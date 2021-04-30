@@ -90,17 +90,12 @@
   "flex-layout.row#banner-guia-de-talla":{
     "children": [
       "image#banner-guia-de-talla"
-
-    ]
-
-  },
-  "image#banner-guia-de-talla": {
+    ],
     "props": {
-      "src": "assets/BannerDeal.jpg"
+      "blockClass": "banner-guia-de-talla"
     }
   },
-
-
+  "image#banner-guia-de-talla": {},
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",

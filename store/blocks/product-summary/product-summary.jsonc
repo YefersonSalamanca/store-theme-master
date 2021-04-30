@@ -24,9 +24,10 @@
       "showValueNameForImageVariation": true,
       "initialSelection": "empty",
       "thumbnailImage": ["color"],
-       "visibleVariations": [
-          "Colores"
-       ]
+      "visibleVariations": [
+        "Color"
+      ],
+      "displayMode": ["slider"]
     }
  },
 //Cambio SKU Selector image
@@ -39,7 +40,7 @@
     "hideImpossibleCombinations": false,
     "maxItems": 5,
     "visibleVariations": [
-      "Colores",
+      "Color",
       "Tallas"
    ]
   }
