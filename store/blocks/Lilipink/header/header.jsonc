@@ -1,6 +1,8 @@
 {
   "element-wrapper.lilipink": {
-    "children": ["header"],
+    "children": [
+      "header"
+    ],
     "props": {
       "blockClass": "header-lilipink"
     }
@@ -55,7 +57,7 @@
       "preventVerticalStretch": true,
       "fullWidth": true,
       "marginTop": 6,
-      "marginBottom":6
+      "marginBottom": 6
     },
     "children": [
       //"vtex.menu@2.x:menu#institutional",
@@ -118,24 +120,24 @@
       "flex-layout.col#spacer",
       "locale-switcher",
       "header-row#3-desktop"
-      
     ]
   },
-
-  "header-row#1-desktop":{
-    "children":[
+  "header-row#1-desktop": {
+    "children": [
       "search-bar"
     ]
   },
-  "header-row#3-desktop":{
-    "children":[
-      
+  "header-row#3-desktop": {
+    "children": [
       "login",
       "minicart.v2"
     ]
   },
-
-
+  "search-bar": {
+    "props": {
+      "containerMode": "container"
+    }
+  },
   "flex-layout.row#6-desktop": {
     "props": {
       "blockClass": "menu-link",
