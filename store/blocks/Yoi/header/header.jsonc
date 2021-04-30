@@ -13,9 +13,9 @@
     },
     "header-layout.desktop#yoi": {
       "children": [
-        "flex-layout.row#3-desktopYoi",
+        "flex-layout.row#3-desktop",
         "sticky-layout#4-desktopYoi",
-        "flex-layout.row#4-desktopYoi",
+        //"flex-layout.row#4-desktopYoi",
          "flex-layout.row#6-desktopYoi"
         
       ],
@@ -89,7 +89,10 @@
       "props": {
         "blockClass": "sticky-header"
       },
-      "children": ["flex-layout.row#5-desktopYoi"]
+      "children": [
+        "flex-layout.row#5-desktopYoi",
+        "flex-layout.row#4-desktopYoi"
+      ]
     },
     "flex-layout.row#5-desktopYoi": {
       "props": {
@@ -183,7 +186,8 @@
     
     "image#logodesktopYoi": {  
       "props": {  
-        "src": "assets/yoi/LogoLargoYoi5.jpg"  
+        "src": "assets/yoi/LogoLargoYoi5.jpg"  ,
+        "maxHeight":"90px"
       }  
     },
     

@@ -1,0 +1,32 @@
+.filtersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 10px 10px 10px 10px;
+}
+
+.filterImage {
+  background-color: #FFF;
+  display: flex;
+  border-radius: 100%;
+  width: 35px;
+  order: 1;
+  flex-basis: 100%;
+  flex-wrap: nowrap;
+  border:1px solid #757575;
+  padding: 2px;
+
+}
+
+.filterImage:hover {
+    background-color:#474646;
+}
+
+.filterLink {
+   color:#fff;
+   font-family: "Arial";
+   font-size:0;
+   padding: 5px 5px 5px 5px;
+}

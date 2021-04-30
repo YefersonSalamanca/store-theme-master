@@ -2,7 +2,7 @@
   "element-wrapper.footer-yoi": {
     "children": [ "footer#Yoi"],
     "props": {
-      "blockClass": "header-yoi"
+      "blockClass": "footer-yoi"
     }
   },
     "footer#Yoi": {
@@ -30,7 +30,7 @@
 
         ],
       "props": {
-        "blockClass": "menu row",
+        "blockClass": "menu-row",
         "paddingTop": 6,
         "paddingBottom": 3
       }
