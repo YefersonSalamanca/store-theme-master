@@ -187,14 +187,14 @@
   },
   "rich-text#linkImperdibles": {
     "props": {
-      "text": "Encuentra Nuestros Imperdibles AQUÍ        ||  ",
+      "text": "Encuentra LO NUEVO [AQUÍ](/138?map=productClusterIds&page=2)||  ",
       "href": "#",
       "blockClass": "Encuentra"
     }
   },
   "rich-text#linkPedidoWhatsapp": {
     "props": {
-      "text": "Haz tu pedido vía Whatsapp AQUÍ",
+      "text": "Haz tu pedido vía Whatsapp [AQUÍ](https://api.whatsapp.com/send/?phone=5715140339&text&app_absent=0)",
       "blockClass": "home-whatapps"
     }
   },

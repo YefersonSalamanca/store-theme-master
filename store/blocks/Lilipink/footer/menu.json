@@ -23,7 +23,7 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Links-de-interes",        
+        "tagTitle": "Links-de-interes",
         "text": "Links de interes"
       }
     }
@@ -74,7 +74,7 @@
         "tagTitle": "Promociones",
         "text": "Promociones"
       }
-    }  
+    }
 
   },
   "menu-item#Guía-de-Tallas-y-Tips": {
@@ -86,12 +86,12 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "guia-de-tallas",
+        "href": "guia-de-talla",
         "noFollow": false,
         "tagTitle": "Guía-de-Tallas-y-Tips",
         "text": "Guía de Tallas y Tips"
       }
-    }  
+    }
   },
   "flex-layout.row#imagenes-superintendencia": {
     "props": {
@@ -100,10 +100,10 @@
     },
     "children": ["image#superintendencia"]
   },
-  "image#superintendencia": {  
-    "props": {  
-      "src": "assets/logo-sic1.png"  
-    }  
+  "image#superintendencia": {
+    "props": {
+      "src": "assets/logo-sic1.png"
+    }
   },
   "vtex.menu@2.x:menu#espacio": {
     "props": {
@@ -320,7 +320,7 @@
       }
     }
   },
- 
+
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
       "orientation": "vertical"
@@ -361,7 +361,7 @@
       "menu-item#Promociones",
       "menu-item#Preguntas-frecuentes",
       "menu-item#Guía-de-Tallas-y-Tips"
-      
+
     ]
   },
 
@@ -413,7 +413,7 @@
       "menu-item#Linea-Telefonica",
       "menu-item#Telefono",
       "menu-item#3105756438"
-      
+
     ]
-  }  
+  }
 }

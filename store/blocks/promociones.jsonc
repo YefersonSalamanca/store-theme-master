@@ -2,15 +2,15 @@
 {
     "store.custom#promociones":{
 
-      "blocks": [        
+      "blocks": [
         "tab-layout#promociones"
-        
+
       ]
-     
-        
+
+
     },
     "tab-layout#promociones": {
-      "children": [           
+      "children": [
         "tab-list#pagePromociones",
         "tab-content#Promocion"
       ],
@@ -25,7 +25,7 @@
         "tab-list.item#TiendaFisica",
         "tab-list.item#NegocioDigital",
         "tab-list.item#Redes"
-      ]   
+      ]
     },
     "tab-list.item#PaginaWeb": {
       "props": {
@@ -76,20 +76,20 @@
         "rich-text#webPromociones78",
         "rich-text#webPromociones79",
         "rich-text#webPromociones67",
-        "rich-text#webPromociones68",      
+        "rich-text#webPromociones68",
         "rich-text#webPromociones80",
-        "rich-text#webPromociones79",     
-        "rich-text#webPromociones80",  
-        "rich-text#webPromociones81",        
+        "rich-text#webPromociones79",
+        "rich-text#webPromociones80",
+        "rich-text#webPromociones81",
         "rich-text#webPromociones82",
         "rich-text#webPromociones83",
         "rich-text#webPromociones84"
 
-        
-      ], 
+
+      ],
       "props": {
         "tabId": "Redes"
-      }    
+      }
     },
     "tab-content.item#promocionesc": {
       "children": [
@@ -105,11 +105,11 @@
         "rich-text#webPromociones59",
         "rich-text#webPromociones60",
         "rich-text#webPromociones61"
-        
-      ], 
+
+      ],
       "props": {
         "tabId": "Digital"
-      }    
+      }
     },
     "tab-content.item#promocionesb": {
       "children": [
@@ -138,7 +138,7 @@
         "rich-text#webPromociones56",
         "rich-text#webPromociones57"
 
-        
+
       ],
         "props": {
           "tabId": "Fisica"
@@ -146,7 +146,7 @@
       },
     "tab-content.item#promociones": {
       "children": [
-        
+
         "rich-text#webPromociones",
         "rich-text#webPromociones1",
         "rich-text#webPromociones2",
@@ -184,8 +184,8 @@
         "rich-text#webPromociones35",
         "rich-text#webPromociones24"
 
-        
-        
+
+
       ],
       "props": {
         "tabId": "Web"
@@ -395,7 +395,7 @@
         "text": "• Aplica desde el 1 de enero hasta el 31 de enero / Ampliamos rebajas del 1 de febrero hasta el 16 de febrero 2021\n• Aplica únicamente para REFERENCIAS SELECCIONADAS en www.lilipink.com\n• 2.407.234 unidades disponibles para esta oferta en tiendas físicas\n• 108.334 unidades disponibles para esta oferta en página web\n• Los descuentos van desde el 20% hasta el 70%\n• Los descuentos pueden variar dependiendo de la disponibilidad de inventario en tiendas físicas y .com y/ o hasta agotar existencias\n• NO acumulable con otras promociones o descuentos, ni aplica promoción sobre promoción\n• El costo del envío es de $6.900 en Bogotá y $9.900 a nivel nacional no cubre destinos especiales: san Andrés, leticia y/o poblaciones con restricción por transportadora derivadas a cierres generadas por la contingencia sanitaria\n• Envío gratis por pagos superiores a $49.900 el cual se verá reflejado solo hasta el momento en que se dirija a la pasarela de pago.\n• El tiempo de entrega del pedido dependerá del tiempo que la transportadora tome en llevarlo al destino, teniendo en cuenta que la empresa hará entrega del producto, máximo 10 días hábiles después de haber recibido el pago\n• En caso de cambio o garantía del producto se tendrá en cuenta el valor efectivamente pagado\n• Recuerda que por ley los productos de uso personal como la ropa interior y los artículos de belleza, no tienen cambio y tampoco les aplica el derecho de retracto si la compra se hace en línea, para garantías, te pedimos consultar nuestras políticas en la web [AQUÍ](https://angie--mqaenvironment.myvtex.com/politica-cambios-garantias-lili)",
         "blockClass": "web-promociones"
       }
-    },  
+    },
     "rich-text#webPromociones35": {
       "props": {
         "text": "RULETA DE OFERTAS",
@@ -438,7 +438,7 @@
         "blockClass": "web-promociones"
       }
     },
-    
+
     "rich-text#webPromociones42": {
       "props": {
         "text": "MAQUILLAJE AL 50 % TIENDAS LILI PINK, FRANQUICIAS Y MIXTAS",
@@ -559,7 +559,7 @@
         "blockClass": "web-promociones"
       }
     },
-    
+
     "rich-text#webPromociones63": {
       "props": {
         "text": "ENJOY GIVEAWAY DEPORTE",
@@ -620,7 +620,7 @@
         "blockClass": "web-promociones"
       }
     },
-    
+
     "rich-text#webPromociones75": {
       "props": {
         "text": "ACTIVIDAD BONOS DÍA DE LA MUJER",
@@ -682,11 +682,10 @@
       }
     }
 
-    
-    
 
-    
 
-    
+
+
+
+
 }
-  

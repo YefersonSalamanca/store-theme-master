@@ -17,8 +17,12 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-
+.link--Encuentra{
+  color: #e4147e;
+}
+.link--home-whatapps{
+  color: #e4147e;
+}
 
 .headingLevel2--shelfTitle {
   font-weight: 200;
@@ -156,7 +160,7 @@
   color: #e4147e;
   font-size: 0.82rem;
   font-weight: bold;
-  padding: 1px;  
+  padding: 1px;
   font-family: 'Monserrat-semibold';
 }
 
@@ -186,10 +190,10 @@
     font-family: 'Monserrat-semibold';
     font-size: 15px;
     margin-bottom: 0.3rem;
-    
+
   }
 
-  
+
   .container--title .paragraph {
     line-height: 1.3em;
 
