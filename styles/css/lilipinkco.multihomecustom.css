@@ -1,3 +1,13 @@
 .tabContainer{
     background-color: #f0f0f0;
 }
+
+
+
+.siteContainer--yoi .tabContainer .tabLink:first-child {
+  opacity: .2;
+}
+
+.siteContainer--lilipink .tabContainer .tabLink:last-child {
+  opacity: .2;
+}
