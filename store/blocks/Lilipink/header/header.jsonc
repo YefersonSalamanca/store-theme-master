@@ -21,7 +21,7 @@
     "children": [
       //"flex-layout.row#1-desktop",
       //"flex-layout.row#2-desktop",
-      "flex-layout.row#3-desktop",
+      //"flex-layout.row#3-desktop",
       "sticky-layout#4-desktop",
       //"flex-layout.row#4-desktop",
       "flex-layout.row#6-desktop"
@@ -60,8 +60,8 @@
     "children": [
       //"vtex.menu@2.x:menu#institutional",
       //"flex-layout.row#botonesHeader",
-      "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#websites"
+      //"flex-layout.col#spacer",
+      //"vtex.menu@2.x:menu#websites"
     ]
   },
   "flex-layout.row#botonesHeader": {

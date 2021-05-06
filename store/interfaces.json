@@ -19,6 +19,11 @@
         "before": ["element-wrapper.yoi", "element-wrapper.lilipink"],
         "after": ["element-wrapper.footer-yoi", "element-wrapper.footer-lilipink"]
     },
+    "store.custom#catalogo": {
+      "around": ["multi-home-wrapper.custom"],
+      "before": ["element-wrapper.yoi", "element-wrapper.lilipink"],
+      "after": ["element-wrapper.footer-yoi", "element-wrapper.footer-lilipink"]
+  },
     "header.yoi": {},
     "element-wrapper.lilipink": {},
     "element-wrapper.yoi": {},

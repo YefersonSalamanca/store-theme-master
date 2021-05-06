@@ -17,9 +17,10 @@
             "flex-layout.row#setInfocart",
             "flex-layout.row#bannerInferior",
             "flex-layout.row#formulario",
+            "sticky-layout#whatappsFlotante",
             "rich-text#link",
-            "flex-layout.row#redessociales",
-            "notification.bar#boton"
+            "flex-layout.row#redessociales"
+
         ]
 
       },
@@ -29,13 +30,41 @@
 
         }
       },
-      "notification.bar#boton": {
-          "props": {
-              "blockClass": "whatapps",
-              "content": "<div><a href='https://api.whatsapp.com/send/?phone=5715140339&text&app_absent=0'><img src='/arquivos/BOTON-CHAT2.png'/></a></div>"
 
-          }
-     },
+
+
+
+      "sticky-layout#whatappsFlotante": {
+        "props": {
+
+          "position": "bottom"
+
+        },
+        "children": ["flex-layout.row#whatappsFlotante"]
+      },
+      "flex-layout.row#whatappsFlotante": {
+        "props": {
+          "marginTop": 4,
+          "marginBottom": 7,
+          "paddingBottom": 2
+        },
+        "children": ["link.product#whatapps"]
+      },
+      "link.product#whatapps": {
+        "props": {
+          "href": "https://api.whatsapp.com/send/?phone=5715140339&text&app_absent=0",
+          "label": ""
+        },
+        "children": ["image#whatsappsFlotante"]
+      },
+    "image#whatsappsFlotante": {
+      "props": {
+        "blockClass": "boton-flotante",
+        "src": "assets/BOTON-CHAT2.png"
+      }
+    },
+
+
 
 
       "list-context.image-list#demo": {

@@ -11,6 +11,9 @@
   "store.custom#tiendas": {
     "path": "/tiendas"
   },
+  "store.custom#catalogo":{
+    "path": "/catalogo"
+  },
   "store.custom#quienes-somos": {
     "path": "/quienes-somos"
   },
