@@ -7,8 +7,8 @@
     ]
   },
   "flex-layout.row#venta-whatsapp": {
-    "children": [      
-      
+    "children": [
+
       "flex-layout.row#bannerwhatapps"
     ]
   },
@@ -18,18 +18,18 @@
       "horizontalAlign": "center"
     },
     "children": ["image#bannerwhatapps"
-      
+
     ]
-  }, 
-  
-  "image#bannerwhatapps": {  
-    "props": {  
-      "src": "assets/banner-whatsapp-final1.jpg"  
-    }  
+  },
+
+  "image#bannerwhatapps": {
+    "props": {
+      "src": "assets/banner-whatsapp-final1.jpg"
+    }
   },
   "flex-layout.row#venta-whatsapp-2": {
-    "children": [      
-      
+    "children": [
+
       "tab-layout#page"
     ]
   },
@@ -60,13 +60,14 @@
     "props": {
       "tabId": "pagina1",
       "label": "Bogotá",
-      "defaultActiveTab": true
+      "defaultActiveTab": false
     }
   },
   "tab-list.item#Pagina2": {
     "props": {
       "tabId": "pagina2",
-      "label": "Bucaramanga"
+      "label": "Bucaramanga",
+      "defaultActiveTab":true
     }
   },
   "tab-list.item#Pagina3": {
@@ -124,6 +125,6 @@
     }
   }
 
-  
-   
+
+
 }

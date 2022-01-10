@@ -15,7 +15,7 @@
       //"list-context.image-list#demo",
       "flex-layout.row#6-desktop",
       "flex-layout.row#6-mobile",
-      "list-context.image-list#bannerprincipal",      
+      "list-context.image-list#bannerprincipal",
       "slider-layout#banner-principal",
       "__fold__",
       "flex-layout.row#bannerComplemento",
@@ -85,14 +85,14 @@
   },
   "menu-item#imperdiblesMobile": {
     "props": {
-      "text": "Encuentra Nuestros Imperdibles AQUÍ",
+      "text": "Hola",
       "href": "/brasieres",
       "blockClass": "EncuentraMobile1"
     }
   },
   "menu-item#whatsappMobile": {
     "props": {
-      "text": "Haz tu pedido vía Whatsapp AQUÍ",
+      "text": "Hello",
       "href": "http://wa.me/5715140339?text=HolaLiliPink",
       "blockClass": "EncuentraMobile2"
     }
